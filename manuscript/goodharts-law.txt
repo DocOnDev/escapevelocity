@@ -10,10 +10,6 @@ It was believed that the growth of money could be controlled through the setting
 short-term interest rates.
 Higher interest rates correlated with lower money growth.
 
-# TODO: I need something better here. What were they doing? What was the measurement
-that was used? How had they set a target for it. The financial terms are opaque
-to me....
-
 Goodhart warned, however, that policies and practices based on specific targets
 were flawed.
 Goodhart stated,
