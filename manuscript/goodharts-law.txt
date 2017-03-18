@@ -1,0 +1,23 @@
+## Goodhart's Law
+Charles Goodhart is an economist and former advisor to the Bank of England.
+In 1975, Goodhart delivered two papers to a conference at the Reserve Bank of Australia.
+In those papers, Goodhart was discussing research and theory related to monetary
+policy and control in the United Kingdom.
+In the years leading up to 1975, existing monetary targets and the controls used to
+achieve the goals were no longer producing the results desired or expected.
+There had been what most considered to be evidence of a stable money demand in the United Kingdom.
+It was believed that the growth of money could be controlled through the setting of
+short-term interest rates.
+Higher interest rates correlated with lower money growth.
+
+# TODO: I need something better here. What were they doing? What was the measurement
+that was used? How had they set a target for it. The financial terms are opaque
+to me....
+
+Goodhart warned, however, that policies and practices based on specific targets
+were flawed.
+Goodhart stated,
+> "Any statistical regularity will tend to collapse once pressure
+is placed upon it for control purposes."
+A common paraphrasing is, "When a measure becomes a target, it ceases to be a good measure."
+When I talk about this, I tend to add, "And the target therefore no longer means what you think it does."
