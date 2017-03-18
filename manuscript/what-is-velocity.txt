@@ -1,0 +1,22 @@
+# Velocity
+
+Velocity is the speed of something in a particular direction.
+In physics, it is the rate at which an object changes its position.
+An object that oscillates at a high speed, but always returns to its starting
+position has a zero velocity.
+In agile software development, velocity is supposed to be the rate at which a
+team delivers value to the customer.
+A team that completes lots of tasks, but delivers no value should have a zero velocity.
+
+Organization after organization, team after team, I keep seeing the same basic
+issues.
+Teams everywhere are using velocity as a means of planning their work from a
+capacity perspective and are consistently failing.
+I'd further argue the majority of those teams who are "successful" in planning
+with velocity are actually moving at a pace much slower than they are capable of.
+You see, in a great deal of environments, it is more important to be able to
+keep commitments than it is to be able to deliver value.
+
+# Velocity is a lagging indicator
+
+# Velocity is a measure of a complex system

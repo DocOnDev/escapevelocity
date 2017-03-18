@@ -1,5 +1,5 @@
 what-is-velocity.txt
-common-misunderstandings.txt
+velocity-anti-patterns.txt
 hawthorn-effect.txt
 goodharts-law.txt
 friedmans-thermostat.txt
