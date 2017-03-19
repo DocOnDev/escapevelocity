@@ -1,22 +1,82 @@
-# Velocity
+# What is Velocity?
 
-Velocity is the speed of something in a particular direction.
+## Velocity is a vector
+
+Velocity is the speed of something in a particular direction [^Velocity].
+
 In physics, it is the rate at which an object changes its position.
 An object that oscillates at a high speed, but always returns to its starting
 position has a zero velocity.
-In agile software development, velocity is supposed to be the rate at which a
-team delivers value to the customer.
-A team that completes lots of tasks, but delivers no value should have a zero velocity.
 
-Organization after organization, team after team, I keep seeing the same basic
-issues.
-Teams everywhere are using velocity as a means of planning their work from a
-capacity perspective and are consistently failing.
-I'd further argue the majority of those teams who are "successful" in planning
-with velocity are actually moving at a pace much slower than they are capable of.
-You see, in a great deal of environments, it is more important to be able to
-keep commitments than it is to be able to deliver value.
+In agile software development, velocity is the rate at which a team delivers
+value to the customer.
+A team that completes lots of tasks, but delivers no value to the customer
+should have a zero velocity.
 
-# Velocity is a lagging indicator
+I say should because I see an awful lot of teams that measure velocity based
+on criteria other than value to the customer.
+Some consider a story done when development is complete.
+Others are a tad more "mature" and count a story as done when it is ready to
+go to production.
+Not actually in production, mind you; that takes weeks - what with manual
+testing requirements and change control procedures and getting into queue for
+the operations team...
+And some teams consider a story complete once it is actually in production.
+But even that _assumes_ value to the customer.
+What if you didn't count a story as done until customers were actually using it
+and liked it?
+If velocity is the rate at which we deliver value to the customer, wouldn't a
+true measure of velocity include verification of value delivery?
 
-# Velocity is a measure of a complex system
+But I digress a bit, perhaps.
+For the sake of this book, let's go with "in production" means done.
+Customers want and love all of the features we plan and deliver, otherwise
+we wouldn't make them, right?
+
+[^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
+
+## Velocity is a lagging indicator
+
+Velocity is also a lagging indicator.
+It is a measure taken at the outset of a series of steps.
+We plan, we prioritize, we work, we test, and then we measure.
+
+### Lagging Indicators are abstract
+
+Lagging indicators tend to be aggregate or abstract.
+They don't provide detailed insight into the operations, rather they provide
+an indication of results.
+Net profit is a lagging indicator for a company.
+While it tells us about how the company is doing, it gives us no indication of
+why the organization is or is not successful.
+
+One of the problems with velocity as a lagging indicator is that while it can
+tell how much work we delivered over a given time period, it cannot tell
+how well the team is doing at ensuring consistent delivery or at improving
+their process overall.
+
+A stable or slightly increasing velocity is usually considered a good thing.
+When managers see a stable velocity from iteration to iteration, they may become
+complacent and forgo any improvement efforts.
+But the reality is that there are actually numerous factors that impact a
+team's ability to deliver and the current velocity trend may be more a matter
+of coincidence than performance.
+We will look at a number of factors that impact velocity in later sections.
+
+### Lagging Indicators are poor short-term predictors
+
+Lagging indicators [^LaggingKPIs] tend to be weak indicators for the short-term
+and are much more reliable for confirming long-term trends.
+Velocity from the immediately concluded iteration, for example, is not often a
+good indicator of what the velocity will be in the next iteration.
+From one iteration to the next, velocity can vary wildly due to any number of
+factors.
+But, we can look at velocity over time and confirm trends we might suspect, such
+as a lower average velocity during holiday seasons.
+This doesn't tell us what the velocity will be in November or December, but it
+does let us know that the odds are good these months will have lower velocity
+numbers than September or October.
+
+[^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
+
+## Velocity is a measure of a complex system
