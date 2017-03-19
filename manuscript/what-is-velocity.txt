@@ -13,6 +13,9 @@ value to the customer.
 A team that completes lots of tasks, but delivers no value to the customer
 should have a zero velocity.
 
+{icon=quote-left}
+G> velocity is the rate at which a team delivers value to the customer.
+
 I say should because I see an awful lot of teams that measure velocity based
 on criteria other than value to the customer.
 Some consider a story done when development is complete.
