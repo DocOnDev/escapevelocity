@@ -8,15 +8,15 @@ In physics, it is the rate at which an object changes its position.
 An object that oscillates at a high speed, but always returns to its starting
 position has a zero velocity.
 
+{icon=quote-left}
+G> velocity is the rate at which a team delivers value to the customer.
+
 In agile software development, velocity is the rate at which a team delivers
 value to the customer.
 A team that completes lots of tasks, but delivers no value to the customer
 should have a zero velocity.
 
-{icon=quote-left}
-G> velocity is the rate at which a team delivers value to the customer.
-
-I say should because I see an awful lot of teams that measure velocity based
+I say "should" because I see an awful lot of teams that measure velocity based
 on criteria other than value to the customer.
 Some consider a story done when development is complete.
 Others are a tad more "mature" and count a story as done when it is ready to
@@ -32,9 +32,16 @@ If velocity is the rate at which we deliver value to the customer, wouldn't a
 true measure of velocity include verification of value delivery?
 
 But I digress a bit, perhaps.
+
 For the sake of this book, let's go with "in production" means done.
-Customers want and love all of the features we plan and deliver, otherwise
-we wouldn't make them, right?
+In this book, we won't get into details of how to deliver at the end of each
+iteration, much less continuous delivery in highly regulated environments,
+but trust me when I tell you it is entirely possible.
+Plenty of companies in highly regulated industries are doing it and maintaining
+excellent compliance records.
+There are even facets of the US Government which are highly regulated and
+manage to deliver continuously.
+You can too.
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
@@ -53,10 +60,32 @@ Net profit is a lagging indicator for a company.
 While it tells us about how the company is doing, it gives us no indication of
 why the organization is or is not successful.
 
-One of the problems with velocity as a lagging indicator is that while it can
-tell how much work we delivered over a given time period, it cannot tell
-how well the team is doing at ensuring consistent delivery or at improving
-their process overall.
+Let's look at another lagging indicator for a bit; unemployment.
+The unemployment index is a lagging indicator.
+It tells us whether or not unemployment is on the rise or decline,
+which in turns tells us if the economy is doing well or poorly, respectively.
+An increase in unemployment means a sagging economy.
+A decrease in unemployment means a growing economy.
+But there is nothing about unemployment that tells us why the economy is
+performing in a particular manner or how we might go about making an adjustment
+to economic policy to bolster growth.
+Moreover, the way to bolster the economy is not to focus on unemployment, but to
+address the underlying issues.
+
+TODO: Fact check these statements
+
+Policy that focuses on increasing employment is more about the spirit of the
+people than it is about economic policy.
+Historically, policy focused on jobs creation has actually hurt the economy.
+Politicians buy votes with jobs.
+Politicians do not improve economies with jobs programs.
+
+Similarly, one of the problems with velocity as a lagging indicator is that
+while it can tell how much work we delivered over a given time period, it
+cannot tell how well the team is doing at ensuring consistent delivery or at
+improving their process overall.
+For some teams, velocity may be an indicator of team health or at least capability,
+but it provides no insight into root causes.
 
 A stable or slightly increasing velocity is usually considered a good thing.
 When managers see a stable velocity from iteration to iteration, they may become
@@ -74,6 +103,11 @@ Velocity from the immediately concluded iteration, for example, is not often a
 good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of
 factors.
+
+{icon=quote-left}
+G> Lagging indicators are poor  short-term predictions, but are helpful for
+G> insight into long term trends.
+
 But, we can look at velocity over time and confirm trends we might suspect, such
 as a lower average velocity during holiday seasons.
 This doesn't tell us what the velocity will be in November or December, but it
