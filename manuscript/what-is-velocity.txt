@@ -117,3 +117,21 @@ numbers than September or October.
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
 
 ## Velocity is a measure of a complex system
+
+This is ultimately quite significant.
+Velocity, while a simple concept, is actually a measure of output for a complex
+system.
+Think about the number of factors that go into a velocity measurement.
+There is the organizational mission, the boarder business objectives, and the
+objective of the product itself.
+There are product owners, designers, architects, developers, testers, subject
+matter experts, security specialists, database specialists, governance, and
+production specialists involved.
+There are stand-ups, planning meetings, and retrospectives.
+There are epics, stories, and tasks all tracked on a board or in a system
+with multiple lanes representing different key states in the delivery of each
+single piece of work.
+After all these individuals interact with one another, we take a single
+measurement.
+That single measurements represents the interactions of the individuals and all
+of their adaptions to change in the delivery of working software.
