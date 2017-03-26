@@ -77,8 +77,9 @@ You could sever a limb.
 
 Sure, some of these seem ridiculous, but that is precisely the point.
 When we've only one measure of health and that measure doesn't tell us anything
-about the system that produced it, we are just as likely to engage in behavior
-that harms the overall system as we are to engage in behavior that helps it.
+about the system that produced it, The less we understand about the system,
+the more we are likely to engage in behavior that harms the overall system
+than we are to engage in behavior that helps it.
 
 Even our "healthy" options are subjective.
 For some, training for a marathon would be riskier than making no lifestyle
