@@ -2,19 +2,50 @@
 
 This is far and away, the most common Velocity Anti-Pattern, and quite possibly
 the most harmful.
+It manifests itself in a number of differing fashions, but the basics are the same:
+Somebody determines that the team needs to get more done in less time.
+This person is usually an authority figure and typically doesn't do the actual
+work being asked of the team.
+
+In some cases, the need for higher velocity is based on a set scope for a set date
+and some basic (but significantly flawed) math.
+Take a team's average velocity and divide it into the total of known work to be
+done.
+If the number of weeks to complete the work exceed the number of weeks between
+now and the deadline, then the team needs to get more done in less time.
+
+In other cases, the need for higher velocity is observed.
+The team can be seen loafing.
+There are times where nobody is actively writing code.
+There are times where more than one individual is working on the same basic
+piece of work at a given time.
+Not everybody punches in at 8am and out again at 6pm.
+Some people don't eat lunch at their desks.
+And who knows what people are actually doing when they "work from home?"
+This team can clearly move faster - we just need to give them a little push.
+
+And in other cases, the need for higher velocity is borne of expectation.
+Everybody knows that when a team goes agile, they get faster.
+It's a fact.
+It has been written in numerous agile books, especially books on scrum.
+Hell, I just wrote it in this book.
+It must be true.
+And if it is true that teams get faster, all we need to do is help them get there.
 
 
-## Demand for Higher Velocity
+
+
+
 Changing points so you can have higher velocity
 rewarding teams for increased velocity
 story point bloating because more is better.
 "you need to increase velocity x% or else miss the deadline"
 
-## Setting Velocity Goals
+### Setting Velocity Goals
 velocity targets
 "you need to increase velocity x% or else miss the deadline"
 
-## Rewards for Velocity
+### Rewards for Velocity
 "Every developer must complete at least 13 points per sprint"
 "Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
 "Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
