@@ -1,4 +1,5 @@
 frontmatter.txt
+dedication.txt
 about.txt
 mainmatter.txt
 what-is-velocity.txt
