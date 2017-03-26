@@ -1,0 +1,16 @@
+# About The Cover
+
+"Escape Velocity" is the minimum speed needed for an object to escape from a
+massive body [^EscapeVelocity]. Once an object achieves escape velocity, it is
+able to free itself from the force of the massive body without any additional
+impulse.
+
+I thought this non-risque double entendre was fun.
+Not only are we saying a team can "Escape Velocity" as a metric.
+But we are saying there is an "Escape Velocity" as which point agile teams can
+escape the massive body of Scrum in general.
+
+The cover image itself is Luna 1, which launched in 1959 and was the first
+man-made object to attain escape velocity from Earth.
+
+[^EscapeVelocity]: Escape velocity. (2017, March 21). Retrieved March 26, 2017, from https://en.wikipedia.org/wiki/Escape_velocity

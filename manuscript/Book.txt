@@ -1,3 +1,4 @@
+about.txt
 what-is-velocity.txt
 bodyweight-analogy.txt
 velocity-anti-patterns.txt
