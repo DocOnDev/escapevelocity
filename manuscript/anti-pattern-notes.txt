@@ -1,0 +1,62 @@
+
+
+
+### All Estimates are Equal
+comparing velocity across teams and asking everyone to get to a “similar” set of numbers
+
+## Plan by Velocity over Value
+Divorcing points from value and/or risk.
+Focusing on velocity instead of value.
+
+
+"We can't use points because of the process of having to give effort estimates for funding" PO straight out of PO Training. LoL
+
+
+
+
+"you can not add any points to the backlog once funding is approved"
+measure team perf
+forecasting neglecting variance
+incl partially done work
+partially estimated sprints
+1) An organization holding multiple unrelated teams (diff domains and stacks) to the same standard of expected velocity per sprint
+2) A Dev mgr reading team's old burndowns like tea leaves to tell them what they did wrong rather than interacting with the team
+3) A coach telling a new scrum master "his team should have a velocity of 25" wh knowing nothing about the team, org, product
+many SM and coaches not groking the proper Velocity Calculus
+choosing between stories based on what fits within sprint rather than what's most important
+having a team commit to a velocity number very early in a project (e.g. after 1 sprint)
+having a long velocity history with documented team changes but never using it to forecast outcomes, giving made-up dates anyway.
+point currency inflation on longer projects. Team member changes without expectation of velocity loss. Small sizing for deadline
+Story points are assigned by the Product Owner.
+Velocity-centric agile teams that eventually forget customer value and grow technical debt
+playing story-point tetris to "fill" the sprint, throwing priorities out of the window
+points as effort instead of complexity
+
+Equating it with performance and setting a target: "You need to deliver 70 points this sprint."
+
+
+Debating far too long about whether a story is 3 or 5 points.
+
+Estimating components of a story (like development and test) and adding the two together. "It's a 5 to develop and a 2 to test, so it's a 7."
+
+
+Seeing an "ideal" line on a burn-up/down chart annotated with the proper velocity.
+
+fellow who was fond of reminding everyone within his domain he was entitled "Director of Engineering Practices and Services" explained to me "In agile a manager's job is to know his team's velocity and to make it go up."
+
+> mgmt not understanding purpose of Velocity empirical measure;
+> teams using some bogus statistical manipulation called an average without the understanding of the constrains that an average is valid within;
+> SM allowing teams to carry over stories and get credit for multiple sprints within one measurement (lack of understanding of empirical);
+> pressure to give "credit" for effort but zero results - culture dynamic viscous feedback loop;
+> lack of understanding of the virtuous cycle that can be built with empirical measurement and understanding of trends;
+> no action to embrace the virtuous benefits of a measure-respond-adapt model (specifically story slicing to appropriate size)
+
+> breaking the basic tenants of the scrum estimation model - allow me to expand for those who have already condemned me for violating written (or suggesting unwritten) dogma...
+a PBL item has a "size" before being Ready (a gate action) for planning;
+the team adjusts the PBL item size any/ever time they touch the item and learn more about it (like at planning/grooming);
+each item is sized based on effort/etc. from NOW (or start of sprint - a point in time) to DONE (never on past sunk cost effort);
+empirical evidence and updated estimates are a good way to plan;
+
+therefore carryover stories are resized before being brought into the next sprint - also reprioritized - and crying over spilt milk or lost effort credit is not allowed in baseball (or sprint planning)
+
+The team wanting definition of done to be "code complete" instead of "deployed" so the burn down charts would look less depressing. Also, using burndown charts without actually having a strong sprint commitment from the team.
