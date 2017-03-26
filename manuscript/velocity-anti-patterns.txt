@@ -11,18 +11,27 @@ That's exactly what we did to come up with the following list. This is by no
 means comprehensive, but it is a reasonable representation of the issues that
 exist within organizations when it comes to metrics and management.
 
-## Velocity is not necessarily harmful
-I want to be crystal clear here: These are not necessarily indications from
-measuring and reporting velocity.
-These are more indications of the pervasiveness of poor management.
+## Before we get started
+I want to be crystal clear here: The Velocity Anti-Patterns listed here are not
+necessarily indications from measuring and reporting velocity.
+Many are indications of the pervasiveness of poor management.
 
-Velocity itself is not necessarily harmful.
+You see, Velocity itself is not necessarily harmful.
 It is a tool and nothing more.
 Just as a knife is a tool and nothing more.
 It is not until the human element is introduced that the tool becomes potentially dangerous.
 Whether deliberate or inadvertent, it is interaction with the tool that introduces risk.
 The better fit the tool is for purpose and the more deliberate and informed the individual,
 the lower the risk.
+
+So with that in mind, let's take a look at some of the most common Velocity
+Anti-Patterns identified by our coaches and practitioners.
+
+## Demand for Higher Velocity
+
+This is far and away, the most common Velocity Anti-Pattern, and quite possibly
+the most harmful.
+
 
 ## Cross-Team Velocity Comparisons
 A common anti-pattern in a great deal of organizations is velocity comparison
@@ -98,7 +107,7 @@ Hopefully, we can see that comparing such velocity across teams is an exercise
 in frustration.
 
 Now returning to software, the analogy holds fairly well.
-The teams 
+The teams
 
 One common solution to this "problem" is to have a core set of individuals do
 all of the estimates.
