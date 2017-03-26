@@ -1,0 +1,22 @@
+## Demand for Higher Velocity
+
+This is far and away, the most common Velocity Anti-Pattern, and quite possibly
+the most harmful.
+
+
+## Demand for Higher Velocity
+Changing points so you can have higher velocity
+rewarding teams for increased velocity
+story point bloating because more is better.
+"you need to increase velocity x% or else miss the deadline"
+
+## Setting Velocity Goals
+velocity targets
+"you need to increase velocity x% or else miss the deadline"
+
+## Rewards for Velocity
+"Every developer must complete at least 13 points per sprint"
+"Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
+"Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
+
+Hearing from a PM that, after a few iterations, a team "needs to get their velocity up" to ship everything on the planned date.

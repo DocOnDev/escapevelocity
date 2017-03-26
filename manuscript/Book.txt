@@ -1,7 +1,13 @@
+frontmatter.txt
 about.txt
+mainmatter.txt
 what-is-velocity.txt
 bodyweight-analogy.txt
 velocity-anti-patterns.txt
+  more-velocities.txt
+  comparing-velocity.txt
+  estimating-in-time.txt
+  individual-velocity.txt
 hawthorn-effect.txt
 goodharts-law.txt
 friedmans-thermostat.txt

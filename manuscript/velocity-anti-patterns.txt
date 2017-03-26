@@ -27,93 +27,6 @@ the lower the risk.
 So with that in mind, let's take a look at some of the most common Velocity
 Anti-Patterns identified by our coaches and practitioners.
 
-## Demand for Higher Velocity
-
-This is far and away, the most common Velocity Anti-Pattern, and quite possibly
-the most harmful.
-
-
-## Cross-Team Velocity Comparisons
-A common anti-pattern in a great deal of organizations is velocity comparison
-across teams.
-
-"Your velocity is 20 and theirs is 50. What are you doing wrong?", asks a
-manager with good but misguided intentions.
-
-"You cannot compare velocity across teams.", says the agile coach,
-"Velocity measures are unique to each team."
-
-"Surely, there will be some variance from team to team", the manager agrees,
-"but a 2x difference must indicate trouble."
-
-Of course, we rarely assume the team reporting a velocity of 50 is the team in
-trouble.
-More velocities are always better, right?
-
-Let's dive into this one a bit.
-Why is it that comparison of velocity across teams is deemed an anti-pattern?
-How come we can't do this in an ideal environment?
-
-The short answer is there are no ideal environments. But let's look closer.
-
-There is a great deal of debate over how velocity is best calculated.
-From story points to ideal days to hours.
-From effort to complexity to duration to value.
-From comparative to scalar to absolute.
-From t-shirt sizes to fibonacci to linear.
-Even when two teams in an organization agree on all of these factors,
-calibration is still extremely difficult.
-We're using metaphors to represent guesses about work items for which we've a
-varying level of shared understanding and varying tolerances for risk.
-
-Imagine this scenario; there are two hike teams given the same basic challenge.
-"You are about to embark on a multi-day hike over territory none of you has
-ever before covered in hopes of getting excellent photography.
-It will be similar to other journeys you've taken, but subtly different in
-an indeterminate number of ways.
-Our map is incomplete in parts and the path we've identified is our best guess.
-We've broken the hike into trail sections based on spots along the way that
-we think will make great photo opportunities.
-The terrain will vary significantly; some of it may be new to all but one or
-two of you.
-Some of it may be dissimilar to terrain any of you have ever seen.
-With these factors in mind, please indicate the number of units involved in the
-journey where a unit is a measure of energy expended in completing a section
-of the trail.
-Please indicate units on a fibonacci scale with no unit greater than 21."
-
-Each team estimates based on these criteria and hike for an hour.
-We measure the number of units each team completes in the first hour.
-We can use this data to better estimate how long it will take them to complete
-the entire journey.
-As it works out, Team A completes 20 units in the first hour and Team B
-completes 45 units in the first hour.
-
-So here is the question - Which team is the better performer?
-
-The truth is, we cannot know that from the data provided.
-The teams may be similar, but they are not the same.
-The paths may be similar, but they are not the same.
-The skills and familiarity of the individuals may be similar, but they are not the same.
-The accuracy of the maps may be similar, but they are not the same.
-The navigability of the paths may be similar, but they are not the same.
-The subjective assessment of anticipated energy expended that each team agrees on
-will vary not only from team to team, but from session to session on the same
-team.
-There are many variables. Velocity (units per hour) is a course-grain estimate
-unique to each team.
-
-Hopefully, we can see that comparing such velocity across teams is an exercise
-in frustration.
-
-Now returning to software, the analogy holds fairly well.
-The teams
-
-One common solution to this "problem" is to have a core set of individuals do
-all of the estimates.
-The thinking being that consistency in the estimation makes execution comparable.
-
-
 
 
 
@@ -122,35 +35,13 @@ The thinking being that consistency in the estimation makes execution comparable
 ### All Estimates are Equal
 comparing velocity across teams and asking everyone to get to a “similar” set of numbers
 
-## Estimating in Time
-Using days as points.
-tying estimates to time.
-If you mean scrum, using hours as points.
-
 ## Plan by Velocity over Value
 Divorcing points from value and/or risk.
 Focusing on velocity instead of value.
 
-## Demand for Higher Velocity
-Changing points so you can have higher velocity
-rewarding teams for increased velocity
-story point bloating because more is better.
-"you need to increase velocity x% or else miss the deadline"
-
 
 "We can't use points because of the process of having to give effort estimates for funding" PO straight out of PO Training. LoL
 
-## Setting Velocity Goals
-velocity targets
-"you need to increase velocity x% or else miss the deadline"
-
-## Rewards for Velocity
-"Every developer must complete at least 13 points per sprint"
-"Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
-"Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
-
-
-## Measuring Individual Velocity
 
 
 
@@ -179,7 +70,6 @@ Debating far too long about whether a story is 3 or 5 points.
 
 Estimating components of a story (like development and test) and adding the two together. "It's a 5 to develop and a 2 to test, so it's a 7."
 
-Hearing from a PM that, after a few iterations, a team "needs to get their velocity up" to ship everything on the planned date.
 
 Seeing an "ideal" line on a burn-up/down chart annotated with the proper velocity.
 

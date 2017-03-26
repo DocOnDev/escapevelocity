@@ -1,0 +1,4 @@
+## Estimating in Time
+Using days as points.
+tying estimates to time.
+If you mean scrum, using hours as points.
