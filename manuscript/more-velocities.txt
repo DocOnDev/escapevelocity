@@ -76,8 +76,27 @@ This is a simple and passive technique.
 The idea here is that if people know what is required, they will rise to the
 occasion.
 
+Burn down charts and burn up charts are a common technique for showing the team
+how they are doing within an iteration or towards a release.
+
+
 
 #### Velocity Goals
+
+So we've shown the team how they are doing.
+We gave them the burn charts and they still didn't go fast enough.
+What is a good ScrumMaster to do?
+Well, help them with the math, of course.
+
+"Hey team. We can see that our burn chart is looking less than ideal. If we want
+to hit our deadline - and we *do* want to hit our deadline - it looks like we're
+going to need to increase our average velocity from 22 to 26 effective
+immediately. Whaddya say? Can we count on you to work smarter, not harder?"
+
+
+
+
+
 velocity targets
 "you need to increase velocity x% or else miss the deadline"
 "Every developer must complete at least 13 points per sprint"
