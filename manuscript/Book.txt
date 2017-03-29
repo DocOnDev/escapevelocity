@@ -1,5 +1,8 @@
 frontmatter.txt
 dedication.txt
+forward.txt
+acknowledgements.txt
+preface.txt
 about.txt
 mainmatter.txt
 what-is-velocity.txt

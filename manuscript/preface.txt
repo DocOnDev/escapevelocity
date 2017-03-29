@@ -1,0 +1,3 @@
+# Preface
+
+A little history on this talk turned book.

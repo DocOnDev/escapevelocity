@@ -1,3 +1,7 @@
+# About This Book
+
+Stuff and Things.
+
 # About The Title and Cover
 
 "Escape Velocity" is the minimum speed needed for an object to escape from a
@@ -14,3 +18,8 @@ The cover image itself is Luna 1, which launched in 1959 and was the first
 man-made object to attain escape velocity from Earth.
 
 [^EscapeVelocity]: Escape velocity. (2017, March 21). Retrieved March 26, 2017, from https://en.wikipedia.org/wiki/Escape_velocity
+
+# About the Author
+
+Bumbling and Stumbling toward love, light, and good. Hoping to make the world
+a better place one tiny contribution at a time.

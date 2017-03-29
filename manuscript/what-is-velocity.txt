@@ -136,3 +136,5 @@ and collaborating with the customer in pursuit of working software, we take a si
 measurement.
 That single measurements represents the interactions of the individuals and all
 of their adaptions to change in the delivery of working software.
+
+Velocity is a simple measure of a very complex system.
