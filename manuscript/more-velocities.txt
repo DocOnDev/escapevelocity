@@ -7,6 +7,8 @@ Somebody determines that the team needs to get more done in less time.
 This person is usually an authority figure and typically doesn't do the actual
 work being asked of the team.
 
+### Why we need more velocities
+
 In some cases, the need for higher velocity is based on a set scope for a set date
 and some basic (but significantly flawed) math.
 Take a team's average velocity and divide it into the total of known work to be
@@ -15,10 +17,12 @@ If the number of weeks to complete the work exceed the number of weeks between
 now and the deadline, then the team needs to get more done in less time.
 
 In other cases, the need for higher velocity is observed.
-The team can be seen loafing.
+The team can be seen "loafing".
 There are times where nobody is actively writing code.
 There are times where more than one individual is working on the same basic
 piece of work at a given time.
+Sometimes, we can even see two people working at the same computer at the same
+time.
 Not everybody punches in at 8am and out again at 6pm.
 Some people don't eat lunch at their desks.
 And who knows what people are actually doing when they "work from home?"
@@ -29,25 +33,72 @@ Everybody knows that when a team goes agile, they get faster.
 It's a fact.
 It has been written in numerous agile books, especially books on scrum.
 Hell, I just wrote it in this book.
-It must be true.
+So it must be true.
 And if it is true that teams get faster, all we need to do is help them get there.
 
+These are but a few of any number of reasons why we might expect or "need" the
+team to move faster.
+This thinking is, unsurprisingly, flawed.
+Velocity is not about measuring the team.
+It is about having a course-grain forecast.
+Rather than a tool to rate and push a team, it is a tool to help make key
+business decisions.
+Which features can we cut back on?
+What is truly priority?
+How else might we organize the work, support the team, or think about the product?
+
+Unfortunately, these are hard decisions.
+They may force us to make tradeoffs.
+They may result in our having to change our public message; to move a date
+or to reset market expectations.
+It is far easier to defer the hard decision and ask a team to "step up".
+It is easier to abdicate the responsibility and push it to the team.
+
+In most cases where the need for an increase in velocity is articulated, there
+is an underlying unspoken premise.
+The belief that if properly motivated, we can do better.
+Re-phrased, the belief that we are not already operating at our best.
+Given we need to hit a deadline with a set scope, when the team is not moving
+fast enough to achieve the desired outcome, then the team is capable of
+moving faster.
+This is logically flawed.
+
+### Attempts to entice more velocities
+
+Leaders (and teams) attempt to achieve velocity increases in numerous ways.
+
+#### Increase Awareness
+
+The number one motivational technique is simply to increase awareness.
+We make the team acutely aware of the deadline, the desired scope, and how near
+or far they are to hitting the target.
+This is a simple and passive technique.
+The idea here is that if people know what is required, they will rise to the
+occasion.
 
 
+#### Velocity Goals
+velocity targets
+"you need to increase velocity x% or else miss the deadline"
+"Every developer must complete at least 13 points per sprint"
 
+
+#### Rewards
+"Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
+"Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
+rewarding teams for increased velocity
+
+
+### Attempts to show more velocities
+
+#### Inflating Points
+
+#### Splitting Points
 
 Changing points so you can have higher velocity
-rewarding teams for increased velocity
 story point bloating because more is better.
 "you need to increase velocity x% or else miss the deadline"
 
-### Setting Velocity Goals
-velocity targets
-"you need to increase velocity x% or else miss the deadline"
 
-### Rewards for Velocity
-"Every developer must complete at least 13 points per sprint"
-"Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
-"Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
 
 Hearing from a PM that, after a few iterations, a team "needs to get their velocity up" to ship everything on the planned date.
