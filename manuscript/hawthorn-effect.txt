@@ -1,5 +1,5 @@
-{#hawthorn-effect}
-## Hawthorne Effect
+{id: hawthorn-effect}
+## The Hawthorne Effect
 
 Western Electric had commission an extensive study that ran from 1924 to 1932
 at their Hawthorne Works in Cicero, IL.
