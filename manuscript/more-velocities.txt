@@ -79,8 +79,9 @@ occasion.
 Burn down charts and burn up charts are a common technique for showing the team
 how they are doing within an iteration or towards a release.
 
-Seemingly benign, this approach invokes the Hawthorn Effect, which we discuss in
-greater detail in [section #n, #t](#hawthorn-effect).
+Seemingly benign, this approach invokes the [Hawthorn Effect](#hawthorn-effect),
+which practically guarantees the measurement will improve, but does not guarantee
+the overall results will improve.
 
 #### Velocity Goals
 
