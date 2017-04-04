@@ -122,7 +122,7 @@ This is ultimately quite significant.
 Velocity, while a simple concept, is actually a measure of output for a complex
 system.
 Think about the number of factors that go into a velocity measurement.
-There is the organizational mission, the boarder business objectives, and the
+There is the organizational mission, the broader business objectives, and the
 objective of the product itself.
 There are product owners, designers, architects, developers, testers, subject
 matter experts, security specialists, database specialists, governance, and

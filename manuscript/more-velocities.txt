@@ -58,9 +58,13 @@ In most cases where the need for an increase in velocity is articulated, there
 is an underlying unspoken premise.
 The belief that if properly motivated, we can do better.
 Re-phrased, the belief that we are not already operating at our best.
-Given we need to hit a deadline with a set scope, when the team is not moving
-fast enough to achieve the desired outcome, then the team is capable of
-moving faster.
+
+**Given** we need to hit a deadline with a set scope
+
+**When** the team is not moving fast enough to achieve the desired outcome
+
+**Then** the team is capable of moving faster.
+
 This is logically flawed.
 
 ### Attempts to entice more velocities
