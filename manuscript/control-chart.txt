@@ -1,0 +1,14 @@
+## Cycle-Time Control Charts
+
+Control charts focus on the cycle time of individual issues - the total time
+from "in progress" to "done".
+Teams with shorter cycle times are likely to have higher throughput, and teams
+with consistent cycle times across many issues are more predictable in delivering work.
+While cycle time is a primary metric for kanban teams, scrum teams can benefit
+from optimized cycle time as well.
+
+Measuring cycle time is an efficient and flexible way to improve a team's
+processes because the results of changes are discernable almost immediately,
+allowing them to make any further adjustments right away.
+The end goal is to have a consistent and short cycle time, regardless of the
+type of work.

@@ -1,21 +1,33 @@
 frontmatter.txt
-dedication.txt
-forward.txt
-acknowledgements.txt
-preface.txt
-about.txt
+  dedication.txt
+  forward.txt
+  acknowledgements.txt
+  preface.txt
+  about.txt
 mainmatter.txt
-what-is-velocity.txt
-bodyweight-analogy.txt
-velocity-anti-patterns.txt
-  more-velocities.txt
-  comparing-velocity.txt
-  estimating-in-time.txt
-  individual-velocity.txt
-hawthorn-effect.txt
-goodharts-law.txt
-friedmans-thermostat.txt
-perverse-incentives.txt
-variable-velocity.txt
-cumulative-flow.txt
-lead-time-distribution.txt
+  what-is-velocity.txt
+  bodyweight-analogy.txt
+  velocity-anti-patterns.txt
+    more-velocities.txt
+    comparing-velocity.txt
+    estimating-in-time.txt
+    individual-velocity.txt
+  metrics-side-effects.txt
+    hawthorn-effect.txt
+    goodharts-law.txt
+    friedmans-thermostat.txt
+    perverse-incentives.txt
+  variable-velocity.txt
+  other-metrics.txt
+    cumulative-flow.txt
+    cycle-time.txt
+      control-chart.txt
+    lead-time.txt
+      lead-time-distribution.txt
+    flow-efficiency.txt
+    code-quality.txt
+      code-complexity.txt
+    team-joy.txt
+  looking-for-correlations.txt
+    scatter-diagrams.txt
+  balanced-metrics.txt
