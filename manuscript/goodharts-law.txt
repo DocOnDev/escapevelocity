@@ -15,7 +15,10 @@ Higher interest rates correlated with lower money growth.
 Goodhart warned, however, that policies and practices based on specific targets
 were flawed.
 Goodhart stated,
-> "Any statistical regularity will tend to collapse once pressure
-is placed upon it for control purposes."
+
+{icon=quote-left}
+G> "Any statistical regularity will tend to collapse once pressure
+G> is placed upon it for control purposes."
+
 A common paraphrasing is, "When a measure becomes a target, it ceases to be a good measure."
 When I talk about this, I tend to add, "And the target therefore no longer means what you think it does."
