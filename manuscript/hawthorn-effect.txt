@@ -28,9 +28,14 @@ When the studies ended, productivity, attendance, and retention soon returned
 to original levels.
 
 There are two things we can learn from the Hawthorne studies.
+
 The first is that which gets measured will improve.
 "The Hawthorne Effect" is described as the phenomenon in which subjects in
 behavioral studies change their performance in response to being observed.
+
+{icon=quote-left}
+G> that which gets measured will improve
+
 The second is that an employee's working group actually has more impact on their
 performance than leadership.
 In the end, the study determined that it was not any of the environmental changes
@@ -40,10 +45,3 @@ Elton Mayo, the sociologist who ran the experiments once observed,
 "The desire to stand well with one's fellows, the so-called human instinct of
 association, easily outweighs the merely individual interest and the logic of
 reasoning upon which so many spurious principles of management are based."
-
-And once again, this time in our discussion on Excellence and measurements,
-we find further evidence of the importance of Connection.
-Perhaps if Taylor had not focused on time and motion in pursuit of efficiency,
-but had instead looked for measures of effectiveness,Tayloristic Management
-would have included the notion of humans as significant rather than humans as
-mere resources.

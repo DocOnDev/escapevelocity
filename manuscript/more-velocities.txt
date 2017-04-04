@@ -92,16 +92,37 @@ Well, help them with the math, of course.
 
 "Hey team. We can see that our burn chart is looking less than ideal. If we want
 to hit our deadline - and we *do* want to hit our deadline - it looks like we're
-going to need to increase our average velocity from 22 to 26 effective
-immediately. Whaddya say? Can we count on you to work smarter, not harder?"
+going to need to increase our average velocity from 22 to 26 as soon as you can.
+Whaddya say? Can we count on you to work smarter, not harder?"
 
+This, of course, isn't the only way targets are set.
+Some managers take a more dictatorial approach.
 
+"Okay team. I didn't want to have to do this, but you people can't seem to
+figure it out on your own. So much for 'self organizing'. Your velocity sucks.
+I've looked at your burn chart and you can't possibly make it. Effectively
+immediately, velocity must increase to 26 points. I don't want to hear any
+whining. You've been lallygagging long enough. Now get back to work."
 
+The language is different, but the intent is the same and the end result is likely
+the same.
+Velocity will very likely go up.
+And again, this does not mean the end result will improve.
 
+In fact, what happens is that we've now invoked [Goodhart's Law](#goodharts-law).
+In setting a target for a lagging indicator in an attempt to control the system,
+what has actually happened is we've changed the system, thereby changing what
+the indicator means.
+As a result, the measurement is no longer the same as the
+measurement we were using before and the target doesn't mean what the manager
+thinks it means.
 
-velocity targets
-"you need to increase velocity x% or else miss the deadline"
-"Every developer must complete at least 13 points per sprint"
+It is intriguing to me how often a manager will make a change such as this to a
+system of work and then later proclaim that the team is gaming the system.
+This is simply not the case.
+In fact, the gaming of the system is the improper application of targets or goals
+for lagging indicators.
+The rest is just natural consequence.
 
 
 #### Rewards

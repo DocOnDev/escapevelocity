@@ -1,4 +1,6 @@
+{#goodharts-law}
 ## Goodhart's Law
+
 Charles Goodhart is an economist and former advisor to the Bank of England.
 In 1975, Goodhart delivered two papers to a conference at the Reserve Bank of Australia.
 In those papers, Goodhart was discussing research and theory related to monetary

@@ -104,9 +104,9 @@ good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of
 factors.
 
-{icon=quote-left}
-G> Lagging indicators are poor  short-term predictions, but are helpful for
-G> insight into long term trends.
+I> ## About Lagging Indicators
+I> Lagging indicators are poor short-term predictions, but are helpful for
+I> insight into long term trends.
 
 But, we can look at velocity over time and confirm trends we might suspect, such
 as a lower average velocity during holiday seasons.
