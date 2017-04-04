@@ -1,4 +1,4 @@
-{id: hawthorn-effect}
+{#hawthorn-effect}
 ## The Hawthorne Effect
 
 Western Electric had commission an extensive study that ran from 1924 to 1932
