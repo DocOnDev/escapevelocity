@@ -1,5 +1,6 @@
 # Acknowledgements
 
+I've had the great fortune of working with amazing people my entire career.
 There is no possible way I can acknowledge all who've had an impact on me and
 made this possible.
 So many have touched my life in so many ways.
@@ -10,42 +11,54 @@ the oversight.
 
 I love you all. Sincerely.
 
-**Thoughtworks**
 
-Mike Royle
+I started my career at a Law Firm in Cleveland Ohio where *Richard Kucia* and
+*Joe Sladick* mentored me as I moved from hobbyist to professional. Joe was
+especially influential as it was he who showed me the benefits of working in
+small chunks.
 
-Patrick Sarnacke
+I soon started my own consultancy where I eventually partnered with
+*Brian Goleno* and *Mike Farona*, both of whom were influential in my
+continued growth. It was there that we first started experimenting with
+alternative approaches to software and it was Brian who pointed me toward XP
+and then ThoughWorks, a company I followed for years before joining.
 
-Greg "Hippie" Warren
+At ThoughtWorks, I found a home, albeit temporary.
+The number of people with whom I had opportunity to have great discussions and
+debate and to learn from is too great to count.
+From *Mike Royle* who served as my first official mentor to *Gregg "Hippie" Warren*
+who ran with me and gave me a fantastic opportunity and challenge to work on.
+I  met, collaborated with, and was influenced by *Doc List*, *Rebecca Parsons*,
+*Martin Fowler*, *Amanda Laucher*, *Paul Hammant*, *Patrick Sarnacke*,
+*Chris Kozak*, *Pramod Sadalage*, and so many others.
 
-**LeanDog**
+Through the ToughWorks network, I had the opportunity to meet and interact with
+*Dan North*, *Jezz Humble*, *Liz Keogh*, and *Dave Hoover* all of whom have
+influenced and help to shape my thinking.
 
-Jon Stahl
+In leaving ThoughtWorks, I joined LeanDog as a partner.
+There I had opportunity to work with *Jeff Morgan* who is one of the most
+passionate developers I know and *Jon Stahl* who influenced my knowledge of lean,
+systems thinking, and leadership.
+Through LeanDog, I met *Corey Haines*, *JB Rainsburger*, *Diane Zajac-Woodie*,
+and *Gary Bernhardt* all of whom blew me away with their passion, knowledge,
+contribution, and abilities.
 
-Jeff "Cheesy" Morgan
+As my exposure to the agile community grew, I had the fortune to meet and spent
+quality time with *Diana Larsen*, *Esther Derby*, *Ward Cunningham*, *Bob Martin*,
+*Ron Jeffries*, *Chet Hendrickson*, *James Grenning*, *Jon Kern*, and many others.
+What I thought I knew was challenged and I turned from being the "expert" to being
+a beginner, which I've tried to be ever since.
 
-Matt Barcomb
+At Groupon, I met, among many others, *Heather Corallo* who is now my business
+partner in CTO2.
+Together, she and I started a movement within Groupon Engineering to put people
+above process and to foster Autonomy, Connection, Excellence, and Diversity.
+These are the cornerstones of CTO2's philosophy and mission.
 
-**PraxisFlow**
+Of course, none of this was possible without the continued support of my family.
+*Teri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*,
+Courtney Norton*, and *Sean Norton* made up my greatest support network and gave
+me purpose in life.
 
-Jabe Bloom
-
-Will Evans
-
-**Family**
-
-
-
-**Others**
-
-Heather Corallo
-
-Diane Zajac-Woodie
-
-Johanna Rothman
-
-Diana Larsen
-
-Esther Derby
-
-Ken Schwaber
+I am truly blessed.
