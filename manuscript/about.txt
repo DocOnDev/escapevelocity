@@ -24,8 +24,13 @@ man-made object to attain escape velocity from Earth.
 Bumbling and Stumbling toward love, light, and good. Hoping to make the world
 a better place one tiny contribution at a time.
 
-{width: 30}
+{alt: "DocOnDev", width: 30}
 ![Doc Norton (@DocOnDev)](images/Doc-Outline.png)
+
+
+{alt: "a slice of chocolate cake", fullbleed: true}
+![A Piece of Cake](http://markua.com/cake.jpg)
+
 
 Co-Founder and CEO of CTO2, Doc is passionate about working with teams to
 improve delivery and building great organizations.
