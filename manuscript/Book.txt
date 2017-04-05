@@ -21,6 +21,7 @@ mainmatter.txt
   variable-velocity.txt
     poor-story-composition.txt
     team-dependencies.txt
+    too-much-wip.txt
   other-metrics.txt
     cumulative-flow.txt
     cycle-time.txt

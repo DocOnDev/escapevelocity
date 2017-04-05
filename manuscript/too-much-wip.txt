@@ -1,0 +1,21 @@
+## Too Much Work In Process
+
+This is a remarkably common issue.
+In my experience, management often encourages this behavior.
+I don't know if it is the notion that we will get more done if we work on more
+things simultaneously.
+Or perhaps there is a fear we won't get enough things done unless we work on
+several of them at once.
+
+But what happens when we try to work on a few stories each?
+Remarkably, we make progress on several, but complete precious few.
+The more work in flow, the more context switching we all need to make.
+Coordination of the stories complicates testing and migrations.
+We look busy, but at the end of the iteration, we've fewer things complete.
+Then, at the beginning of the next iteration, a glut of work moves to done,
+setting us up with a couple day delay wrapping up the prior iteration and
+pushing us into yet another complicated cycle.
+
+Drive each card to completion before picking up the next one.
+If a card is blocked, make getting it un-blocked a priority rather than letting
+it wait three days because George on the DBA team has a three-day SLA.
