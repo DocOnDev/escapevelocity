@@ -1,0 +1,20 @@
+## Dependencies on Other Teams or Individuals
+
+Perhaps your product owner is not available often enough and there is too much
+re-work due to slow feedback cycles.
+Maybe you haven't rights to your various environments and code migrations are
+executed in durations of days rather than minutes.
+It's possible some other technical team is not able to be as responsive or
+relies on process more than interactions for the exchange of information.
+Whatever it might be, any point where you need to wait for extended periods of
+time, is likely to lead to other problems.
+You can't sit idle, so you grab another card to work on, leading to too much
+work in progress.
+
+Work with these teams and individuals on ways to automate processes or find
+other ways to reduce their response time.
+Invite sponsors and others to your stand-ups, iteration planning, and
+retrospectives.
+If they consistently don't show, see if you can get another representative.
+Be professional and courteous, but there is no need to be completely deferent.
+If the project is important, you should be able to ask for the necessary support.

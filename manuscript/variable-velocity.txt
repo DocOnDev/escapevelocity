@@ -55,3 +55,11 @@ Adjustments for which you can observe the outcome.
 But the important thing to remember is that the velocity is not the problem.
 Do not try to fix the velocity.
 Try to figure out what it is telling you and fix that.
+
+If an erratic velocity could be telling me any number of things, then how do I
+know what to adjust?
+Ask your team.
+They probably know.
+They may not know they know, but they can give you indicators.
+
+Let's look through some of the common underlying causes.
