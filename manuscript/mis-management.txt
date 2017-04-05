@@ -1,0 +1,30 @@
+## Various Forms of Mismanagement
+
+Herein lies my primary onus for the mantra, "Agile ain't practices".
+Agile is a set of values.
+
+**Individuals and interactions** over processes and tools
+
+**Working software** over comprehensive documentation
+
+**Customer collaboration** over contract negotiation
+
+**Responding to change** over following a plan
+
+G> Address the actual problem and use velocity to tell you if you have, in fact, done so.
+
+I see organization after organization pick up practices in the name of agile and
+apply them devoid of the values.
+Most popular seems to be daily stand-ups and burn-down charts; two tools that
+provide project management quick feedback on status so that they can make
+informed decisions about items such as task assignment or if the team needs to
+put in extra hours to make the deadline.
+(By the way, that sentence should make you cringe)
+
+Assigning tasks, driving for excellence in estimating, pushing for points,
+treating code as if it is only a means to an end,
+role-based incentives, making the team's decisions for them, leaving the team
+to make all the decisions (they are self-organizing after all),
+splitting people's assignment across teams (they only need 1.5 QA),
+burdensome process, and failure to address impediments are but a few examples of
+mismanagement.

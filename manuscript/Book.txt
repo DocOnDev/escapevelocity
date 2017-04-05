@@ -23,6 +23,7 @@ mainmatter.txt
     team-dependencies.txt
     too-much-wip.txt
     silos.txt
+    mis-management.txt
   other-metrics.txt
     cumulative-flow.txt
     cycle-time.txt
