@@ -19,6 +19,7 @@ mainmatter.txt
     friedmans-thermostat.txt
     perverse-incentives.txt
   variable-velocity.txt
+    poor-story-composition.txt
   other-metrics.txt
     cumulative-flow.txt
     cycle-time.txt

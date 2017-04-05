@@ -1,1 +1,57 @@
 # Variable Velocity
+
+Have you ever been on a team where your velocity suffered wild variances?
+Maybe you ended up using a running average instead of yesterday's weather?
+
+Have you heard phrases like, "Well, our velocity last iteration was 3, but our
+average is still 22"?
+
+Have you ever heard the phrase, "Dude, we need to get this velocity stable."
+
+Have you worked on teams where they took partial credit for done at the end of
+the iteration?
+Where maybe you'd split a card strictly on points and award some apportion to
+the current iteration and assign the remainder of the card to the next iteration.
+
+## Velocity Should Stabilize
+
+It seems much of what we read tells us that velocity will do two things;
+stabilize and improve.
+According to the VersionOne Agile 101, we can expect that velocity will
+stabilize within three to six months.
+The Agile Sherpa tells us it usually takes 3-4 iterations for velocity to
+stabilize at a consistent level.
+James Shore's "The Art of Agile" tells us to give it three or four iterations
+to stabilize.
+
+## But What If Velocity Doesn't Stabilize?
+
+First, take a deep breath; and then repeat after me:
+
+*"Velocity is a health indicator. Velocity is a health indicator. Velocity is a health indicator. Velocity is ..."*
+
+If you have an erratic velocity, it is telling you of a problem.
+And your problem is not an erratic velocity.
+
+Velocity lets us know how things are going.
+It reveals issues to us in sometimes subtle ways.
+
+Think of velocity as heart rate.
+An abnormal heart rate, be it too fast, too slow, or irregular can indicate a
+number of underlying issues such as electrolyte imbalance, overstimulation,
+insufficient rest, autoimmune disorders, thyroid problems, or various forms of
+heart disease.
+If you have an abnormal heart rate, it is telling you of a problem.
+And your problem is not an abnormal heart rate.
+
+An erratic velocity can indicate a number of underlying issues such as poor
+story composition, dependencies on other teams or individuals, too much work in
+progress, silos, and various forms of mismanagement.
+If you have an erratic velocity, it is telling you of a problem.
+And your problem is not an erratic velocity.
+
+Whatever the underlying problem, it is something you can adjust.
+Adjustments for which you can observe the outcome.
+But the important thing to remember is that the velocity is not the problem.
+Do not try to fix the velocity.
+Try to figure out what it is telling you and fix that.
