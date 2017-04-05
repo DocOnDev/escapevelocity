@@ -1,4 +1,4 @@
-## Cycle-Time Control Charts
+### Cycle-Time Control Charts
 
 Control charts focus on the cycle time of individual issues - the total time
 from "in progress" to "done".
