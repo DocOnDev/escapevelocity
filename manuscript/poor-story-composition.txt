@@ -1,0 +1,27 @@
+## Poor Story Composition
+
+By story composition, I mean story size and dependencies.
+
+The larger the story, the more risk there is of getting it to done.
+But it is not just about making stories small.
+It is about making them small and independent.
+Small stories that cannot be delivered independent of one another are really
+just tasks for a large story.
+
+If we have an issue with proper story composition, we may find we get several
+stories close to done, but we cannot run acceptance tests on them until all of
+them are complete, leaving us with too much testing at the end of the iteration.
+It we don't get all of the stories ready, none of them can move.
+Then, next iteration, we complete the last strays and a glut of cards/points
+move to done.
+Alternatively, some stories are just too big to complete in a single iteration.
+
+There is no need to get your stories perfect up front.
+Get them good enough to do a high-level estimate; think epics.
+Then as you start planning releases, break them down into features to get a
+finer-course estimate.
+Finally, as you plan iterations, break them down again into small,
+independently deliverable items.
+Beware the temptation to split stories across technical seams.
+Instead, focus on small stories that are thin vertical slices through the
+technology stack.
