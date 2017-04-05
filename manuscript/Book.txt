@@ -12,6 +12,7 @@ mainmatter.txt
     comparing-velocity.txt
     estimating-in-time.txt
     individual-velocity.txt
+    estimates-to-actuals.txt
   metrics-side-effects.txt
     hawthorn-effect.txt
     goodharts-law.txt
