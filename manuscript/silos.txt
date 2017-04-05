@@ -1,0 +1,21 @@
+## Silos
+
+Most teams I work with have three distinct roles; BA, Developer, and QA.
+Most teams I work with have three distinct phases of their work; gather
+requirements, build, verify.
+Even on agile teams, these separations exist.
+There are clear delineations in the process and clear segregation of
+responsibilities.
+But this segregation is a contributor to erratic velocity.
+How many "agile" teams do you know of where the BA group is an iteration ahead
+of the developers who are an iteration ahead of QA, leaving us with a
+three-iteration cycle time and significant lag in our feedback loops between
+the groups?
+
+Tighten the loops.
+Get people working together in not only close proximity, but close time-frame.
+Involve the developers and QA in the formation of requirements.
+Push QA to the front and automate, automate, automate.
+Don't let manual testing be a bottle neck.
+Start development before you've polished the requirements.
+And don't wait until the end to test it all comprehensively.

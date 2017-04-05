@@ -22,6 +22,7 @@ mainmatter.txt
     poor-story-composition.txt
     team-dependencies.txt
     too-much-wip.txt
+    silos.txt
   other-metrics.txt
     cumulative-flow.txt
     cycle-time.txt
