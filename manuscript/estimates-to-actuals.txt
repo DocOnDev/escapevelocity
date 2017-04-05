@@ -60,6 +60,8 @@ The following graph shows the time to complete for 40 games at each skill level.
 The y-axis is the time to complete.
 The x-axis is the number of games.
 
+![Sudoku Scores](images/sudoku.png)
+
 At point 6 on the x axis, the easy story takes nearly 8 minutes to complete.
 This is well outside the normal effort for an easy.
 In fact, it exceeds the average for a medium.
