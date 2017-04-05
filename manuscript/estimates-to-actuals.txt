@@ -1,7 +1,6 @@
 ## Comparing Estimates to Actuals
 
-I've been thinking quite a bit about estimations and our general obsession with
-getting them "right".
+Many organizations seem to have an obsession with getting estimates "right".
 After all, we need to know when the project will be done.
 And we need accuracy.
 Knowing the entire project will be done before the end of the third quarter
@@ -26,9 +25,18 @@ But one thing I've never understood is the notion of estimates versus actuals.
 Here we look at the original estimate for a story and we then estimate again
 once the story is complete.
 The idea here is that the estimate upon completion is an actual.
-This provides us a learning opportunity whereby we can improve our estimates
+Now if you're estimating in time, you could use the actual.
+If you're estimating in points that you equate to time, you could use the actual.
+The practice I am referring to is when a team estimates complexity in points,
+completes the work, and sizes the story again based on what they've learned.
+This is supposed to provide a learning opportunity whereby we can improve our estimates
 going forward.
 This, to me, is a flawed approach.
+The assumption is that the next story that has unknown unknowns will be more knowable
+because we learned what we didn't know when we built this story.
+You following me here?
+Me neither.
+
 To illustrate my point, let's look at estimations from a slightly different angle.
 
 ### Estimating Soduku
