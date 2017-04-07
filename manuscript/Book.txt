@@ -32,6 +32,7 @@ mainmatter.txt
       lead-time-distribution.txt
     flow-efficiency.txt
     code-quality.txt
+      escaped-defects.txt
       code-complexity.txt
     team-joy.txt
   looking-for-correlations.txt

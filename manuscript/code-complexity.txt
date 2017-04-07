@@ -1,1 +1,145 @@
 ### Code Complexity
+
+#### Cyclomatic Comlexity
+
+#### ABC Complexity
+
+#### Lines of Code
+
+*WHAT!?!*
+
+Am I honestly advocating for lines of code as a code quality metric? Didn't we
+learn this was wrong in the 1970s?
+
+I am advocating for it.
+Because we failed to learn an important lesson.
+
+It was once common in the industry to measure a developer's productivity by
+their "output".
+If we think that the role of developers is to write code, then we probably think
+that code is their output.
+If code is the output of a developer, then the more code they write in a given
+time frame, the more efficient they are.
+This is logical.
+
+It is also, as it turns out, wrong.
+You see, developers solve problems and create solutions through code much like
+surgeons cure ills and provide remedies through surgery.
+And just as more surgery doesn't make for a healthier patient, more code doesn't
+make for a healthier solution.
+
+When developers were evaluated for their output, solutions became verbose.
+
+Let's imagine a solution for calculating a relatively simple sales tax of 6%.
+Our company has a single store in Summit County, Ohio and sells taxable products.
+Calculation of sales tax is simple:
+
+{title="Simple Tax", lang=ruby}
+~~~~~~~~
+def grand_total items
+  total = 0                                 # zero our total to start
+  items.each do |item|                      # for each item
+    total = total + item.price * 0.06       # add item price and tax to total
+  end                                       # end of items
+  return total
+end
+~~~~~~~~
+
+Time goes by, and our store is now in multiple counties.
+Each county has a unique tax rate and some counties have an additional tax
+on certain types of items, such as cigarettes or alcohol.
+
+{title="Multiple Tax Rates", lang=ruby}
+~~~~~~~~
+def grand_total items, county
+
+  total = 0                                 # zero our total to start
+
+  items.each do |item|                      # for each item
+    if county.name == "Medina"              # If we're in Medina County
+      if item.type == "cigarettes"          # and we're purchasing cigarettes
+        tax_price = item.price * 0.125      # Get item price with sin tax
+        total = total + tax_price           # add to order total
+      else                                  # In Medina, not cigarettes
+        tax_price = item.price * 0.07       # Get item price with no sin tax
+        total = total + tax_price           # add to order total
+      end
+    else                                    # If we're not in Medina County
+      if county.name == "Jackson"           # And we are in Jackson County
+        if item.type == "alcohol"           # And we're purchasing alcohol
+          tax_price = item.price * 0.11     # Get item price with sin tax
+          total = total + tax_price         # add to order total
+        else                                # In Jackson, not alcohol
+          tax_price = item.price * 0.09     # Get item price with no sin tax
+          total = total + tax_price         # add to order total
+        end
+      else                                  # Default County (Summit)
+        tax_price = item.price * 0.06       # Get item price with no sin tax
+        total = total + tax_price           # add to order total
+      end                                   # end of Jackson
+    end                                     # end of Medina
+  end                                       # end of items
+
+  return total
+end
+~~~~~~~~
+
+You might be thinking to yourself, "That's not too bad."
+But I've personally seen places where this kind of thing got way out of hand.
+Add in a few more counties, different taxes on different specialty items all in
+the same county, and you've got a very long mess of code.
+Now, we change the item.price to item.base_price and there are hundreds of lines
+of code to change and test.
+What if we missed one?
+
+Could we write this in a way that wasn't so verbose?
+
+{title="Multiple Tax Rates Cleaner", lang=ruby}
+~~~~~~~~
+def grand_total items, county
+  total = 0
+  items.each do |item|
+    total += item.price + (item.price * determine_tax(county, item.type))
+  end
+  return total
+end
+
+def determine_tax county, item_type
+  tax_table = {
+      "Medina": {"cigarettes": 0.125, "standard": 0.07},
+      "Jackson": {"alcohol": 0.11, "standard": 0.09},
+      "Summit": {"standard": 0.06},
+      "": {"standard": 0.0}
+  }
+
+  return tax_table[county][item_type] || tax_table[county]["standard"]
+
+end
+~~~~~~~~
+
+There are actually numerous advantages to this approach. The most significant of
+which is that we can now add a new county with standard and specialty tax rates
+by adding a single line of code. We'd simply add another entry to the tax_table.
+And if we wanted to, we could push the tax rate data to a database where someone
+in operations could update it and we'd have no need to deploy additional code.
+
+Non-developers might argue that the former version was more readable.
+It was laid out just like we think about the problem, so it would be easier to
+follow.
+But the latter version is actually more readable to a developer.
+It takes a developer much less time to figure out what the short code is doing
+and to feel confident that it doesn't have strange typos or bugs.
+
+
+The shorter version is easier to read, easier to maintain, and has less
+potential bugs.
+Compensating developers by line of code incentivized them to write worse code.
+If we unpack that statement, it also means that code that has more lines is code
+that has more bugs.
+
+And this is why I recommend lines of code as a quality metric.
+The more lines of code you have, the more bugs you have.
+As it turns out, this is a provable direct positive correlation.
+
+More lines of code means more bugs.
+Fewer lines of code means fewer bugs.
