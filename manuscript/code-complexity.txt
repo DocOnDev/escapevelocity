@@ -141,5 +141,16 @@ And this is why I recommend lines of code as a quality metric.
 The more lines of code you have, the more bugs you have.
 As it turns out, this is a provable direct positive correlation.
 
+The folks over at Code Climate run analysis against hundreds of thousands
+of lines of code every day.
+In this effort, they've learned a number of things about code in general and
+about code quality metrics.
+For quite a while, they debated over Cyclomatic versus ABC complexity.
+In the end, they discovered that the two were fundamentally the same.
+What surprised them a bit, however, was to discover that lines of code was
+equally as telling.
+Cyclomatic complexity, ABC complexity, and lines of code are all positively
+correlated.
+
 More lines of code means more bugs.
 Fewer lines of code means fewer bugs.
