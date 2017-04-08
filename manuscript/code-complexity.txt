@@ -37,10 +37,10 @@ Calculation of sales tax is simple:
 {title="Simple Tax", lang=ruby}
 ~~~~~~~~
 def grand_total items
-  total = 0                                 # zero our total to start
-  items.each do |item|                      # for each item
-    total = total + item.price * 0.06       # add item price and tax to total
-  end                                       # end of items
+  total = 0
+  items.each do |item|
+    total = total + item.price * 0.06
+  end
   return total
 end
 ~~~~~~~~
@@ -53,32 +53,32 @@ on certain types of items, such as cigarettes or alcohol.
 ~~~~~~~~
 def grand_total items, county
 
-  total = 0                                 # zero our total to start
+  total = 0
 
-  items.each do |item|                      # for each item
-    if county.name == "Medina"              # If we're in Medina County
-      if item.type == "cigarettes"          # and we're purchasing cigarettes
-        tax_price = item.price * 0.125      # Get item price with sin tax
-        total = total + tax_price           # add to order total
-      else                                  # In Medina, not cigarettes
-        tax_price = item.price * 0.07       # Get item price with no sin tax
-        total = total + tax_price           # add to order total
+  items.each do |item|
+    if county.name == "Medina"
+      if item.type == "cigarettes"
+        tax_price = item.price * 0.125
+        total = total + tax_price
+      else
+        tax_price = item.price * 0.07
+        total = total + tax_price
       end
-    else                                    # If we're not in Medina County
-      if county.name == "Jackson"           # And we are in Jackson County
-        if item.type == "alcohol"           # And we're purchasing alcohol
-          tax_price = item.price * 0.11     # Get item price with sin tax
-          total = total + tax_price         # add to order total
-        else                                # In Jackson, not alcohol
-          tax_price = item.price * 0.09     # Get item price with no sin tax
-          total = total + tax_price         # add to order total
+    else
+      if county.name == "Jackson"
+        if item.type == "alcohol"
+          tax_price = item.price * 0.11
+          total = total + tax_price
+        else
+          tax_price = item.price * 0.09
+          total = total + tax_price
         end
-      else                                  # Default County (Summit)
-        tax_price = item.price * 0.06       # Get item price with no sin tax
-        total = total + tax_price           # add to order total
-      end                                   # end of Jackson
-    end                                     # end of Medina
-  end                                       # end of items
+      else
+        tax_price = item.price * 0.06
+        total = total + tax_price
+      end
+    end
+  end
 
   return total
 end
