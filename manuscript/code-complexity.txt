@@ -14,7 +14,7 @@ of 2.
 
 #### ABC Score
 
-An ABC Score [^ABCScore] is a score based on *A*ssignments - where a value is
+An ABC Score[^ABCScore] is a score based on *A*ssignments - where a value is
 assigned to or transferred into a variable, *B*ranches - where a piece of code
 calls any other piece of code, and *C*onditionals - similar to cyclomatic complexity,
 this is a count of conditional statements (if, case, switch, etc.) in the code.
@@ -73,7 +73,7 @@ ABC Score and the number of bugs in an application.
 Today, most people consider ABC to be a complexity metric and therefore use it
 as an indicator of quality.
 
-[^ABC Score]: ABC score. (2017, March 11). Retrieved April 12, 2017, from https://en.wikipedia.org/wiki/ABC_score
+[^ABCScore]: ABC score. (2017, March 11). Retrieved April 12, 2017, from https://en.wikipedia.org/wiki/ABC_score
 
 #### Lines of Code
 

@@ -5,7 +5,7 @@ Stuff and Things.
 # About The Title and Cover
 
 "Escape Velocity" is the minimum speed needed for an object to escape from a
-massive body [^EscapeVelocity]. Once an object achieves escape velocity, it is
+massive body[^EscapeVelocity]. Once an object achieves escape velocity, it is
 able to free itself from the force of the massive body without any additional
 impulse.
 
