@@ -31,7 +31,7 @@ vector < Assignments (A), Branches (B), Conditionals (C) > and is calculated as 
 |ABC| = sqrt((A*A)+(B*B)+(C*C))
 ~~~~~~~~
 
-The original theory was that We could take the scalar metric of the code
+The original theory was that we could take the scalar metric of the code
 generated in a single day of development, divide it into the estimated scalar
 metric of the entire application and get the days required to complete the code base.
 
