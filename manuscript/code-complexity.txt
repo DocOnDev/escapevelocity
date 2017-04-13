@@ -2,7 +2,78 @@
 
 #### Cyclomatic Comlexity
 
-#### ABC Complexity
+Cyclomatic complexity is a quantitative measure of the number of linearly
+independent paths through a program's source code.
+It is basically a count of the decision paths through the code.
+A piece of code with no if statements or conditionals has a cyclomatic complexity
+of 1.
+A piece of code with a single if statement that behaves differently based on
+whether the statement evaluates to true or to false has a cyclomatic complexity
+of 2.
+
+
+#### ABC Score
+
+An ABC Score [^ABCScore] is a score based on *A*ssignments - where a value is
+assigned to or transferred into a variable, *B*ranches - where a piece of code
+calls any other piece of code, and *C*onditionals - similar to cyclomatic complexity,
+this is a count of conditional statements (if, case, switch, etc.) in the code.
+
+An ABC Score was devised as a size metric, not as a quality metric.
+The size metric was intended to be used, among other things, as a way to forecast
+the completion of a project.
+To calculate an ABC Score, we sum these three orthogonal aspects of the code and
+represent them as a 3-D vector < Assignments (A), Branches (B), Conditionals (C) >.
+It can also be represented as a scalar metric which is the magnitude of the
+vector < Assignments (A), Branches (B), Conditionals (C) > and is calculated as follows:
+
+~~~~~~~~
+|ABC| = sqrt((A*A)+(B*B)+(C*C))
+~~~~~~~~
+
+The original theory was that We could take the scalar metric of the code
+generated in a single day of development, divide it into the estimated scalar
+metric of the entire application and get the days required to complete the code base.
+
+So if we estimate that an entire code base will require 300 assignments,
+250 Branches, and 180 Conditionals, then we can represent the ABC Score for the
+entire code base as <300, 250, 180> or 430.
+If on a given day we write code that contains 10 assignments, 2 branches, and
+8 conditionals, we can represent that as <10, 2, 8> or 13.
+Theoretically, we can then divide the ABC score for the single day into the
+ABC score for the application and get the number of days to complete the entire
+application.
+
+~~~~~~~~
+<300, 250, 180>
+sqrt((300^2)+(250^2)+(180^2)) = 430
+
+<10, 2, 8>
+sqrt((10^2)+(2^2)+(8^2)) = 13
+
+430 / 13 = 33
+~~~~~~~~
+
+This technique was not widely adopted. I assume, in part, because if we knew
+enough about the code we were going to write to get a count of Assignments, Branches,
+and Conditionals, we'd know enough to use better forecasting techniques.
+The truth is, we usually don't know these details until after the fact.
+
+One distinct drawback to an ABC Score is that the calculation necessarily varies from
+language to language because of the  differences in how languages implement
+different constructs.
+
+One advantage is that an ABC Score is independent of any coding style and is
+therefore a more objective measure than measures such as lines of code or
+even Cyclomatic Complexity.
+
+While not a quality metric, there is a direct positive correlation between an
+ABC Score and the number of bugs in an application.
+
+Today, most people consider ABC to be a complexity metric and therefore use it
+as an indicator of quality.
+
+[^ABC Score]: ABC score. (2017, March 11). Retrieved April 12, 2017, from https://en.wikipedia.org/wiki/ABC_score
 
 #### Lines of Code
 
@@ -120,6 +191,10 @@ end
 There are actually numerous advantages to this approach. The most significant of
 which is that we can now add a new county with standard and specialty tax rates
 by adding a single line of code. We'd simply add another entry to the tax_table.
+What was previously a copy, paste, and modification (or what I frequently refer
+to as copy, paste, molest) of multiple lines of code, resulting in a longer,
+harder to read, harder to maintain code base that was more prone to bugs is now
+a single line entry with no logic changes.
 And if we wanted to, we could push the tax rate data to a database where someone
 in operations could update it and we'd have no need to deploy additional code.
 
@@ -130,23 +205,26 @@ But the latter version is actually more readable to a developer.
 It takes a developer much less time to figure out what the short code is doing
 and to feel confident that it doesn't have strange typos or bugs.
 
+But is fewer lines of code always better?
+Well, no.
+Using various techniques, it is possible to condense three or four lines of easy
+to read code down to a single convoluted line.
+We can collapse logic into complex statements that are difficult for a human to
+parse.
 
-The shorter version is easier to read, easier to maintain, and has less
-potential bugs.
-Compensating developers by line of code incentivized them to write worse code.
-If we unpack that statement, it also means that code that has more lines is code
-that has more bugs.
-
-And this is why I recommend lines of code as a quality metric.
-The more lines of code you have, the more bugs you have.
-As it turns out, this is a provable direct positive correlation.
-
+That said; statistically fewer lines of code is better.
+Code Climate is a code analysis tool that evaluates code based on numerous
+metrics and provides developers a report card on the quality of the code.
 The folks over at Code Climate run analysis against hundreds of thousands
 of lines of code every day.
 In this effort, they've learned a number of things about code in general and
 about code quality metrics.
 For quite a while, they debated over Cyclomatic versus ABC complexity.
-In the end, they discovered that the two were fundamentally the same.
+
+In the end, they discovered that the two were fundamentally the same in their
+correlation to bugs within the code overall.
+The higher the complexity, whether Cyclomatic or ABC, the more bugs that exist
+in the code.
 What surprised them a bit, however, was to discover that lines of code was
 equally as telling.
 Cyclomatic complexity, ABC complexity, and lines of code are all positively
@@ -154,3 +232,6 @@ correlated.
 
 More lines of code means more bugs.
 Fewer lines of code means fewer bugs.
+
+And this is why I recommend lines of code as a quality metric.
+The more lines of code you have, the more bugs you have.
