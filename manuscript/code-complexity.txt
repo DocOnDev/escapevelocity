@@ -2,8 +2,9 @@
 
 #### Cyclomatic Comlexity
 
-Cyclomatic complexity is a quantitative measure of the number of linearly
-independent paths through a program's source code.
+Cyclomatic complexity[^Cyclomatic], also known as the McCabe number, is a
+quantitative measure of the number of linearly independent paths through a
+program's source code.
 It is basically a count of the decision paths through the code.
 A piece of code with no if statements or conditionals has a cyclomatic complexity
 of 1.
@@ -11,6 +12,30 @@ A piece of code with a single if statement that behaves differently based on
 whether the statement evaluates to true or to false has a cyclomatic complexity
 of 2.
 
+Based on a graph analysis of the code, this metric was originally intended as a
+way of determining the minimal number of tests required for a piece of code.
+If the code has a cyclomatic complexity of 3, then it would require a minimum
+of 3 tests to exercise 100% of the code.
+This is assuming, of course, that the tests were written quite specifically to
+test each logical branch in the code.
+
+In the original 1976 paper on the metric, McCabe notes that there appears to be
+a correlation between the complexity rank of a piece of code and the project
+members anecdotal assessment of reliability for the same code.
+Since then, a direct positive correlation between cyclomatic complexity and escaped
+defects has been determined.
+The higher the complexity, the more escaped defects.
+We cannot say that a cyclomatic complexity of 27 will net 8 bugs or that a
+specific method with a low cyclomatic complexity will never have a high
+incidence of escaped defects.
+What we can say is that overall, statistically, the higher the complexity, the
+more bugs exist.
+
+As a general rule, keep methods to a cyclomatic complexity measure under 7.
+
+
+[^Cyclomatic]: McCabe, T. J. (1976, December). A Complexity Measure. Retrieved
+April 13, 2017, from http://www.literateprogramming.com/mccabe.pdf
 
 #### ABC Score
 

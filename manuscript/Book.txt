@@ -34,6 +34,7 @@ mainmatter.txt
     code-quality.txt
       escaped-defects.txt
       code-complexity.txt
+      test-coverage.txt
     team-joy.txt
   looking-for-correlations.txt
     scatter-diagrams.txt

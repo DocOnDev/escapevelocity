@@ -1,1 +1,108 @@
 ## Code Quality
+
+Code Quality can be a contentious topic as the quality of the code is often
+subjective.
+
+The business generally thinks the software is written with quality code so
+long as it performs the job at hand.
+This seems a reasonable measure.
+A piece of code that fails to serve a business need, no matter how well
+crafted, is not of any value.
+
+The developer who originally wrote the code thinks the code is quality code
+because it both serves the business need and is written in the manner and style
+they personally chose.
+From indentation to variable names to the specific inner workings of each of the
+functions, the developer made hundreds if not thousands of decisions in the
+creation of this code.
+It is surely a quality job.
+
+And along comes another developer.
+"This code is terrible.", she claims.
+"It is convoluted and impossible to maintain."
+The original developer disagrees.
+He knows exactly where to go to add requested functionality.
+He can read the code no problem.
+
+Is this good code or not?
+How do we assess quality?
+
+Here's the thing.
+It is hard to assess quality from utility alone.
+If Bob the electrician wires your house poorly, but the finish on the house looks great,
+how do you know the electrician did a quality job?
+If you ask Bob, what is he going to tell you?
+If another electrician suggests some of the wiring should be re-done, Bob is going
+to tell you the other electrician is mistaken.
+Maybe the other electrician is just trying to scare you into spending money
+with them.
+I mean, you can plug stuff in and it works, right?
+All the outlets are in useful places.
+All the light switches work.
+All appears well.
+Then, one day, you come home from work to find the entire home in cinders from
+an electrical fire that started inside the walls.
+
+This is why cities have building codes.
+It is hard to determine true quality by the look.
+In some cases, it is difficult to determine true quality by the use.
+
+As a result, there is a standard by which all building construction is supposed
+to be done.
+There are independent inspectors who verify the work has been done to standard.
+
+These standards are designed to protect us.
+They ensure buildings are constructed to a set standard.
+Without the standards and third party inspection, buildings were prone to all
+forms of issue.
+Lives were at stake.
+Collapsed roofs, flooding from burst pipes, fires from faulty electric systems.
+
+In software, we've somehow convinced ourselves that this is not the case.
+That lives are not at stake.
+But software is everywhere.
+It is in your watch, your tv, your microwave, your car, and the trains in which
+millions of people commute each day.
+Software manages the traffic signals that operate throughout our cities,
+managing flow and keeping our cars from crashing into one another.
+Software supports the control of air traffic, keeping planes in the sky and at
+safe distances from one another.
+It is in the automatic doors entering the hospital, the heart rate monitor that
+checks your vitals, the pump that delivers your sedative, the systems that
+monitor your health during the surgery, and the dialysis machine that helped
+to keep you alive.
+
+Even if lives were not at stake, which they most certainly are, software literally
+runs our economy.
+From accounting systems to online commerce to banking and the stock market
+itself, software runs every aspect of our world economy.
+
+A building will impact the few who reside or work there.
+The largest office building in the world houses an order of magnitude fewer
+people than are driving at any given time, in the air at any given time, or
+in surgery at any given time.
+Software's potential impact is absolutely massive.
+And yet, the inspections in software are all around process, not construction.
+
+For those companies subject to such regulation, software process is monitored
+and checked.
+Did the right people sign off?
+Was there a proper separation of responsibilities?
+Were high-level tests executed and did they pass?
+Yet there are no checks for actual quality of construction.
+
+If we equate software construction to electrical work, we might see the issue.
+Metaphorically, somebody is required to check that the switch was installed at
+the right time in the flow of work.
+Somebody in required to check that the switch works.
+Somebody is required to check that somebody checked the switch.
+There are audit trails to prove the switch was approved to be installed, that
+it was in fact installed, and that all switch checks were performed.
+But nobody is required to inspect the wiring.
+Ever.
+
+We're going to look at ways to objectively inspect the wiring.
+The following are techniques we can use to quantifiably measure aspects of the
+code related to quality of construction.
+We'll look at metrics that either directly or indirectly quantify the quality of
+code.
