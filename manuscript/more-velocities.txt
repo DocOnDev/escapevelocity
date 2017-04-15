@@ -66,6 +66,8 @@ Re-phrased, the belief that we are not already operating at our best.
 **Then** the team is capable of moving faster.
 
 This is logically flawed.
+The conclusion is baseless and is in no way supported by the precedents.
+Just because we *want* a team to move faster does not mean that they can.
 
 ### Attempts to entice more velocities
 
@@ -102,11 +104,16 @@ Whaddya say? Can we count on you to work smarter, not harder?"
 This, of course, isn't the only way targets are set.
 Some managers take a more dictatorial approach.
 
-"Okay team. I didn't want to have to do this, but you people can't seem to
-figure it out on your own. So much for 'self organizing'. Your velocity sucks.
-I've looked at your burn chart and you can't possibly make it. Effectively
-immediately, velocity must increase to 26 points. I don't want to hear any
-whining. You've been lallygagging long enough. Now get back to work."
+"Okay team.
+I didn't want to have to do this, but you people can't seem to
+figure it out on your own.
+So much for 'self organizing'.
+Your velocity sucks.
+I've looked at your burn chart and you can't possibly make it.
+Effective immediately, velocity must increase to 26 points.
+I don't want to hear any whining.
+You've been lallygagging long enough.
+Now get back to work."
 
 The language is different, but the intent is the same and the end result is likely
 the same.
@@ -121,6 +128,83 @@ As a result, the measurement is no longer the same as the
 measurement we were using before and the target doesn't mean what the manager
 thinks it means.
 
+#### Rewards
+Rewards for increased velocity fall into a category of their own.
+Here, we must have some level of awareness.
+After all, we can't assess an increase in velocity if we have no measure.
+And we additionally have a target.
+If we're offering a reward for an increase in velocity, there must be a target or
+even set of targets to which awards are tied.
+So we've invoked both [Hawthorn Effect](#hawthorn-effect)
+and [Goodhart's Law](#goodharts-law).
+
+As we know from prior discussion, this means both that the velocity will increase
+artificially and that the velocity measurement will not mean what it once did.
+But it gets worse.
+
+You see, in knowledge work, financial rewards actually impede performance.
+That's right.
+Financial incentives impede performance.
+
+In 1971, Mark Lepper and colleagues at Stanford ran a study wherein they invited
+students to work on puzzles and games[^Overjustification].
+After a period of time, they started to reward students for their performance.
+There was a pronounced improvement in performance among some of the students.
+Then, the rewards were taken away and the students who had
+shown improvement regressed to levels below their original capability.
+Some of them stopped participating altogether.
+At first glance, one might conclude that the incentives improved individual
+performance and the problem was not their use, but the fact that they were
+discontinued.
+But this is not the case.
+In reality, the overall performance of the group sagged when incentives were
+introduced and only worsened when they were then retracted.
+Extrinsic reward structures for work people found intrinsically motivating made
+performance worse.
+
+Numerous other studies spearheaded by University of Rochester psychologists
+Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our
+intrinsic motivation to work on interesting, challenging tasks — especially
+when they are announced in advance or delivered in a controlling manner.
+
+In yet another study, Karl Dunker[^CandleProblem] used a simple cognitive problem and measured
+how long it took people to complete the problem with and without extrinsic
+motivations.
+
+Participants are given a candle, a book of matches, and a box of thumbtacks.
+No other materials are allowed to be used.
+The challenge is to figure out how to fix and light a candle on a cork board adhered
+to the wall in a way so the candle wax won't drip onto the table below.
+
+This is a relatively simple puzzle requiring a bit of lateral thinking, but
+certainly a problem solvable by the majority of the population.
+Variations on the study have since been run around the globe with varying levels
+of reward.
+Universally, the conclusion is that even small extrinsic rewards diminish performance
+on cognitive tasks.
+
+So for knowledge work, establishing rewards for performance in the form of, "If you
+achieve this, then you will receive that", not only creates a situation where
+quality or other important aspects of the work will be compromised, but the
+metric has been invalidated and people's actual performance is diminished.
+
+[^Overjustification]: Lepper, Greene, Nisbett on the “Overjustification”
+Hypothesis Retrieved April 15, 2017, - http://courses.umass.edu/psyc360/lepper%20greene%20nisbett.pdf
+
+[^SelfDetermination]: Self-determination theory. (2017, April 07).
+Retrieved April 15, 2017, from https://en.wikipedia.org/wiki/Self-determination_theory
+
+[^CandleProblem]: The influence of strength of drive on functional fixedness
+and perceptual recognition.
+Journal of Experimental Psychology, Vol 63(1), Jan 1962, 36-41.
+Retrieved April 15, 2017, from http://dx.doi.org/10.1037/h0044683
+
+### Attempts to show more velocities
+
+When leadership asks for an increase in velocity, there are a few common
+behaviors that occur.
+Each of them are an attempt to satisfy the potentially unrealistic ask.
+
 It is intriguing to me how often a manager will make a change such as this to a
 system of work and then later proclaim that the team is gaming the system.
 This is simply not the case.
@@ -128,14 +212,8 @@ In fact, the gaming of the system is the improper application of targets or goal
 for lagging indicators.
 The rest is just natural consequence.
 
-
-#### Rewards
-"Developers who complete an average of 13 story points will receive a Meets Expectations on their performance review"
-"Developers who completes an average of 18 story points will receive a Exceeds Expectations on their performance review"
-rewarding teams for increased velocity
-
-
-### Attempts to show more velocities
+The following are but a few examples of what happens when a manager games the
+system.
 
 #### Inflating Points
 

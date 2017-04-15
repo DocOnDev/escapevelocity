@@ -24,7 +24,6 @@ man-made object to attain escape velocity from Earth.
 Bumbling and Stumbling toward love, light, and good. Hoping to make the world
 a better place one tiny contribution at a time.
 
-
 {width=45%,float=right}
 ![Doc Norton (@DocOnDev)](images/Doc-Outline.png)
 
