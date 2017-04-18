@@ -217,12 +217,42 @@ system.
 
 #### Inflating Points
 
+A few years back, I was working with an organization where teams were achieving
+the expected increase in velocity, but the leadership didn't feel like things
+were in fact moving any faster.
+Selecting one team, we took a look at their history and found that their velocity
+had gone from an average of about 20 points to an average of about 40.
+On a hunch, we ran a report to figure out the average story size for each iteration.
+Sure enough, the average story size had gone from around 1.4 to around 3.1.
+In fact, you could see a clear punctuated increase in average size followed
+by a slow but steady incline.
+The punctuated increase came right around the time leadership introduced the
+new burn up charts and put a focus on velocity.
+Looking at the average number of stories completed per iteration, the numbers
+were telling.
+With an average velocity of 20 at 1.4 points per story, they were completing
+around 14 stories per iteration.
+With an average velocity of 40 at 3.1 points per story, they were completing
+around 13 stories per iteration.
+
+Were they in fact moving faster and the stories were coincidentally larger?
+How could we know for sure?
+
+We took an evenly distributed sampling of stories across the history of the
+project and printed them out without any sizing information.
+We then asked the team to size the stories using the same techniques they'd always used.
+The average story size came out to be approximately 2.8 with earlier stories
+growing from an average of 1.4 to 2.6.
+
+Had they been gaming the system?
+No. As we've already discussed; we game the system when we change it, the
+resulting behaviors are just natural consequence.
+We can't know for sure if there was, at one time, a deliberate increase in
+story sizes, but we can say that under the given conditions, the team genuinely
+believed the larger numbers were more accurate.
+
 #### Splitting Points
 
 Changing points so you can have higher velocity
 story point bloating because more is better.
 "you need to increase velocity x% or else miss the deadline"
-
-
-
-Hearing from a PM that, after a few iterations, a team "needs to get their velocity up" to ship everything on the planned date.
