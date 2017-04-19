@@ -14,7 +14,7 @@ mainmatter.txt
     individual-velocity.txt
     estimates-to-actuals.txt
   metrics-side-effects.txt
-    hawthorn-effect.txt
+    hawthorne-effect.txt
     goodharts-law.txt
     friedmans-thermostat.txt
     perverse-incentives.txt

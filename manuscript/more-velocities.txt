@@ -85,7 +85,7 @@ occasion.
 Burn down charts and burn up charts are a common technique for showing the team
 how they are doing within an iteration or towards a release.
 
-Seemingly benign, this approach invokes the [Hawthorn Effect](#hawthorn-effect),
+Seemingly benign, this approach invokes the [Hawthorne Effect](#hawthorne-effect),
 which practically guarantees the measurement will improve, but does not guarantee
 the overall results will improve.
 
@@ -135,7 +135,7 @@ After all, we can't assess an increase in velocity if we have no measure.
 And we additionally have a target.
 If we're offering a reward for an increase in velocity, there must be a target or
 even set of targets to which awards are tied.
-So we've invoked both [Hawthorn Effect](#hawthorn-effect)
+So we've invoked both [Hawthorne Effect](#hawthorne-effect)
 and [Goodhart's Law](#goodharts-law).
 
 As we know from prior discussion, this means both that the velocity will increase
