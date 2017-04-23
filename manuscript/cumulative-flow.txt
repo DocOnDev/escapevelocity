@@ -17,3 +17,10 @@ The scope never increases, there is no re-work, and everything flows through
 at a smooth even rate.
 
 ![A Simple Cumulative Flow Diagram](images/Simple Cumulative Flow.png)
+
+From left to right, each color area on the chart represents a stage in the team's
+flow of work.
+Work starts in the form of stories in the ![backlog](images/Backlog Key.png) backlog.
+As the team works on a story, the major stages are development, testing, and
+business approval.
+Once approved, they are deployed into production.
