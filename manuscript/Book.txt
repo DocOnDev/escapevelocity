@@ -25,11 +25,11 @@ mainmatter.txt
     silos.txt
     mis-management.txt
   other-metrics.txt
-    cumulative-flow.txt
     cycle-time.txt
       control-chart.txt
     lead-time.txt
       lead-time-distribution.txt
+    cumulative-flow.txt
     flow-efficiency.txt
     code-quality.txt
       escaped-defects.txt
