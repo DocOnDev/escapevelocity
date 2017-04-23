@@ -12,7 +12,7 @@ All of them get the job done.
 One of them is so demonstrably better, the comparison is a bit silly.
 
 The following is a very simple cumulative flow diagram.
-This is perhaps a diagram from a team in Lake Wobegone.
+This is perhaps a diagram from a team in Lake Wobegon [^Wobegon].
 The scope never increases, there is no re-work, and everything flows through
 at a smooth even rate.
 
@@ -26,3 +26,5 @@ As the team works on a story, the major stages are
 ![testing](images/Testing Key.png) testing, and
 ![approval](images/Approval Key.png) business approval.
 Once approved, they are deployed into ![production](images/Production Key.png) production.
+
+[^Wobegone:] Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
