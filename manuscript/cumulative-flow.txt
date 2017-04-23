@@ -1,7 +1,7 @@
 ## Cumulative Flow Diagrams
 
-Cumulative flow diagrams are a simple but very powerful tool used in queuing
-theory that help to show the flow of work through a system.
+A Cumulative flow diagram (CFD) is a simple but very powerful tool used in queuing
+theory that helps to show the flow of work through a system.
 They show the quantity of work in a given state over time, which allows us to
 determine lead times, cycles times, Work in Progress, and change in scope.
 I've often heard cumulative flow diagrams referred to as an alternative to the
@@ -18,13 +18,38 @@ at a smooth even rate.
 
 ![A Simple Cumulative Flow Diagram](images/Simple Cumulative Flow.png)
 
-From left to right, each color area on the chart represents a stage in the team's
-flow of work.
+In reading these charts, the Y axis represents the amount of work in queue
+and the X axis represents time.
+Each color area on the chart represents a stage in the team's flow of work.
 Work starts in the form of stories in the ![backlog](images/Backlog Key.png) backlog.
 As the team works on a story, the major stages are
 ![development](images/Development Key.png) development,
 ![testing](images/Testing Key.png) testing, and
 ![approval](images/Approval Key.png) business approval.
 Once approved, they are deployed into ![production](images/Production Key.png) production.
+
+![To Do and Done](images/CFD.001.png)
+
+If we ignore the development, testing, and approval stages, this looks a great
+deal like a burn-up chart.
+We can see the work to do and the work done.
+
+![Work In Process](images/CFD.002.png)
+
+But with a CFD, we can additionally see how much work is in process at any time
+including how much work is being attended to at each stage of the active process.
+We already have way more information about the team and how work is managed than
+can be determined by a burn chart or a velocity graph.
+
+
+![Lead and Cycle Time](images/CFD.003.png)
+
+We can also see the lead time and cycle time for stories, which gives us a clue
+about how long the overall process takes compared to the actual development effort.
+In many environments, the lead time is a key indicator of systemic issues.
+We push the team to move faster, but can clearly see the majority of the wait time
+on any work item is in the stages prior to and after actual development.
+
+
 
 [^Wobegone:] Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
