@@ -52,4 +52,4 @@ on any work item is in the stages prior to and after actual development.
 
 
 
-[^Wobegone:] Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
+[^Wobegone]: Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
