@@ -39,7 +39,7 @@ Me neither.
 
 To illustrate my point, let's look at estimations from a slightly different angle.
 
-### Estimating Soduku
+### Estimating Sudoku
 
 Indulge me for a bit here.
 Writing code is really problem solving.

@@ -162,12 +162,12 @@ what causes the extraction of more fuel.
 In other cases, it may be that there is no cause/effect relationship at all and
 the correlation may be purely coincidental. Take, for example, the per capita
 consumption of beef in the US from 2000 through 2009 and the number of deaths
-by lightening during that same time period.
+by lightning during that same time period.
 The two are clearly positively correlated. This in no way suggests that either
 caused the other. This is a coincidental correlation and any conclusions drawn
 therefrom are dubious.
 
-![Us Per Capita Consumption of Beef correlates to Death by Lightening](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
+![Us Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
 #### No Correlation doesn't imply there's No Causation
 The second lesson, and the purpose of Friedman's original thermostat metaphor was

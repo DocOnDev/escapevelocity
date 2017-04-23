@@ -134,7 +134,7 @@ single piece of work.
 After all these individuals interact with one another, responding to change,
 and collaborating with the customer in pursuit of working software, we take a single
 measurement.
-That single measurements represents the interactions of the individuals and all
+That single measurement represents the interactions of the individuals and all
 of their adaptions to change in the delivery of working software.
 
 Velocity is a simple measure of a very complex system.
