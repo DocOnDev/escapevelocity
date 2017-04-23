@@ -1,1 +1,19 @@
 ## Cumulative Flow Diagrams
+
+Cumulative flow diagrams are a simple but very powerful tool used in queuing
+theory that help to show the flow of work through a system.
+They show the quantity of work in a given state over time, which allows us to
+determine lead times, cycles times, Work in Progress, and change in scope.
+I've often heard cumulative flow diagrams referred to as an alternative to the
+burn up chart, which is an alternative to the burn down chart.
+Just as email is an alternative to a printed letter which is an alternative to a
+hand written letter when I want to send the same urgent message to 50 people.
+All of them get the job done.
+One of them is so demonstrably better, the comparison is a bit silly.
+
+The following is a very simple cumulative flow diagram.
+This is perhaps a diagram from a team in Lake Wobegone.
+The scope never increases, there is no re-work, and everything flows through
+at a smooth even rate.
+
+![A Simple Cumulative Flow Diagram](images/Simple Cumulative Flow.png)
