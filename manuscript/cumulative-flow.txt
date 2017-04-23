@@ -11,6 +11,7 @@ hand written letter when I want to send the same urgent message to 50 people.
 All of them get the job done.
 One of them is so demonstrably better, the comparison is a bit silly.
 
+{float=left}
 ![A Simple Cumulative Flow Diagram](images/CFD.001.jpeg)
 The above is a very simple cumulative flow diagram.
 The Y axis represents the amount of work in queue and the X axis represents time.
@@ -30,19 +31,22 @@ First exposure to a CFD usually leads to a sense of underwhelm.
 It looks like a multi-colored burn-up chart.
 What, exactly, is the value of this thing?
 
+{float=left}
 ![To Do and Done](images/CFD.002.jpeg)
 As mentioned, this looks a great deal like a burn-up chart.
 And if we ignore the development, testing, and approval stages, it is a burn-up chart.
 We can see the work to do and the work done.
-Add a simple trend line on the work completed and we've a complete burn-up,
+Add a simple trend line on the work completed and we've an actual burn-up,
 replete with an estimated completion date for the work remaining.
 
+{float=left}
 ![Work In Process](images/CFD.003.jpeg)
 But with a CFD, we can additionally see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
 We already have way more information about the team and how work is managed than
 can be determined by a burn chart or a velocity graph.
 
+{float=left}
 ![Lead and Cycle Time](images/CFD.004.jpeg)
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
