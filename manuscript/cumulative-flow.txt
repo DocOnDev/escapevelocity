@@ -21,6 +21,8 @@ at a smooth even rate.
 From left to right, each color area on the chart represents a stage in the team's
 flow of work.
 Work starts in the form of stories in the ![backlog](images/Backlog Key.png) backlog.
-As the team works on a story, the major stages are development, testing, and
-business approval.
-Once approved, they are deployed into production.
+As the team works on a story, the major stages are
+![development](images/Development Key.png) development,
+![testing](images/Testing Key.png) testing, and
+![approval](images/Approval Key.png) business approval.
+Once approved, they are deployed into ![production](images/Production Key.png) production.
