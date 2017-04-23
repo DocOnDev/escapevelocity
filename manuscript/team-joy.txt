@@ -1,1 +1,97 @@
 ## Team Joy
+
+A few years ago, I was working with a client who had started an initiative
+around Joy at work.
+They'd devised a short survey which was sent to employees on regular intervals
+with the intent of measuring their levels of joy at work.
+The response rate was relatively low company wide, but it was abysmal in
+software engineering.
+From feeling disrupted, to thinking the questions were not relevant to work, to
+a sense that nobody was doing anything with the data anyway, there were numerous
+reasons given for why people weren't responding to the surveys.
+
+Most of the metrics we were gathering from the software teams were relatively passive.
+They were measures of the flow of work such as lead time and cycle time, or
+measures of the output itself through static analysis.
+Basically, developers went about their normal day and measures were taken without
+any disruption to their normal routines.
+Our team joy measures, however, were a disruption.
+They didn't fit into the flow of a normal day.
+
+We thought we might be able to get an increase in participation if we figured out
+a way to work the survey into their flow of work.
+I'd seen this already with things like time tracking where we used a piece of
+software that kicked off automated tests every time a file was saved to update a log.
+Developers then used that log data to help them fill out time sheets.
+
+But what to do for measuring employee joy in a passive way?
+After some discussion, we decided to try something very simple.
+All of the software source code was managed in a version control system known as
+git.
+The idea behind git and other version control software is to allow developers to
+manage changes to shared source code on a team; to control what changes are approved
+and make it into a final version and to be able to revert the code easily to a
+prior working version if something goes wrong.
+Every time a developer submits a change to the source code they check it into the
+source code management tool for consideration as a formal change.
+Every check in includes some note to indicate what the change is for, be it
+adding a new feature or fixing a defect.
+
+Git, the source code management tool, is a piece of software written for
+developers by developers.
+As such, it has a relatively simple way of adding new functionality to it.
+We updated it so that it could interpret the messages developers included in every
+check in.
+For these teams, they already had a policy of including a work order number at
+the start of every check in message.
+This made it easy to track the change request the work was related to.
+A typical check in message looked something like:
+
+~~~~~~
+AAA12345 - Corrects tax calculation for food items.
+~~~~~~
+
+The first bit before the hyphen is the work order number.
+The rest is a quick description of the work itself.
+
+We simply changed the format of the message to include a number from 0 to 5 which
+represented the developers opinion of the code where a 0 was,
+"This code is terrible.", and a 5 was, "This code is awesome."
+
+Okay, maybe that wasn't the exact scale, but you get the idea.
+A score of 0 meant the developer found the code very difficult to work with -
+it didn't meet formatting standards and was difficult to understand or broke
+easily when attempting to add functionality.
+A score of 5 meant the developer found the code very easy to work with -
+it met formatting standards, was easy to understand, and was easy to add functionality to.
+
+The same check in message might now look like this:
+
+~~~~~~
+AAA12345 - 4 - Corrects tax calculation for food items.
+~~~~~~
+
+In this check in message, we can see that the developer found the code relatively
+easy to work in, but didn't feel it was highest quality the team was capable of.
+
+Our theory was that given developers spend their days writing code, their opinion
+of the code itself might serve as a proxy for their joy or satisfaction at work.
+Spend many days in code you think is hard to read and breaks to easily, and you
+are probably not enjoying the work all that much.
+The code itself gets in the way and impedes you from working on the problem at hand.
+On the other hand, if the majority of your time as a developer is spent in code
+that is easy to read and change, you are better able to focus on solving the
+problem at hand and are likely to enjoy the work more.
+
+Comparing check in scores with data from one on one meetings, we saw a positive
+correlation between the scores and employees expressions of joy or frustration
+with their work.
+Over time, we saw correlations between scores and employee mobility or exit rates.
+And quite valuably, we saw developer joy as a bit of a leading indicator.
+If joy scores were trending down, within a few weeks we almost always saw an increase
+in escaped defects, a hit to throughput, or some other indication of challenges on
+the team.
+If joy took a dip, it was best to talk about it in retrospective and see if we could
+get to the root cause.
+In a lot of cases, explicitly making the clean up of the code in question a work item
+not only improved joy, but it improved many code quality metrics.
