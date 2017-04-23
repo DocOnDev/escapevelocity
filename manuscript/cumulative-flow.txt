@@ -16,7 +16,7 @@ This is perhaps a diagram from a team in Lake Wobegon [^Wobegon].
 The scope never increases, there is no re-work, and everything flows through
 at a smooth even rate.
 
-![A Simple Cumulative Flow Diagram](images/Simple Cumulative Flow.png)
+![A Simple Cumulative Flow Diagram](images/CFD.001.jpeg)
 
 In reading these charts, the Y axis represents the amount of work in queue
 and the X axis represents time.
@@ -28,13 +28,13 @@ As the team works on a story, the major stages are
 ![approval](images/Approval Key.png) business approval.
 Once approved, they are deployed into ![production](images/Deployed Key.png) production.
 
-![To Do and Done](images/CFD.001.png)
+![To Do and Done](images/CFD.002.jpeg)
 
 If we ignore the development, testing, and approval stages, this looks a great
 deal like a burn-up chart.
 We can see the work to do and the work done.
 
-![Work In Process](images/CFD.002.png)
+![Work In Process](images/CFD.003.jpeg)
 
 But with a CFD, we can additionally see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
@@ -42,7 +42,7 @@ We already have way more information about the team and how work is managed than
 can be determined by a burn chart or a velocity graph.
 
 
-![Lead and Cycle Time](images/CFD.003.png)
+![Lead and Cycle Time](images/CFD.004.jpeg)
 
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
