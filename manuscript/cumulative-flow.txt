@@ -26,7 +26,7 @@ As the team works on a story, the major stages are
 ![development](images/Development Key.png) development,
 ![testing](images/Testing Key.png) testing, and
 ![approval](images/Approval Key.png) business approval.
-Once approved, they are deployed into ![production](images/Production Key.png) production.
+Once approved, they are deployed into ![production](images/Deployed Key.png) production.
 
 ![To Do and Done](images/CFD.001.png)
 
