@@ -11,15 +11,9 @@ hand written letter when I want to send the same urgent message to 50 people.
 All of them get the job done.
 One of them is so demonstrably better, the comparison is a bit silly.
 
-The following is a very simple cumulative flow diagram.
-This is perhaps a diagram from a team in Lake Wobegon [^Wobegon].
-The scope never increases, there is no re-work, and everything flows through
-at a smooth even rate.
-
 ![A Simple Cumulative Flow Diagram](images/CFD.001.jpeg)
-
-In reading these charts, the Y axis represents the amount of work in queue
-and the X axis represents time.
+The above is a very simple cumulative flow diagram.
+The Y axis represents the amount of work in queue and the X axis represents time.
 Each color area on the chart represents a stage in the team's flow of work.
 Work starts in the form of stories in the ![backlog](images/Backlog Key.png) backlog.
 As the team works on a story, the major stages are
@@ -28,28 +22,32 @@ As the team works on a story, the major stages are
 ![approval](images/Approval Key.png) business approval.
 Once approved, they are deployed into ![production](images/Deployed Key.png) production.
 
-![To Do and Done](images/CFD.002.jpeg)
+This is perhaps a diagram from a team in Lake Wobegon [^Wobegon] where
+the scope never increases, there is no re-work, and everything flows through
+at a smooth even rate.
 
-If we ignore the development, testing, and approval stages, this looks a great
-deal like a burn-up chart.
+First exposure to a CFD usually leads to a sense of underwhelm.
+It looks like a multi-colored burn-up chart.
+What, exactly, is the value of this thing?
+
+![To Do and Done](images/CFD.002.jpeg)
+As mentioned, this looks a great deal like a burn-up chart.
+And if we ignore the development, testing, and approval stages, it is a burn-up chart.
 We can see the work to do and the work done.
+Add a simple trend line on the work completed and we've a complete burn-up,
+replete with an estimated completion date for the work remaining.
 
 ![Work In Process](images/CFD.003.jpeg)
-
 But with a CFD, we can additionally see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
 We already have way more information about the team and how work is managed than
 can be determined by a burn chart or a velocity graph.
 
-
 ![Lead and Cycle Time](images/CFD.004.jpeg)
-
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
 In many environments, the lead time is a key indicator of systemic issues.
 We push the team to move faster, but can clearly see the majority of the wait time
 on any work item is in the stages prior to and after actual development.
-
-
 
 [^Wobegon]: Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
