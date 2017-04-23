@@ -34,8 +34,7 @@ more bugs exist.
 As a general rule, keep methods to a cyclomatic complexity measure under 7.
 
 
-[^Cyclomatic]: McCabe, T. J. (1976, December). A Complexity Measure. Retrieved
-April 13, 2017, from http://www.literateprogramming.com/mccabe.pdf
+[^Cyclomatic]: McCabe, T. J. (1976, December). A Complexity Measure. Retrieved April 13, 2017, from http://www.literateprogramming.com/mccabe.pdf
 
 #### ABC Score
 

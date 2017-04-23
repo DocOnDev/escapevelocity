@@ -188,16 +188,11 @@ achieve this, then you will receive that", not only creates a situation where
 quality or other important aspects of the work will be compromised, but the
 metric has been invalidated and people's actual performance is diminished.
 
-[^Overjustification]: Lepper, Greene, Nisbett on the “Overjustification”
-Hypothesis Retrieved April 15, 2017, - http://courses.umass.edu/psyc360/lepper%20greene%20nisbett.pdf
+[^Overjustification]: Lepper, Greene, Nisbett on the "Overjustification" Hypothesis Retrieved April 15, 2017, - http://courses.umass.edu/psyc360/lepper%20greene%20nisbett.pdf
 
-[^SelfDetermination]: Self-determination theory. (2017, April 07).
-Retrieved April 15, 2017, from https://en.wikipedia.org/wiki/Self-determination_theory
+[^SelfDetermination]: Self-determination theory. (2017, April 07). Retrieved April 15, 2017, from https://en.wikipedia.org/wiki/Self-determination_theory
 
-[^CandleProblem]: The influence of strength of drive on functional fixedness
-and perceptual recognition.
-Journal of Experimental Psychology, Vol 63(1), Jan 1962, 36-41.
-Retrieved April 15, 2017, from http://dx.doi.org/10.1037/h0044683
+[^CandleProblem]: The influence of strength of drive on functional fixedness and perceptual recognition. Journal of Experimental Psychology, Vol 63(1), Jan 1962, 36-41. Retrieved April 15, 2017, from http://dx.doi.org/10.1037/h0044683
 
 ### Attempts to show more velocities
 
