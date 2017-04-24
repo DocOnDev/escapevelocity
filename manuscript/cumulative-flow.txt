@@ -55,6 +55,7 @@ Then, as mentioned, fill in the values for each day (or whatever interval you se
 Your stacked area graph will show the flow of work in a simple but useful way.
 
 ![Cumulative Flow Diagram Data - Populated](images/Populated CFD Table.png)
+
 ![A Simple Cumulative Flow Diagram](images/CFD.001.jpeg)
 
 ### Reading a CFD
@@ -82,6 +83,7 @@ A cumulative flow diagram may not be able to help us see these issues, but it is
 good at helping us determine if our process itself is effective.
 
 ![To Do and Done](images/CFD.002.jpeg)
+
 First exposure to a CFD often leads to a sense of underwhelm.
 It looks like a multi-colored burn-up chart.
 And if we ignore the development, testing, and approval stages, it is a burn-up chart.
@@ -95,12 +97,14 @@ But this isn't the only value one can get out of a CFD.
 Let's take a closer look and learn a bit more about how to read one.
 
 ![Work In Process](images/CFD.003.jpeg)
-But with a CFD, we can additionally see how much work is in process at any time
+
+With a CFD, we can additionally see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
 We already have way more information about the team and how work is managed than
 can be determined by a burn chart or a velocity graph.
 
 ![Lead and Cycle Time](images/CFD.004.jpeg)
+
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
 In many environments, the lead time is a key indicator of systemic issues.
