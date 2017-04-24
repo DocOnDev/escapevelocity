@@ -2,17 +2,63 @@
 
 A Cumulative flow diagram (CFD) is a simple but very powerful tool used in queuing
 theory that helps to show the flow of work through a system.
-They show the quantity of work in a given state over time, which allows us to
-determine lead times, cycles times, Work in Progress, and change in scope.
+A CFD shows the quantity of work in a given state over time, which allows us to
+determine lead times, cycles times, Work in Progress, and changes in scope.
 I've often heard cumulative flow diagrams referred to as an alternative to the
 burn up chart, which is an alternative to the burn down chart.
 Just as email is an alternative to a printed letter which is an alternative to a
 hand written letter when I want to send the same urgent message to 50 people.
 All of them get the job done.
-One of them is so demonstrably better, the comparison is a bit silly.
+One of them is so demonstrably better, the comparison suggests a strong penchant
+for less efficient tools or suggests more than a bit of naiveté.
 
-{float=left}
+### Making a CFD
+
+To make a cumulative flow diagram is relatively easy.
+More and more agile tracking tools offer a CFD report so you might not need to
+generate your own.
+But in case you ever do, let's walk through the basic steps.
+
+Just about any spreadsheet software can be used to create a CFD.
+On a sheet, create a column for each step in your software process.
+The least you'd need would be To Do, Doing, and Done.
+I recommend a more detailed set of steps, especially for newer teams.
+Be honest about the steps most storied go through.
+If stories go through grooming before development and there is a formal testing
+phase after development with a formal approval process to promote to production,
+I'd consider making columns for all of the action items as well as the wait states
+between the action items.
+We'll demonstrate this in a bit.
+
+Each day or at some other regular interval, total the work in each of the
+states you're tracking.
+I recommend once per day.
+If you do a daily stand-up meeting, the end of the meeting is a great time to run
+your totals as the board is going to be as accurate as it is going to be for
+that given day.
+Record the totals in the spreadsheet and create a stacked area graph against them.
+
+For our example team, we're going to say they have a backlog from which they pull
+work into development. After development, they have a formal testing phase followed
+by formal business approval and deployment into production.
+
+For this team, I'd create a sheet that looks like the following:
+
+![Cumulative Flow Diagram Data - Empty](images/Empty CFD Table.png)
+
+You might notice that the columns are in the opposite order of the actual flow of
+work.
+This is due to the way a stacked area graph works in most of the software I use.
+Your mileage may vary - it is a quick experiment to figure it out.
+
+Then, as mentioned, fill in the values for each day (or whatever interval you select).
+Your stacked area graph will show the flow of work in a simple but useful way.
+
+![Cumulative Flow Diagram Data - Populated](images/Populated CFD Table.png)
 ![A Simple Cumulative Flow Diagram](images/CFD.001.jpeg)
+
+### Reading a CFD
+
 The above is a very simple cumulative flow diagram.
 The Y axis represents the amount of work in queue and the X axis represents time.
 Each color area on the chart represents a stage in the team's flow of work.
@@ -23,30 +69,37 @@ As the team works on a story, the major stages are
 ![approval](images/Approval Key.png) business approval.
 Once approved, they are deployed into ![production](images/Deployed Key.png) production.
 
-This is perhaps a diagram from a team in Lake Wobegon [^Wobegon] where
+This first example is perhaps a diagram from a team in Lake Wobegon [^Wobegon] where
 the scope never increases, there is no re-work, and everything flows through
 at a smooth even rate.
 
-First exposure to a CFD usually leads to a sense of underwhelm.
-It looks like a multi-colored burn-up chart.
-What, exactly, is the value of this thing?
+Thin colored lines moving consistently up and right with the backlog decreasing
+in size while the deployed to production increases in size are all signs of a
+team operating in healthy fashion.
+Healthy in this case, means delivering accepted work at a consistent (predictable) pace.
+It is possible that the code is of poor quality or that team morale is down.
+A cumulative flow diagram may not be able to help us see these issues, but it is
+good at helping us determine if our process itself is effective.
 
-{float=left}
 ![To Do and Done](images/CFD.002.jpeg)
-As mentioned, this looks a great deal like a burn-up chart.
+First exposure to a CFD often leads to a sense of underwhelm.
+It looks like a multi-colored burn-up chart.
 And if we ignore the development, testing, and approval stages, it is a burn-up chart.
 We can see the work to do and the work done.
 Add a simple trend line on the work completed and we've an actual burn-up,
 replete with an estimated completion date for the work remaining.
 
-{float=left}
+If this were all the value you got out of a CFD, it might not be worth the
+effort of tracking the data and generating the chart.
+But this isn't the only value one can get out of a CFD.
+Let's take a closer look and learn a bit more about how to read one.
+
 ![Work In Process](images/CFD.003.jpeg)
 But with a CFD, we can additionally see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
 We already have way more information about the team and how work is managed than
 can be determined by a burn chart or a velocity graph.
 
-{float=left}
 ![Lead and Cycle Time](images/CFD.004.jpeg)
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
