@@ -23,7 +23,7 @@ Just about any spreadsheet software can be used to create a CFD.
 On a sheet, create a column for each step in your software process.
 The least you'd need would be To Do, Doing, and Done.
 I recommend a more detailed set of steps, especially for newer teams.
-Be honest about the steps most storied go through.
+Be honest about the steps most stories go through.
 If stories go through grooming before development and there is a formal testing
 phase after development with a formal approval process to promote to production,
 I'd consider making columns for all of the action items as well as the wait states
@@ -60,7 +60,7 @@ Your stacked area graph will show the flow of work in a simple but useful way.
 
 ### Reading a CFD
 
-The above is a very simple cumulative flow diagram.
+The above is a relatively simple cumulative flow diagram.
 The Y axis represents the amount of work in queue and the X axis represents time.
 Each color area on the chart represents a stage in the team's flow of work.
 Work starts in the form of stories in the ![backlog](images/Backlog Key.png) backlog.
@@ -74,7 +74,7 @@ This first example is perhaps a diagram from a team in Lake Wobegon [^Wobegon] w
 the scope never increases, there is no re-work, and everything flows through
 at a smooth even rate.
 
-Thin colored lines moving consistently up and right with the backlog decreasing
+Thin relatively consistent lines moving steadily up and right with the backlog decreasing
 in size while the deployed to production increases in size are all signs of a
 team operating in healthy fashion.
 Healthy in this case, means delivering accepted work at a consistent (predictable) pace.
@@ -86,7 +86,7 @@ good at helping us determine if our process itself is effective.
 
 First exposure to a CFD often leads to a sense of underwhelm.
 It looks like a multi-colored burn-up chart.
-And if we ignore the development, testing, and approval stages, it is a burn-up chart.
+And if we ignore the stages that represent "doing", it is a burn-up chart.
 We can see the work to do and the work done.
 Add a simple trend line on the work completed and we've an actual burn-up,
 replete with an estimated completion date for the work remaining.
@@ -98,17 +98,36 @@ Let's take a closer look and learn a bit more about how to read one.
 
 ![Work In Process](images/CFD.003.jpeg)
 
-With a CFD, we can additionally see how much work is in process at any time
+With a CFD, we can also see how much work is in process at any time
 including how much work is being attended to at each stage of the active process.
-We already have way more information about the team and how work is managed than
-can be determined by a burn chart or a velocity graph.
 
 ![Lead and Cycle Time](images/CFD.004.jpeg)
 
 We can also see the lead time and cycle time for stories, which gives us a clue
 about how long the overall process takes compared to the actual development effort.
-In many environments, the lead time is a key indicator of systemic issues.
-We push the team to move faster, but can clearly see the majority of the wait time
-on any work item is in the stages prior to and after actual development.
+Adding more steps to the CFD, including times where items are waiting between
+activities can tell us a great deal about where the delays are in our process.
+This can help to focus our efforts for improvement.
+If it turns out that the most significant delay is when stories are waiting for
+testing, we can put more effort into looking at root cause and reducing the delays.
+Without this information, we might spend more time optimizing phases of work that
+increase the throughput prior to the bottleneck, which would produce no discernible
+improvement in delivery.
+Local optimizations done without understanding the system are a perfect path to
+increased waste without decreased lead time.
+A well thought out CFD can give us insight into the overall system.
+
+![Scope Change](images/CFD.005.jpeg)
+
+A CFD can also show us changes in scope.
+The above CFD shows two changes in scope for the project.
+In both cases, more work was added to the team.
+Changes in scope are represented through a raise (addition) or dip (removal)
+in the top line of the graph.
+Here we see that new work was added on March 7, pushing the delivery date from
+March 15 to March 17.
+And additional work was added on March 10, pushing the delivery date out to
+March 21.
+
 
 [^Wobegon]: Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
