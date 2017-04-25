@@ -1,1 +1,12 @@
 # Balanced Metrics
+
+We've discussed a number of possible metrics to augment or even replace velocity.
+Rather than looking for the one true measure, it is important that we create a
+portfolio of measures that properly inform us about our process and progress.
+My advice to teams is to measure many things.
+Or, in the words of David J. Bland, "Measure what you want to go up, but also measure
+what you don't want to go down."
+
+{icon=quote-left}
+G> Measure what you want to go up, but also measure what you don't want to go down.
+G> https://twitter.com/davidjbland/status/856643503606030336
