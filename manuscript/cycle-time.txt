@@ -41,10 +41,12 @@ Their velocity, which was based on "development done" even went up.
 
 Now let's imagine we've been tracking cycle times for each of our stages;
 development, testing, approval, and deployment.
-We learn that the mean cycle time for development is 4 days with a median of 4.5.
-The mean cycle time for testing is 6.5 days with a median of 6.9.
-The mean cycle time for approval is 2.7 with a median of 2.
-The mean cycle time for deployment is 7.9 with a median of 9.
+
+![Cycle Time By Stage](images/CFD.008.jpeg)
+
+It becomes obvious that Deployment and Testing take significantly longer on average
+than Development and Approval.
+Approval has the lowest cycle time whereas Deployment has the highest.
 
 No matter how many corners we cut in development to speed things up, we're not
 going to see a significant improvement.
