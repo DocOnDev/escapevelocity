@@ -1,1 +1,71 @@
 ## Cycle Time
+
+A common definition of Cycle Time is the time elapsed from the start of development
+to the beginning of testing.
+This is nearly correct, but definitely incomplete.
+
+Cycle time is the amount of time for a work unit to move from one point to
+another point in a given process.
+It includes not only the time the item is being actively worked on, but also
+the time the item spends waiting to be worked on.
+The question, "What is your cycle time?" may prove impossible to accurately answer.
+Given cycle time is the measure of time for a work unit to move from one point to
+another, you cannot know the cycle time without knowing both points.
+It might be the time from when development picks it up to when formal validation
+commences.
+It might be from the time QA picks it up to when it is in production.
+And for any given project, there may be multiple cycle times; Design Cycle Time,
+Development Cycle Time, Testing Cycle Time, Deployment Cycle Time,
+Build Cycle Time, etc.
+
+Cycle time is useful for evaluating specific pieces of your process.
+Shorter cycle times indicate higher output.
+More consistent cycle times indicate higher predictability.
+
+Let's imagine a team that have a backlog from which they pull work into
+development. After development, they have a formal testing phase followed by
+formal business approval and deployment into production.
+There's a significant trade show coming up in a few months and we want to have
+some key features complete in time to reveal at the show.
+We suspect from our velocity that we won't get them all done on time.
+
+In most organizations, we'd ask the team to move faster.
+But what does that mean; to move faster?
+Can we work with less detailed requirements?
+Can we focus developers on coding and drop unit testing?
+Can we maybe hack a few things in?
+
+The team cuts the corners and still doesn't hit the deadline.
+How is this?
+Their velocity, which was based on "development done" even went up.
+
+Now let's imagine we've been tracking cycle times for each of our stages;
+development, testing, approval, and deployment.
+We learn that the mean cycle time for development is 4 days with a median of 4.5.
+The mean cycle time for testing is 6.5 days with a median of 6.9.
+The mean cycle time for approval is 2.7 with a median of 2.
+The mean cycle time for deployment is 7.9 with a median of 9.
+
+No matter how many corners we cut in development to speed things up, we're not
+going to see a significant improvement.
+Testing and deployment take much longer on average and both come after development.
+This means that even when development moves faster, their work builds up in a
+stack behind testing, which simply increases the average times for testing.
+Acceptance then responds relatively quickly, pushing a bunch of work into a
+wait queue for deployment, which may be able to increase their batch size, but
+will still take nearly twice as long as development.
+With cycle time data, we know materially which area (or areas) of the process needs to be
+our focus for improvement.
+Any effort to speed up processes prior to the bottleneck will fail to achieve faster
+delivery.
+
+I've seen this scenario over and over again in organizations.
+A company puts in heavy process around testing and deployment in order to avoid
+mistakes which create significant bottlenecks, putting pressure on the teams to
+deliver faster, which increases errors through decreased rigor and quality,
+which justifies the need for even more process and the viscous cycle continues.
+
+Looking at cycle times, we can identify bottlenecks in the flow of work and focus
+our efforts on finding ways to improve processes that impact the bottleneck.
+Increase flow through the bottleneck and we increase flow through the entire
+system.
