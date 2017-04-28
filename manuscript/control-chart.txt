@@ -1,14 +1,36 @@
 ### Cycle-Time Control Charts
 
-Control charts focus on the cycle time of individual issues - the total time
-from "in progress" to "done".
-Teams with shorter cycle times are likely to have higher throughput, and teams
-with consistent cycle times across many issues are more predictable in delivering work.
-While cycle time is a primary metric for kanban teams, scrum teams can benefit
-from optimized cycle time as well.
+So we've taken a look at Cycle Time for the varying stages of our process and
+we've determined the issue is not necessarily with development.
+It appears there is more opportunity for improvement in testing and deployment.
 
-Measuring cycle time is an efficient and flexible way to improve a team's
-processes because the results of changes are discernable almost immediately,
-allowing them to make any further adjustments right away.
-The end goal is to have a consistent and short cycle time, regardless of the
-type of work.
+Let's say testing, on average, takes slightly more than 12 days.
+We can take a look at all testing work and try to find ways to optimize it, but
+maybe there is a better way to look at the data.
+
+A cycle time control chart can help us find outliers in our flow.
+By focusing in on these outliers, we can likely learn and improve more rapidly.
+
+![Cycle Time Control for Testing](images/CFD.010.jpeg)
+
+The cycle time control chart shows the cycle time for each story over a period
+of time.
+The average (mean) cycle time in testing for these stories is 12.3 days, which is
+represented by the gray bar.
+Applying a standard deviation to the average, we get a range, the high and low
+of which are represented by the red and blue bars, respectively.
+Anything that falls within this range is considered "normal".
+While we want to drive the average cycle time down, it might be good to start with
+the outliers.
+Not only do these push the average up, but they widen the "normal" range due to
+a larger deviation.
+
+Focusing on those items above the red line, we can look for clues as to why they
+took so long, create a hypothesis about the cause, and devise an experiment to run.
+Maybe we determine that all of the high outliers involve a specific area of the
+code.
+Or perhaps they all involve the use of a specific technology or a specific workflow
+within the application.
+And, of course, there may be more than one reason for the issues.
+But by focusing on the outliers, we narrow the possible causes and can be
+more confident that we are addressing the highest impact issues first.

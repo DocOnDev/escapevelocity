@@ -19,8 +19,10 @@ Development Cycle Time, Testing Cycle Time, Deployment Cycle Time,
 Build Cycle Time, etc.
 
 Cycle time is useful for evaluating specific pieces of your process.
-Shorter cycle times indicate higher output.
-More consistent cycle times indicate higher predictability.
+Teams with shorter cycle times are likely to have higher throughput, and teams
+with consistent cycle times across many issues are more predictable in delivering work.
+While cycle time is a primary metric for kanban teams, scrum teams can benefit
+from optimized cycle time as well.
 
 Let's imagine a team that have a backlog from which they pull work into
 development. After development, they have a formal testing phase followed by
@@ -37,7 +39,7 @@ Can we maybe hack a few things in?
 
 The team cuts the corners and still doesn't hit the deadline.
 How is this?
-Their velocity, which was based on "development done" even went up.
+Their velocity, which was based on "development done", even went up.
 
 Now let's imagine we've been tracking cycle times for each of our stages;
 development, testing, approval, and deployment.
