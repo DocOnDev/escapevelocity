@@ -15,8 +15,13 @@ By focusing in on these outliers, we can likely learn and improve more rapidly.
 
 The cycle time control chart shows the cycle time for each story over a period
 of time.
-The average (mean) cycle time in testing for these stories is 12.3 days, which is
-represented by the gray bar.
+For each story that exits testing and moves into approval, we note the date it
+moved and the cycle time for testing.
+A basic scatter diagram with lines for mean and first order standard deviation gives
+us a basic cycle time control chart.
+
+We can see from our example chart, that the average cycle time in testing for
+these stories is 12.3 days, which is represented by the gray bar.
 Applying a standard deviation to the average, we get a range, the high and low
 of which are represented by the red and blue bars, respectively.
 Anything that falls within this range is considered "normal".
@@ -34,3 +39,25 @@ within the application.
 And, of course, there may be more than one reason for the issues.
 But by focusing on the outliers, we narrow the possible causes and can be
 more confident that we are addressing the highest impact issues first.
+
+Let's say all but one of these involve the use of data that takes 11 days on average
+to refresh from production.
+The team confers and determines that the data can be scheduled to refresh every 30 days
+and as long as the data has been updated in the last 90 days, it is sufficient
+for testing.
+The one significant outlier was due to testing of integration with a third party
+application.
+The team did not request a QA server for the application until the story was picked
+up for testing.
+They've added a simple check to their iteration planning meeting.
+For any stories that require integration testing, they now confirm a testing
+environment exists and if not, make the request right away.
+
+The next several weeks now look like the following graph:
+
+![Cycle Time Control for Testing after Optimizations](images/CFD.011.jpeg)
+
+The average (mean) cycle time in testing for these stories is 10.25 days and the
+standard deviation has tightened, creating a new set of outliers.
+The team can now focus in on these outliers, identify root causes, and start a
+new set of optimization experiments.
