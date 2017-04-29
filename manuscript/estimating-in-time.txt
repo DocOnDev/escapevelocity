@@ -1,4 +1,95 @@
 ## Estimating in Time
+
+Estimates.
+Do we even need them?
+
+To many, this seems a ridiculous question.
+You can't plan if you don't have estimates, right?
+You can't decide if a project should be started until you know the cost and you
+can't know the cost until you know the duration and you can't know the duration
+until you estimate how long the steps will take.
+It's logical.
+
+So we estimate.
+
+As we want to know how long a thing will take, we are tempted to estimate in
+units of time.
+As we want to assure that the estimates are as accurate as possible, we are tempted
+to estimate in small chunks.
+So we commonly take large work efforts, break them down into tasks, and estimate
+each task in hours.
+We then add the tasks together and, viola, we have an accurate estimate.
+Right?
+
+Hours too granular?
+Estimate in days.
+Not sure what is meant by a day; duration or effort?
+Estimate in ideal days - the time it would take if you were able to work at a
+consistent pace uninterrupted (because that happens).
+
+
+
+
+Estimates have been a contentious topic for a long time.
+There are those that claim that accurately estimating the time it will take to
+complete a development task is entirely possible.
+For these folks, the ability to provide accurate estimates is a sign of true
+professionalism.
+
+There are those that claim that accurately estimating the time it will take to
+complete a development task is statistically impossible.
+For these folks, claiming one can provide accurate estimates is a sign of a
+lack of real-world experience.
+
+
+
+
+Estimates.
+Do we even need them?
+
+To many, this seems a ridiculous question.
+You can't plan if you don't have estimates, right?
+You can't decide if a project should be started until you know the cost and you
+can't know the cost until you know the duration and you can't know the duration
+until you estimate how long the steps will take.
+It's logical.
+
+So we estimate.
+
+Here's a thing you've never done before.
+But it's similar to other things you've done.
+It's relatively easy to explain and I've provided you pictures of what the
+completed item should look like.
+I've even described it's desired behavior.
+You're a professional, right?
+I mean you're at least competent, aren't you?
+Then you should have no problem telling me how long it will take you to complete.
+By the way, I need your best estimate.
+Best being defined as lowest.
+
+
+
+
+
+
+Estimates are a funny thing.
+Not funny like a good joke, but funny like strange and hard to explain.
+
+
+
+I mean, the concept itself is simple.
+Given a task to do, say driving to work, take a guess at how long it will take.
+You've done this before, right?
+So you are making an informed guess; an educated guess.
+Now drive to work for a week.
+If your drive time is not exactly the same every day, set aside at least an hour
+to contemplate why your drive times differed and how you can get better at it
+next time.
+You're an experienced drive yourself to worker, you should be able to estimate it
+accurately.
+Try harder.
+
+
 Using days as points.
 tying estimates to time.
 If you mean scrum, using hours as points.
