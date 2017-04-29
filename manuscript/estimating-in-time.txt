@@ -23,11 +23,58 @@ Right?
 
 Hours too granular?
 Estimate in days.
+
 Not sure what is meant by a day; duration or effort?
 Estimate in ideal days - the time it would take if you were able to work at a
 consistent pace uninterrupted (because that happens).
 
+Now do some work and measure the duration, or maybe even the effort.
+And then compare the estimate against the actual.
+If the estimate was wrong, figure out why and learn from it.
+Follow this process and over time, your estimates will get better.
 
+Only here's the thing.
+What you'll discover, time and again, is that what causes work to go over the time
+estimate is the unknown.
+And what will cause work to complete under the time estimate is the unknown.
+The unknown being things you figured out or discovered while in the process of
+actually doing the work.
+
+Maybe it turns out that you need to make a change to a class that is written in
+a convoluted way and doesn't have tests around the functionality you desire,
+turning a 1 day task into 3 days.
+Maybe it turns out that there is a library that does what you need and you can wire
+it in with very little effort, solving what you thought was going to take days in
+hours.
+Maybe, while you're working on the problem, you realize a much more elegant way
+to do it that makes the code more stable, more efficient, and easier to maintain.
+
+So what you need to get better at is anticipating the unknown and working that
+into your estimates.
+Let me repeat that - you need to get better at estimating the effort required to
+complete the unknown.
+Here is a box of parts for a desk you've never before assembled.
+It is similar in look and feel to other desks you've assembled in the past.
+Here is a photo of the finished desk.
+Before you open the box, tell me how long in hours it will take you to assemble
+the desk.
+
+Your estimate was off because some of the "parts" were sheet metal, a smelter,
+and a set of molds?
+Hmmm.
+You clearly should have anticipated the unknown.
+Do better next time.
+
+Your estimate was off because in the box was a pre-assembled mini desk?
+Hmmm.
+You clearly should have anticipated the unknown.
+Do better next time.
+
+Your estimate was off because some of the parts were damaged and needed to be
+repaired?
+Hmmm.
+You clearly should have anticipated the unknown.
+Do better next time.
 
 
 Estimates have been a contentious topic for a long time.
