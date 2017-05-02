@@ -92,36 +92,40 @@ If we choose to, we can launch this and gather statistics on how people are actu
 using search.
 What if they don't search by brand very often and instead search by model or color or purpose?
 
-In the next increment, I'd work on taking the form from a full request to an ajax call.
-I'd leave the call tied to the submit button, but update the page based on the ajax
+In the next increment, we might work on taking the form from a full request to an ajax call.
+We could leave the call tied to the submit button, but update the page based on the ajax
 call results.
 This allows us to get a better sense of the speed.
 Does the page update instantaneously or does it take a couple of seconds?
 What causes the delay - is it the database, the images, or something else?
 What do we need to do to get this to instantaneous?
 
-In the next increment, I'd work on optimizations until the page refresh is as fast
-as I can get it - ideally milli-seconds.
+In the next increment, perhaps we'd work on optimizations until the page refresh is as fast
+as we can get it - ideally milli-seconds.
 Maybe we need to use a caching technique.
 Maybe there is a different search technology we can leverage.
 Do we need to do anything different when there are 100 search results versus 10, 1, or 0?
 
-In the next increment, I'd switch the page to a type-ahead and remove the search button.
+In the next increment, we could switch the page to a type-ahead and remove the search button.
 Now, as people type, the results are shown in a search assist box and when they make
 a selection, they are redirected to the appropriate page.
 How does the search assist box feel?
 How do we navigate the search assist box with the keyboard?
 Can they press enter to go to the product page?
 
-Now, in the last increment, I'd move the search box to the page header and wire
-up the functionality I want for hiding and showing the search bar.
+Now, in the last increment, we'd move the search box to the page header and wire
+up the functionality we want for hiding and showing the search bar.
 
-That's five steps.
+You could break this down differently.
+Maybe you'd work on optimization after it launched and saw how it performed at scale.
+That's cool.
+Maybe you can think of seven increments.
+But in this example, we broke it down into five independent steps.
 
 And along the way, we figured out a number of things.
 Each of them was relatively easy to solve, due in part to the fact that we worked on one thing at a time.
 We didn't try to get search, type-ahead, and optimization done all in one step.
-We have opportunities along the way to play with the interface, to maybe see how
+We had opportunities along the way to play with the interface, to maybe see how
 customers used it, and make adjustments.
 And every step was a deliverable, working piece of code.
 
