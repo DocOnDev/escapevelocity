@@ -31,9 +31,6 @@ First, take a deep breath; and then repeat after me:
 *"Velocity is a health indicator. Velocity is a health indicator. Velocity is a
 health indicator. Velocity is ..."*
 
-If you have an erratic velocity, it is telling you of a problem.
-And your problem is not an erratic velocity.
-
 Velocity lets us know how things are going.
 It reveals issues to us in sometimes subtle ways.
 
@@ -50,6 +47,10 @@ story composition, dependencies on other teams or individuals, too much work in
 progress, silos, and various forms of mismanagement.
 If you have an erratic velocity, it is telling you of a problem.
 And your problem is not an erratic velocity.
+
+{icon=quote-left}
+G> If you have an erratic velocity, it is telling you of a problem.
+G> And your problem is not an erratic velocity.
 
 Whatever the underlying problem, it is something you can adjust.
 Adjustments for which you can observe the outcome.
