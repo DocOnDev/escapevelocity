@@ -1,142 +1,111 @@
 ## Estimating in Time
 
-Estimates.
-Do we even need them?
+This is an interesting one for me.
 
-To many, this seems a ridiculous question.
-You can't plan if you don't have estimates, right?
-You can't decide if a project should be started until you know the cost and you
-can't know the cost until you know the duration and you can't know the duration
-until you estimate how long the steps will take.
-It's logical.
+I used to be strongly opposed to estimating in time.
+These days, I don't think the problem is in the unit of estimation, it is in the
+expectation of precision.
+Or perhaps, in the notion of estimating at all.
 
-So we estimate.
+### Effort is not Duration
 
-As we want to know how long a thing will take, we are tempted to estimate in
-units of time.
-As we want to assure that the estimates are as accurate as possible, we are tempted
-to estimate in small chunks.
-So we commonly take large work efforts, break them down into tasks, and estimate
-each task in hours.
-We then add the tasks together and, viola, we have an accurate estimate.
-Right?
+Abstractions away from time, such as points representing complexity or effort or
+whatever non-time thing you want to focus on don't necessarily help with estimation.
+They help with expectations through obfuscation.
 
-Hours too granular?
-Estimate in days.
+When we estimate in time, we compare in time.
+When we compare in time, we tend to get hung up on the measurement and ignore
+the statistics.
 
-Not sure what is meant by a day; duration or effort?
-Estimate in ideal days - the time it would take if you were able to work at a
-consistent pace uninterrupted (because that happens).
+Say you estimate stories in points as a relative measure of complexity.
+Over time, you discover that 3 points is approximately 31 hours of work.
+The mean is 31, the median is 31, and the mode is 29.
+There are obviously some outliers, but our standard deviation is only 3.27 with
+an entire range of approximately 27 to 35.
+We have data that informs us that an estimate of 3 points can usually be completed
+within a two week period.
+Armed with this and similar data on more and less complex stories, we can do a
+pretty good job of forecasting.
 
-Now do some work and measure the duration, or maybe even the effort.
-And then compare the estimate against the actual.
-If the estimate was wrong, figure out why and learn from it.
-Follow this process and over time, your estimates will get better.
+With a simple [cycle time control chart](#cycle-time-control-chart), we can
+identify outliers and discuss them for learning.
+We can hone our precision within a reasonable range, understanding that ultimately,
+we are taking educated guesses at how complex a task we've never attempted before
+is going to be.
 
-Only here's the thing.
-What you'll discover, time and again, is that what causes work to go over the time
-estimate is the unknown.
-And what will cause work to complete under the time estimate is the unknown.
-The unknown being things you figured out or discovered while in the process of
-actually doing the work.
+Estimating in points, we accept the durations as natural and so long as they fall
+within a particular range, we are okay with the variance.
+If it turns out that 3 points equates to an average of 31 hours, cool.
+If 3 points equate to a duration of 7 days, cool.
+It turns out that effort and duration are correlated, but rarely equivalent.
 
-Maybe it turns out that you need to make a change to a class that is written in
-a convoluted way and doesn't have tests around the functionality you desire,
-turning a 1 day task into 3 days.
-Maybe it turns out that there is a library that does what you need and you can wire
-it in with very little effort, solving what you thought was going to take days in
-hours.
-Maybe, while you're working on the problem, you realize a much more elegant way
-to do it that makes the code more stable, more efficient, and easier to maintain.
+When we estimate in days, something awful happens.
+Suddenly, the data is supposed to match a pre-determined expectation.
+If you say 3 days and the stories take 7 days to complete, we hone in on what
+we did wrong in estimating.
+There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on
+each story that missed the estimate.
+"You need to get better at estimating.", becomes a mantra.
+The problem is, we become focused on accuracy over precision.
+And it turns out that precision and historical information is all you need to
+forecast.
+Accuracy is inconsequential.
 
-So what you need to get better at is anticipating the unknown and working that
-into your estimates.
-Let me repeat that - you need to get better at estimating the effort required to
-complete the unknown.
-Here is a box of parts for a desk you've never before assembled.
-It is similar in look and feel to other desks you've assembled in the past.
-Here is a photo of the finished desk.
-Before you open the box, tell me how long in hours it will take you to assemble
-the desk.
+By estimating in something other than time, we help to avoid the failure in thinking
+that results from conflating effort and duration.
 
-Your estimate was off because some of the "parts" were sheet metal, a smelter,
-and a set of molds?
-Hmmm.
-You clearly should have anticipated the unknown.
-Do better next time.
+### Time is a poor measurement in a variable system
 
-Your estimate was off because in the box was a pre-assembled mini desk?
-Hmmm.
-You clearly should have anticipated the unknown.
-Do better next time.
+The driving distance from Denver to Kansas City is 604.79 miles.
+The driving distance from Denver to Las Vegas is 748.86 miles.
+We ask a driver to travel from Denver to Kansas City.
+They complete the trip in 8 hours and 28 minutes.
+The next week, we ask the driver to travel from Denver to Las Vegas.
+Basic math tells us this driver can complete this task in 10 hours and 32 minutes.
+It takes the driver 11 hours and 37 minutes.
+What did the driver do wrong?
 
-Your estimate was off because some of the parts were damaged and needed to be
-repaired?
-Hmmm.
-You clearly should have anticipated the unknown.
-Do better next time.
+Let's say we ask a high school senior track and field athlete to run a mile as
+fast as they can.
+They complete the mile in 5 minutes and 22 seconds.
+The next day, we ask a different athlete to complete a mile as fast as they can.
+They complete the mile in 4 minutes and 55 seconds.
+The next day, we ask a different athlete to complete a mile as fast as they can.
+They complete the mile in 6 minutes and 34 seconds.
+What did the runner do wrong?
 
+A high school athlete is now asked to run a marathon.
+We've determined that the average high school runner can complete a mile in
+5 minutes 37 seconds
+A marathon is 26.2 miles.
+Based on simple math, they should be able to complete the marathon in
+2 hours 27 minutes and 10 seconds.
+It takes them 3 hours 18 minutes and 48 seconds.
+What did the runner do wrong?
 
-Estimates have been a contentious topic for a long time.
-There are those that claim that accurately estimating the time it will take to
-complete a development task is entirely possible.
-For these folks, the ability to provide accurate estimates is a sign of true
-professionalism.
+We hire three laborers to dig a series of holes for a fence.
+We need a total of 40 holes completed.
+The first laborer digs the first hole in 11 minutes.
+There are 39 holes left for 3 laborers to split.
+That's 13 holes each at 11 minutes per hole.
+It should take the laborers 2 hours and 3 minutes to complete the remaining holes.
+4 hours and 22 minutes later, the job is complete with one laborer finishing
+16 holes, one of them completing 12 holes, and one of them, the last to finish,
+completing only 11.
+The laborer who finished last was the pace setter who dug the first hole.
+What did the laborers do wrong?
 
-There are those that claim that accurately estimating the time it will take to
-complete a development task is statistically impossible.
-For these folks, claiming one can provide accurate estimates is a sign of a
-lack of real-world experience.
+We could do these all day.
+Rather than do that, let's get to the point.
 
+The time it takes to complete a non-standardized task is variable.
+The time it takes to complete a series of simple steps in a complex system is variable.
+The time it takes to do a task doesn't always scale linearly with the size of the task.
+For every task we've listed here, there is some static measure, be it distance or count
+which is both precise and accurate.
+And for every task we'e listed here the time varies within some range.
+Accuracy tighter than the range is not statistically possible nor, frankly, beneficial.
 
-
-
-Estimates.
-Do we even need them?
-
-To many, this seems a ridiculous question.
-You can't plan if you don't have estimates, right?
-You can't decide if a project should be started until you know the cost and you
-can't know the cost until you know the duration and you can't know the duration
-until you estimate how long the steps will take.
-It's logical.
-
-So we estimate.
-
-Here's a thing you've never done before.
-But it's similar to other things you've done.
-It's relatively easy to explain and I've provided you pictures of what the
-completed item should look like.
-I've even described it's desired behavior.
-You're a professional, right?
-I mean you're at least competent, aren't you?
-Then you should have no problem telling me how long it will take you to complete.
-By the way, I need your best estimate.
-Best being defined as lowest.
-
-
-
-
-
-
-Estimates are a funny thing.
-Not funny like a good joke, but funny like strange and hard to explain.
-
-
-
-I mean, the concept itself is simple.
-Given a task to do, say driving to work, take a guess at how long it will take.
-You've done this before, right?
-So you are making an informed guess; an educated guess.
-Now drive to work for a week.
-If your drive time is not exactly the same every day, set aside at least an hour
-to contemplate why your drive times differed and how you can get better at it
-next time.
-You're an experienced drive yourself to worker, you should be able to estimate it
-accurately.
-Try harder.
-
-
-Using days as points.
-tying estimates to time.
-If you mean scrum, using hours as points.
+I think the greatest benefit to estimates done via abstractions is that it
+better allows for rational thinking.
+Mathematically, it is no more or less beneficial.
