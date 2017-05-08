@@ -1,4 +1,4 @@
-(#cycle-time-control-chart)
+{#cycle-time-control-chart}
 ### Cycle-Time Control Charts
 
 So we've taken a look at Cycle Time for the varying stages of our process and
