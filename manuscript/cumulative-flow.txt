@@ -129,5 +129,48 @@ March 15 to March 17.
 And additional work was added on March 10, pushing the delivery date out to
 March 21.
 
+### Getting Value out of a CFD
+
+Alright.
+You can make a CFD and you can read a CFD.
+This is pretty good, but I want to help emphasize the benefit of a CFD.
+
+Let's take a look at an imaginary team.
+This team has been together for multiple iterations and their velocity is all
+over the place.
+The stakeholders are frustrated.
+New feature requests, even when expedited, take months to get into the customer's
+hands.
+This team is slow and unpredictable.
+
+In a retrospective where they are discussing how they can improve their process,
+the team looks at a product burn down and a velocity chart.
+But can't determine a great deal from either.
+
+What about you?
+Take a look at the Product Burn Down and the Velocity Chart below and see if you
+can make an educated guess about what challenges this team is facing.
+
+![Product Burn Down](images/CFD.012.jpeg)
+
+![Velocity Chart](images/CFD.013.jpeg)
+
+The team then takes a look at a Cumulative Flow Diagram for the same period of
+work and a key issue jumps out at them right away.
+
+What about you?
+Take a look at the CFD Below and see if you can make an educated guess about
+what challenges this team is facing.
+
+![CFD](images/CFD.014.jpeg)
+
+As you may have deduced, the team's primary challenge is in the approval process
+and delivery of new work.
+The product owner is a traveling sales person and does not have time for approvals
+when they are doing a lengthy tour of a foreign market.
+Upon their return, they review a bunch of features and then proceed to add new
+work to the backlog based on customer feedback they received while on the road.
+
+
 
 [^Wobegon]: Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
