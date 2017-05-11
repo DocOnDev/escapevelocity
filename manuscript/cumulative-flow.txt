@@ -171,6 +171,14 @@ when they are doing a lengthy tour of a foreign market.
 Upon their return, they review a bunch of features and then proceed to add new
 work to the backlog based on customer feedback they received while on the road.
 
+A CFD tells us more about our process than most other charts and as we've seen,
+it can often to fairly easy to intuit where the problems lie.
+If we discover that the development process is where the bottleneck seems to be,
+we have the options of breaking development down into smaller stages if appropriate
+or perhaps looking at different types of work, such as stories versus fixes
+or items that require database or infrastructure changes compared to items that
+don't to gain further insights.
+
 
 
 [^Wobegon]: Lake Wobegon. (2017, April 15). Retrieved April 23, 2017, from https://en.wikipedia.org/wiki/Lake_Wobegon
