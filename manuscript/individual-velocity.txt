@@ -1,1 +1,53 @@
 ## Measuring Individual Velocity
+
+I see this far more often than I'd like.
+Not only do we monitor a team's velocity, but we measure the velocity of each
+individual on the team; or at least each individual developer.
+Some of you are wondering why this is a problem.
+
+If the team's velocity is the total work they complete in a given timeframe,
+then the sum of the individual velocity for each team member is the team velocity.
+It's probably good to know who is actually contributing and who need improvement,
+right?
+
+And therein lies the problem.
+On a healthy team, I want the lead developer delivering fewer points than the
+rest of the team.
+I want them taking time out to work on automation and standards.
+I want them to mentor other developers and to collaborate with other teams that
+we're dependent on.
+I want them thinking about architecture and jumping on the big problems when
+they arise.
+If we track individual velocity, we're telling everyone on the team that their
+individual performance is what matters.
+We're telling our lead not to work on all of these other important items that are
+better suited for her experience level.
+We're telling our lead to focus on picking up stories and getting them done, just
+like everybody else.
+
+"Simple enough", you say, "give the lead special forgiveness."
+
+Ah.
+Right.
+Only the plebians should be measured and evaluated on personal velocity.
+Except we want them to pair sometimes, maybe even mob.
+We want them to share the work.
+We want them to work collectively.
+If a story gets started by one developer, but finished by another, who gets the
+credit for the velocity?
+If the story is completed by a pair, who gets the credit for the velocity?
+If the story is mobbed, who gets the credit?
+What about that system outage that turned into a three day war room and pulled
+two of the developers away for an entire week?
+What do we do about their individual velocity?
+
+Measuring individual velocity fails to give us a complete picture.
+It likely gives us the wrong impression.
+People who help others will likely have lower velocity numbers.
+People who get pulled off of story work to work on production issues will
+definitely have lower velocity numbers.
+
+So, to recap: Measuring individual velocity won't tell you who is actually
+contributing to the team, who is improving process, or even who actually
+delivers the most stories, but it will encourage your team to make collaboration
+a secondary concern at best.
