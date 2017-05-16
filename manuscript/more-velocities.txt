@@ -7,12 +7,11 @@ Somebody determines that the team needs to get more done in less time.
 This person is usually an authority figure and typically doesn't do the actual
 work being asked of the team.
 
-### Why we need more velocities
+### Why we need "more velocities"
 
 In some cases, the need for higher velocity is based on a set scope for a set date
-and some basic (but significantly flawed) math.
-Take a team's average velocity and divide it into the total of known work to be
-done.
+and some basic but significantly flawed math.
+Take the total work to be done and divide it by the team's average velocity.
 If the number of weeks to complete the work exceed the number of weeks between
 now and the deadline, then the team needs to get more done in less time.
 

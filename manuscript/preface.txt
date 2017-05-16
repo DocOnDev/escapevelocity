@@ -7,7 +7,7 @@ me about incremental delivery as a means of not getting too far before
 getting feedback.
 We didn't work in set iterations, but we did work in small chunks.
 
-When I formed my first Software Studio, I brought these concepts to the team we
+When I formed my first Software studio, I brought these concepts to the team we
 built.
 In building software for paying customers, we started a practice of regular
 status meetings.
@@ -28,7 +28,7 @@ give it a try?
 A few years later, I'd sold off the company and found myself in a senior leadership
 position at a large regional bank who was interested in "this agile thing."
 An avid XP practitioner, I had a casual relationship with Scrum.
-And Scrum was what they wanted, so I flew to Chicago to get my ScrumMaser
+And Scrum was what they wanted, so I flew to Chicago to get my ScrumMaster
 Certification from Ken Schwaber.
 Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity
 all became a part of my vernacular.
@@ -52,12 +52,12 @@ Managers setting velocity goals and pushing teams to move faster.
 So I eventually wrote a talk about how velocity isn't supposed to be a goal.
 In the research for that talk, I came across a number of new ideas and interesting
 perspectives on measurements, metrics, and behaviors.
-Feedback from audiences who've seen that talk along with several more years of
+Feedback from audiences who've heard that talk along with several more years of
 practice eventually led me to this book.
 
 I hope you find it useful.
-I am not anti-Scrum, but I think it is improperly implemented and it has become
-twisted over the years.
+I am not anti-Scrum, but I think it is far too often implemented improperly and
+it has become twisted over the years.
 I'd say I am anti-velocity at this point.
 It is a poor metric that offers far less value than the angst that results from
 the perpetual misuse.

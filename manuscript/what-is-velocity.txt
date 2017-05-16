@@ -35,23 +35,17 @@ But I digress a bit, perhaps.
 
 For the sake of this book, let's go with "in production" means done.
 In this book, we won't get into details of how to deliver at the end of each
-iteration, much less continuous delivery in highly regulated environments,
-but trust me when I tell you it is entirely possible.
-Plenty of companies in highly regulated industries are doing it and maintaining
-excellent compliance records.
-There are even facets of the US Government which are highly regulated and
-manage to deliver continuously.
-You can too.
+iteration, much less continuous delivery.
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
 ## Velocity is a lagging indicator
 
 Velocity is also a lagging indicator.
-It is a measure taken at the outset of a series of steps.
+It is a measure taken at the end of a series of steps.
 We plan, we prioritize, we work, we test, and then we measure.
 
-### Lagging Indicators are abstract
+### Lagging indicators are abstract
 
 Lagging indicators tend to be aggregate or abstract.
 They don't provide detailed insight into the operations, rather they provide
@@ -60,7 +54,7 @@ Net profit is a lagging indicator for a company.
 While it tells us about how the company is doing, it gives us no indication of
 why the organization is or is not successful.
 
-Let's look at another lagging indicator for a bit; unemployment.
+Let's look at another lagging indicator; unemployment.
 The unemployment index is a lagging indicator.
 It tells us whether or not unemployment is on the rise or decline,
 which in turns tells us if the economy is doing well or poorly, respectively.
