@@ -1,6 +1,73 @@
 # About This Book
 
-Stuff and Things.
+"Escape Velocity" is a record of my own journey as I learn about agile, metrics,
+and team dynamics.
+It is a snapshot; a moment in time.
+The content herein is the result of more than 10 years of learning about and
+practicing these ideas.
+I've a lot to learn.
+I always will.
+The more we know about a topic, the more we realize we don't know enough about it.
+This isn't a prescription or recipe.
+It's thoughts.
+My thoughts.
+I hope they help you.
+
+## Roadmap
+This book doesn't need to be read linearly.
+Many of you will want to jump straight to the section on [Other Metrics](#other-metrics).
+You know velocity isn't working and you'd like alternatives.
+That's cool.
+I encourage you to eventually read [Potential Side Effects of Metrics](#metrics-side-effects)
+and causes of [Variable Velocity](#variable-velocity).
+These will help you think about how you implement the new metrics and will give
+you insight into common issues these new metrics might help uncover.
+
+For those who prefer a linear approach, this book is designed to build on each
+concept from chapter to chapter.
+
+We first introduce you to the concept of Velocity and provide some insight into
+why it is not a particularly good metric, especially for it's common uses as a
+predictor and an assessment of team health.
+
+We then cover a series of ways in which velocity is commonly misused or even
+abused on teams.
+These Anti-Patterns contribute to the dysfunction we see on a great number of agile
+teams.
+Despite the good intentions, these behaviors tend to create more harm than good.
+
+We'll dive into some of the side effects of the use and misuse of metrics in general.
+We focus on side effects that are common to velocity, but certainly not exclusive
+to it.
+Knowing these side effects help us to think about how we use metrics and help to
+shape our decisions.
+These are not arguments against the use of metrics, as many infer them to be, but
+things we need to be aware of when we measure anything or even establish goals
+that are measurable.
+
+Once we've laid the groundwork of establishing velocity as a weak metric,
+discussed common misuse, and covered common side effects, we can start to dive
+deeper into team issues and how we might address them.
+
+We start this section with an exploration of common causes of variable velocity.
+We're looking at common issues teams face; none of which is fully revealed when
+we look at velocity alone.
+But it is these issues we need to address if we want the team to perform at their
+highest capability.
+
+We then take a look at other metrics available to us.
+These metrics give us deeper insight into core issues.
+In some cases, we provide a clear comparison of velocity to the alternative metric
+showing how the alternative provides richer information that we can act upon.
+In some cases, the metric provides data that cannot even be inferred from velocity.
+There is no comparison.
+
+Finally, we talk about ways to leverage these measurements and metrics to address
+common problems on teams.
+We look at creating targeted and balanced metrics monitoring.
+By combining metrics, we gather more information and we create scenarios where
+"gaming" the metrics is either harder to do or provides the results we desire.
+
 
 # About The Title and Cover
 
