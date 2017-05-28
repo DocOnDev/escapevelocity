@@ -1,4 +1,5 @@
 frontmatter.txt
+  dedication.txt
   forward.txt
   preface.txt
   about.txt
@@ -39,5 +40,4 @@ mainmatter.txt
     scatter-diagrams.txt
   balanced-metrics.txt
 backmatter.txt
-  dedication.txt
   acknowledgements.txt

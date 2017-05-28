@@ -68,6 +68,7 @@ That's right; 100% coverage doesn't mean you'll find all the bugs.
 
 Let's take a look at a simple piece of code with two if statements in it.
 
+{title="Less Than Four", lang=ruby}
 ~~~~~~
 # Always return a number less than 4
 def less_than_four(first_check, second_check)
@@ -91,6 +92,7 @@ end
 Now, we cover this code with a couple of tests which exercise both the "if" and
 the "else" for each of the checks.
 
+{title="Tests", lang=ruby}
 ~~~~~~
 expect(less_than_four(true,true)).to be < 4
 expect(less_than_four(false,false)).to be < 4
