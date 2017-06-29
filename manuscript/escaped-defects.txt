@@ -21,6 +21,10 @@ also multiple times per day.
 The team does a stop-drop-and-roll if the build is broken - including if tests fail.
 Right?
 
+But what if the defect wasn't made here?
+
+#### Not all defects are made at home
+
 The majority of people I talk to state that defect free code is impossible.
 I've read arguments about how the operating system and hardware controllers are
 not defect free, therefor anything written on top of them will also have defects.
@@ -43,14 +47,14 @@ The first message was keyed in, minutes went by, but no report on the printer.
 
 We ran a print job from Microsoft Word.
 No problem.
-Then we rant a report in the medical records system.
+Then we ran a report in the medical records system.
 No job on the printer.
 
 "It appears to be an issue with the printer drivers.", we told the client.
 
 "Nope.", the responded, "Everything was fine until you installed your software."
 
-We ran a medical systems report from a system that didn't have our software
+We ran another medical systems report from a system that didn't have our software
 installed on it.
 No job on the printer.
 
@@ -60,16 +64,13 @@ No job on the printer.
 doesn't work. We won't pay you the remaining balance."
 
 So we looked deeper and it turned out that the Windows update was rolled out
-with an invalid initialization file for Windows.
+with a misconfigured initialization file for Windows, including improper printer
+settings.
 Any piece of software that relied on the Operating System for printing would fail.
 Microsoft Office products, at that time, worked off of their own configurations.
 We updated the printer configurations, showed their team what we'd done and rolled
 out the updates.
 Take two - the jobs routed and everyone was happy.
-
-
-
-
 
 For a while.
 
@@ -88,9 +89,9 @@ Windows was working fine.
 The network operating system was broken and reporting false positives.
 
 We delivered the analysis and links to the Novell documentation showing the patch
-would be in the next release of their operating system.
+would be in an upcoming release of their operating system.
 Of course, the medical center was intentionally behind on releases, so they
-wouldn't see the patch for at least another six months.
+wouldn't see the patch for at least another twelve months.
 
 "Fix it.", was the word from the client.
 
@@ -103,3 +104,43 @@ again.
 
 Fixed.
 I guess.
+
+#### But most defects are made at home
+
+While there are examples that support the argument that you can't have defect
+free code due to issues in the operating system and controllers, it doesn't
+justify a lack of effort.
+By this same logic, if a framer suspects the foundation was poured under less
+than ideal conditions then they might as well ignore building code because the
+home is already flawed in a way that might impact the owner.
+
+The framer has a professional responsibility.
+If they feel the foundation is too weak to build on top of, they need to raise
+the concern.
+Or to even refuse to build on top of it.
+If they feel the foundation is slightly flawed, but not critically so, then they
+have a professional responsibility to frame well; to the best of their ability -
+or at least to code.
+
+Such is the same for the software developer.
+We've a professional responsibility to do our jobs to the best of our ability.
+
+Most of the defects in today's software are not a result of the operating system
+or hardware drivers.
+Most of the defects in today's software were put there by us.
+
+Clever solutions to complex problems.
+Not understanding the solution until after we'd made our first (or second)
+attempt to solve it.
+Moving on to the next feature.
+Leaving a few smells in the code because it works and that's all that matters.
+
+Over time, these compromises add up and strange defects start to appear in
+production.
+
+
+
+#### Remember the goal is to release defect free software
+
+Writing defect-free code is practically impossible.
+But releasing defect-free code is definitely possible.
