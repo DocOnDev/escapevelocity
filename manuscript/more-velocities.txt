@@ -4,8 +4,10 @@ This is far and away, the most common Velocity Anti-Pattern, and quite possibly
 the most harmful.
 It manifests itself in a number of differing fashions, but the basics are the same:
 Somebody determines that the team needs to get more done in less time.
+So they send out the message - "We are going to need more velocities."
 This person is usually an authority figure and typically doesn't do the actual
 work being asked of the team.
+And they clearly don't know what velocity is.
 
 ### Why we need "more velocities"
 
