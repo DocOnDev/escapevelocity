@@ -130,17 +130,46 @@ or hardware drivers.
 Most of the defects in today's software were put there by us.
 
 Clever solutions to complex problems.
-Not understanding the solution until after we'd made our first (or second)
-attempt to solve it.
-Moving on to the next feature.
+Sticking with our first implementation because it is "done" even though now that
+we better understand the context, we know there's a better solution.
 Leaving a few smells in the code because it works and that's all that matters.
-
-Over time, these compromises add up and strange defects start to appear in
-production.
-
-
+Forming teams around technical skills instead of around products or business need.
+Over time, these compromises and mistakes add up and strange defects start to
+appear in production.
 
 #### Remember the goal is to release defect free software
 
 Writing defect-free code is practically impossible.
 But releasing defect-free code is definitely possible.
+
+Each developer has a local environment where they can run a comprehensive set of
+automated tests to verify the interactions and behavior of the code.
+Developers write tests along with the code, validating new behavior as they go along.
+Developers merge in other code changes and test yet again before pushing to
+the code repository.
+The continuous integration server runs all tests and flags the push as bad if even
+one test fails.
+Developers check each others code before accepting the pushed changes that just
+passed all of the tests.
+The code is deployed to another server where the entire automated test suite is
+run again to validate that everything works in a non-development environment.
+Humans perform exploratory testing.
+We run tests for load to make sure the code can hold up to the demand in production.
+In many organizations, the code is checked yet again in a near-production environment.
+
+If a defect is discovered at any point along this path, the code changes are
+rejected and the development team makes the necessary changes.
+The cycle repeats until we find zero defects.
+Then, it goes to production.
+
+In many organizations, if there is an outage due to a defect in code production,
+then an analysis of the root cause takes place in order to learn and make sure
+that the situation doesn't repeat itself.
+What if we did a light weight version of the analysis when a defect showed up
+in staging?
+Or even in the integration environment?
+What if learning were important at every stage of the cycle, not only when a
+customer was affected?
+
+Releasing defect-free code is definitely possible.
+I've seen it done in environments far less rigorous than the one I just described.
