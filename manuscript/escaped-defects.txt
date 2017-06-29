@@ -173,3 +173,24 @@ customer was affected?
 
 Releasing defect-free code is definitely possible.
 I've seen it done in environments far less rigorous than the one I just described.
+
+In measuring escaped defects (defects that make it into production) what we are
+looking for is primarily the rate at which defects escape and secondarily the
+number of defects at large.
+It is helpful to know how many defects exist in production at any given moment.
+If you find yourself in a situation where you are classifying defects such that
+some are deemed not important enough to fix, I suspect you are in serious
+trouble.
+It is only when the rate at which defects are escaping is significant enough that
+we no longer feel we can address them that such classifications occur.
+
+I encourage you to pay attention to the rate of escape.
+How many defects per time period are you experiencing?
+This is a number that is ideally on the decline, but certainly not increasing.
+The horizon over which you measure the rate of escape will differ from company
+to company.
+If you only release software once per quarter, then your measurement will probably
+be quarterly or bi-annually.
+If you release every day, then your measurement might be weekly (or even daily).
+If, however, you release daily and have very few defects, you might need to
+move to weekly or monthly to get any helpful trending.
