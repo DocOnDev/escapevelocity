@@ -38,7 +38,19 @@ failing to realize how this might actually be contributing to the problem.
 
 When looking at delivery frequency, consider it a team metric, not a departmental
 metric.
-And look at it as a measure of features, not patches.
+What I mean by that is make sure to measure delivery frequency for each team.
+How often the department releases may not give a clear depiction of how teams
+are doing.
+A department of 3 teams may release twenty times per day on average.
+Look a little closer and you may find that one of the teams is releasing 19.7 times
+per day on average, one releases every few weeks, and one has not released
+in six months.
+If you want to look at it departmentally, consider an average of averages for the
+teams with awareness of the median and mode as well as the mean.
+
+#TODO: discuss median, mean, and mode as indicators for department.
+
+Also make sure frequency of release is a measure of features, not patches.
 Certainly, the ability to deploy patches rapidly is a benefit, but should certainly
 not be the focus.
 The goal is for each team to be able to deliver actual value to the customer in
