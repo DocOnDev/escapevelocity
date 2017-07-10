@@ -1,1 +1,41 @@
 # Looking for Correlations
+
+While a balanced set of regular metrics is certainly valuable and advisable,
+there may be occasions when you want to measure additional items.
+Or there may reasons to take a deeper look at how your metrics relate to one
+another.
+Are there correlations in the data?
+Does pairing regularly correlate to code quality in any way?
+Does code coverage correlate to complexity?
+
+Let me give you a concrete example where knowing about correlations might be desirable.
+Say you are on a team that has a history of not testing in order to improve
+their speed to delivery.
+The premise, of course, is that skipping tests means less work.
+And less work, means faster delivery.
+Without any actual data aside from anecdote, this proclamation seems logical.
+
+But what if you had the data?
+What if you could measure velocity by coverage and prove that not testing
+means getting the work done faster?
+
+To do this, you'd need to measure test coverage and velocity and see if there's
+any correlation by plotting them on a scatter diagram.
+
+## Scatter Diagrams
+
+Let's start with a simple scatter diagram as an example.
+The following scatter diagram shows automobile prices by age of the vehicle.
+
+![Auto Price by Age](images/CFD.015.jpeg)
+
+Taking a quick look at this chart, you can probably see there is a natural trend
+line moving down and right.
+
+![Auto Price by Age with Trend Line](images/CFD.015.jpeg)
+
+This represents a negative correlation.
+A negative correlation is where as one value increases, the other value decreases.
+Alternatively, a positive correlation would trend up and right, showing that as
+one value increases, so does the other.
+If there is no correlation, there is no natural trend line.
