@@ -1,6 +1,7 @@
 ## Delivery Frequency
 
-“If it hurts, do it more frequently, and bring the pain forward.”
+{icon=quote-left}
+G> “If it hurts, do it more frequently, and bring the pain forward.”
 ― Jez Humble, Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
 
 Delivery frequency is a measurement of how often we release software.
