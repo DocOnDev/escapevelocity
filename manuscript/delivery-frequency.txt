@@ -42,18 +42,51 @@ metric.
 What I mean by that is make sure to measure delivery frequency for each team.
 How often the department releases may not give a clear depiction of how teams
 are doing.
-A department of 3 teams may release twenty times per day on average.
+A department of 3 teams may release 20 times per day on average.
 Look a little closer and you may find that one of the teams is releasing 19.7 times
-per day on average, one releases every few weeks, and one has not released
-in six months.
-If you want to look at it departmentally, consider an average of averages for the
-teams with awareness of the median and mode as well as the mean.
+per day on average, one releases every day or two, and one has not released
+in several weeks.
 
-#TODO: discuss median, mean, and mode as indicators for department.
+Let's take a look at two departments, both of which are comprised of 10 teams and release 5 times per day.
 
-Also make sure frequency of release is a measure of features, not patches.
-Certainly, the ability to deploy patches rapidly is a benefit, but should certainly
-not be the focus.
+Department A
+Team            Releases Per Week
+A               2
+B               3.25
+C               2
+D               3.5
+E               2.25
+F               3
+G               2.25
+H               2.25
+I               2.5
+J               2
+
+Department B
+Team            Releases Per Week
+K               1
+L               2
+M               1
+N               5.25
+O               2.25
+P               7.25
+Q               2.25
+R               1.5
+S               1.5
+T               1
+
+Both Departments release a total of 25 times per week on average.
+This might lead us to believe that teams are releasing 2.5 times per week and that
+the departments are similar in performance.
+But if we look at the ranges for the values that comprise the mean, we see something telling.
+The range for Department A is 1.5, whereas the range for Department B is 6.25.
+For department A, no team is more than 1 release per week away from the average.
+For department B, some of the teams are off average by as many as 4.75 releases per week.
+The average delivery is the same for both departments, but it turns out that department B has not only the highest performing teams, but also the lowest.
+
+
+Finally, make sure frequency of release is a measure of features, not patches.
+Certainly, the ability to deploy patches rapidly is a benefit, but it should not be the focus.
 The goal is for each team to be able to deliver actual value to the customer in
 the form of defect free features and functions.
 
