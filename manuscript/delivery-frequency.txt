@@ -49,31 +49,47 @@ in several weeks.
 
 Let's take a look at two departments, both of which are comprised of 10 teams and release 5 times per day.
 
-Department A
-Team            Releases Per Week
-A               2
-B               3.25
-C               2
-D               3.5
-E               2.25
-F               3
-G               2.25
-H               2.25
-I               2.5
-J               2
+|Department A |Department B|
+|-------------|------------|
+| Stuff       | Things     |
+| To Do       | To See     |
+|-------------|------------|
+| |a  |b  |   | |c  |d  |  |
+| |---|---|   | |---|---|  |
+| | z | y |   | | x | w |  |
+|-------------|------------|
+| Final       | Row        |
 
-Department B
-Team            Releases Per Week
-K               1
-L               2
-M               1
-N               5.25
-O               2.25
-P               7.25
-Q               2.25
-R               1.5
-S               1.5
-T               1
+
+**Department A**
+
+|Team            |Releases Per Week |
+|----------------|------------------|
+|A               |2                 |
+|B               |3.25              |
+|C               |2                 |
+|D               |3.5               |
+|E               |2.25              |
+|F               |3                 |
+|G               |2.25              |
+|H               |2.25              |
+|I               |2.5               |
+|J               |2                 |
+
+**Department B**
+
+|Team            |Releases Per Week |
+|----------------|------------------|
+|K               |1
+|L               |2
+|M               |1
+|N               |5.25
+|O               |2.25
+|P               |7.25
+|Q               |2.25
+|R               |1.5
+|S               |1.5
+|T               |1
 
 Both Departments release a total of 25 times per week on average.
 This might lead us to believe that teams are releasing 2.5 times per week and that
