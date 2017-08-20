@@ -1,1 +1,92 @@
 ## Scatter Diagrams
+
+Let's start with a simple scatter diagram as an example.
+The following scatter diagram shows automobile prices by age of the vehicle.
+
+![Auto Price by Age](images/CFD.015.jpeg)
+
+Taking a quick look at this chart, you can probably see there is a natural trend
+line moving down and right.
+
+![Auto Price by Age with Trend Line](images/CFD.016.jpeg)
+
+This represents a negative correlation.
+A negative correlation is where as one value increases, the other value decreases.
+Alternatively, a positive correlation would trend up and right, showing that as
+one value increases, so does the other.
+If there is no correlation, there is no natural trend line.
+
+### Velocity by Test Coverage
+
+I've actually done this in a couple of environments and the findings were the same each time.
+The team was insistent that not testing allowed them to move faster, because they could get more done in less time.
+They were typing less, so they were moving faster.
+
+We decided to run an experiment for a period of time.
+We'd agree that certain functionality was to be tested and other functionality was not.
+Let's say this is an accounting system with Payables, Receivables, General Ledger, and Reporting.
+We agreed that Payables and Receivables should have tests and General Ledger and Reporting should not.
+You get the general idea.
+
+We then looked at velocity (actually cycle time) for stories that had tests and those that did not.
+
+Here's what we found:
+
+![Velocity by Code Coverage](images/CFD.017.jpeg)
+
+As we can see, this shows a positive correlation.
+That's right, the greater the test coverage, the higher the velocity.
+This is exactly the opposite of the team's original premise.
+At he very beginning of a project, not testing does allow for more rapid delivery.
+But in very short order, measured in days or weeks, certainly not months of effort,
+not testing catches up to you.
+Changes break things and you have to go hunting down the source of the issue.
+You fix the issue and off you go.
+Two days later, some other area of the code is broken and you can't figure out why.
+It turns out a change you teammate made over a week ago broke this area of the code.
+Your teammate didn't know there was a dependency so she didn't test this module.
+
+This happens all the time.
+Mystery bugs.
+Difficulty finding the root cause.
+Not knowing you broke something.
+
+These are all solved or at least improved by having tests.
+
+Not to mention that tests actually help to ensure the code is better composed.
+
+But this section isn't about tests or test coverage, it is about data and correlations
+helping you to make informed decisions.
+
+Here's a couple other scatter diagrams I've seen at client locations.
+They might surprise you.
+
+![Velocity by Complexity](images/CFD.018.jpeg)
+
+In this case we see a negative correlation between velocity and complexity.
+The more complex the code, as measured by [cyclomatic complexity](#cyclomatic-complexity),
+the lower the velocity.
+
+![Lead Time by Story Size](images/CFD.019.jpeg)
+
+Finally, we see a positive correlation between story size and lead time.
+In other words, the larger the story, the longer it took to deliver that story.
+This is logical.
+Bigger stories take longer.
+
+But there was something interesting that we discovered in this particular experiment.
+
+A 13 point story usually decomposed into some 3 and 2 point stories.
+Let's say we decomposed a 13 point story into four 3-point and two 2-point.
+The points went from a single story of 13 to 6 stories with a total of 16 points.
+A 13 point story required 33.5 days on average.
+A 3 point story required 5 days on average.
+And a 2 point story required 4.5 days on average.
+So even though we had more points, the stories took less time to deliver.
+The 16 points comprised of 2 and 3 point stories took an average of 29 days.
+The 13 point story took an average of 33.5 days.
+
+The team could definitively see that when breaking stories down, it was okay that
+the points didn't add up to the estimate of the larger story AND that by breaking
+stories down, the team was able to deliver in less time.
+Not to mention, the options the team expanded through good story decomposition.

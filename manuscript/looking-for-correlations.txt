@@ -21,21 +21,3 @@ means getting the work done faster?
 
 To do this, you'd need to measure test coverage and velocity and see if there's
 any correlation by plotting them on a scatter diagram.
-
-## Scatter Diagrams
-
-Let's start with a simple scatter diagram as an example.
-The following scatter diagram shows automobile prices by age of the vehicle.
-
-![Auto Price by Age](images/CFD.015.jpeg)
-
-Taking a quick look at this chart, you can probably see there is a natural trend
-line moving down and right.
-
-![Auto Price by Age with Trend Line](images/CFD.015.jpeg)
-
-This represents a negative correlation.
-A negative correlation is where as one value increases, the other value decreases.
-Alternatively, a positive correlation would trend up and right, showing that as
-one value increases, so does the other.
-If there is no correlation, there is no natural trend line.
