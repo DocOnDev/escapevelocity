@@ -49,18 +49,6 @@ in several weeks.
 
 Let's take a look at two departments, both of which are comprised of 10 teams and release 5 times per day.
 
-|Department A |Department B|
-|-------------|------------|
-| Stuff       | Things     |
-| To Do       | To See     |
-|-------------|------------|
-| |a  |b  |   | |c  |d  |  |
-| |---|---|   | |---|---|  |
-| | z | y |   | | x | w |  |
-|-------------|------------|
-| Final       | Row        |
-
-
 **Department A**
 
 |Team            |Releases Per Week |
