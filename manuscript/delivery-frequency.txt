@@ -80,12 +80,18 @@ Let's take a look at two departments, both of which are comprised of 10 teams an
 Both Departments release a total of 25 times per week on average.
 This might lead us to believe that teams are releasing 2.5 times per week and that
 the departments are similar in performance.
+
 But if we look at the ranges for the values that comprise the mean, we see something telling.
 The range for Department A is 1.5, whereas the range for Department B is 6.25.
 For department A, no team is more than 1 release per week away from the average.
 For department B, some of the teams are off average by as many as 4.75 releases per week.
-The average delivery is the same for both departments, but it turns out that department B has not only the highest performing teams, but also the lowest.
 
+The average delivery is the same for both departments, but it turns out that department B has not only the highest performing teams, but also the lowest. If we looked at only the rate for the department, we wouldn't see this difference.
+
+By including the range, we can identify departments with outliers and drill in to get more insight.
+
+
+### Frequency of Features, not Patches
 
 Finally, make sure frequency of release is a measure of features, not patches.
 Certainly, the ability to deploy patches rapidly is a benefit, but it should not be the focus.
