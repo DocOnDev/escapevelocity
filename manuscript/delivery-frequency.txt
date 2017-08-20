@@ -51,6 +51,7 @@ Let's take a look at two departments, both of which are comprised of 10 teams an
 
 **Department A**
 
+{title="Department A", width="60%"}
 |Team            |Releases Per Week |
 |----------------|------------------|
 |A               |2                 |
