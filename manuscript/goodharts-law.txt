@@ -22,3 +22,22 @@ G> is placed upon it for control purposes."
 
 A common paraphrasing is, "When a measure becomes a target, it ceases to be a good measure."
 When I talk about this, I tend to add, "And the target therefore no longer means what you think it does."
+
+Goodhart's law is a critical piece of information when we think about metrics.
+No matter how tempting it might be, the moment we set a target for a measure, we've
+changed the system, thereby changing what the measurement means, thereby changing what the target means.
+
+The lesson here is pretty simple.
+Don't set targets for metrics.
+And please don't give teams incentives towards targets if you do set them.
+I know. I know. Management 101 says this works.
+But, science says it doesn't [^IntrinsicMotivators].
+Seriously.
+Setting targets and providing incentives for knowledge work lowers performance.
+Don't do it.
+
+Instead, provide guidelines to the teams.
+My favorite guideline for metrics is,
+"Monitor trending; Dig in when something looks wonky."
+
+[^IntrinsicMotivators]: Deci, E. L., Koestner, R., & Ryan, R. M. (1999, November). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Retrieved August 19, 2017, from https://www.ncbi.nlm.nih.gov/pubmed/10589297
