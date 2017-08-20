@@ -1,5 +1,6 @@
 ### Code Complexity
 
+{#cyclomatic-complexity}
 #### Cyclomatic Comlexity
 
 Cyclomatic complexity[^Cyclomatic], also known as the McCabe number, is a

@@ -37,7 +37,7 @@ Here's what we found:
 As we can see, this shows a positive correlation.
 That's right, the greater the test coverage, the higher the velocity.
 This is exactly the opposite of the team's original premise.
-At he very beginning of a project, not testing does allow for more rapid delivery.
+At the very beginning of a project, not testing does allow for more rapid delivery.
 But in very short order, measured in days or weeks, certainly not months of effort,
 not testing catches up to you.
 Changes break things and you have to go hunting down the source of the issue.
@@ -61,11 +61,15 @@ helping you to make informed decisions.
 Here's a couple other scatter diagrams I've seen at client locations.
 They might surprise you.
 
+### Velocity by Complexity
+
 ![Velocity by Complexity](images/CFD.018.jpeg)
 
 In this case we see a negative correlation between velocity and complexity.
 The more complex the code, as measured by [cyclomatic complexity](#cyclomatic-complexity),
 the lower the velocity.
+
+### Lead Time by Story Size
 
 ![Lead Time by Story Size](images/CFD.019.jpeg)
 
@@ -90,3 +94,15 @@ The team could definitively see that when breaking stories down, it was okay tha
 the points didn't add up to the estimate of the larger story AND that by breaking
 stories down, the team was able to deliver in less time.
 Not to mention, the options the team expanded through good story decomposition.
+
+### Conclusion
+
+I encourage you to look at correlations between the data points you have.
+Is there a correlation between velocity and value?
+Between coverage and cycle time?
+Between number of developers who touched the code and escaped defects?
+Team size and lead time?
+Number of hours colocated in the office and velocity?
+
+I don't know what you're going to find, but I do know that what you find can
+help you make informed decisions for your teams in your context.
