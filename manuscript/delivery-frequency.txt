@@ -49,8 +49,6 @@ in several weeks.
 
 Let's take a look at two departments, both of which are comprised of 10 teams and release 5 times per day.
 
-**Department A**
-
 {title="Department A", width="60%"}
 |Team            |Releases Per Week |
 |----------------|------------------|
@@ -65,8 +63,7 @@ Let's take a look at two departments, both of which are comprised of 10 teams an
 |I               |2.5               |
 |J               |2                 |
 
-**Department B**
-
+{title="Department B", width="60%"}
 |Team            |Releases Per Week |
 |----------------|------------------|
 |K               |1
