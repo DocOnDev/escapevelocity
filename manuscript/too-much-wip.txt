@@ -19,3 +19,21 @@ pushing us into yet another complicated cycle.
 Drive each card to completion before picking up the next one.
 If a card is blocked, make getting it un-blocked a priority rather than letting
 it wait three days because George on the DBA team has a three-day SLA.
+
+
+Even when we break our work down into small chunks, we have a certain cognitive load that comes
+with the work.
+- There's the purpose of the work: What is it for? Why do we need it now?
+- There's the requirements of the work: What is this supposed to look like? How is it supposed to behave?
+- There's the context of the work: What systems does this rely on? What systems do or will rely on it? Who is the customer?
+- There's the history of the work: Who has already worked on this? What got us to this point?
+
+That's but a subset of the things we need to know about a work item when we pick it up.
+Each time we pick it up.
+
+The more work items you are "actively" working on, the more times you have to dump the cache of a prior work item and load the details of the current into your limited immediate recall.
+Even if you know the system well, there is a tax incurred.
+This tax is what we refer to as a context switch and it is pretty expensive.
+
+Even for tasks that we are familiar with, there is a context switch when moving from one to the other.
+The more complex the tasks, the greater the cost.
