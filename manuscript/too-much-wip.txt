@@ -73,9 +73,11 @@ Where:
 d = Duration of tasks
 i = rate of increase as a decimal
 t = count of tasks
+~~~~~~~~
 
 Using this formula, we can see how I came up with 17.03 days.
 
+~~~~~~~~
 d = 2, i = .2, t = 5
 
 2*(1+.2)^(5-1) + 2*(((1+.2)^(5-1)-1)/.2)*(1+.2)
