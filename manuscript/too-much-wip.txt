@@ -20,6 +20,7 @@ Drive each card to completion before picking up the next one.
 If a card is blocked, make getting it un-blocked a priority rather than letting
 it wait three days because George on the DBA team has a three-day SLA.
 
+### You cannot multi-task complex tasks
 
 Even when we break our work down into small chunks, we have a certain cognitive load that comes
 with the work.
@@ -37,3 +38,60 @@ This tax is what we refer to as a context switch and it is pretty expensive.
 
 Even for tasks that we are familiar with, there is a context switch when moving from one to the other.
 The more complex the tasks, the greater the cost.
+The cost of these switches can be significant; 20% per additional task on average with some studies showing as high as 40% per additional task[^MultiTaskCost].
+
+Now some of you will argue that this cannot be true.
+If a context switch cost 20%, then a human could never work on more than five items at a time
+because they'd be 100% utilized, right?
+
+Not exactly.
+
+This isn't a utilization cost, it is a throughput cost.
+For every additional item you work on, you extend the duration of each item by 20%.
+So if you're working on 2 items, each of which would have taken 2 days, for a total of
+4 days work, you will now complete the same work in 4.8 days.
+You effectively lost an entire day by attempting to work on 2 items in order to get
+things done "faster".
+
+Also be aware that the cost is compound.
+2 items is a 20% increase in the duration for both items.
+Add a third item and you increase the duration of all items by an additional 20%
+on top of the original 20%.
+So 3 items that normally take 2 days each wouldn't take 6 days, or even 7.2 days, but would take
+8.16.
+5 items at two days effort each would require not 10 days to complete, but would require 17.03 days.
+
+Let's take a look at a formula that we can use as a simple model.
+Assuming each task has the same duration were it executed singularly, we can use
+a basic future value calculation for an investment[^FutureValue].
+
+~~~~~~~~
+d*(1+i)^(t-1) + d*(((1+i)^(t-1)-1)/i)*(1+i)
+
+Where:
+
+d = Duration of tasks
+i = rate of increase as a decimal
+t = count of tasks
+
+Using this formula, we can see how I came up with 17.03 days.
+
+d = 2, i = .2, t = 5
+
+2*(1+.2)^(5-1) + 2*(((1+.2)^(5-1)-1)/.2)*(1+.2)
+2*1.2^4 + 2*((1.2^4-1)/.2)*1.2
+2*2.0736 + 2*((2.0736-1)/.2)*1.2
+4.1472 + 2*(1.0736/.2)*1.2
+4.1472 + 2*5.368*1.2
+4.1472 + 12.8832
+17.0304
+~~~~~~~~
+
+So, yes, you can have 7 or 8 items in flight all at once and be super busy.
+Just know that you are also incredibly less efficient and likely less effective.
+
+TODO: Look at WIP issues in flow - what is the math here?
+
+[^MultiTaskCost]: Multitasking: Switching costs (n.d.). Retrieved February 24, 2017, from http://www.apa.org/research/action/multitask.aspx
+
+[^FutureValue]: Hazell, A. (n.d.). Future Value Formula - Explained. Retrieved September 24, 2017, from http://www.thecalculatorsite.com/articles/finance/future-value-formula.php
