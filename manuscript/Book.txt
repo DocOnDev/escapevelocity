@@ -36,6 +36,10 @@ mainmatter.txt
       code-complexity.txt
       test-coverage.txt
     team-joy.txt
+    customer-metrics.txt
+      npm-customer-satisfaction.txt
+      feature-use.txt
+      revenue-generated.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
   balanced-metrics.txt
