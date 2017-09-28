@@ -10,3 +10,34 @@ what you don't want to go down."
 {icon=quote-left}
 G> Measure what you want to go up, but also measure what you don't want to go down.
 G> https://twitter.com/davidjbland/status/856643503606030336
+
+We know that measuring and making the measurement known changes behavior and thereby the outcomes.
+We know this from [Hawthorne Effect](#hawthorne-effect).
+So even if we don't set targets, which would invoke [Goodhart's Law](#goodharts-law), we still have a challenge in that measuring lead time might result in lower lead times, but we might sacrifice quality to do so.
+What are we to do?
+
+Maybe we could measure many things.
+What if we anticipated that measuring lead time would possibly lead to lower code quality?
+The team moves faster by compromising on discipline.
+Well, we'd measure code quality, of course.
+
+And what if we thought that maybe measuring quality and lead time would result in delivery of less value where the stories move quickly and are defect free, but don't meet customer needs?
+Then why not also measure feature use, revenue generated, or customer satisfaction?
+
+We've covered a number of metrics in this book, but our list is by no means comprehensive.
+Think about the system you are in and the standards you want to adhere to.
+How would you objectively know you are meeting those goals?
+How would you know if you are trending in the right direction in pursuit of those goals?
+Establish a set of measures you can take that inform you and pay attention to them.
+
+If you find a particular measure is not particularly informative or useful in pursuit of your goals, stop measuring it.
+As an example, at one client, we stopped performing customer surveys and started measuring interactions and conversions.
+Interestingly enough, we found it was relatively common for customers to give changes a low rating while simultaneously increasing their interactions and conversions.
+Our goal was conversions - enticing customers to take certain actions that lead to revenue for us.
+I'm not saying we didn't want customers to be happy with our software.
+What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging with the software more in a more revenue positive way.
+The data from actual usage was move accurate than the opinions of the customers who took the time to complete the surveys.
+
+This won't always be the case.
+I'm not advocating that companies don't survey customers.
+I'm advocating that you consider what you are trying to achieve and determine which measurements best inform you toward that end.
