@@ -12,6 +12,7 @@ the oversight.
 I love you all. Sincerely.
 
 
+
 I started my career at a Law Firm in Cleveland Ohio where *Richard Kucia* and
 *Joe Sladick* mentored me as I moved from hobbyist to professional. Joe was
 especially influential as it was he who showed me the benefits of working in
@@ -50,11 +51,10 @@ quality time with *Diana Larsen*, *Esther Derby*, *Ward Cunningham*, *Bob Martin
 What I thought I knew was challenged and I turned from being the "expert" to being
 a beginner, which I've tried to be ever since.
 
-At Groupon, I met, among many others, *Heather Corallo* who is now my business
-partner in CTO2.
-Together, she and I started a movement within Groupon Engineering to put people
+At Groupon, I had a unique opportunity to take everything I'd learned and put it into practice.
+My small team started a movement within Groupon Engineering to put people
 above process and to foster Autonomy, Connection, Excellence, and Diversity.
-These are the cornerstones of CTO2's philosophy and mission.
+These are the cornerstones of CTO2's philosophy and mission today.
 
 Of course, none of this was possible without the continued support of my family.
 *Teri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*,
