@@ -1,3 +1,4 @@
+{#code-quality}
 ## Code Quality
 
 Code Quality can be a contentious topic as the quality of the code is often

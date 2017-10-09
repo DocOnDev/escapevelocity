@@ -1,8 +1,10 @@
+{#lead-time}
 ## Lead Time
 
 In software development Lead Time is generally considered the time elapsed from
 the moment a request is received to the moment that same request is available
 in production.
+I call this the time from, "Hey, wouldn't it be ice if..?", to, "Hey, ain't that nice?"
 
 ![Lead and Cycle Time](images/CFD.007.jpeg)
 
@@ -13,6 +15,6 @@ process. For our purposes, we are going to consider lead time to be from the mom
 a request arrives in the backlog.
 
 Tracking the complete cycle time allows us to produce better projections for when
-an item will be complete. If we know there are 27 items in the backlog ahead of
-this one and we know that on average an item takes 44 days from backlog arrival
-to completion, we can reasonably estimate that this one will be done in 1,188 days.
+an item will be complete. If we know there are 10 items in the backlog ahead of
+this one and we know that on average an item takes 12 days from backlog arrival
+to completion, we can reasonably estimate that this one will be done in 120 days.
