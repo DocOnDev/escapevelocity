@@ -35,7 +35,7 @@ As an example, at one client, we stopped performing customer surveys and started
 Interestingly enough, we found it was relatively common for customers to give changes a low rating while simultaneously increasing their interactions and conversions.
 Our goal was conversions - enticing customers to take certain actions that lead to revenue for us.
 I'm not saying we didn't want customers to be happy with our software.
-What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging with the software more in a more revenue positive way.
+What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging more with the software in an increased revenue positive way.
 The data from actual usage was move accurate than the opinions of the customers who took the time to complete the surveys.
 
 This won't always be the case.
@@ -45,9 +45,9 @@ I'm advocating that you consider what you are trying to achieve and determine wh
 ## A starting point ##
 I am often asked what metrics a team (or teams) should use.
 This question often comes devoid of much detail, such as the make up of the team, how long they've been together, what pain they are experiencing, or what objectives they're trying to measure for.
-In these cases, I tend to advise teams to start with three basic metrics - [lead time](#lead-time), [code quality](#code-quality), and [team joy](#team-joy).
-These three metrics allow a team to determine if their time to delivery is improving, if they are managing consistent or improving quality, and if the team feels good about the work.
-With this information, they can tweak their efforts and find that sweet spot where they are moving as fast as possible without sacrificing quality and not burning out the team.
+In these cases, I tend to advise teams to start with four basic metrics - [feature use](#feature-use), [lead time](#lead-time), [code quality](#code-quality), and [team joy](#team-joy).
+These four metrics allow a team to determine if the customer is using the software, if their time to delivery is improving, if they are managing consistent or improving quality, and if the team feels good about the work.
+With this information, they can tweak their efforts and find that sweet spot where they are moving as fast as possible without sacrificing quality and not burning out the team all while adding value for the customer.
 
 I am not saying these are the only measures you should use.
 I am not saying these measures are mandatory.
