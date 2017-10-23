@@ -132,3 +132,10 @@ That single measurement represents the interactions of the individuals and all
 of their adaptions to change in the delivery of working software.
 
 Velocity is a simple measure of a very complex system.
+While a simple measure of a complex system may sound ideal, in this case, it is generally insufficient.
+Velocity doesn't tell us enough to be particularly useful.
+From velocity alone one cannot ferret out root causes.
+On cannot determine conclusively that the team is doing better (or worse) from a rising (or falling) velocity.
+
+Velocity is but one dimension to consider.
+To measure creative work by throughput alone is to not measure it at all; quality and impact are essential.

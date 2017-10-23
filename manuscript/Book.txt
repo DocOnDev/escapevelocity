@@ -37,6 +37,7 @@ mainmatter.txt
       test-coverage.txt
     team-joy.txt
     customer-metrics.txt
+      outcomes-over-outputs.txt
       npm-customer-satisfaction.txt
       feature-use.txt
       revenue-generated.txt

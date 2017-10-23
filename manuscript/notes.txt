@@ -1,0 +1,18 @@
+DevUp conference
+
+Angela Dugan had a slide on measurements for agile teams from Version One. Look at this.
+
+
+Sprint Backlog Composition - What is in the backlog? Stories, Defects, Technical Debt, ...? Can tell you about the type of work the team is doing and gives you a sense of priority/quality. Is there a lot of fallow Technical Debt?
+
+Code Churn - Interesting take on churn. Looking at it to see if there are days that are more or less productive. Look for patterns within sprints and across sprints. Part of his take was that you can look at this to see if maybe somebody isn't contributing...?
+
+Failed Builds - hmmmm.... Want to think about this. Perhaps tells us about developer discipline.
+
+Cost of Feature - This is another interesting one. Looking at the cost of the team (or some other determination) allocated to this story. How do you get this number? He's saying take the points delivered in an iteration to get the cost per point and then multiply story points by that cost. Meh.
+
+Cost per release
+Cost per feature
+Cost per team member (or team)
+
+Value Stream Economics - Didn't talk much about this. Research it.
