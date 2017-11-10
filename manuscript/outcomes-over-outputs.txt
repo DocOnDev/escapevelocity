@@ -1,1 +1,14 @@
 ## Outcomes over Outputs
+
+I've worked with many companies who've conflated delivery of features with delivery of value.
+They begin with the assumption that a feature adds value to the customer.
+This is often the case, but it is not always so.
+Some features are rarely or never used, providing little to no realized value.
+Some features are used out of necessity, but actually detract from the customer experience, potentially offering negative realized value.
+
+Output measurements focus on quantity of delivery, such as the count of features delivered.
+As a result, output measures tell us how fast we are moving.
+Outcome measurements focus on quality of delivery - or more accurately, the impact of delivery, such as how many customers are engaging in a key activity.
+As a result, outcome measures tell us if we are headed in the right direction.
+
+Speed (output) is beneficial only if you are headed in the right direction (outcome).
