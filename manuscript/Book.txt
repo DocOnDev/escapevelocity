@@ -38,11 +38,13 @@ mainmatter.txt
     team-joy.txt
     customer-metrics.txt
       outcomes-over-outputs.txt
-      npm-customer-satisfaction.txt
       feature-use.txt
+        time-spent.txt
       revenue-generated.txt
+      npm-customer-satisfaction.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
+  forecasting.txt
   balanced-metrics.txt
 backmatter.txt
   acknowledgements.txt
