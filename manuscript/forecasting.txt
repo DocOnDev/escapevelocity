@@ -1,0 +1,11 @@
+# Forecasting
+
+One of the primary theoretic uses of velocity is to determine when the work a team needs to complete can be accomplished.
+Whether this is to figure out if a deadline can be met or to set expectations to customers, many teams rely on velocity to make these predictions.
+We take the amount of work we believe to be remaining, we divide it by the velocity, multiply it by the length of an iteration, and viola, we have a finish date.
+
+## To cover:
+
+Inaccuracy of this method.
+
+Monte Carlo Simulations.
