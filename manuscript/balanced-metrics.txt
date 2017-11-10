@@ -36,7 +36,7 @@ Interestingly enough, we found it was relatively common for customers to give ch
 Our goal was conversions - enticing customers to take certain actions that lead to revenue for us.
 I'm not saying we didn't want customers to be happy with our software.
 What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging more with the software in an increased revenue positive way.
-The data from actual usage was move accurate than the opinions of the customers who took the time to complete the surveys.
+The data from actual usage was more accurate than the opinions of the customers who took the time to complete the surveys.
 
 This won't always be the case.
 I'm not advocating that companies don't survey customers.
