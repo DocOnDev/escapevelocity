@@ -30,12 +30,13 @@ How would you objectively know you are meeting those goals?
 How would you know if you are trending in the right direction in pursuit of those goals?
 Establish a set of measures you can take that inform you and pay attention to them.
 
-If you find a particular measure is not particularly informative or useful in pursuit of your goals, stop measuring it.
-As an example, at one client, we stopped performing customer surveys and started measuring interactions and conversions.
+If you find a specific measure is not particularly informative or useful in pursuit of your goals, stop measuring it.
+As an example, at one client, we stopped performing customer surveys and focused on measuring interactions and conversions.
 Interestingly enough, we found it was relatively common for customers to give changes a low rating while simultaneously increasing their interactions and conversions.
 Our goal was conversions - enticing customers to take certain actions that lead to revenue for us.
 I'm not saying we didn't want customers to be happy with our software.
 What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging more with the software in an increased revenue positive way.
+In surveys, customers said they were neutral or even negative about a change, yet they increased their engagement, used the solution more, and generated more revenue for the company.
 The data from actual usage was more accurate than the opinions of the customers who took the time to complete the surveys.
 
 This won't always be the case.
