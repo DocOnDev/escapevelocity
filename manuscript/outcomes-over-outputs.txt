@@ -10,5 +10,15 @@ Output measurements focus on quantity of delivery, such as the count of features
 As a result, output measures tell us how fast we are moving.
 Outcome measurements focus on quality of delivery - or more accurately, the impact of delivery, such as how many customers are engaging in a key activity.
 As a result, outcome measures tell us if we are headed in the right direction.
+And speed (output) is beneficial only if you are headed in the right direction (outcome).
 
-Speed (output) is beneficial only if you are headed in the right direction (outcome).
+I once worked with a client who became so obsessed with immediate revenue metrics that they would not allow themselves to innovate in certain areas.
+Essentially, the only measure that mattered for a new feature was whether or not it had a net positive impact on revenue.
+This was, of course, measured in real time.
+If they tried three different button colors on the checkout screen, they'd go with the one that achieved a statistically significant higher rate of purchase.
+Easy enough.
+
+But when they wanted to get into personalization features, the first thing they needed to do was learn more about the customer and their preferences.
+No matter what they did, an interface that gathered personal data about a customer also resulted in lower purchase rates than the control which gathered no personal data.
+As a result, no matter how much data a customer volunteered, no matter how much time and energy they spent on customizing their own profile, the experiment was ultimately killed because it generated fewer immediate dollars than the control.
+As a second order result, the company struggled to figure out personalization and fell behind competitors who were focused on providing a custom experience to each customer over the long term.
