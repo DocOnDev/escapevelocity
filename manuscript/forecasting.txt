@@ -6,6 +6,6 @@ We take the amount of work we believe to be remaining, we divide it by the veloc
 
 ## To cover:
 
-Inaccuracy of this method.
+### Inaccuracy of this method.
 
-Monte Carlo Simulations.
+### Monte Carlo Simulations.
