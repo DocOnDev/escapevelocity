@@ -10,5 +10,14 @@ For some teams, lead time is measured from when the team starts to look at the r
 In these cases, the timer doesn't start when an item hits the backlog, but rather when the item gets picked up for analysis or whatever is the initial step in the process.
 For our purposes, we are going to consider lead time to be from the moment a request arrives in the backlog.
 
-Tracking the complete cycle time allows us to produce better projections for when an item will be complete.
-If we know there are 10 items in the backlog ahead of this one and we know that on average an item takes 12 days from backlog arrival to completion, we can reasonably estimate that this one will be done in 120 days.
+Tracking the complete lead time allows us to produce better projections for when an item will be complete.
+If we know there are 10 items in the backlog ahead of this one and we know that on average an item takes 2 days from backlog arrival to completion, we can reasonably estimate that this one will be done in 20 days.
+Sort of.
+
+At first blush, an average seems perfectly reasonable for estimations.
+Essentially half of the items will complete sooner than the average and half of the items will complete later than the average with some amount falling precisely on the average.
+What we've just described here is a normal distribution, which when graphed results in what is often called a bell curve.
+With a normal distribution, if you use the average to estimate, you have a 50:50 shot of being right.
+
+But you don't have a 50:50 shot of being right when you use the average lead time.
+Lead times don't happen on a bell curve.
