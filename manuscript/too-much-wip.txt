@@ -1,6 +1,6 @@
 ## Too Much Work In Process
 
-This is a remarkably common issue.
+Having too much Work in Process, also known as Work in Progress, is a remarkably common issue.
 In my experience, management often encourages this behavior.
 I don't know if it is the notion that we will get more done if we work on more
 things simultaneously.
@@ -22,8 +22,7 @@ it wait three days because George on the DBA team has a three-day SLA.
 
 ### You cannot multi-task complex tasks
 
-Even when we break our work down into small chunks, we have a certain cognitive load that comes
-with the work.
+Even when we break our work down into small chunks, we have a certain cognitive load that comes with the work.
 - There's the purpose of the work: What is it for? Why do we need it now?
 - There's the requirements of the work: What is this supposed to look like? How is it supposed to behave?
 - There's the context of the work: What systems does this rely on? What systems do or will rely on it? Who is the customer?
@@ -31,6 +30,7 @@ with the work.
 
 That's but a subset of the things we need to know about a work item when we pick it up.
 Each time we pick it up.
+*Every time* we pick it up.
 
 The more work items you are "actively" working on, the more times you have to dump the cache of a prior work item and load the details of the current into your limited immediate recall.
 Even if you know the system well, there is a tax incurred.
@@ -41,8 +41,7 @@ The more complex the tasks, the greater the cost.
 The cost of these switches can be significant; 20% per additional task on average with some studies showing as high as 40% per additional task[^MultiTaskCost].
 
 Now some of you will argue that this cannot be true.
-If a context switch cost 20%, then a human could never work on more than five items at a time
-because they'd be 100% utilized, right?
+If a context switch cost 20%, then a human could never work on more than five items at a time because they'd be 100% utilized, right?
 
 Not exactly.
 
@@ -50,15 +49,13 @@ This isn't a utilization cost, it is a throughput cost.
 For every additional item you work on, you extend the duration of each item by 20%.
 So if you're working on 2 items, each of which would have taken 2 days, for a total of
 4 days work, you will now complete the same work in 4.8 days.
-You effectively lost an entire day by attempting to work on 2 items in order to get
-things done "faster".
+You effectively lost an entire day by attempting to work on 2 items in order to get things done "faster".
 
-Also be aware that the cost is compound.
+Also be aware that the cost is compounded.
 2 items is a 20% increase in the duration for both items.
 Add a third item and you increase the duration of all items by an additional 20%
 on top of the original 20%.
-So 3 items that normally take 2 days each wouldn't take 6 days, or even 7.2 days, but would take
-8.16.
+So 3 items that normally take 2 days each wouldn't take 6 days, or even 7.2 days, but would take 8.16.
 5 items at two days effort each would require not 10 days to complete, but would require 17.03 days.
 
 Let's take a look at a formula that we can use as a simple model.
@@ -92,8 +89,76 @@ d = 2, i = .2, t = 5
 So, yes, you can have 7 or 8 items in flight all at once and be super busy.
 Just know that you are also incredibly less efficient and likely less effective.
 
-TODO: Look at WIP issues in flow - what is the math here?
+### WIP, Throughput, and Little's Law
+
+So our future value calculation is both informative and interesting, but it is not particularly useful beyond making the point that doing more at once takes more time. What we want to know is how does this materially impact our ability to make software. For that, we can look to a more simple (and useful) calculation based on Little's Law[^LittlesLaw]
+
+Little's Law can be stated in a number of ways:
+
+WIP = Throughput x Lead Time
+
+WIP is the Work in Process. [Lead Time](#lead-time) is the time it takes for an item to get through the system. Throughput is the number of items a system can deliver in a given period of time.
+
+So, let's say we have 5 items in process at the moment. And we have a Lead Time of 4 days with a 100% confidence interval.
+
+~~~~~~~~
+WIP = 5i
+Throughput = T
+Lead Time = 4d
+
+5i = T x 4d
+
+T = 5i/4d
+
+T = 1.25 Items / Day
+~~~~~~~~
+
+Based on the data we have about the system, we can assume these 5 items will take 4 days to clear the system.
+With this simple piece of information, we can project completion dates for any given item in the queue.
+Say, for example, there are still 5 items in WIP and we want to know about a story that is 10 items down in the backlog.
+That particular story, while not as high in value as the stories ahead of it has a due date 7 days from now.
+So while it is not as important, it is now more urgent.
+
+Our target story is 15th in line when we include the items in process.
+~~~~~~~~
+15i / 1.25i/d = 12d
+~~~~~~~~
+
+Consequently, it will be delivered in 12 days.
+We know that it is going to be 5 days too late.
+
+So let's target our item for 7 days from now.
+
+~~~~~~~~
+Ni / 1.25i/d = 7d
+Ni = 7d * 1.25i/d
+N = 8.75
+~~~~~~~~
+
+We can't have something at a three-quarter point in a queue, so in order to get it done 7 days from now, we'd need it to be 8th in the queue, including the current work in process.
+So it will need to be 3rd in the backlog.
+We can now determine if this is both desirable and feasible.
+Do we want to bump other items to a later delivery date?
+Can we deliver this before other stories or is it dependent on some of them?
+If it is dependent on some of them, can we bump them to positions one and two in the backlog to make this happen?
+
+What if we don't need to be 100% confident?
+What is we are good with usually, but not always?
+
+Let's say that 80% of our lead times are at or before 3 days.
+If we are comfortable with 80% confidence, then we run the math again.
+Based on a lead time of 3 days, we determine that the throughput is 1.67 items per day and our item will be done in 9 days.
+At 80% confidence, we'd need to move it to 11th in line, or 6th in the backlog.
+Remember, we always need to account for the work in process in addition to the work in queue.
+
+And finally, if we want to use the mathematical average (or the mean), which is approximately 62% confidence in our fictitious case (because I just said it was), then we have a lead time of 2 days, a throughput of 2.5 items per day, and our item should get done on the 6th day.
+
+You'll notice, at no point are we negotiating over how long a specific item will take.
+If we need to adjust our tolerance, we change our confidence level and run the math again.
+
 
 [^MultiTaskCost]: Multitasking: Switching costs (n.d.). Retrieved February 24, 2017, from http://www.apa.org/research/action/multitask.aspx
 
 [^FutureValue]: Hazell, A. (n.d.). Future Value Formula - Explained. Retrieved September 24, 2017, from http://www.thecalculatorsite.com/articles/finance/future-value-formula.php
+
+[^LittlesLaw]: Little's Law. Retrieved March 14, 2017, from http://web.mit.edu/sgraves/www/papers/Little's%20Law-Published.pdf
