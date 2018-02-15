@@ -1,1 +1,174 @@
 ### Lead Time Distributions
+
+Take a moment and think about a trip you take regularly.
+This might be your commute to or from work.
+Maybe it is visiting a family member.
+
+For me, this is my commute to the client every day.
+For the past several months, I've been working with one primary client as we help them transition toward an experimentation mindset with a focus on flow and valuable outcomes.
+
+I drive to the client from a nearby hotel.
+On average, that commute takes 10 minutes.
+Most mornings I catch at least one light or get behind someone doing 25 in a 40 for a mile or two.
+Some mornings, the lights are in my favor and the slow pokes stay out of my way.
+On such days, I can get from hotel to client in about 7.5 minutes.
+Under no legal circumstances can I get to the client faster than in 7 minutes.
+Account for distance and general safety, and 7 minutes is already pushing it; possible, but not likely.
+Under no physical circumstances can I get to the client faster than in 5 minutes.
+Even if I ignore all laws of man, the laws of physics still bind me.
+
+On the other end of the spectrum, however, the commute can take (and has taken) much longer.
+For a couple of weeks, the main thoroughfare was under construction, reducing traffic to a single lane in the outbound direction on a road that is normally three lanes.
+One morning, there was an unusual amount of traffic and things got jammed up, causing everything to move quite slowly.
+People snuck out into intersections in hopes of slipping through before the light changed.
+Some didn't make it and the resulting jam caused people coming from perpendicular roads to do the same; stay in the intersection in hopes of making it through after things cleared.
+Basically, we were down to about two or three cars per direction clearing the intersection for every complete turn of the light.
+
+I got stuck in a long line of traffic and with the other road closings and single lane restrictions, I had nowhere to go but forward.
+The light did a full rotation once every 6 minutes.
+There were approximately 15 cars in front of me.
+27 minutes later, I cleared the light and finally arrived at the client a full 38 minutes after I'd left the hotel.
+
+Let's imagine that I'd recorded my morning commute time to work each day and I recorded it on a sheet.
+That sheet might have looked something like this:
+
+{title="Morning Commute", width="60%"}
+| Minutes |
+|---------|
+| 10.25   |
+| 9.5     |
+| 9.75    |
+| 10      |
+| 12.25   |
+| 10      |
+| 15.25   |
+| 12.5    |
+| 10.75   |
+| 9.25    |
+| 10.25   |
+| 10.25   |
+| 9       |
+| 10.5    |
+| 10.25   |
+| 10.5    |
+| 10.75   |
+| 13.75   |
+| 11      |
+| 11.25   |
+| 14      |
+| 12      |
+| 10.5    |
+| 13      |
+| 10.25   |
+| 13.5    |
+| 11.5    |
+| 14.25   |
+| 10.25   |
+
+The data shows us that while the trip can take no less then 9 minutes, it can take as much as 15.25 minutes with an average trip time of 11.25 minutes.
+Our shortest trip is 2.25 minutes quicker than average.
+Whereas our longest trip is 4 minutes slower than average.
+And as we indicated, no matter how hard we try to get there sooner, we are ultimately bound by the laws of physics.
+But on the other end, in terms of how long the trip can take, we are pretty much bound only by the laws of reason.
+
+Now, if you asked me how long it took me to get to work, I might say, "Between 9 and 15 minutes.", and I'd be accurate, but not precise.
+I could also say, "11.25 minutes on average.", which is precise, but not necessarily accurate.
+But what if you were asking me to guarantee I could make it to work within the time I estimate?
+What if you were asking me to make a commitment and to guarantee with 100% certainty that I could get to work within the time committed?
+Does this sound familiar to you?
+Doesn't this sound like just about every "estimation" discussion you've ever had at work?
+Well, if this were the case, then based on the data available to me, I'd have to say, "I can get to work within 15.25 minutes."
+
+A lot of people would say I am padding.
+But I am not padding.
+I am providing a 100% guarantee based on the data available.
+Which is what I was asked for.
+
+Some would say I am gaming the system.
+More often that not, I make it to work in under 11 minutes.
+How could I possibly think an estimate of 15.25 minutes is reasonable?
+That's more than 25% padding on top of the average for something as simple as driving to work; same car, same driver, same route - every day.
+
+But the reasonableness of my estimate is the wrong question, now isn't it?
+The right question is how could one possibly expect, in a system with such variability, that someone could make a commitment they will be held accountable to and use a low confidence number?
+
+Low confidence?
+What do I mean by a low confidence number?
+
+Well, let's look at the data again.
+This time, let's look at it on a distribution graph.
+
+![Lead Time Distribution for Drive Time](images/CFD.020.jpeg)
+
+So far, so good.
+This is probably what you'd expect to see.
+A cluster of numbers near the low end with a peak around the average and a longer tail.
+This is a right-skewed distribution.
+The term right-skewed indicates that the graph can trail off to the right for a significant distance.
+This is also referred to as a positively skewed distribution graph.
+In a distribution graph, our X axis represents increments increasing in value from left to right.
+So a tail that points right, points in the positive direction.
+Correspondingly a tail that points to the left, points in the negative direction.
+
+But what did I mean when I say a number is a low confidence number?
+And why did I say the average was a low confidence number?
+
+Let's draw a line on the graph at the mean, or numerical average.
+
+![Lead Time Distribution for Drive Time with Mean](images/CFD.021.jpeg)
+
+We can now see that 19 of the data points fall on or before the mean.
+And 11 of the data points fall after the mean.
+So if we were to use the mean (or average) as our commitment, the data tells us we have a 65.5% chance of hitting or bettering the commitment.
+That means we have a 34.5% chance of missing it.
+Or a one in three chance of going over our commitment.
+
+So our confidence in this estimate is roughly 66%.
+We expect to be go over the estimate 33% of the time.
+AND we expect to be under the estimate 62% of the time.
+We expect to actually hit the estimate, 3.4% of the time.
+
+In most organizations, this would be considered a low confidence number.
+Certainly if there is gnashing of teeth when the estimate is missed, be it high or low, we're setting ourselves up for failure.
+If the repercussions for missing the estimate are significant enough, then the individual may determine it is in their best interest to fill any excess time when they finish "early" or cut corners when they think they might finish "late".
+And let's get this clear right now - those repercussions need not be drastic.
+The tedium of exploring why the estimate was wrong may be enough to encourage behavior that makes estimates look more "right".
+
+I once worked with a team where the technical lead proudly announced that he was "excellent at estimating."
+He insisted that if others were as experienced and disciplined as he, they too could be excellent at estimating.
+Over time, he was able to come to realize that he was, in fact, excellent at hitting the estimates he'd made.
+These are not the same thing.
+But they present similarly on the surface, especially in an environment concerned with estimates over forecasts.
+
+But I digress a bit.
+
+What we're getting at here is the usefulness of Lead Time Distributions.
+They are simple to create, easy to read, and give us an actual mathematical basis for forecasts versus the usual pseudo-mathy estimates found on many agile teams.
+
+To create a lead time distribution, you chart the lead time of each story (or whatever you call a unit of work) on a simple graph.
+Along the X axis is time, most likely in days.
+The Y axis is the count of items that had a given lead time.
+The way I do it is usually a simple chart on graph paper with each square counting as a single unit.
+Say our first story completes with a lead time of 3 days.
+I place an X in the first box in my 3 column.
+The next story completes with a lead time of 5, so I place an X in the first box in my 5 column.
+The third story completes with a lead time of 3 and I place an X in the second square in my 3 column.
+At this point, my graph would look something like the following.
+
+![Example Lead Time Distribution Graph](images/CFD.023.jpeg)
+
+The Lead Time Distribution graph then gives us a defensible way of running projections with confidence intervals.
+
+To finish this up, let's return to the example of my daily commute to the client.
+
+I touched on confidence earlier when we talked about using the average lead time for forecasting.
+You'll recall our confidence in the average was roughly 66%.
+This is because, based on the data we have, we will come in at or under that estimate 66% of the time.
+If we want to increase our confidence, we need to use a number that provides a greater chance of our hitting it or coming in under.
+If we want 100% confidence, then we need to use 15.25 as that is the longest (so far) it has taken me to complete the commute.
+The following graph shows confidence intervals of 50%, 75%, and 100% on the graph.
+
+![Lead Time Distribution and Confidence](images/CFD.022.jpeg)
+
+You'll notice that the more confident we want to be, the further from the mean we get and the distance does not increase linearly.
+The distance from 50% to 75% is almost half that from 75% to 100%.
