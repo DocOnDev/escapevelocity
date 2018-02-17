@@ -44,7 +44,6 @@ mainmatter.txt
       npm-customer-satisfaction.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
-  forecasting.txt
   balanced-metrics.txt
 backmatter.txt
   acknowledgements.txt
