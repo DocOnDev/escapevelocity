@@ -29,7 +29,8 @@ The light did a full rotation once every 6 minutes.
 There were approximately 15 cars in front of me.
 27 minutes later, I cleared the light and finally arrived at the client a full 38 minutes after I'd left the hotel.
 
-Let's imagine that I'd recorded my morning commute time to work each day and I recorded it on a sheet.
+Let's imagine that I'd tracked my morning commute time to work each day and I recorded it on a sheet.
+And for the sake of this example, let's further imagine that my 38 minute outlier day had not yet occurred.
 That sheet might have looked something like this:
 
 {title="Morning Commute", width="60%"}
@@ -90,7 +91,7 @@ How could I possibly think an estimate of 15.25 minutes is reasonable?
 That's more than 25% padding on top of the average for something as simple as driving to work; same car, same driver, same route - every day.
 
 But the reasonableness of my estimate is the wrong question, now isn't it?
-The right question is how could one possibly expect, in a system with such variability, that someone could make a commitment they will be held accountable to and use a low confidence number?
+The right question is how could one possibly expect, in a system with such variability, that anyone could make a commitment they will be held accountable to and use a low confidence number?
 
 Low confidence?
 What do I mean by a low confidence number?
@@ -104,13 +105,17 @@ So far, so good.
 This is probably what you'd expect to see.
 A cluster of numbers near the low end with a peak around the average and a longer tail.
 This is a right-skewed distribution.
+Remember when we talked about how lead time doesn't happen on a perfect bell curve?
+For similar reasons to our commute, lead times for software development also happen on a right-skewed distribution.
 The term right-skewed indicates that the graph can trail off to the right for a significant distance.
 This is also referred to as a positively skewed distribution graph.
 In a distribution graph, our X axis represents increments increasing in value from left to right.
 So a tail that points right, points in the positive direction.
 Correspondingly a tail that points to the left, points in the negative direction.
 
-But what did I mean when I say a number is a low confidence number?
+Okay, so right-skewed distribution.
+Great.
+But what do I mean when I say a number is a low confidence number?
 And why did I say the average was a low confidence number?
 
 Let's draw a line on the graph at the mean, or numerical average.
@@ -128,7 +133,7 @@ We expect to be go over the estimate 33% of the time.
 AND we expect to be under the estimate 62% of the time.
 We expect to actually hit the estimate, 3.4% of the time.
 
-In most organizations, this would be considered a low confidence number.
+In most organizations, an estimate that we think we'll overshoot 33% of the time would be considered a low confidence estimate.
 Certainly if there is gnashing of teeth when the estimate is missed, be it high or low, we're setting ourselves up for failure.
 If the repercussions for missing the estimate are significant enough, then the individual may determine it is in their best interest to fill any excess time when they finish "early" or cut corners when they think they might finish "late".
 And let's get this clear right now - those repercussions need not be drastic.
@@ -172,3 +177,31 @@ The following graph shows confidence intervals of 50%, 75%, and 100% on the grap
 
 You'll notice that the more confident we want to be, the further from the mean we get and the distance does not increase linearly.
 The distance from 50% to 75% is almost half that from 75% to 100%.
+
+Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes and I end up with a 38 minute commute?
+
+![Lead Time Distribution and Confidence after Bad Day](images/CFD.023.jpeg)
+
+Suddenly, we've got an outlier on our graph.
+What once looked like a spread of data points now looks like a cluster with one sole point way off to the right all by itself.
+
+What to do?
+
+We've a few options, I suppose.
+One, we could pretend it never happened; chalk it up to an outlier and forget about it.
+Don't graph it. Ignore it.
+Two, we could add it to the graph and have it haunt us forever.
+All future projections at 100% confidence will be calculated at 38 minutes whereas a 95% confidence would be calculated at 15.25 minutes.
+That seems a bit of a gap for 5% of confidence, does it not?
+Or three, we could add it to the graph and make the graph rolling.
+
+Our third option makes the most sense.
+Let's say there is some anomaly; an outlier that happens as a fluke or something that we can easily fix and it won't ever happen again.
+By rolling the lead time chart, that outlier doesn't haunt us forever.
+Also, by rolling the chart, our prior behavior has less weight than behavior that is more recent.
+
+If a team is getting better at delivery, their throughput is going up, and their lead time is going down, doesn't it only make sense that their confidence intervals would also tighten?
+By ensuring the Lead Time Distribution only looks back a reasonable time horizon, we ensure that the team is not over-influenced by activity long in the past over recent activity.
+I often have teams running one week increments with actual delivery at the end of each increment keep 16 weeks of data on a lead time distribution graph.
+If the team delivers less often, regardless of their iteration cycle, have them keep lead times for longer.
+You want sufficient data, say one hundred data points, to make sure you're getting a clear picture and your forecasts are well informed.
