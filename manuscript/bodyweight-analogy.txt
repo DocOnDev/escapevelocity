@@ -1,60 +1,45 @@
 ## Velocity by way of analogy
 
-So if we know that velocity is a lagging indicator of a complex system, we can
-probably reason about velocity by way of analogy.
-There is something we all have in common that is also a lagging indicator of
-a complex system - our body weight.
+So if we know that velocity is a lagging indicator of a complex system, we can probably reason about velocity by way of analogy.
+There is something we all have in common that is also a lagging indicator of a complex system - our body weight.
 Our body weight is a lagging indicator of a complex system.
-There are inputs and outputs and there are multiple factors that impact the
-system overall.
-From our diet and exercise to genetics and even our social network, there are
-numerous factors that impact our body weight.
+There are inputs and outputs and there are multiple factors that impact the system overall.
+From our diet and exercise to genetics and even our social network, there are numerous factors that impact our body weight.
 As we've covered, the same is true for a team's velocity.
 Multiple factors impact a team's velocity.
 
 By body weight alone, can we tell if an individual is healthy?
 
-If I were to tell you our patient's name is "Pat" and their body weight is 130,
-could you tell me definitively if Pat were in good or poor health?
+If I were to tell you our patient's name is "Pat" and their body weight is 130, could you tell me definitively if Pat were in good or poor health?
 What about a body weight of 100?
 What about a body weight of 300?
-If Pat is a linebacker for the Detroit Lions, 300 pounds might be a perfectly
-healthy body weight.
+If Pat is a linebacker for the Detroit Lions, 300 pounds might be a perfectly healthy body weight.
 So the answer is, no.
 Body weight alone cannot reliably tell you if the individual is healthy.
 
-Moreover, if the body weight were in a range that strongly suggested poor health,
-say 600 pounds, you could not ascertain from the body weight what to do for this
-individual to help them shed weight in a healthy manner.
+Moreover, if the body weight were in a range that strongly suggested poor health, say 600 pounds, you could not ascertain from the body weight what to do for this individual to help them shed weight in a healthy manner.
 
 The same is true of velocity.
+Knowing a team's velocity cannot reliably tell you if the team is "healthy".
 Adding to the challenge is the fact that velocity has no baseline standard.
-There is no commonly accepted range within which velocity falls, so our assessment
-of health gets even more difficult.
-It is common to see a team with a consistent velocity of 100 or more points per
-iteration being outperformed by a team with a consistent velocity of 30 points.
+There is no commonly accepted range within which velocity falls, so our assessment of health gets even more difficult.
+It is common to see a team with a consistent velocity of 100 or more points per iteration being outperformed by a team with a consistent velocity of 30 points.
 Points don't translate from team to team, save basic trending.
-In general, more points is more software delivered and fewer points is less
-software delivered.
+In general, more points is more software delivered and fewer points is less software delivered.
 This is assuming, of course, that you don't point tasks and other non-creation work.
-If you do that, you'll likely see little to no correlation between velocity
-and delivery of software.
+If you do that, you'll likely see little to no correlation between velocity and delivery of software.
 
 Now we do know that a velocity of 0 is generally an indication of poor health.
-And just like with bodyweight, while we know the patient is in poor health, we
-don't have enough data to make an informed recommendation for improvement.
-We can say generic things like, "Go on a diet", or, "Focus on getting to done",
-but we cannot really provide specific advice with the information we have.
+And just like with bodyweight, while we know the patient is in poor health, we don't have enough data to make an informed recommendation for improvement.
+We can say generic things like, "Go on a diet", or, "Focus on getting to done", but we cannot really provide specific advice with the information we have.
 
 We've shown that the measure itself is not necessarily an indication of health.
-And we've further shown that even when we can ascertain poor health, the measure
-does not tell us enough to diagnose the actual problem.
+And we've further shown that even when we can ascertain poor health, the measure does not tell us enough to diagnose the actual problem.
 As a result, we cannot make a solid recommendation for how to get to good health.
 
 Now, let's continue with this analogy just a bit more.
 
-Let's say that you wake up one morning and you decide that you want to lose 15
-pounds.
+Let's say that you wake up one morning and you decide that you want to lose 15 pounds.
 You used to weigh less and you're tired of the number you see on the scale.
 
 Take a moment and think about all the ways you might go about losing 15 pounds.
@@ -62,33 +47,24 @@ Take a moment and think about all the ways you might go about losing 15 pounds.
 Perhaps you would increase your daily step count or take up jogging.
 Maybe you'd cut back on carbohydrates or you'd increase your intake of salad.
 You could reduce portion sizes or stop snacking at 7pm each night.
-Cut back on sugars, replace soda with water, take up crossfit, train for a
-marathon, or stand while you work.
-There are any number of things you could do that would likely improve your
-health and reduce the weight.
+Cut back on sugars, replace soda with water, take up crossfit, train for a marathon, or stand while you work.
+There are any number of things you could do that would likely improve your health and reduce the weight.
 
-But if you're strictly focused on the weight; if you're not measuring any other
-aspect of your health such as cholesterol, sugar levels, or cardio vascular endurance,
-you might make other decisions to ensure you get to the goal body weight.
+But if you're strictly focused on the weight; if you're not measuring any other aspect of your health such as cholesterol, sugar levels, or cardio vascular endurance, you might make other decisions to ensure you get to the goal body weight.
 You could starve yourself.
 You could consume nothing but water for 30 days.
 You could smoke crack.
 You could sever a limb.
 
 Sure, some of these seem ridiculous, but that is precisely the point.
-When we've only one measure of health and that measure doesn't tell us anything
-about the system that produced it, The less we understand about the system,
-the more we are likely to engage in behavior that harms the overall system
-than we are to engage in behavior that helps it.
+If we're using only one measurement of health.
+And that measurement doesn't tell us anything about the system that produced it.
+Then the less we understand about the system, the more we are likely to engage in behavior that harms the overall system than we are to engage in behavior that helps it.
 
-Even our "healthy" options are subjective.
-For some, training for a marathon would be riskier than making no lifestyle
-change.
+Even our "healthy" options for losing 15 pounds are subjective.
+For some, training for a marathon would be riskier than making no lifestyle change.
 I suspect many of you feel you fall into that category.
 
-Without sufficient data about the system we can neither properly diagnose our
-ills nor make informed informed remediation decisions.
+Without sufficient data about the system we can neither properly diagnose our ills nor make informed remediation decisions.
 
-Just as our bodyweight doesn't tell us enough about our system to inform our
-lifestyle choices, velocity doesn't tell us enough about our system to inform
-our process choices.
+Just as our bodyweight doesn't tell us enough about our system to inform our lifestyle choices, velocity doesn't tell us enough about our system to inform our process choices.

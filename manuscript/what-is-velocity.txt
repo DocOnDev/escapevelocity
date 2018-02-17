@@ -2,40 +2,32 @@
 
 ## Velocity is a vector
 
-Velocity is the speed of something in a particular direction [^Velocity].
+A vector is an entity that has both magnitude (size) and direction. Velocity indicates the speed of something in a particular direction.
 
-In physics, it is the rate at which an object changes its position.
-An object that oscillates at a high speed, but always returns to its starting
-position has a zero velocity.
+In physics, velocity is the rate at which an object changes its position [^Velocity].
+An object that oscillates at a high speed, but always returns to its starting position has a zero velocity.
 
 {icon=quote-left}
-G> velocity is the rate at which a team delivers value to the customer.
+G> Velocity is the rate at which a team delivers value to the customer.
 
-In agile software development, velocity is the rate at which a team delivers
-value to the customer.
-A team that completes lots of tasks, but delivers no value to the customer
-should have a zero velocity.
+In agile software development, velocity is the rate at which a team delivers value to the customer.
+Value is quantifiable, and we can therefore say it has size.
+The direction is indicated by the traversal from idea to implementation.
+A team that completes lots of tasks, but delivers no value to the customer should have a zero velocity.
 
-I say "should" because I see an awful lot of teams that measure velocity based
-on criteria other than value to the customer.
+I say "should" because I see an awful lot of teams that measure velocity based on criteria other than value to the customer.
 Some consider a story done when development is complete.
-Others are a tad more "mature" and count a story as done when it is ready to
-go to production.
-Not actually in production, mind you; that takes weeks - what with manual
-testing requirements and change control procedures and getting into queue for
-the operations team...
+Others are a tad more "mature" and count a story as done when it is ready to go to production.
+Not actually in production, mind you; that takes weeks - what with manual testing requirements and change control procedures and getting into queue for the operations team...
 And some teams consider a story complete once it is actually in production.
 But even that _assumes_ value to the customer.
-What if you didn't count a story as done until customers were actually using it
-and liked it?
-If velocity is the rate at which we deliver value to the customer, wouldn't a
-true measure of velocity include verification of value delivery?
+What if you didn't count a story as done until customers were actually using it and liked it?
+If velocity is the rate at which we deliver value to the customer, wouldn't a true measure of velocity include verification of value delivery?
 
 But I digress a bit, perhaps.
 
 For the sake of this book, let's go with "in production" means done.
-In this book, we won't get into details of how to deliver at the end of each
-iteration, much less continuous delivery.
+In this book, we won't get into details of how to deliver at the end of each iteration, much less continuous delivery.
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
@@ -98,10 +90,6 @@ good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of
 factors.
 
-I> ## About Lagging Indicators
-I> Lagging indicators are poor short-term predictions, but are helpful for
-I> insight into long term trends.
-
 But, we can look at velocity over time and confirm trends we might suspect, such
 as a lower average velocity during holiday seasons.
 This doesn't tell us what the velocity will be in November or December, but it
@@ -113,25 +101,17 @@ numbers than September or October.
 ## Velocity is a measure of a complex system
 
 This is ultimately quite significant.
-Velocity, while a simple concept, is actually a measure of output for a complex
-system.
+Velocity, while a simple concept, is actually a measure of output for a complex system.
 Think about the number of factors that go into a velocity measurement.
-There is the organizational mission, the broader business objectives, and the
-objective of the product itself.
-There are product owners, designers, architects, developers, testers, subject
-matter experts, security specialists, database specialists, governance, and
-production specialists involved.
+There is the organizational mission, the broader business objectives, and the objective of the product itself.
+There are product owners, designers, architects, developers, testers, subject matter experts, security specialists, database specialists, governance, and production specialists involved.
 There are stand-ups, planning meetings, and retrospectives.
-There are epics, stories, and tasks all tracked on a board or in a system
-with multiple lanes representing different key states in the delivery of each
-single piece of work.
-After all these individuals interact with one another, responding to change,
-and collaborating with the customer in pursuit of working software, we take a single
-measurement.
-That single measurement represents the interactions of the individuals and all
-of their adaptions to change in the delivery of working software.
+There are epics, stories, and tasks all tracked on a board or in a system with multiple lanes representing different key states in the delivery of each single piece of work.
+After all these individuals interact with one another, responding to change, and collaborating with the customer in pursuit of working software, we take a single measurement.
+That single measurement represents the interactions of the individuals and all of their adaptions to change in the delivery of working software.
 
 Velocity is a simple measure of a very complex system.
+
 While a simple measure of a complex system may sound ideal, in this case, it is generally insufficient.
 Velocity doesn't tell us enough to be particularly useful.
 From velocity alone one cannot ferret out root causes.

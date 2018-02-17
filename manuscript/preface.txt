@@ -7,7 +7,7 @@ me about incremental delivery as a means of not getting too far before
 getting feedback.
 We didn't work in set iterations, but we did work in small chunks.
 
-When I formed my first Software studio, I brought these concepts to the team we
+When I formed my first software studio, I brought these concepts to the team we
 built.
 In building software for paying customers, we started a practice of regular
 status meetings.
@@ -20,8 +20,7 @@ time.
 
 In November of 1999, I purchased "XP Explained" by Kent Beck and realized I'd
 found my tribe.
-These guys were doing some crazy stuff with estimating and testing, which I was
-a bit leery of.
+These people were doing some crazy stuff with estimating and testing, which I was a bit leery of.
 But they'd honed a lot of the other things we were playing with, so why not
 give it a try?
 
@@ -38,7 +37,7 @@ the Scrum way.
 I like to believe I did well; that I made a positive difference.
 The teams I worked with improved.
 They got better at quality.
-They got better at delivering solutions that customers delighted in.
+They got better at delivering solutions that delighted customers.
 They got better at working together.
 But they rarely got better at estimating.
 They rarely got better at stabilizing their velocity.
@@ -58,9 +57,13 @@ practice eventually led me to this book.
 I hope you find it useful.
 I am not anti-Scrum, but I think it is far too often implemented improperly and
 it has become twisted over the years.
-I'd say I am anti-velocity at this point.
+I would say I am anti-velocity at this point.
 It is a poor metric that offers far less value than the angst that results from
 the perpetual misuse.
 
+{icon=quote-left}
+G> Velocity is a poor metric that offers far less value than the angst that results from the perpetual misuse.
+
+
 Hopefully, you find value herein and come away with a better set of tools for
-helping teams forecast and get to predictable.
+helping teams forecast and get to predictability.
