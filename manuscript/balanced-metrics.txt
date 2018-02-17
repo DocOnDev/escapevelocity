@@ -46,12 +46,13 @@ I'm advocating that you consider what you are trying to achieve and determine wh
 ## A starting point ##
 I am often asked what metrics a team (or teams) should use.
 This question often comes devoid of much detail, such as the make up of the team, how long they've been together, what pain they are experiencing, or what objectives they're trying to measure for.
-In these cases, I tend to advise teams to start with four basic metrics - [feature use](#feature-use), [lead time](#lead-time), [code quality](#code-quality), and [team joy](#team-joy).
-These four metrics allow a team to determine if the customer is using the software, if their time to delivery is improving, if they are managing consistent or improving quality, and if the team feels good about the work.
+In these cases, I tend to advise teams to start with five basic metrics - [feature use](#feature-use), [lead time](#lead-time), [cumulative flow](#cumulative-flow), [code quality](#code-quality), and [team joy](#team-joy).
+These five metrics allow a team to determine if the customer is using the software, see if their time to delivery is improving, identify bottlenecks, know if they are managing consistent or improving quality, and learn if the team feels good about the work.
 With this information, they can tweak their efforts and find that sweet spot where they are moving as fast as possible without sacrificing quality and not burning out the team all while adding value for the customer.
 
 I am not saying these are the only measures you should use.
 I am not saying these measures are mandatory.
 What I am saying is, when I'm asked where a team should start without sufficient context or experience, this is where I tell them to start.
 It is a short, decent set of metrics that will inform them.
+
 From there, they can adjust.
