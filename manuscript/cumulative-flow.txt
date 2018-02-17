@@ -1,3 +1,4 @@
+(#cumulative-flow)
 ## Cumulative Flow Diagrams
 
 A Cumulative flow diagram (CFD) is a simple but very powerful tool used in queuing
