@@ -43,7 +43,7 @@ not testing catches up to you.
 Changes break things and you have to go hunting down the source of the issue.
 You fix the issue and off you go.
 Two days later, some other area of the code is broken and you can't figure out why.
-It turns out a change you teammate made over a week ago broke this area of the code.
+It turns out a change your teammate made over a week ago broke this area of the code.
 Your teammate didn't know there was a dependency so she didn't test this module.
 
 This happens all the time.
