@@ -24,7 +24,7 @@ with consistent cycle times across many issues are more predictable in deliverin
 While cycle time is a primary metric for kanban teams, scrum teams can benefit
 from optimized cycle time as well.
 
-Let's imagine a team that have a backlog from which they pull work into
+Let's imagine a team that has a backlog from which they pull work into
 development. After development, they have a formal testing phase followed by
 formal business approval and deployment into production.
 There's a significant trade show coming up in a few months and we want to have
