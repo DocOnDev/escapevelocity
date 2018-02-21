@@ -2,38 +2,25 @@
 
 I've been practicing some form of iterative and incremental software delivery
 for quite some time.
-In the early 1990s, I worked with Joseph Sladick on a project where he taught
-me about incremental delivery as a means of not getting too far before
-getting feedback.
+In the early 1990s, I worked with Joseph Sladick on a project where he taught me about incremental delivery as a means of not getting too far before getting feedback.
 We didn't work in set iterations, but we did work in small chunks.
 
-When I formed my first software studio, I brought these concepts to the team we
-built.
-In building software for paying customers, we started a practice of regular
-status meetings.
-In doing so, the chunking of the work changed slightly so that we could deliver
-something every couple of weeks.
-We'd taken on a practice we called "shadowing" where developers would work
-together on harder problems or to speed up on-boarding to projects.
-Here, developers would sit together and work on the same deliverable at the same
-time.
+When I formed my first software studio, I brought these concepts to the team we built.
+In building software for paying customers, we started a practice of regular status meetings.
+In doing so, the chunking of the work changed slightly so that we could deliver something every couple of weeks.
+We'd taken on a practice we called "shadowing" where developers would work together on harder problems or to speed up on-boarding to projects.
+Here, developers would sit together and work on the same deliverable at the same time.
 
-In November of 1999, I purchased "XP Explained" by Kent Beck and realized I'd
-found my tribe.
+In November of 1999, I purchased "XP Explained" by Kent Beck and realized I'd found my tribe.
 These people were doing some crazy stuff with estimating and testing, which I was a bit leery of.
-But they'd honed a lot of the other things we were playing with, so why not
-give it a try?
+But they'd honed a lot of the other things we were playing with, so why not give it a try?
 
-A few years later, I'd sold off the company and found myself in a senior leadership
-position at a large regional bank who was interested in "this agile thing."
+A few years later, I'd sold off the company and found myself in a senior leadership position at a large regional bank who was interested in "this agile thing."
 An avid XP practitioner, I had a casual relationship with Scrum.
-And Scrum was what they wanted, so I flew to Chicago to get my ScrumMaster
-Certification from Ken Schwaber.
-Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity
-all became a part of my vernacular.
+And Scrum was what they wanted, so I flew to Chicago to get my ScrumMaster Certification from Ken Schwaber.
+Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity all became a part of my vernacular.
 
-For the following few years, whether as an employee or consultant, I was spreading
-the Scrum way.
+For the following few years, whether as an employee or consultant, I was spreading the Scrum way.
 I like to believe I did well; that I made a positive difference.
 The teams I worked with improved.
 They got better at quality.
@@ -42,28 +29,20 @@ They got better at working together.
 But they rarely got better at estimating.
 They rarely got better at stabilizing their velocity.
 
-After a while, I started to see more and more teams myopically focused on
-their velocity.
-Teams engaging in all sorts of behavior in attempts to make their velocity
-look like it was supposed to.
+After a while, I started to see more and more teams myopically focused on their velocity.
+Teams engaging in all sorts of behavior in attempts to make their velocity look like it was supposed to.
 Managers setting velocity goals and pushing teams to move faster.
 
 So I eventually wrote a talk about how velocity isn't supposed to be a goal.
-In the research for that talk, I came across a number of new ideas and interesting
-perspectives on measurements, metrics, and behaviors.
-Feedback from audiences who've heard that talk along with several more years of
-practice eventually led me to this book.
+In the research for that talk, I came across a number of new ideas and interesting perspectives on measurements, metrics, and behaviors.
+Feedback from audiences who've heard that talk along with several more years of practice eventually led me to this book.
 
 I hope you find it useful.
-I am not anti-Scrum, but I think it is far too often implemented improperly and
-it has become twisted over the years.
+I am not anti-Scrum, but I think it is far too often implemented improperly and it has become twisted over the years.
 I would say I am anti-velocity at this point.
-It is a poor metric that offers far less value than the angst that results from
-the perpetual misuse.
+It is a poor metric that offers far less value than the angst that results from the perpetual misuse.
 
 {icon=quote-left}
 G> Velocity is a poor metric that offers far less value than the angst that results from the perpetual misuse.
 
-
-Hopefully, you find value herein and come away with a better set of tools for
-helping teams forecast and get to predictability.
+Hopefully, you find value herein and come away with a better set of tools for helping teams forecast and get to predictability.
