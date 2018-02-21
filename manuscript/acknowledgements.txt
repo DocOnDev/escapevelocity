@@ -1,64 +1,52 @@
 # Acknowledgements
 
 I've had the great fortune of working with amazing people my entire career.
-There is no possible way I can acknowledge all who've had an impact on me and
-made this possible.
+There is no possible way I can acknowledge all who've had an impact on me and made this possible.
 So many have touched my life in so many ways.
-Herein I will attempt to acknowledge those who've had a direct impact on the
-making of this book.
-Know that if I haven't mentioned you, you are in my heart and I am sorry for
-the oversight.
+Herein I will attempt to acknowledge those who've altered my course significantly or had a direct impact on the making of this book.
+Know that if I haven't mentioned you, you are in my heart and I am sorry for the oversight.
 
 I love you all. Sincerely.
 
 
+I started my career at a Law Firm in Cleveland Ohio where *Richard Kucia* and *Joe Sladick* mentored me as I moved from hobbyist to professional.
+Joe was especially influential as it was he who showed me the benefits of working in small chunks.
 
-I started my career at a Law Firm in Cleveland Ohio where *Richard Kucia* and
-*Joe Sladick* mentored me as I moved from hobbyist to professional. Joe was
-especially influential as it was he who showed me the benefits of working in
-small chunks.
-
-I soon started my own consultancy where I eventually partnered with
-*Brian Goleno* and *Mike Farona*, both of whom were influential in my
-continued growth. It was there that we first started experimenting with
-alternative approaches to software and it was Brian who pointed me toward XP
-and then ThoughtWorks, a company I followed for years before joining.
+I soon started my own consultancy where I eventually partnered with *Brian Goleno* and *Mike Farona*, both of whom were influential in my continued growth.
+It was there that we first started experimenting with alternative approaches to software and it was Brian who pointed me toward XP and then ThoughtWorks, a company I followed for years before joining.
 
 At ThoughtWorks, I found a home, albeit temporary.
-The number of people with whom I had opportunity to have great discussions and
-debate and to learn from is too great to count.
-From *Mike Royle* who served as my first official mentor to *Gregg "Hippie" Warren*
-who ran with me and gave me a fantastic opportunity and challenge to work on.
-I  met, collaborated with, and was influenced by *Doc List*, *Rebecca Parsons*,
-*Martin Fowler*, *Amanda Laucher*, *Paul Hammant*, *Patrick Sarnacke*,
-*Chris Kozak*, *Pramod Sadalage*, and so many others.
+The number of people with whom I had opportunity to have great discussions and debate and to learn from is too significant to count.
+My time with ThoughtWorks was relatively short, but the impact was immense.
+My life changed for the better the day I became a ThoughtWorker.
 
-Through the ThoughtWorks network, I had the opportunity to meet and interact with
-*Dan North*, *Jezz Humble*, *Liz Keogh*, and *Dave Hoover* all of whom have
-influenced and help to shape my thinking.
+Among all of the wonderful folks I worked with at ThoughtWorks, I especially want to acknowledge *Martin Fowler*.
+Martin has not only made great contributions to the software community as a whole, but for me personally.
+On more than on occasion, Martin took time out to have a one on one conversation with me.
+In each instance, he shared valuable insights and advanced my thinking.
+
+Through the ThoughtWorks network, I had the opportunity to meet and interact with *Dan North* and *Dave Hoover*.
+Both have influenced and helped to shape my thinking around teams, metrics, and the craft of making software.
 
 In leaving ThoughtWorks, I joined LeanDog as a partner.
-There I had opportunity to work with *Jeff Morgan* who is one of the most
-passionate developers I know and *Jon Stahl* who influenced my knowledge of lean,
-systems thinking, and leadership.
-Through LeanDog, I met *Corey Haines*, *JB Rainsburger*, *Diane Zajac*,
-and *Gary Bernhardt* all of whom blew me away with their passion, knowledge,
-contribution, and abilities.
+There I had opportunity to work with *Jeff Morgan* who is one of the most passionate developers I know.
+Jeff and I would have long discussions on all things software over a beer or two.
+His perspective was invaluable and often pushed me to reevaluate my own perspective.
 
-As my exposure to the agile community grew, I had the fortune to meet and spent
-quality time with *Diana Larsen*, *Esther Derby*, *Ward Cunningham*, *Bob Martin*,
-*Ron Jeffries*, *Chet Hendrickson*, *James Grenning*, *Jon Kern*, and many others.
-What I thought I knew was challenged and I turned from being the "expert" to being
-a beginner, which I've tried to be ever since.
+As my exposure to the agile community grew, I had the fortune to meet and spent quality time with many of its founders and leaders.
+What I thought I knew was challenged and I turned from being the "expert" to being a beginner, which I've tried to be ever since.
+Related specifically to the material in this book, I recall conversations with *Diana Larsen*, *Ron Jeffries*, and *Jon Kern* as especially influential.
 
 At Groupon, I had a unique opportunity to take everything I'd learned and put it into practice.
-My small team started a movement within Groupon Engineering to put people
-above process and to foster Autonomy, Connection, Excellence, and Diversity.
+My small team started a movement within Groupon Engineering to put people above process and to foster Autonomy, Connection, Excellence, and Diversity.
 These are the cornerstones of CTO2's philosophy and mission today.
 
-Of course, none of this was possible without the continued support of my family.
-*Teri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*,
-*Courtney Norton*, and *Sean Norton* made up my greatest support network and gave
-me purpose in life.
+Of course, none of my journey was possible without the continued support of my family.
+*Terri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*, *Courtney Norton*, and *Sean Norton* made up my greatest support network and gave me purpose in life.
+
+And in this past year, as I write this book, nobody has been more influential and supportive than *Diane Zajac*.
+She's given me the time and space to write, encouraged me (even pushed me) to keep going, been there to bounce ideas off of, shared her own insights, and worked hard to help me edit the text into something people might actually enjoy reading.
+
+In writing this, I've looked back on my career and I see the faces of hundreds of friends smiling back at me.
 
 I am truly blessed.
