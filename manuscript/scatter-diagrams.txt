@@ -69,6 +69,7 @@ In this case we see a negative correlation between velocity and complexity.
 The more complex the code, as measured by [cyclomatic complexity](#cyclomatic-complexity),
 the lower the velocity.
 
+{#lead-time-story-size}
 ### Lead Time by Story Size
 
 ![Lead Time by Story Size](images/CFD.019.jpeg)
@@ -90,9 +91,7 @@ So even though we had more points, the stories took less time to deliver.
 The 16 points comprised of 2 and 3 point stories took an average of 29 days.
 The 13 point story took an average of 33.5 days.
 
-The team could definitively see that when breaking stories down, it was okay that
-the points didn't add up to the estimate of the larger story AND that by breaking
-stories down, the team was able to deliver in less time.
+The team could definitively see that when breaking stories down, it was okay that the points didn't add up to the estimate of the larger story AND that by breaking stories down, the team was able to deliver in less time.
 Not to mention, the options the team expanded through good story decomposition.
 
 ### Conclusion

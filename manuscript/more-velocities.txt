@@ -33,7 +33,7 @@ And in other cases, the need for higher velocity is borne of expectation.
 Everybody knows that when a team goes agile, they get faster.
 It's a fact.
 It has been written in numerous agile books, especially books on scrum.
-Hell, I just wrote it in this book.
+I mean, I just wrote it in this book.
 So it must be true.
 And if it is true that teams get faster, all we need to do is help them get there.
 
@@ -249,6 +249,64 @@ believed the larger numbers were more accurate.
 
 #### Splitting Points
 
-Changing points so you can have higher velocity
-story point bloating because more is better.
-"you need to increase velocity x% or else miss the deadline"
+Splitting points refers two possible activities; taking partial credit for work undertaken in a given iteration, but not completed or breaking stories up into smaller pieces that add up to more than the original.
+
+##### Taking Partial Credit
+
+This isn't really a way of making our velocity look greater, but it is a way of making our velocity look "better", so I've added it here.
+
+Say we have an 8 point story that we pick up mid-iteration and don't get it completed.
+At the end of the iteration, we award ourselves 3 points and roll 5 points into the next iteration.
+The intent, I believe, is to be able to represent the effort expended in each iteration.
+This allows for a smoother looking burn-down chart across a release.
+And that means less people are asking questions.
+
+Of course, if we're not actually delivering value in a given iteration, we probably shouldn't be taking partial credit based on "effort".
+And if this is happening consistently, maybe those people should be asking questions.
+
+And it is not uncommon for teams that engage in this practice to do it repeatedly.
+I've seen plenty of teams that split and roll.
+At the end of an iteration, they split all stories in process and roll the remainders into the next iteration.
+In some cases, such as when they use an electronic tracking system, they  actually create a duplicate card, split the points, and move the new card into the next iteration.
+I've seen this happen across multiple iterations.
+An 8 point card gets split into 3 done and 5 remaining.
+That 5 gets split into 2 done and 3 remaining which gets split into 2 and 1.
+Four iterations to complete an 8 point story.
+And we've lost all visibility of the lead time and cycle times on that story.
+
+Burn charts look good.
+Velocity seems pretty consistent.
+Bonuses will be paid to the ScrumMasters.
+And yet, we've no idea when the work in this iteration will actually be done.
+We're foolish enough to proclaim that we consistently get 12 points done per iteration, so this 5 point story should easily get done next iteration.
+We're ignoring the fact that the work completed in a given iteration was actually started in prior iterations and that odds are very low we'll ever finish 5 points on a card in a single iteration.
+
+##### Breaking Up Stories
+
+This one is interesting because it is often done for the wrong reasons, but sometimes it works.
+
+Some teams will take a large story and break it into smaller pieces in order to make it look bigger.
+A 5 point story gets broken into three pieces, each estimated at 2 points.
+Viola, 5 points becomes 6.
+Nice.
+They couldn't convince management it was an 8 (thanks Fibonacci), but through some slight of hand, they bumped it to 6.
+More Velocities, here we come.
+
+Seems a tad dubious, does it not?
+
+But it can actually work.
+And I don't mean it can work as in it artificially increases your velocity, which it does.
+I mean it can work as in you get more work done in less time.
+
+Assuming the stories are split along reasonable seams into chunks of work that can be individually delivered, the team not only increased the likelihood they can deliver value in this iteration, they may have also increased their throughput.
+
+In the section on [correlations](#correlations), we discuss [Lead Time by Story Size](#lead-time-story-size).
+There we can see that when we measured and plotted lead times by story size, we discovered something interesting.
+We found that when we broke large stories into discrete parts, the average time to deliver all discrete parts was less than the time to deliver the larger story.
+This held true even when the parts added up to more than the story.
+
+If you're going to split stories, do it for the right reasons.
+Do it because you want to increase options.
+Do it because you want to optimize for learning as you go.
+Do it because you want to get working software into the hands of your customers as soon as possible.
+And a side effect will be that your actual throughput goes up.
