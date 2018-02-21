@@ -25,15 +25,15 @@ But one thing I've never understood is the notion of estimates versus actuals.
 Here we look at the original estimate for a story and we then estimate again
 once the story is complete.
 The idea here is that the estimate upon completion is an actual.
-Now if you're estimating in time, you could use the actual.
-If you're estimating in points that you equate to time, you could use the actual.
-The practice I am referring to is when a team estimates complexity in points,
-completes the work, and sizes the story again based on what they've learned.
-This is supposed to provide a learning opportunity whereby we can improve our estimates
-going forward.
+Now if you're estimating in time, I suppose you could use the actual.
+If you're estimating in points that you equate to time, I still suppose you could use the actual.
+I still don't think it is a good idea, but I can see the logic in it.
+The real problem, in my opinion, is that you think you can estimate in time in the first place.
+
+In this case, the practice I am referring to is when a team estimates complexity in points, completes the work, and sizes the story again based on what they've learned.
+This is supposed to provide a learning opportunity whereby we can improve our estimates going forward.
 This, to me, is a flawed approach.
-The assumption is that the next story that has unknown unknowns will be more knowable
-because we learned what we didn't know when we built this story.
+The assumption is that the next story that has unknown unknowns will be more knowable because we learned what we didn't know when we built this story.
 You following me here?
 Me neither.
 
@@ -47,17 +47,14 @@ Sudoku is (clearly) problem solving.
 Admittedly, sudoku is far more simple than writing code.
 Simple in terms of strictly constrained and with very few possible solutions
 (often one solution).
-If we can agree that sudoku can serve as a simple model for writing code,
-then please do read on.
+If we can agree that sudoku can serve as a simple model for writing code, then please do read on.
 
 I have a sudoku game on my phone.
 It breaks the games down into four categories; easy, medium, hard, and expert.
 Clearly, the games are all on the same size grid with the exact same rules.
-The difference between these games is merely the number of seeded answers and
-their locations on the board.
+The difference between these games is merely the number of seeded answers and their locations on the board.
 These two factors make a game more or less difficult to solve.
-I don't know that a medium is twice as difficult as an easy, but I am certain
-that a medium is more difficult than an easy.
+I don't know that a medium is twice as difficult as an easy, but I am certain that a medium is more difficult than an easy.
 
 ### Actuals
 
@@ -73,35 +70,27 @@ The x-axis is the number of games.
 At point 6 on the x axis, the easy story takes nearly 8 minutes to complete.
 This is well outside the normal effort for an easy.
 In fact, it exceeds the average for a medium.
-After completion of this puzzle, were you to have asked me, I might have
-concluded that it was actually a medium or even a hard.
+After completion of this puzzle, were you to have asked me why it took so long, I might have concluded that it was actually a medium or even a hard.
 But the truth is, it was an easy.
 For some reason, I struggled to solve it.
 Maybe I missed a subtle clue.
 Maybe I made a mistake that sent me down a wrong path for quite a while.
 I honestly don't recall.
-But the amount of effort it took me to determine the solution does not change
-the quality of the puzzle itself.
+But the amount of effort it took me to determine the solution does not change the quality of the puzzle itself.
 
 {icon=quote-left}
 G> It didn't become an easy puzzle just because I found it easy to solve.
 
-Similarly, there are a number of times where I managed to complete expert
-puzzles in times consistent with a medium or even an easy.
+Similarly, there are a number of times where I managed to complete expert puzzles in times consistent with a medium or even an easy.
 Again, this does not change the fact that the puzzle was an expert level puzzle.
 It didn't become an easy puzzle just because I found it easy to solve.
 
 ### Back to Software
 
-Looking at the variance in simple sudoku puzzles, I hope we can agree the same
-kind of variance is perfectly reasonable in software development.
-An estimate of 1 point indicates the team agrees this is a story of relatively
-low complexity and that it is similar in complexity to other stories that we
-previously agreed were also 1 point.
-An estimate of 1 point does not directly indicate that it will take a specific
-amount of time (or less).
-An estimate of 1 point does not necessarily indicate that it will be faster to
-complete than a 2 point or 3 point story.
+Looking at the variance in simple sudoku puzzles, I hope we can agree the same kind of variance is perfectly reasonable in software development.
+An estimate of 1 point indicates the team agrees this is a story of relatively low complexity and that it is similar in complexity to other stories that we previously agreed were also 1 point.
+An estimate of 1 point does not directly indicate that it will take a specific amount of time (or less).
+An estimate of 1 point does not necessarily indicate that it will be faster to complete than a 2 point or 3 point story.
 On average, a 1 point story will be completed in less time than a 2 or 3.
 *On average*.
 
@@ -110,22 +99,30 @@ G> A 3 point story doesn't become a 1 point story just because you completed it
 quickly.
 
 There are times when a story changes.
-Say certain requirements are dropped or we discover that we'd already written
-some of the code months ago.
+Say certain requirements are dropped or we discover that we'd already written some of the code months ago.
 I am sure there are other reasons.
-But just because a story took longer or shorter than the average time to
-complete similarly sized stories does not mean the story was improperly sized.
-A 3 point story doesn't become a 1 point story just because you completed it
-quickly.
+But just because a story took longer or shorter than the average time to complete similarly sized stories does not mean the story was improperly sized.
+A 3 point story doesn't become a 1 point story just because you completed it quickly.
 
 ### It's all relative
 
 I recommend you use a reference story.
 Identify a story that the entire team can agree is 1 point.
-When you are estimating, keep that story in mind and attempt to estimate all
-others relative to it.
+When you are estimating, keep that story in mind and attempt to estimate all others relative to it.
 Then, at the end of the estimating session, compare the stories to one another.
 Do the points still feel right?
 Compare the stories to random selections from prior iterations?
 Do the points still feel right?
 If not, make adjustments to your new estimates as necessary.
+
+### Set it an forget it
+
+If you're going to estimate stories, don't keep tweaking those estimates.
+Once you've gone through the process of relative estimation, near-term comparison, and historical comparison, set the story points (or whatever unit of measure you fancy) and pretty much leave it.
+Learn something significant? Sure, make an adjustment.
+Complete change in technical direction? Sure, make an adjustment.
+But other than something major that materially influences the entire project, stop obsessing over sizing your stories.
+And stop fevering over actuals versus estimates.
+If you want those numbers to get closer to one another on a more consistent basis, focus instead on making your stories small enough that the variance is insignificant.
+At that point, by the way, there's definitely no need for estimates.
+So there's certainly no need to compare an estimate against an actual.
