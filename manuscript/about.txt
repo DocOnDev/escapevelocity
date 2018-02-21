@@ -1,10 +1,8 @@
 # About This Book
 
-"Escape Velocity" is a record of my own journey as I learn about agile, metrics,
-and team dynamics.
+"Escape Velocity" is a record of my own journey as I learn about agile, metrics, and team dynamics.
 It is a snapshot; a moment in time.
-The content herein is the result of more than 10 years of learning about and
-practicing these ideas.
+The content herein is the result of more than 10 years of learning about and practicing these ideas.
 I've a lot to learn.
 I always will.
 The more we know about a topic, the more we realize we don't know enough about it.
@@ -18,20 +16,14 @@ This book doesn't need to be read linearly.
 Many of you will want to jump straight to the section on [Other Metrics](#other-metrics).
 You know velocity isn't working and you'd like alternatives.
 That's cool.
-I encourage you to eventually read [Potential Side Effects of Metrics](#metrics-side-effects)
-and causes of [Variable Velocity](#variable-velocity).
-These will help you think about how you implement the new metrics and will give
-you insight into common issues these new metrics might help uncover.
+I encourage you to eventually read [Potential Side Effects of Metrics](#metrics-side-effects) and causes of [Variable Velocity](#variable-velocity).
+These will help you think about how you implement the new metrics and will give you insight into common issues these new metrics might help uncover.
 
-For those who prefer a linear approach, this book is designed to build on each
-concept from chapter to chapter.
+For those who prefer a linear approach, this book is designed to build on each concept from chapter to chapter.
 
-We first introduce you to the concept of Velocity and provide some insight into
-why it is not a particularly good metric, especially for it's common uses as a
-predictor and an assessment of team health.
+We first introduce you to the concept of Velocity and provide some insight into why it is not a particularly good metric, especially for it's common uses as a predictor and an assessment of team health.
 
-We then cover a series of ways in which velocity is commonly misused or even
-abused on teams.
+We then cover a series of ways in which velocity is commonly misused or even abused on teams.
 These Anti-Patterns contribute to the dysfunctions we see on a great number of agile teams.
 Despite the good intentions, these behaviors tend to create more harm than good.
 
@@ -40,15 +32,11 @@ We focus on side effects that are common to velocity, but certainly not exclusiv
 Knowing these side effects helps us to think about how we use metrics and how they help to shape our decisions.
 These are not arguments against the use of metrics, as many infer them to be, but things we need to be aware of when we measure anything or even establish goals that are measurable.
 
-Once we've laid the groundwork of establishing velocity as a weak metric,
-discussed common misuse, and covered common side effects, we can start to dive
-deeper into team issues and how we might address them.
+Once we've laid the groundwork of establishing velocity as a weak metric, discussed common misuse, and covered common side effects, we can start to dive deeper into team issues and how we might address them.
 
 We start this section with an exploration of common causes of variable velocity.
-We look at common issues teams face; none of which is fully revealed when
-we look at velocity alone.
-But it is these issues we need to address if we want the team to perform at their
-highest capability.
+We look at common issues teams face; none of which is fully revealed when we look at velocity alone.
+But it is these issues we need to address if we want the team to perform at their highest capability.
 
 We then take a look at other metrics available to us.
 These metrics give us deeper insight into core issues.
@@ -56,24 +44,18 @@ In some cases, we provide a clear comparison of velocity to the alternative metr
 In some cases, the metric provides data that cannot even be inferred from velocity.
 There is no comparison.
 
-Finally, we talk about ways to leverage these measurements and metrics to address
-common problems on teams.
+Finally, we talk about ways to leverage these measurements and metrics to address common problems on teams.
 We look at creating targeted and balanced metrics monitoring.
 By combining metrics, we gather more information and we create scenarios where "gaming" the metrics is harder to do.
 
 
-# About The Title and Cover
+# About The Title
 
-"Escape Velocity" is the minimum speed needed for an object to escape from a
-massive body[^EscapeVelocity]. Once an object achieves escape velocity, it is
-able to free itself from the force of the massive body without any additional
-impulse.
+"Escape Velocity" is the minimum speed needed for an object to escape from a massive body[^EscapeVelocity]. Once an object achieves escape velocity, it is able to free itself from the force of the massive body without any additional impulse.
 
 I thought this non-risque double entendre was fun.
 Not only are we saying a team can "escape velocity" as a metric.
 But we are saying there is an "escape velocity" as which point agile teams can escape the massive body of Scrum and learn about the broader universe of agile.
-
-The cover image itself is Luna 1, which launched in 1959 and was the first man-made object to attain escape velocity from Earth.
 
 [^EscapeVelocity]: Escape velocity. (2017, March 21). Retrieved March 26, 2017, from https://en.wikipedia.org/wiki/Escape_velocity
 
