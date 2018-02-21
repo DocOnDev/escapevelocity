@@ -7,7 +7,7 @@ Some of you are wondering why this is a problem.
 
 If the team's velocity is the total work they complete in a given timeframe,
 then the sum of the individual velocity for each team member is the team velocity.
-It's probably good to know who is actually contributing and who need improvement,
+It's probably good to know who is actually contributing and who needs improvement,
 right?
 
 And therein lies the problem.
