@@ -33,6 +33,11 @@ There I had opportunity to work with *Jeff Morgan* who is one of the most passio
 Jeff and I would have long discussions on all things software over a beer or two.
 His perspective was invaluable and often pushed me to reevaluate my own perspective.
 
+*Matt Barcomb* eventually joined us at LeanDog.
+He and I never got the opportunity to work on a project together, but we did have opportunity to talk philosophy and approach.
+Matt's sarcastic whit is bested only by his deep insights.
+Little did he know it, but one snark from him often lead to days of research for me.
+
 As my exposure to the agile community grew, I had the fortune to meet and spent quality time with many of its founders and leaders.
 What I thought I knew was challenged and I turned from being the "expert" to being a beginner, which I've tried to be ever since.
 Related specifically to the material in this book, I recall conversations with *Diana Larsen*, *Ron Jeffries*, and *Jon Kern* as especially influential.
