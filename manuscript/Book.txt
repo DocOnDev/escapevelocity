@@ -35,6 +35,7 @@ mainmatter.txt
       escaped-defects.txt
       code-complexity.txt
       test-coverage.txt
+      code-churn.txt
     team-joy.txt
     customer-metrics.txt
       outcomes-over-outputs.txt

@@ -1,0 +1,36 @@
+### Code churn
+
+Code churn indicates the amount of change that takes place in a particular area of code.
+
+It is not actually a measure of code quality.
+But it is an important partner to other code quality metrics.
+
+Code churn tells us where we are spending the most time in the code, making updates, adding features, fixing defects.
+The higher the churn, the more time the team spends in that area of the code.
+The more time spent in an area of code, the more risk there is if the code is low quality or doesn't have good coverage.
+
+If we have a product that has two particularly snarly areas of the code, both with high complexity and low test coverage, which one should we fix first?
+The one with the higher churn.
+
+Lower churn code is lower risk to the organization.
+
+In fact, churn is so significant, a piece of code with no coverage, sky-high complexity, and any other number of internal issues that happens to work and has zero churn is a piece of code we can safely leave alone until absolutely necessary.
+Absolutely necessary being when business requirements indicate we need to make changes to it.
+
+While I encourage teams to look at churn and use it to help them make decisions about what areas of the code to clean, there is a much more simple heuristic to use.
+
+#### Clean the code you are in
+
+As mentioned, churn indicates where you spend the most time in the code.
+If you spend a lot of time in an area of the code, it is wise to clean it up.
+So, as it works out, if you are in an area of the code, then it makes sense to clean it up a bit.
+If, every time you are in the code, you clean it a little, the areas of the code where you spend the most time will get cleaned the most.
+The end result is the same as if you'd used churn as a guide, except you wouldn't have to measure churn and the code would already be cleaned (at least a little).
+
+This technique of cleaning the code you are in is often referred to as "The boy scout rule".
+One of the "rules" of scouts is to leave the camp site better than you found it.
+In this metaphor, the camp site is our code.
+Leave the code better than you found it.
+Implement the feature, fix the bug, do whatever it is the story indicates you're supposed to do.
+And while you're at it, rename a variable, extract a method, or make any other small simple change that improves the readability, maintainability, and quality of the code.
+If everyone on the team does this, the code that gets touched the most will be in the best shape.
