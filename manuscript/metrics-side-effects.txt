@@ -1,2 +1,8 @@
 {#metrics-side-effects}
 # Potential Side Effects of Metrics
+
+Now, metics are not bad.
+But, they are often used in bad ways.
+
+It might help to be aware of some of the side effects of mismanagement of metrics.
+From inadvertently creating behaviors that actively work against our best interest, to altering the meaning of the metric, mismanagement can do more harm than good.
