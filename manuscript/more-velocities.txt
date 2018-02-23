@@ -8,22 +8,19 @@ So they send out the message - "We are going to need more velocities."
 This person is usually an authority figure and typically doesn't do the actual
 work being asked of the team.
 And they clearly don't know what velocity is.
+More velocities? Aw C'mon, really?
 
 ### Why we need "more velocities"
 
-In some cases, the need for higher velocity is based on a set scope for a set date
-and some basic but significantly flawed math.
+In some cases, the need for higher velocity is based on a set scope for a set date and some basic but significantly flawed math.
 Take the total work to be done and divide it by the team's average velocity.
-If the number of weeks to complete the work exceed the number of weeks between
-now and the deadline, then the team needs to get more done in less time.
+If the number of weeks to complete the work exceed the number of weeks between now and the deadline, then the team needs to get more done in less time.
 
 In other cases, the need for higher velocity is observed.
 The team can be seen "loafing".
 There are times where nobody is actively writing code.
-There are times where more than one individual is working on the same basic
-piece of work at a given time.
-Sometimes, we can even see two people working at the same computer at the same
-time.
+There are times where more than one individual is working on the same basic piece of work at a given time.
+Sometimes, we can even see two people working at the same computer at the same time.
 Not everybody punches in at 8am and out again at 6pm.
 Some people don't eat lunch at their desks.
 And who knows what people are actually doing when they "work from home?"
@@ -37,26 +34,25 @@ I mean, I just wrote it in this book.
 So it must be true.
 And if it is true that teams get faster, all we need to do is help them get there.
 
-These are but a few of any number of reasons why we might expect or "need" the
-team to move faster.
+These are but a few of any number of reasons why we might expect or "need" the team to move faster.
 This thinking is, unsurprisingly, flawed.
 Velocity is not about measuring the team.
 It is about having a course-grain forecast.
-Rather than a tool to rate and push a team, it is a tool to help make key
-business decisions.
+Rather than a tool to rate and push a team, it is a tool to help make key business decisions.
 Which features can we cut back on?
 What is truly priority?
 How else might we organize the work, support the team, or think about the product?
 
 Unfortunately, these are hard decisions.
 They may force us to make tradeoffs.
-They may result in our having to change our public message; to move a date
-or to reset market expectations.
+They may result in our having to change our public message; to move a date or to reset market expectations.
 It is far easier to defer the hard decision and ask a team to "step up".
 It is easier to abdicate the responsibility and push it to the team.
 
-In most cases where the need for an increase in velocity is articulated, there
-is an underlying unspoken premise.
+{icon=quote-left}
+G> Velocity isn't about measuring the team. It is about having a course-grain forecast.
+
+In most cases where the need for an increase in velocity is articulated, there is an underlying unspoken premise.
 The belief that if properly motivated, we can do better.
 Re-phrased, the belief that we are not already operating at our best.
 
@@ -86,9 +82,7 @@ occasion.
 Burn down charts and burn up charts are a common technique for showing the team
 how they are doing within an iteration or towards a release.
 
-Seemingly benign, this approach invokes the [Hawthorne Effect](#hawthorne-effect),
-which practically guarantees the measurement will improve, but does not guarantee
-the overall results will improve.
+Seemingly benign, this approach invokes the [Hawthorne Effect](#hawthorne-effect), which practically guarantees the measurement will improve, but does not guarantee the overall results will improve.
 
 #### Velocity Goals
 
@@ -116,78 +110,57 @@ I don't want to hear any whining.
 You've been lallygagging long enough.
 Now get back to work."
 
-The language is different, but the intent is the same and the end result is likely
-the same.
+The language is different, but the intent is the same and the end result is likely the same.
 Velocity will very likely go up.
 And again, this does not mean the end result will improve.
 
 In fact, what happens is that we've now invoked [Goodhart's Law](#goodharts-law).
-In setting a target for a lagging indicator in an attempt to control the system,
-what has actually happened is we've changed the system, thereby changing what
-the indicator means.
-As a result, the measurement is no longer the same as the
-measurement we were using before and the target doesn't mean what the manager
-thinks it means.
+In setting a target for a lagging indicator in an attempt to control the system, what has actually happened is we've changed the system, thereby changing what the indicator means.
+As a result, the measurement is no longer the same as the measurement we were using before and the target doesn't mean what the manager thinks it means.
 
 #### Rewards
 Rewards for increased velocity fall into a category of their own.
 Here, we must have some level of awareness.
 After all, we can't assess an increase in velocity if we have no measure.
 And we additionally have a target.
-If we're offering a reward for an increase in velocity, there must be a target or
-even set of targets to which awards are tied.
-So we've invoked both [Hawthorne Effect](#hawthorne-effect)
-and [Goodhart's Law](#goodharts-law).
+If we're offering a reward for an increase in velocity, there must be a target or even set of targets to which awards are tied.
+So we've invoked both [Hawthorne Effect](#hawthorne-effect) and [Goodhart's Law](#goodharts-law).
 
-As we know from prior discussion, this means both that the velocity will increase
-artificially and that the velocity measurement will not mean what it once did.
+As we know from prior discussion, this means both that the velocity will increase artificially and that the velocity measurement will not mean what it once did.
 But it gets worse.
 
 You see, in knowledge work, financial rewards actually impede performance.
 That's right.
 Financial incentives impede performance.
 
-In 1971, Mark Lepper and colleagues at Stanford ran a study wherein they invited
-students to work on puzzles and games[^Overjustification].
+In 1971, Mark Lepper and colleagues at Stanford ran a study wherein they invited students to work on puzzles and games[^Overjustification].
 After a period of time, they started to reward students for their performance.
 There was a pronounced improvement in performance among some of the students.
-Then, the rewards were taken away and the students who had
-shown improvement regressed to levels below their original capability.
+Then, the rewards were taken away and the students who had shown improvement regressed to levels below their original capability.
 Some of them stopped participating altogether.
-At first glance, one might conclude that the incentives improved individual
-performance and the problem was not their use, but the fact that they were
-discontinued.
+At first glance, one might conclude that the incentives improved individual performance and the problem was not their use, but the fact that they were discontinued.
 But this is not the case.
-In reality, the overall performance of the group sagged when incentives were
-introduced and only worsened when they were then retracted.
-Extrinsic reward structures for work people found intrinsically motivating made
-performance worse.
+You see, while some people's performance went up temporarily, the overall performance of the group sagged when incentives were introduced and only worsened when they were then retracted.
+Extrinsic reward structures for work people found intrinsically motivating made performance worse.
 
 Numerous other studies spearheaded by University of Rochester psychologists
-Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our
-intrinsic motivation to work on interesting, challenging tasks — especially
-when they are announced in advance or delivered in a controlling manner.
+Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our intrinsic motivation to work on interesting, challenging tasks — especially when they are announced in advance or delivered in a controlling manner.
 
-In yet another study, Karl Dunker[^CandleProblem] used a simple cognitive problem and measured
-how long it took people to complete the problem with and without extrinsic
-motivations.
+In yet another study, Karl Dunker[^CandleProblem] used a simple cognitive problem and measured how long it took people to complete the problem with and without extrinsic motivations.
 
 Participants are given a candle, a book of matches, and a box of thumbtacks.
 No other materials are allowed to be used.
-The challenge is to figure out how to fix and light a candle on a cork board adhered
-to the wall in a way so the candle wax won't drip onto the table below.
+The challenge is to figure out how to fix and light a candle on a cork board adhered to the wall in a way so the candle wax won't drip onto the table below.
 
-This is a relatively simple puzzle requiring a bit of lateral thinking, but
-certainly a problem solvable by the majority of the population.
-Variations on the study have since been run around the globe with varying levels
-of reward.
-Universally, the conclusion is that even small extrinsic rewards diminish performance
-on cognitive tasks.
+This is a relatively simple puzzle requiring a bit of lateral thinking, but certainly a problem solvable by the majority of the population.
+Variations on the study have since been run around the globe with varying levels of reward.
+Universally, the conclusion is that even small extrinsic rewards diminish performance on cognitive tasks.
 
-So for knowledge work, establishing rewards for performance in the form of, "If you
-achieve this, then you will receive that", not only creates a situation where
-quality or other important aspects of the work will be compromised, but the
-metric has been invalidated and people's actual performance is diminished.
+So for knowledge work, establishing rewards for performance in the form of, "If you achieve this, then you will receive that", not only creates a situation where quality or other important aspects of the work will be compromised, but the metric has been invalidated and people's actual performance is diminished.
+
+Finally, for those select few who actually display an increase in performance on cognitive tasks when offered extrinsic rewards, the reward levels tend to lose impact over time.
+Whatever incentives are offered eventually become the "new normal" and maintenance of existing performance levels will require increases in reward.
+This is not a sustainable model.
 
 [^Overjustification]: Lepper, Greene, Nisbett on the "Overjustification" Hypothesis Retrieved April 15, 2017, - http://courses.umass.edu/psyc360/lepper%20greene%20nisbett.pdf
 
