@@ -9,26 +9,18 @@ another point in a given process.
 It includes not only the time the item is being actively worked on, but also
 the time the item spends waiting to be worked on.
 The question, "What is your cycle time?" may prove impossible to accurately answer.
-Given cycle time is the measure of time for a work unit to move from one point to
-another, you cannot know the cycle time without knowing both points.
-It might be the time from when development picks it up to when formal validation
-commences.
+Given cycle time is the measure of time for a work unit to move from one point to another, you cannot know the cycle time without knowing both points.
+It might be the time from when development picks it up to when formal validation commences.
 It might be from the time QA picks it up to when it is in production.
-And for any given project, there may be multiple cycle times; Design Cycle Time,
-Development Cycle Time, Testing Cycle Time, Deployment Cycle Time,
-Build Cycle Time, etc.
+And for any given project, there may be multiple cycle times; Design Cycle Time, Development Cycle Time, Testing Cycle Time, Deployment Cycle Time, Build Cycle Time, etc.
 
 Cycle time is useful for evaluating specific pieces of your process.
-Teams with shorter cycle times are likely to have higher throughput, and teams
-with consistent cycle times across many issues are more predictable in delivering work.
-While cycle time is a primary metric for kanban teams, scrum teams can benefit
-from optimized cycle time as well.
+Teams with shorter cycle times are likely to have higher throughput, and teams with consistent cycle times across many issues are more predictable in delivering work.
+While cycle time is a primary metric for kanban teams, scrum teams can benefit from optimized cycle time as well.
 
-Let's imagine a team that has a backlog from which they pull work into
-development. After development, they have a formal testing phase followed by
-formal business approval and deployment into production.
-There's a significant trade show coming up in a few months and we want to have
-some key features complete in time to reveal at the show.
+Let's imagine a team that has a backlog from which they pull work into development.
+After development, they have a formal testing phase followed by formal business approval and deployment into production.
+There's a significant trade show coming up in a few months and we want to have some key features complete in time to reveal at the show.
 We suspect from our velocity that we won't get them all done on time.
 
 In most organizations, we'd ask the team to move faster.
@@ -46,8 +38,7 @@ development, testing, approval, and deployment.
 
 ![Cycle Time By Stage](images/CFD.008.jpeg)
 
-It becomes obvious that Deployment and Testing take significantly longer on average
-than Development and Approval.
+It becomes obvious that Deployment and Testing take significantly longer on average than Development and Approval.
 Approval has the lowest cycle time whereas Deployment has the highest.
 
 No matter how many corners we cut in development to speed things up, we're not
