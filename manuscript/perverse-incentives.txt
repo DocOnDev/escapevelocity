@@ -1,1 +1,71 @@
 ## Perverse Incentives
+
+A perverse Incentive is any incentive that creates an impact counter to the intended outcome.
+
+Take for example a call center that receives complaints from customers that resolution takes too long and they spend too much time on the phone.
+A well intentioned manager announces a new program wherein call center agents who manage to lower their average call time are rewarded.
+The outcome is, in fact, lower call times.
+Three months later, new customer surveys indicate that problems take longer to solve because customers are now instructed to call back in 30 minutes rather than waiting on hold for 5 minutes.
+This allows agents the time to do the research necessary while keeping average call times down.
+It is a poorer customer experience, but call times went down and customers were paid.
+
+Now, what about in software?
+
+Let's say the quality control manager wants to lower the number of defects released into production.
+They sincerely want better quality software released to customers more often.
+In an effort to entice analysts to up their game, the manager decides to run a program where analysts are rewarded for finding more bugs.
+The end result is a dramatic increase in bugs reported prior to production release.
+Approximately 20% of the time in a given iteration is now spent discussing whether or not these three reported defects are the same defect or three distinct defects, whether or not this is actually a missed requirement or a defect, and whether or not the credit should go to the analyst who reported it first or to the one who determined how it could be recreated.
+In the end, fewer defects were released with each push to production.
+But so were fewer features.
+
+Several years back, I was working with a client and we'd implemented some code quality metrics.
+We were using them as part of the team's retrospectives and planning.
+We'd look at trending on the metrics and discuss whether or not this is what we expected and if we should adjust our planning as a result.
+Was quality dropping while throughput was going up?
+Was this acceptable?
+Should be make adjustments?
+
+This went well for a few months.
+Eventually, someone in a position of authority decided that the code coverage metric was important.
+Important enough that it should go up.
+We should release better quality software and code coverage would help to assure that quality was high.
+So they announced a bonus for the team if the code coverage increased from approximately 35% to 100% before the end of the year.
+
+Now this was a legacy system.
+It had 0% coverage when the team took it over.
+The 35% was achieved by writing tests around new behavior and character testing anything that they needed to update.
+So all tests were around code that had been changing for business purposes.
+With this new program, now all code would need to be covered.
+
+Months rolled by and the team did their best to sneak in coverage on code they wouldn't have otherwise touched, but they primarily focused on work that added value to the customer.
+Come November, they were only at about 60% coverage.
+It wasn't lookin good.
+
+Then, over the Thanksgiving Holiday, a miracle happened.
+The last check-in on Wednesday showed 62% coverage.
+Everybody went home for the long weekend.
+
+Come Monday morning, on first check-in, the continuous integration server kicked off the tests and reported 100% code coverage.
+A 38% increase over the holiday weekend.
+Bonuses were going to be paid!
+
+Upon further investigation, it was found that a member of the team spent a little time over the weekend and, using reflection, had written a test that exercised every branch of the code and then asserted that true was equal to true.
+As it turns out, true is always equal to true.
+The test passed.
+A fake test that fooled the system and, technically, met the requirement for bonus payout.
+
+As you might guess, bonuses were not paid.
+
+You might agree this is an unfortunate story, but how was it a perverse incentive?
+The team spent months trying to write tests against code that they were not changing in an effort to get to 100% coverage.
+This effort distracted from core work.
+The measurable quality of the code did not increase.
+In fact, it went down.
+Refactoring was pushed aside in exchange for writing tests.
+Working was good enough for new features.
+They had testing to do.
+
+The intent was to ensure the team was releasing better quality code.
+But it did no such thing.
+It ultimately distracted from the efforts that would have actually resulted in better quality code.
