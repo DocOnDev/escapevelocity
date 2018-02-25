@@ -62,9 +62,8 @@ TODO: Fact check these statements
 
 Policy that focuses on increasing employment is more about the spirit of the
 people than it is about economic policy.
-Historically, policy focused on jobs creation has actually hurt the economy.
-Politicians buy votes with jobs.
-Politicians do not improve economies with jobs programs.
+Historically, policies focused on jobs creation have had little or even negative impact on employment among the populations the programs target.
+
 
 Similarly, one of the problems with velocity as a lagging indicator is that
 while it can tell how much work we delivered over a given time period, it
