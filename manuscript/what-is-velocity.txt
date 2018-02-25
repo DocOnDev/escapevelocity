@@ -49,7 +49,7 @@ why the organization is or is not successful.
 Let's look at another lagging indicator; unemployment.
 The unemployment index is a lagging indicator.
 It tells us whether or not unemployment is on the rise or decline,
-which in turns tells us if the economy is doing well or poorly, respectively.
+which in turns tells us if the economy is doing poorly or well, respectively.
 An increase in unemployment means a sagging economy.
 A decrease in unemployment means a growing economy.
 But there is nothing about unemployment that tells us why the economy is
