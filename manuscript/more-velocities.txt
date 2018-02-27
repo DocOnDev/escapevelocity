@@ -1,26 +1,26 @@
 ## Demand for Higher Velocity
 
-This is far and away, the most common Velocity Anti-Pattern, and quite possibly
-the most harmful.
+This is far and away, the most common Velocity Anti-Pattern, and quite possibly the most harmful.
 It manifests itself in a number of differing fashions, but the basics are the same:
 Somebody determines that the team needs to get more done in less time.
 So they send out the message - "We are going to need more velocities."
-This person is usually an authority figure and typically doesn't do the actual
-work being asked of the team.
+This person is usually an authority figure and typically doesn't do the actual work being asked of the team.
 And they clearly don't know what velocity is.
 More velocities? Aw C'mon, really?
 
 ### Why we need "more velocities"
 
-In some cases, the need for higher velocity is based on a set scope for a set date and some basic but significantly flawed math.
+In some cases, the need for higher velocity is based on a set scope for a set date and some basic math with significantly flawed assumptions.
 Take the total work to be done and divide it by the team's average velocity.
 If the number of weeks to complete the work exceed the number of weeks between now and the deadline, then the team needs to get more done in less time.
+All of this typically under-represents the volatility of the velocity, fails to take into account systemic issues, is based on estimates made with very little information, and assumes a known and locked scope.
 
-In other cases, the need for higher velocity is observed.
+In other cases, a potential for higher velocity is observed, which then creates a demand for higher velocity.
+These observations are steeped in a lack of true understanding of creative work and an adherence to a Tayloristic[^Taylorism] output-centric management style.
 The team can be seen "loafing".
 There are times where nobody is actively writing code.
 There are times where more than one individual is working on the same basic piece of work at a given time.
-Sometimes, we can even see two people working at the same computer at the same time.
+Sometimes, we can even see two or more people working at the same computer at the same time.
 Not everybody punches in at 8am and out again at 6pm.
 Some people don't eat lunch at their desks.
 And who knows what people are actually doing when they "work from home?"
@@ -58,13 +58,16 @@ Re-phrased, the belief that we are not already operating at our best.
 
 **Given** we need to hit a deadline with a set scope
 
-**When** the team is not moving fast enough to achieve the desired outcome
+**When** the team is not moving fast enough to hit the deadline
 
-**Then** the team is capable of moving faster.
+**Then** the team is capable of moving faster
 
 This is logically flawed.
 The conclusion is baseless and is in no way supported by the precedents.
 Just because we *want* a team to move faster does not mean that they can.
+And quite often, pushing a team to go faster ultimately slows them down.
+
+[^Taylorism]: What is Taylorism? Retrieved April 12, 2017, - http://www.businessdictionary.com/definition/Taylorism.html
 
 ### Attempts to entice more velocities
 
