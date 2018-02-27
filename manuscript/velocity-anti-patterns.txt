@@ -3,13 +3,12 @@
 If you've been on an agile team that uses velocity as a key metric, you've
 probably experienced or at least witnessed some pretty strange behavior.
 
-Ask a group of agile coaches about dysfunctions they've seen on teams related
-to the use of velocity and you'll get plenty of responses that inspire
-head shaking and hand wringing.
+I asked a group of agile coaches via Twitter and LinkedIn about dysfunctions they've seen on teams related to the use of velocity.
+I received plenty of responses that inspired head shaking and hand wringing.
+Some of the answers had nothing to do with velocity or even metrics and were indicative of other issues in an environment and on a team.
+I pulled out the most commonly identified issues related to velocity and metrics and share them here.
 
-That's exactly what we did to come up with the following list. This is by no
-means comprehensive, but it is a reasonable representation of the issues that
-exist within organizations when it comes to metrics and management.
+This is by no means comprehensive, but it is a reasonable representation of the issues that exist within organizations when it comes to metrics and management.
 
 ## Before we get started
 I want to be crystal clear here: The Velocity Anti-Patterns listed here are not
