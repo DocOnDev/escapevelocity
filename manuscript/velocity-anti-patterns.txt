@@ -3,25 +3,26 @@
 If you've been on an agile team that uses velocity as a key metric, you've
 probably experienced or at least witnessed some pretty strange behavior.
 
-I asked a group of agile coaches via Twitter and LinkedIn about dysfunctions they've seen on teams related to the use of velocity.
+I asked a group of agile coaches and practitioners via Twitter and LinkedIn about dysfunctions they've seen on teams related to the use of velocity.
 I received plenty of responses that inspired head shaking and hand wringing.
-Some of the answers had nothing to do with velocity or even metrics and were indicative of other issues in an environment and on a team.
 I pulled out the most commonly identified issues related to velocity and metrics and share them here.
 
 This is by no means comprehensive, but it is a reasonable representation of the issues that exist within organizations when it comes to metrics and management.
 
 ## Before we get started
 I want to be crystal clear here: The Velocity Anti-Patterns listed here are not
-necessarily indications from measuring and reporting velocity.
+necessarily indications of measuring and reporting velocity.
 Many are indications of the pervasiveness of poor management.
 
-You see, Velocity itself is not necessarily harmful.
+{icon=quote-left}
+G> Velocity is a tool and nothing more.
+G> It is not until the human element is introduced that the tool becomes potentially dangerous.
+
+You see, velocity itself is not necessarily harmful.
 It is a tool and nothing more.
 Just as a knife is a tool and nothing more.
 It is not until the human element is introduced that the tool becomes potentially dangerous.
 Whether deliberate or inadvertent, it is interaction with the tool that introduces risk.
-The better fit the tool is for purpose and the more deliberate and informed the individual,
-the lower the risk.
+The better fit the tool is for purpose and the more deliberate and informed the individual, the lower the risk.
 
-So with that in mind, let's take a look at some of the most common Velocity
-Anti-Patterns identified by our coaches and practitioners.
+So with that in mind, let's take a look at some of the most common Velocity Anti-Patterns identified by the coaches and practitioners.
