@@ -48,52 +48,41 @@ why the organization is or is not successful.
 
 Let's look at another lagging indicator; unemployment.
 The unemployment index is a lagging indicator.
-It tells us whether or not unemployment is on the rise or decline,
-which in turns tells us if the economy is doing poorly or well, respectively.
+It tells us whether or not unemployment is on the rise or decline, which in turns tells us if the economy is doing poorly or well, respectively.
 An increase in unemployment means a sagging economy.
 A decrease in unemployment means a growing economy.
-But there is nothing about unemployment that tells us why the economy is
-performing in a particular manner or how we might go about making an adjustment
-to economic policy to bolster growth.
-Moreover, the way to bolster the economy is not to focus on unemployment, but to
-address the underlying issues.
+But there is nothing about unemployment that tells us why the economy is performing in a particular manner or how we might go about making an adjustment to economic policy to bolster growth.
+Moreover, the way to bolster the economy is not to focus on unemployment, but to address the underlying issues.
 
-TODO: Fact check these statements
+Historically, policies focused on training and jobs creation have had little or even negative impact on employment among the populations the programs target [^JobsPrograms].
+Those that did create new jobs, such as the Works Progress Administration of the 1930s and the Public Employment Program of the 1970s and 1980s, did little to impact generation of jobs outside of those directly created and funded by the programs.
+Essentially, these created an artificial drop in unemployment, but did not address underlying causes.
+Each program resulted in a corresponding increase in unemployment once government funding ran out.
 
-Policy that focuses on increasing employment is more about the spirit of the
-people than it is about economic policy.
-Historically, policies focused on jobs creation have had little or even negative impact on employment among the populations the programs target.
+Whereas, policies focused on addressing broader monetary and fiscal trends can result in a boost in Aggregate Demand, which then leads to a decrease in unemployment.
 
 
-Similarly, one of the problems with velocity as a lagging indicator is that
-while it can tell how much work we delivered over a given time period, it
-cannot tell how well the team is doing at ensuring consistent delivery or at
-improving their process overall.
-For some teams, velocity may be an indicator of team health or at least capability,
-but it provides no insight into root causes.
+Similarly, one of the problems with velocity as a lagging indicator is that while it can tell how much work we delivered over a given time period, it cannot tell how well the team is doing at ensuring consistent delivery or at improving their process overall.
+For some teams, velocity may be an indicator of team health or at least capability, but it provides no insight into root causes.
+Moreover, attempts to increase velocity directly tend to either create artificial increases that are not sustainable or result in other more detrimental issues.
+Whereas, efforts to address underlying causes more often than not result in improvements in velocity.
+Managing [story composition](#story-composition) and limiting [work in process](#wip) results in smoother flow, which leads to a more stable velocity and the ability for a team to mature into more rapid delivery.
 
 A stable or slightly increasing velocity is usually considered a good thing.
-When managers see a stable velocity from iteration to iteration, they may become
-complacent and forgo any improvement efforts.
-But the reality is that there are actually numerous factors that impact a
-team's ability to deliver and the current velocity trend may be more a matter
-of coincidence than performance.
+When managers see a stable velocity from iteration to iteration, they may become complacent and forgo any improvement efforts.
+But the reality is that there are actually numerous factors that impact a team's ability to deliver and the current velocity trend may be more a matter of coincidence than performance.
 We will look at a number of factors that impact velocity in later sections.
+
+[^JobsPrograms]: Contributor, D. M. (2017, March 14). So far, federal job-training programs have been outright failures. Retrieved April 27, 2017, from http://thehill.com/blogs/pundits-blog/economy-budget/323885-thus-far-federal-job-training-programs-have-been-an
 
 ### Lagging Indicators are poor short-term predictors
 
-Lagging indicators [^LaggingKPIs] tend to be weak indicators for the short-term
-and are much more reliable for confirming long-term trends.
-Velocity from the immediately concluded iteration, for example, is not often a
-good indicator of what the velocity will be in the next iteration.
-From one iteration to the next, velocity can vary wildly due to any number of
-factors.
+Lagging indicators [^LaggingKPIs] tend to be weak indicators for the short-term and are much more reliable for confirming long-term trends.
+Velocity from the immediately concluded iteration, for example, is not often a good indicator of what the velocity will be in the next iteration.
+From one iteration to the next, velocity can vary wildly due to any number of factors.
 
-But, we can look at velocity over time and confirm trends we might suspect, such
-as a lower average velocity during holiday seasons.
-This doesn't tell us what the velocity will be in November or December, but it
-does let us know that the odds are good these months will have lower velocity
-numbers than September or October.
+But, we can look at velocity over time and confirm trends we might suspect, such as a lower average velocity during holiday seasons.
+This doesn't tell us what the velocity will be in November or December, but it does let us know that the odds are good these months will have lower velocity numbers than September or October.
 
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
 
