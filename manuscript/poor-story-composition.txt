@@ -1,3 +1,4 @@
+(#story-composition)
 ## Poor Story Composition
 
 By story composition, I mean story size and dependencies.
