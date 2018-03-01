@@ -1,3 +1,4 @@
+{#balanced-metrics}
 # Balanced Metrics
 
 We've discussed a number of possible metrics to augment or even replace velocity.
