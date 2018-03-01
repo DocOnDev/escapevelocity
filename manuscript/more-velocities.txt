@@ -72,20 +72,36 @@ And quite often, pushing a team to go faster ultimately slows them down.
 ### Attempts to entice more velocities
 
 Leaders (and teams) attempt to achieve velocity increases in numerous ways.
+Most, as you can imagine, have unintended side effects on the teams and none significantly improve the actual flow/delivery of value to their customers.
+Here we explore a few ways teams might be encouraged to increase their velocity.
+Unfortunately, no matter how well intentioned, using such techniques still has a negative impact.
 
 #### Increase Awareness
 
 The number one motivational technique is simply to increase awareness.
-We make the team acutely aware of the deadline, the desired scope, and how near
-or far they are to hitting the target.
+We make the team acutely aware of the deadline, the desired scope, and how near or far they are to hitting the target.
 This is a simple and passive technique.
-The idea here is that if people know what is required, they will rise to the
-occasion.
+The idea here is that if people know what is required, they will rise to the occasion.
 
-Burn down charts and burn up charts are a common technique for showing the team
-how they are doing within an iteration or towards a release.
+Burn down charts and burn up charts are a common technique for showing the team how they are doing within an iteration or towards a release.
+No one can be accused of pressuring a team by simply making data available, right?
 
-Seemingly benign, this approach invokes the [Hawthorne Effect](#hawthorne-effect), which practically guarantees the measurement will improve, but does not guarantee the overall results will improve.
+But no matter how seemingly benign, this approach invokes the [Hawthorne Effect](#hawthorne-effect), which practically guarantees the measurement will improve, but does not guarantee the overall results will improve.
+
+I am not saying that you should not use charts or make data available to the team.
+What I am saying is that you need to be aware that the team will tend toward behavior that "improves" the measurements by which they feel they are being evaluated.
+
+More often than not, velocity will appear to increase.
+This is often the result of some increase in the average estimate of a story, resulting in higher velocity numbers but no measurable increase in value.
+The team begins to wonder if they're estimating correctly.
+Maybe that 3 is really a 5; we're not entirely positive how complex it is.
+Better to be safe than sorry.
+We don't want an artificially low velocity - you know, like we used to have.
+
+Measurements should be data the team considers valuable and wishes to see rather than data that management wants for evaluation or demands for process consistency.
+If management is going to mandate certain measurements, educate the team on what the measurements are and how they serve the team and the organization.
+Finally - if management is going to mandate certain measurements, then make sure the mandated measurements are well [balanced](#balanced-metrics).
+
 
 #### Velocity Goals
 
@@ -94,17 +110,15 @@ We gave them the burn charts and they still didn't go fast enough.
 What is a good ScrumMaster to do?
 Well, help them with the math, of course.
 
-"Hey team. We can see that our burn chart is looking less than ideal. If we want
-to hit our deadline - and we *do* want to hit our deadline - it looks like we're
-going to need to increase our average velocity from 22 to 26 as soon as you can.
+"Hey team. We can see that our burn chart is looking less than ideal.
+If we want to hit our deadline - and we *do* want to hit our deadline - it looks like we're going to need to increase our average velocity from 22 to 26 as soon as you can.
 Whaddya say? Can we count on you to work smarter, not harder?"
 
 This, of course, isn't the only way targets are set.
 Some managers take a more dictatorial approach.
 
 "Okay team.
-I didn't want to have to do this, but you people can't seem to
-figure it out on your own.
+I didn't want to have to do this, but you people can't seem to figure it out on your own.
 So much for 'self organizing'.
 Your velocity sucks.
 I've looked at your burn chart and you can't possibly make it.
@@ -129,7 +143,7 @@ And we additionally have a target.
 If we're offering a reward for an increase in velocity, there must be a target or even set of targets to which awards are tied.
 So we've invoked both [Hawthorne Effect](#hawthorne-effect) and [Goodhart's Law](#goodharts-law).
 
-As we know from prior discussion, this means both that the velocity will increase artificially and that the velocity measurement will not mean what it once did.
+As we know from prior discussion, this means both that the velocity will increase artificially (or temporarily) and that the velocity measurement will not mean what it once did.
 But it gets worse.
 
 You see, in knowledge work, financial rewards actually impede performance.
@@ -141,27 +155,15 @@ After a period of time, they started to reward students for their performance.
 There was a pronounced improvement in performance among some of the students.
 Then, the rewards were taken away and the students who had shown improvement regressed to levels below their original capability.
 Some of them stopped participating altogether.
+
 At first glance, one might conclude that the incentives improved individual performance and the problem was not their use, but the fact that they were discontinued.
 But this is not the case.
 You see, while some people's performance went up temporarily, the overall performance of the group sagged when incentives were introduced and only worsened when they were then retracted.
 Extrinsic reward structures for work people found intrinsically motivating made performance worse.
 
-Numerous other studies spearheaded by University of Rochester psychologists
-Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our intrinsic motivation to work on interesting, challenging tasks — especially when they are announced in advance or delivered in a controlling manner.
+Numerous other studies[^CandleProblem], including those spearheaded by University of Rochester psychologists Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our intrinsic motivation to work on interesting, challenging tasks - especially when they are announced in advance or delivered in a controlling manner.
 
-In yet another study, Karl Dunker[^CandleProblem] used a simple cognitive problem and measured how long it took people to complete the problem with and without extrinsic motivations.
-
-Participants are given a candle, a book of matches, and a box of thumbtacks.
-No other materials are allowed to be used.
-The challenge is to figure out how to fix and light a candle on a cork board adhered to the wall in a way so the candle wax won't drip onto the table below.
-
-This is a relatively simple puzzle requiring a bit of lateral thinking, but certainly a problem solvable by the majority of the population.
-Variations on the study have since been run around the globe with varying levels of reward.
-Universally, the conclusion is that even small extrinsic rewards diminish performance on cognitive tasks.
-
-So for knowledge work, establishing rewards for performance in the form of, "If you achieve this, then you will receive that", not only creates a situation where quality or other important aspects of the work will be compromised, but the metric has been invalidated and people's actual performance is diminished.
-
-Finally, for those select few who actually display an increase in performance on cognitive tasks when offered extrinsic rewards, the reward levels tend to lose impact over time.
+For those select few who actually display an increase in performance on cognitive tasks when offered extrinsic rewards, the reward levels tend to lose impact over time.
 Whatever incentives are offered eventually become the "new normal" and maintenance of existing performance levels will require increases in reward.
 This is not a sustainable model.
 
@@ -173,15 +175,12 @@ This is not a sustainable model.
 
 ### Attempts to show more velocities
 
-When leadership asks for an increase in velocity, there are a few common
-behaviors that occur.
+When leadership asks for an increase in velocity, there are a few common behaviors that occur.
 Each of them are an attempt to satisfy the potentially unrealistic ask.
 
-It is intriguing to me how often a manager will make a change such as this to a
-system of work and then later proclaim that the team is gaming the system.
+It is intriguing to me how often a manager will make a change such as this to a system of work and then later proclaim that the team is gaming the system.
 This is simply not the case.
-In fact, the gaming of the system is the improper application of targets or goals
-for lagging indicators.
+In fact, the gaming of the system is the improper application of targets or goals for lagging indicators.
 The rest is just natural consequence.
 
 The following are but a few examples of what happens when a manager games the
@@ -190,48 +189,38 @@ system.
 #### Inflating Points
 
 A few years back, I was working with an organization where teams were achieving
-the expected increase in velocity, but the leadership didn't feel like things
-were in fact moving any faster.
-Selecting one team, we took a look at their history and found that their velocity
-had gone from an average of about 20 points to an average of about 40.
+the expected increase in velocity, but  leadership didn't feel like things
+were moving any faster.
+Selecting one team, we looked at their history and found that their velocity had gone from an average of about 20 points to an average of about 40.
 On a hunch, we ran a report to figure out the average story size for each iteration.
 Sure enough, the average story size had gone from around 1.4 to around 3.1.
-In fact, you could see a clear punctuated increase in average size followed
-by a slow but steady incline.
-The punctuated increase came right around the time leadership introduced the
-new burn up charts and put a focus on velocity.
-Looking at the average number of stories completed per iteration, the numbers
-were telling.
-With an average velocity of 20 at 1.4 points per story, they were completing
-around 14 stories per iteration.
-With an average velocity of 40 at 3.1 points per story, they were completing
-around 13 stories per iteration.
+In fact, you could see a punctuated increase in average size followed by a slow but steady incline.
+The punctuated increase came right around the time leadership introduced the new burn up charts and put a focus on velocity.
+
+Looking at the average number of stories completed per iteration, the numbers were telling.
+With an average velocity of 20 at 1.4 points per story, they were completing around 14 stories per iteration.
+With an average velocity of 40 at 3.1 points per story, they were completing around 13 stories per iteration.
 
 Were they in fact moving faster and the stories were coincidentally larger?
 How could we know for sure?
 
-We took an evenly distributed sampling of stories across the history of the
-project and printed them out without any sizing information.
+We took an evenly distributed sampling of stories across the history of the project and printed them out without any sizing information.
 We then asked the team to size the stories using the same techniques they'd always used.
-The average story size came out to be approximately 2.8 with earlier stories
-growing from an average of 1.4 to 2.6.
+The average story size came out to be approximately 2.8 with earlier stories growing from an average of 1.4 to 2.6.
 
 Had they been gaming the system?
-No. As we've already discussed; we game the system when we change it, the
-resulting behaviors are just natural consequence.
-We can't know for sure if there was, at one time, a deliberate increase in
-story sizes, but we can say that under the given conditions, the team genuinely
-believed the larger numbers were more accurate.
+No. As we've already discussed; we game the system when we change it, the resulting behaviors are just natural consequence.
+We can't know for sure if there was, at one time, a deliberate increase in story sizes, but we can say that under the given conditions, the team genuinely believed the larger numbers were more accurate.
 
 #### Splitting Points
 
-Splitting points refers two possible activities; taking partial credit for work undertaken in a given iteration, but not completed or breaking stories up into smaller pieces that add up to more than the original.
+Splitting points refers to two possible activities; taking partial credit for work picked up in a given iteration, but not completed or breaking stories up into smaller pieces that add up to more than the original.
 
 ##### Taking Partial Credit
 
 This isn't really a way of making our velocity look greater, but it is a way of making our velocity look "better", so I've added it here.
 
-Say we have an 8 point story that we pick up mid-iteration and don't get it completed.
+Say we have an 8 point story that we pick up mid-iteration and don't complete.
 At the end of the iteration, we award ourselves 3 points and roll 5 points into the next iteration.
 The intent, I believe, is to be able to represent the effort expended in each iteration.
 This allows for a smoother looking burn-down chart across a release.
@@ -244,7 +233,8 @@ And it is not uncommon for teams that engage in this practice to do it repeatedl
 I've seen plenty of teams that split and roll.
 At the end of an iteration, they split all stories in process and roll the remainders into the next iteration.
 In some cases, such as when they use an electronic tracking system, they  actually create a duplicate card, split the points, and move the new card into the next iteration.
-I've seen this happen across multiple iterations.
+
+I've also seen this happen across multiple iterations.
 An 8 point card gets split into 3 done and 5 remaining.
 That 5 gets split into 2 done and 3 remaining which gets split into 2 and 1.
 Four iterations to complete an 8 point story.
