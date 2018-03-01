@@ -93,9 +93,25 @@ By including the range, we can identify departments with outliers and drill in t
 
 ### Frequency of Features, not Patches
 
-Finally, make sure frequency of release is a measure of features, not patches.
+Make sure frequency of release is a measure of features, not patches.
 Certainly, the ability to deploy patches rapidly is a benefit, but it should not be the focus.
 The goal is for each team to be able to deliver actual value to the customer in
 the form of defect free features and functions.
+
+Now, I am assuming support teams don't exist or that the support team is a triage team and the actual product team is responsible for break/fix.
+If, on the other hand, you are segmented into teams that write software and teams that fix broken software written by others, then the rate at which your break/fix team can deploy patches is a reasonable measure.
+
+#### Also, No Break/Fix Teams
+
+I'm going to say this as straight as possible.
+
+You shouldn't have a break/fix team.
+
+If you have one (or many), restructure the teams so that the people that write the software are directly responsible for supporting it.
+Overall solution quality is reduced whenever you have some teams responsible for writing software and some teams responsible for fixing it.
+
+By folding this responsibility back into the delivery teams, you allow them to learn more rapidly and encourage them to double-check requirements and quality.
+Break/fix teams encourage a lower quality product and impede learning from happening where it is most valuable.
+
 
 [^StateOfDevOps2014]: 2014 State of DevOps Report. (n.d.). Retrieved June 29, 2017, from https://puppet.com/resources/whitepaper/2014-state-devops-report
