@@ -3,56 +3,42 @@
 This is an interesting one for me.
 
 I used to be strongly opposed to estimating in time.
-These days, I don't think the problem is in the unit of estimation, it is in the
-expectation of precision.
+These days, I don't think the problem is in the unit of estimation, it is in the expectation of precision.
 Or perhaps, in the notion of estimating at all.
 
 ### Effort is not Duration
 
-Abstractions away from time, such as points representing complexity or effort or
-whatever non-time thing you want to focus on don't necessarily help with estimation.
+Abstractions away from time, such as points representing complexity or effort or whatever non-time thing you want to focus on don't necessarily help with estimation.
 They help with expectations through obfuscation.
 
 When we estimate in time, we compare in time.
-When we compare in time, we tend to get hung up on the measurement and ignore
-the statistics.
+When we compare in time, we tend to get hung up on the measurement and ignore the statistics.
 
 Say you estimate stories in points as a relative measure of complexity.
 Over time, you discover that 3 points is approximately 31 hours of work.
 The mean is 31, the median is 31, and the mode is 29.
-There are obviously some outliers, but our standard deviation is only 3.27 with
-an entire range of approximately 27 to 35.
-We have data that informs us that an estimate of 3 points can usually be completed
-within a two week period.
-Armed with this and similar data on more and less complex stories, we can do a
-pretty good job of forecasting.
+There are obviously some outliers, but our standard deviation is only 3.27 with an entire range of approximately 27 to 35.
+We have data that informs us that an estimate of 3 points can usually be completed within a two week period.
+Armed with this and similar data on more and less complex stories, we can do a pretty good job of forecasting.
 
-With a simple [cycle time control chart](#cycle-time-control-chart), we can
-identify outliers and discuss them for learning.
-We can hone our precision within a reasonable range, understanding that ultimately,
-we are taking educated guesses at how complex a task we've never attempted before
-is going to be.
+With a simple [cycle time control chart](#cycle-time-control-chart), we can identify outliers and discuss them for learning.
+We can hone our precision within a reasonable range, understanding that ultimately, we are taking educated guesses at how complex a task we've never attempted before is going to be.
 
-Estimating in points, we accept the durations as natural and so long as they fall
-within a particular range, we are okay with the variance.
+Estimating in points, we accept the durations as natural and so long as they fall within a particular range, we are okay with the variance.
 If it turns out that 3 points equates to an average of 31 hours, cool.
 If 3 points equate to a duration of 7 days, cool.
 It turns out that effort and duration are correlated, but rarely equivalent.
 
 When we estimate in days, something awful happens.
 Suddenly, the data is supposed to match a pre-determined expectation.
-If you say 3 days and the stories take 7 days to complete, we hone in on what
-we did wrong in estimating.
-There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on
-each story that missed the estimate.
+If you say 3 days and the stories take 7 days to complete, we hone in on what we did wrong in estimating.
+There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on each story that missed the estimate.
 "You need to get better at estimating.", becomes a mantra.
 The problem is, we become focused on accuracy over precision.
-And it turns out that precision and historical information is all you need to
-forecast.
+And it turns out that precision and historical information is all you need to forecast.
 Accuracy is inconsequential.
 
-By estimating in something other than time, we help to avoid the failure in thinking
-that results from conflating effort and duration.
+By estimating in something other than time, we help to avoid the failure in thinking that results from conflating effort and duration.
 
 ### Time is a poor measurement in a variable system
 
@@ -65,14 +51,13 @@ Basic math tells us this driver can complete this task in 10 hours and 32 minute
 It takes the driver 11 hours and 37 minutes.
 What did the driver do wrong?
 
-Let's say we ask a high school senior track and field athlete to run a mile as
-fast as they can.
+Let's say we ask a high school senior track and field athlete to run a mile as fast as they can.
 They complete the mile in 5 minutes and 22 seconds.
 The next day, we ask a different athlete to complete a mile as fast as they can.
 They complete the mile in 4 minutes and 55 seconds.
 The next day, we ask a different athlete to complete a mile as fast as they can.
 They complete the mile in 6 minutes and 34 seconds.
-What did the runner do wrong?
+What did the last runner do wrong?
 
 A high school athlete is now asked to run a marathon.
 We've determined that the average high school runner can complete a mile in
@@ -101,11 +86,9 @@ Rather than do that, let's get to the point.
 The time it takes to complete a non-standardized task is variable.
 The time it takes to complete a series of simple steps in a complex system is variable.
 The time it takes to do a task doesn't always scale linearly with the size of the task.
-For every task we've listed here, there is some static measure, be it distance or count
-which is both precise and accurate.
+For every task we've listed here, there is some static measure, be it distance or count which is both precise and accurate.
 And for every task we'e listed here the time varies within some range.
 Accuracy tighter than the range is not statistically possible nor, frankly, beneficial.
 
-I think the greatest benefit to estimates done via abstractions is that it
-better allows for rational thinking.
+I think the greatest benefit to estimates done via abstractions is that it better allows for rational thinking.
 Mathematically, it is no more or less beneficial.
