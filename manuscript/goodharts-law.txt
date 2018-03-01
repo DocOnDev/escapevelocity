@@ -24,8 +24,7 @@ A common paraphrasing is, "When a measure becomes a target, it ceases to be a go
 When I talk about this, I tend to add, "And the target therefore no longer means what you think it does."
 
 Goodhart's law is a critical piece of information when we think about metrics.
-No matter how tempting it might be, the moment we set a target for a measure, we've
-changed the system, thereby changing what the measurement means, thereby changing what the target means.
+No matter how tempting it might be, the moment we set a target for a measure, we've changed the system, thereby changing what the measurement means, thereby changing what the target means.
 
 The lesson here is pretty simple.
 Don't set targets for metrics.
