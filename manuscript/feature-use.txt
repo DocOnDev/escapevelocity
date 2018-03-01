@@ -1,5 +1,13 @@
 {#feature-use}
 ## Feature Use
 
+It seems that one of the hardest things for a software company to do is kill a feature.
+We conceived of it, designed it, planned it, created it, tested it, and released it.
+How could we possibly kill it?
+
+But there are so many pieces of software out there awash with nearly useless features that the majority of users will never utilize.
+
+
 Do customers actually use it?
+
 Edge case scenarios that satisfy the needs of an expert user (company owner?) that don't actually serve the needs of the common customer.
