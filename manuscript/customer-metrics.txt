@@ -4,9 +4,11 @@ So far, we've focused almost entirely in measurements that are about the team an
 But let's not forget, we're building software for a purpose.
 There is some end user in mind.
 Someone for whom we are building this software.
+
 They have goals and objectives they are trying to achieve.
 Perhaps they want a great deal on their next retail purchase.
 Or maybe they're trying to organize an important event.
 Or possibly they're trying to monitor the health of a critically ill patient.
+
 Whatever it is, they're looking to us to help them achieve their goals.
 It only makes sense that we take measurements that confirm we are, in fact, helping the customer achieve their desired end.
