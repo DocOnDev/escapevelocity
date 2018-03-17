@@ -46,12 +46,19 @@ At Groupon, I had a unique opportunity to take everything I'd learned and put it
 My small team started a movement within Groupon Engineering to put people above process and to foster Autonomy, Connection, Excellence, and Diversity.
 These are the cornerstones of CTO2's philosophy and mission today.
 
+When I started out to write a book, I struggled.
+I couldn't figure out how to start.
+I wasn't sure anyone wanted to hear what I had to say.
+I was afraid of putting in long hours for zero reward.
+*Johanna Rothman* took time out of her busy schedule to have a frank and very helpful talk with me.
+Were it not for Johanna, this book would most certainly not have happened.
+
 Of course, none of my journey was possible without the continued support of my family.
 *Terri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*, *Courtney Norton*, and *Sean Norton* made up my greatest support network and gave me purpose in life.
 
 And in this past year, as I write this book, nobody has been more influential and supportive than *Diane Zajac*.
 She's given me the time and space to write, encouraged me (even pushed me) to keep going, been there to bounce ideas off of, shared her own insights, and worked hard to help me edit the text into something people might actually enjoy reading.
 
-In writing this, I've looked back on my career and I see the faces of hundreds of friends smiling back at me.
+In writing this section, I've looked back on my career and I see the faces of hundreds of friends smiling back at me.
 
 I am truly blessed.

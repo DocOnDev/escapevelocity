@@ -173,6 +173,19 @@ This is not a sustainable model.
 
 [^CandleProblem]: The influence of strength of drive on functional fixedness and perceptual recognition. Journal of Experimental Psychology, Vol 63(1), Jan 1962, 36-41. Retrieved April 15, 2017, from http://dx.doi.org/10.1037/h0044683
 
+#### Velocity Shaming
+
+Velocity Shaming is essentially rewards for velocity combined with very poor leadership.
+
+The team has been delivering for a while.
+
+
+
+
+Shaming a team for not completing enough points in a given iteration.
+Shaming a team for not averaging a high enough velocity.
+
+
 ### Attempts to show more velocities
 
 When leadership asks for an increase in velocity, there are a few common behaviors that occur.

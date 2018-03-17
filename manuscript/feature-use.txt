@@ -5,7 +5,13 @@ It seems that one of the hardest things for a software company to do is kill a f
 We conceived of it, designed it, planned it, created it, tested it, and released it.
 How could we possibly kill it?
 
-But there are so many pieces of software out there awash with nearly useless features that the majority of users will never utilize.
+Yet there are so many pieces of software out there awash with nearly useless features that the majority of users will never utilize.
+
+There is a difference between a product that is loaded with features and a product that is bloated with features.
+That difference, as it turns out, is not determined by the creator, but by the consumer.
+If they don't use it, it is useless.
+
+
 
 
 Do customers actually use it?
