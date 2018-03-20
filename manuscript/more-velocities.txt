@@ -173,18 +173,30 @@ This is not a sustainable model.
 
 [^CandleProblem]: The influence of strength of drive on functional fixedness and perceptual recognition. Journal of Experimental Psychology, Vol 63(1), Jan 1962, 36-41. Retrieved April 15, 2017, from http://dx.doi.org/10.1037/h0044683
 
-#### Velocity Shaming
+##### Velocity Shaming
 
-Velocity Shaming is essentially rewards for velocity combined with very poor leadership.
+While really just a variant on rewards, Velocity Shaming gets a special subsection all to itself as it reveals a more serious leadership shortcoming.
 
-The team has been delivering for a while.
+The term reward suggests some form of positive reinforcement.
+With velocity shaming, we forego the positive reinforcement and instead shame or cavil[^cavil] the team for failure to meet expectations.
+If the caviler is a seagull manager who swoops in occasionally and craps on the team, then shaming will occur perhaps a few times per quarter and will be about failing to average sufficient velocity.
+If, on the other hand, the caviler is a micro-manager, the shame-fest will probably occur several times within a single iteration for failure to track to a velocity goal.
+
+The more they pay attention, the shorter the shame cycle.
+The shorter the shame cycle, the more harm done.
+
+There is holding a team accountable and there is just plain bad leadership.
+For most teams, the inability to move quickly is systemic.
+From cross team dependencies and arduous process to insufficient support, staffing, and funding, teams are often burdened with herculean tasks that their leadership could make easier.
+Shaming a team for their inability to function to your liking in a system which you as management support through inaction is a special kind of awful.
+
+If you are in charge of a team and you do this; and you know who you are.
+Stop it.
+
+Stop it now.
 
 
-
-
-Shaming a team for not completing enough points in a given iteration.
-Shaming a team for not averaging a high enough velocity.
-
+[^cavil]: To raise irritating and trivial objections; find fault with unnecessarily - Cavil. (n.d.). Retrieved March 19, 2018, from http://www.dictionary.com/browse/caviler
 
 ### Attempts to show more velocities
 

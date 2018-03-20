@@ -1,0 +1,58 @@
+## Iteration Packing
+
+I travel a lot for work.
+I mean a lot.
+I am away from home at least 70% of the time.
+Every week I travel away from home for several days, usually to a different state, sometimes to a different country.
+
+I have a carry-on suitcase that was designed for international travel.
+I love it.
+It is smaller than most US carry-on bags, but it fits in the overhead of many planes; domestic and international, that won't accommodate other carry-ons. This is super convenient.
+
+As you can imagine, I'm pretty experienced at packing a suitcase at this point.
+My daughter bought me some packing cubes a couple of years back and I've become adept at using them, which has only enhanced my ability to pack well for trips.
+I can go away for up to 6 days with this small suitcase and have sufficient clothes to wear for work and play, including shoes and clothes for working out.
+
+But most of the time I travel, I am not away for 6 days.
+Most of the time, I am away for 4 or 5 days.
+Given my ability to fit 6 days of clothes into my suitcase, I always have a little extra room on these shorter trips.
+What I would really like is to take an extra pair of shoes.
+But my feet are big and my shoes take up a lot of room.
+There's no way I can get them in there, no matter how much I want them.
+So, invariably, I will decide to pack an extra couple of shirts, a book, or some other item that I _might_ want on the trip.
+And as you might guess, I rarely if ever wear the extra shirts or read the books.
+
+Then, while on the trip I'll find a treasure; some item I'd really like to have.
+Something that would be of value to me or to a family member.
+But I cannot make the purchase because there is not enough room in my suitcase.
+
+I mean, what was I to do?
+The suitcase had room!
+I had to fill it.
+I couldn't leave for the trip without taking a few extras I might need when the suitcase was clearly not completely filled.
+I mean, what kind of person travels with a partially filled suitcase?
+That's just crazy.
+I'd rather lug around extra shirts and a book because to not lug them would be an inefficient use of the suitcase.
+A full suitcase is a happy suitcase.
+
+And such is the attitude of many an agile team.
+A full iteration is a happy iteration.
+
+Given an average velocity of 22, if the team has loaded up 19 points of valuable and pressing work into an iteration and the next most important story is 8 points, they'll search the backlog for a 3 point story or a combination of 1 and 2 point stories to fill the iteration to the maximum.
+They'll pack an iteration with lower-value items just to make sure the iteration is full.
+They'll lug around low value items that they probably won't get to and don't matter that much if they do get to them.
+They'll do this and forgo the opportunity to learn or clean the code.
+
+Iteration packing seems harmless enough on the surface.
+There's room in the iteration, why not fill it?
+But it persists a focus on utilization over value.
+At best, you deliver stuff that didn't matter as much.
+More likely what happens is you cannot fit late discovered items of value into the iteration, you leave no slack for production outages or escaped defects, and you leave no opportunity for things like learning and reduction of technical debt.
+
+If you haven't built slack into your process anywhere else, then this is the place to do so.
+If you think you've built slack into the process, but didn't do it deliberately or your [Cumulative Flow Diagram](#cumulative-flow) tells you the slack is immediately after a bottleneck, you don't have actual slack.
+If you don't have slack, definitely don't pack your iterations.
+Leave a bit of room for serendipity or even misfortune.
+Instead of packing the iteration, provide the team the opportunity to pull in more work as capacity allows.
+This also creates space for other care and feeding of the system and source.
+It also allows the team to feel good about pulling in extra work when possible rather than feeling bad about not achieving 100% of a velocity goal per iteration.
