@@ -1,6 +1,10 @@
+{#comparing-velocity}
 ## Cross-Team Velocity Comparisons
 A common anti-pattern in a great deal of organizations is velocity comparison
 across teams.
+
+It usually goes something like this:
+
 
 "Your velocity is 20 and theirs is 50. What are you doing wrong?", asks a
 manager with good but misguided intentions.
@@ -17,9 +21,9 @@ More velocities are always better, right?
 
 Let's dive into this one a bit.
 Why is it that comparison of velocity across teams is deemed an anti-pattern?
-How come we can't do this in an ideal environment?
+Are there situations where comparing is ok?
 
-The short answer is there are no ideal environments. But let's look closer.
+The short answer is, "No". And here's why.
 
 There is a great deal of debate over how velocity is best calculated.
 From story points to ideal days to hours.
@@ -31,28 +35,30 @@ calibration is still extremely difficult.
 We're using metaphors to represent guesses about work items for which we've a
 varying level of shared understanding and varying tolerances for risk.
 
-Imagine this scenario; there are two hike teams given the same basic challenge.
+Imagine this scenario; there are two expedition teams given the same basic challenge.
+Each is going to embark on a unique hike.
+The hikes are similar, but not identical.
+
+The boss sets the stage by laying out the overall plan:
+
 "You are about to embark on a multi-day hike over territory none of you has
 ever before covered in hopes of getting excellent photography.
 It will be similar to other journeys you've taken, but subtly different in
 an indeterminate number of ways.
-Our map is incomplete in parts and the path we've identified is our best guess.
+Your map is incomplete in parts and the path we've identified is our best guess.
 We've broken the hike into trail sections based on spots along the way that
 we think will make great photo opportunities.
 The terrain will vary significantly; some of it may be new to all but one or
 two of you.
-Some of it may be dissimilar to terrain any of you have ever seen.
-With these factors in mind, please indicate the number of units involved in the
-journey where a unit is a measure of energy expended in completing a section
-of the trail.
+Some of it may be dissimilar to terrain any of you have ever seen."
+
+"With these factors in mind, please indicate the number of units involved in the journey where a unit is a measure of energy expended in completing a section of the trail.
 Please indicate units on a fibonacci scale with no unit greater than 21."
 
-Each team estimates based on these criteria and hike for an hour.
-We measure the number of units each team completes in the first hour.
-We can use this data to better estimate how long it will take them to complete
-the entire journey.
-As it works out, Team A completes 20 units in the first hour and Team B
-completes 45 units in the first hour.
+Each team estimates based on these criteria and then hikes for an hour.
+At the end of the hour, each team measures the number of units completed.
+The theory is that they can use this data to better estimate how long it will take them to complete the entire journey.
+As it works out, Team A completes 20 units in the first hour and Team B completes 45 units in the first hour.
 
 So here is the question - Which team is the better performer?
 
@@ -60,13 +66,12 @@ The truth is, we cannot know that from the data provided.
 The teams may be similar, but they are not the same.
 The paths may be similar, but they are not the same.
 The skills and familiarity of the individuals may be similar, but they are not the same.
-The accuracy of the maps may be similar, but they are not the same.
+The detail of the maps may be similar, but they are not the same.
 The navigability of the paths may be similar, but they are not the same.
-The subjective assessment of anticipated energy expended that each team agrees on
-will vary not only from team to team, but from session to session on the same
-team.
-There are many variables. Velocity (units per hour) is a course-grain estimate
-unique to each team.
+
+In addition, the subjective assessment of anticipated energy expended that each team agrees on will vary not only from team to team, but from session to session on the same team.
+There are many variables.
+Velocity (units per hour) is a course-grain estimate unique to each team.
 
 Hopefully, we can see that comparing such velocity across teams is an exercise
 in frustration.
@@ -75,50 +80,9 @@ Now returning to software, the analogy holds fairly well.
 The teams may be similar, but they are not the same.
 The backlogs may be similar, but they are not the same.
 The skills and familiarity of the individuals may be similar, but they are not the same.
-The accuracy of the stories may be similar, but they are not the same.
+The detail of the stories may be similar, but they are not the same.
 The product roadmaps may be similar, but they are not the same.
-The subjective assessment of complexity that each team agrees on will vary not
-only from team to team, but from session to session on the same team.
+
+In addition, the subjective assessment of complexity that each team agrees on will vary not only from team to team, but from session to session on the same team.
 There are many variables.
 Velocity (points per iteration) is a course-grain estimate unique to each team.
-
-One common "solution" to this "problem" is to have a core set of individuals do
-all of the estimates.
-The thinking being that consistency in the estimation makes execution comparable.
-While I have seen improvements in some environments with this approach, it is
-not without its flaws.
-
-First of all, if you centralize estimation, you might increase precision, but you
-definitely degrade accuracy.
-This team needs to be intimately familiar with all of the work; all systems, all
-requirements, all dependencies, all interactions.
-They need to achieve this level of understanding with limited, if not zero
-hands on experience in the work they are estimating.
-The more time they spend reading requirements and estimating work for others to
-do, the less time they have to do the actual work.
-The less time they spend doing the actual work, the less accurate their estimations
-become.
-And the more teams they have to estimate for, the less time they have to prepare
-for each team, which further degrades accuracy.
-
-Second of all, the teams that perform the work must also be intimately familiar
-with all of the work; all systems, all requirements, all dependencies, all interactions.
-This means both teams must do the work required to estimate.
-We've introduced a good deal of duplicate effort into the system while simultaneously
-degrading accuracy.
-This is pure waste.
-
-Third of all, there are multiple factors to a team's ability to execute.
-Even when it is the same team performing all estimates, these factors come into play.
-We discussed variances in product roadmaps, backlogs, and stories.
-All of these variables still exist.
-Add in different specific technical factors and even when the same team
-performs estimates across all work, their own estimates will differ in accuracy
-across the differing projects.
-The increase in accuracy we were trying to achieve is still elusive.
-
-Finally, the more burdened the estimating team, the more likely execution teams
-need to wait.
-Now we have diminished accuracy, waste, and delays.
-All in exchange for the hopes that consistency in estimation will make up for
-the cost of centralization.

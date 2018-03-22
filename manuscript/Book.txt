@@ -9,6 +9,7 @@ mainmatter.txt
   velocity-anti-patterns.txt
     more-velocities.txt
     comparing-velocity.txt
+    estimation-teams.txt
     estimating-in-time.txt
     individual-velocity.txt
     estimates-to-actuals.txt

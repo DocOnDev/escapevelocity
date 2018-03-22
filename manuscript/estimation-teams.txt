@@ -1,0 +1,33 @@
+## Estimation Teams
+
+One common "solution" to the "problem" described in the section on [comparing velocity](#comparing-velocity) is to have a core set of individuals do all of the estimates.
+The thinking being that consistency in the estimation makes delivery comparable.
+While I have seen improvements in some environments with this approach, it is not without its flaws.
+
+First of all, if you centralize estimation, you might increase precision, but you
+definitely degrade accuracy.
+This team needs to be intimately familiar with all of the work; all systems, all requirements, all dependencies, all interactions.
+They need to achieve this level of understanding with limited, if not zero, hands on experience in the work they are estimating.
+The more time they spend reading requirements and estimating work for others to do, the less time they have to do the actual work.
+The less time they spend doing the actual work, the less accurate their estimations become.
+And the more teams they have to estimate for, the less time they have to prepare for each team, which further degrades accuracy.
+
+Second of all, if you have a specific team that estimates then you still need a team that does the actual work.
+We'll call them the delivery team.
+The delivery team must also be intimately familiar with all of the work; all systems, all requirements, all dependencies, all interactions.
+This means both teams must do the work required to estimate.
+We've introduced a good deal of duplicate effort into the system while simultaneously degrading accuracy.
+This is pure waste.
+
+Third of all, there are multiple factors to a team's ability to execute.
+Even when it is the same team performing all estimates, these factors come into play.
+We discussed variances in product roadmaps, backlogs, and stories when we talked about [cross-team velocity comparisons](#comparing-velocity).
+All of these variables still exist.
+Add in different specific technical factors and even when the same team performs estimates across all work, their own estimates will differ in accuracy across the differing projects.
+The increase in accuracy we were trying to achieve is still elusive.
+
+Finally, the more burdened the estimating team, the more likely delivery teams need to wait; because we all know projects can't start until they're estimated.
+Now we have diminished accuracy, waste, and delays.
+All in exchange for the hopes that consistency in estimation will make up for the cost of centralization.
+
+It won't.
