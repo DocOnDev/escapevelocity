@@ -277,6 +277,7 @@ We're ignoring the fact that the work completed in a given iteration was actuall
 This one is interesting because it is often done for the wrong reasons, but sometimes it works.
 
 Some teams will take a large story and break it into smaller pieces in order to make it look bigger.
+Take a team that estimates on a Fibonacci scale where stories are sized as 0, 1, 2, 3, 5, 8, 13, 21, and so on.
 A 5 point story gets broken into three pieces, each estimated at 2 points.
 Viola, 5 points becomes 6.
 Nice.
@@ -286,18 +287,21 @@ More Velocities, here we come.
 Seems a tad dubious, does it not?
 
 But it can actually work.
-And I don't mean it can work as in it artificially increases your velocity, which it does.
-I mean it can work as in you get more work done in less time.
+And I don't mean it can work because it artificially increases your velocity, which it does.
+I mean it can work because you get more work done in less time.
 
-Assuming the stories are split along reasonable seams into chunks of work that can be individually delivered, the team not only increased the likelihood they can deliver value in this iteration, they may have also increased their throughput.
+Assume that stories are split along reasonable seams into chunks of work that can be individually delivered.
+Now the team has increased the likelihood they can both deliver value in this iteration and improve their throughput.
 
-In the section on [correlations](#correlations), we discuss [Lead Time by Story Size](#lead-time-story-size).
-There we can see that when we measured and plotted lead times by story size, we discovered something interesting.
+In some environments I've coached, we've seen an interesting outcome when stories get broken down into smaller slices.
 We found that when we broke large stories into discrete parts, the average time to deliver all discrete parts was less than the time to deliver the larger story.
 This held true even when the parts added up to more than the story.
+For more on this, you can read the section on [correlations](#correlations), we discuss [Lead Time by Story Size](#lead-time-story-size).
 
 If you're going to split stories, do it for the right reasons.
-Do it because you want to increase options.
 Do it because you want to optimize for learning as you go.
+Do it because you want improved forecasting.
+Do it because you want a more consistent delivery cadence.
 Do it because you want to get working software into the hands of your customers as soon as possible.
+
 And a side effect will be that your actual throughput goes up.
