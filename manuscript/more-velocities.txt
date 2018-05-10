@@ -37,7 +37,7 @@ And if it is true that teams get faster, all we need to do is help them get ther
 These are but a few of any number of reasons why we might expect or "need" the team to move faster.
 This thinking is, unsurprisingly, flawed.
 Velocity is not about measuring the team.
-It is about having a course-grain forecast.
+It is about having a coarse-grained forecast.
 Rather than a tool to rate and push a team, it is a tool to help make key business decisions.
 Which features can we cut back on?
 What is truly priority?
@@ -50,7 +50,7 @@ It is far easier to defer the hard decision and ask a team to "step up".
 It is easier to abdicate the responsibility and push it to the team.
 
 {icon=quote-left}
-G> Velocity isn't about measuring the team. It is about having a course-grain forecast.
+G> Velocity isn't about measuring the team. It is about having a coarse-grained forecast.
 
 In most cases where the need for an increase in velocity is articulated, there is an underlying unspoken premise.
 The belief that if properly motivated, we can do better.
