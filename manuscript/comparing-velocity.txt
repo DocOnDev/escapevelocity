@@ -71,7 +71,7 @@ The navigability of the paths may be similar, but they are not the same.
 
 In addition, the subjective assessment of anticipated energy expended that each team agrees on will vary not only from team to team, but from session to session on the same team.
 There are many variables.
-Velocity (units per hour) is a course-grain estimate unique to each team.
+Velocity (units per hour) is a coarse-grained estimate unique to each team.
 
 Hopefully, we can see that comparing such velocity across teams is an exercise
 in frustration.
@@ -85,4 +85,4 @@ The product roadmaps may be similar, but they are not the same.
 
 In addition, the subjective assessment of complexity that each team agrees on will vary not only from team to team, but from session to session on the same team.
 There are many variables.
-Velocity (points per iteration) is a course-grain estimate unique to each team.
+Velocity (points per iteration) is a coarse-grained estimate unique to each team.
