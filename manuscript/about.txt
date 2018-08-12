@@ -66,6 +66,6 @@ Bumbling and Stumbling toward love, light, and good. Hoping to make the world a 
 {width=45%,float=right}
 ![Doc Norton (@DocOnDev)](images/Doc-Outline.png)
 
-Co-Founder and CEO of CTO2, Doc is passionate about working with teams to improve delivery and building great organizations.
+Co-Founder of OnBelay, Doc is passionate about working with teams to improve delivery and building great organizations.
 Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software.
 Working with a wide range of companies such as Groupon, Nationwide Insurance, and Belly, Doc has applied tenants of agile, lean, systems thinking, and host leadership to develop highly effective cultures and drastically improve their ability to deliver valuable software and products.
