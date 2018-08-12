@@ -4,8 +4,7 @@ One common "solution" to the "problem" described in the section on [comparing ve
 The thinking being that consistency in the estimation makes delivery comparable.
 While I have seen improvements in some environments with this approach, it is not without its flaws.
 
-First of all, if you centralize estimation, you might increase precision, but you
-definitely degrade accuracy.
+First of all, if you centralize estimation, you might increase precision, but you definitely degrade accuracy.
 This team needs to be intimately familiar with all of the work; all systems, all requirements, all dependencies, all interactions.
 They need to achieve this level of understanding with limited, if not zero, hands on experience in the work they are estimating.
 The more time they spend reading requirements and estimating work for others to do, the less time they have to do the actual work.
