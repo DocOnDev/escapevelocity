@@ -3,27 +3,22 @@
 Many organizations seem to have an obsession with getting estimates "right".
 After all, we need to know when the project will be done.
 And we need accuracy.
-Knowing the entire project will be done before the end of the third quarter
-isn't good enough.
-We need to know that the project will be done this month or this week or
-perhaps even on this specific day.
+Knowing the entire project will be done before the end of the third quarter isn't good enough.
+We need to know that the project will be done this month or this week or perhaps even on this specific day.
 
 {icon=quote-left}
 G> Through consistency, we attempt to achieve predictability.
 
 I've watched teams put a great deal of effort into improving their estimates.
-I've seen teams compare stories from this sprint to stories from prior sprints
-to try to maintain consistency.
+I've seen teams compare stories from this sprint to stories from prior sprints to try to maintain consistency.
 I've seen teams use a reference story for a single point.
-When estimating, they look at the reference story and then estimate all others
-compared to it.
+When estimating, they look at the reference story and then estimate all others compared to it.
 These seem like decent practices.
 The goal of these practices is consistency.
 Through consistency, we attempt to achieve predictability.
 
 But one thing I've never understood is the notion of estimates versus actuals.
-Here we look at the original estimate for a story and we then estimate again
-once the story is complete.
+Here we look at the original estimate for a story and we then estimate again once the story is complete.
 The idea here is that the estimate upon completion is an actual.
 Now if you're estimating in time, I suppose you could use the actual.
 If you're estimating in points that you equate to time, I still suppose you could use the actual.
@@ -45,8 +40,7 @@ Indulge me for a bit here.
 Writing code is really problem solving.
 Sudoku is (clearly) problem solving.
 Admittedly, sudoku is far more simple than writing code.
-Simple in terms of strictly constrained and with very few possible solutions
-(often one solution).
+Simple in terms of strictly constrained and with very few possible solutions (often one solution).
 If we can agree that sudoku can serve as a simple model for writing code, then please do read on.
 
 I have a sudoku game on my phone.
@@ -119,8 +113,10 @@ If not, make adjustments to your new estimates as necessary.
 
 If you're going to estimate stories, don't keep tweaking those estimates.
 Once you've gone through the process of relative estimation, near-term comparison, and historical comparison, set the story points (or whatever unit of measure you fancy) and pretty much leave it.
-Learn something significant? Sure, make an adjustment.
-Complete change in technical direction? Sure, make an adjustment.
+Learn something significant?
+Sure, make an adjustment.
+Complete change in technical direction?
+Sure, make an adjustment.
 But other than something major that materially influences the entire project, stop obsessing over sizing your stories.
 And stop fevering over actuals versus estimates.
 If you want those numbers to get closer to one another on a more consistent basis, focus instead on making your stories small enough that the variance is insignificant.

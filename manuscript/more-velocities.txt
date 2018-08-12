@@ -254,7 +254,7 @@ And that means less people are asking questions.
 Of course, if we're not actually delivering value in a given iteration, we probably shouldn't be taking partial credit based on "effort".
 And if this is happening consistently, maybe those people should be asking questions.
 
-And it is not uncommon for teams that engage in this practice to do it repeatedly.
+It is not uncommon for teams that engage in this practice to do it repeatedly.
 I've seen plenty of teams that split and roll.
 At the end of an iteration, they split all stories in process and roll the remainders into the next iteration.
 In some cases, such as when they use an electronic tracking system, they  actually create a duplicate card, split the points, and move the new card into the next iteration.

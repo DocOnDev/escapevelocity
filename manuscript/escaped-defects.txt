@@ -4,20 +4,16 @@ Escaped defects are defects in the system that managed to get into production.
 They've escaped the confines of the team and are now wreaking havoc in public.
 
 An escaped defect is an indication of systemic failure.
-The systems we have in place for delivering software should prevent defects from
-getting into production.
+The systems we have in place for delivering software should prevent defects from getting into production.
 
 Code is written in pairs, written in mobs, or reviewed via pull requests.
-It is possible you like to self-impose bottlenecks and prefer late feedback, so
-you're still using some formal code review meeting.
+It is possible you like to self-impose bottlenecks and prefer late feedback, so you're still using some formal code review meeting.
 But it is unlikely code moves without any form of peer review.
 Right?
 
-Unit and acceptance/regression tests are being written around the code you add
-or change.
+Unit and acceptance/regression tests are being written around the code you add or change.
 Developers are each running these tests dozens of times per day, if not more often.
-The continuous integration server runs these tests for every check-in, which is
-also multiple times per day.
+The continuous integration server runs these tests for every check-in, which is also multiple times per day.
 The team does a stop-drop-and-roll if the build is broken - including if tests fail.
 Right?
 
@@ -26,21 +22,15 @@ But what if the defect wasn't made here?
 #### Not all defects are made at home
 
 The majority of people I talk to state that defect free code is impossible.
-I've read arguments about how the operating system and hardware controllers are
-not defect free, therefor anything written on top of them will also have defects.
+I've read arguments about how the operating system and hardware controllers are not defect free, therefor anything written on top of them will also have defects.
 
 I've experienced the reality of bugs in the operating system impacting our software.
-I had a client that asked us to write a system that routed forms to varying
-printer locations based on where the recipient was located within the building.
-This was for a medical center prior to smart phones and they wanted to get
-paperwork and messages to doctors as fast as possible.
-So we wrote a system that integrated with both the scheduling system and the
-keycard security system to determine where doctors were at any given time.
-Messages targeted for the doctor would then route to the nearest printer and
-be placed in pickup bins for internal couriers to deliver.
+I had a client that asked us to write a system that routed forms to varying printer locations based on where the recipient was located within the building.
+This was for a medical center prior to smart phones and they wanted to get paperwork and messages to doctors as fast as possible.
+So we wrote a system that integrated with both the scheduling system and the keycard security system to determine where doctors were at any given time.
+Messages targeted for the doctor would then route to the nearest printer and be placed in pickup bins for internal couriers to deliver.
 
-The night before we went live, the company's Tech Department rolled out an update
-to Microsoft Windows.
+The night before we went live, the company's Tech Department rolled out an update to Microsoft Windows.
 The launch was less than spectacular.
 The first message was keyed in, minutes went by, but no report on the printer.
 "You need to fix this.", the client told me.
@@ -54,22 +44,17 @@ No job on the printer.
 
 "Nope.", the responded, "Everything was fine until you installed your software."
 
-We ran another medical systems report from a system that didn't have our software
-installed on it.
+We ran another medical systems report from a system that didn't have our software installed on it.
 No job on the printer.
 
 "It is not our software.", we said.
 
-"Not our problem. You were hired to write software that works. Your software
-doesn't work. We won't pay you the remaining balance."
+"Not our problem. You were hired to write software that works. Your software doesn't work. We won't pay you the remaining balance."
 
-So we looked deeper and it turned out that the Windows update was rolled out
-with a misconfigured initialization file for Windows, including improper printer
-settings.
+So we looked deeper and it turned out that the Windows update was rolled out with a misconfigured initialization file for Windows, including improper printer settings.
 Any piece of software that relied on the Operating System for printing would fail.
 Microsoft Office products, at that time, worked off of their own configurations.
-We updated the printer configurations, showed their team what we'd done and rolled
-out the updates.
+We updated the printer configurations, showed their team what we'd done and rolled out the updates.
 Take two - the jobs routed and everyone was happy.
 
 For a while.
@@ -80,53 +65,40 @@ Would we please come in and take a look.
 That is, if we want to get paid.
 
 This time, it was a little more difficult to figure out.
-After some research and testing, we determined that the issue was a flaw in the
-Novell network operating system.
-Approximately one print job in every 100,000 would report success, but never
-actually print.
+After some research and testing, we determined that the issue was a flaw in the Novell network operating system.
+Approximately one print job in every 100,000 would report success, but never actually print.
 Our application was working fine.
 Windows was working fine.
 The network operating system was broken and reporting false positives.
 
-We delivered the analysis and links to the Novell documentation showing the patch
-would be in an upcoming release of their operating system.
-Of course, the medical center was intentionally behind on releases, so they
-wouldn't see the patch for at least another twelve months.
+We delivered the analysis and links to the Novell documentation showing the patch would be in an upcoming release of their operating system.
+Of course, the medical center was intentionally behind on releases, so they wouldn't see the patch for at least another twelve months.
 
 "Fix it.", was the word from the client.
 
 So, much to our dismay, we added a confirmation feature to the software.
 For each job, a print confirmation was routed to a workstation near the printer.
-Now, before the job was placed in the pick-up box, someone had to acknowledge
-receipt.
-For any given job, if the job prior and after were both acknowledged, we sent it
-again.
+Now, before the job was placed in the pick-up box, someone had to acknowledge receipt.
+For any given job, if the job prior and after were both acknowledged, we sent it again.
 
 Fixed.
 I guess.
 
 #### But most defects are made at home
 
-While there are examples that support the argument that you can't have defect
-free code due to issues in the operating system and controllers, it doesn't
+While there are examples that support the argument that you can't have defect free code due to issues in the operating system and controllers, it doesn't
 justify a lack of effort.
-By this same logic, if a framer suspects the foundation was poured under less
-than ideal conditions then they might as well ignore building code because the
-home is already flawed in a way that might impact the owner.
+By this same logic, if a framer suspects the foundation was poured under less than ideal conditions then they might as well ignore building code because the home is already flawed in a way that might impact the owner.
 
 The framer has a professional responsibility.
-If they feel the foundation is too weak to build on top of, they need to raise
-the concern.
+If they feel the foundation is too weak to build on top of, they need to raise the concern.
 Or to even refuse to build on top of it.
-If they feel the foundation is slightly flawed, but not critically so, then they
-have a professional responsibility to frame well; to the best of their ability -
-or at least to code.
+If they feel the foundation is slightly flawed, but not critically so, then they have a professional responsibility to frame well; to the best of their ability - or at least to code.
 
 Such is the same for the software developer.
 We've a professional responsibility to do our jobs to the best of our ability.
 
-Most of the defects in today's software are not a result of the operating system
-or hardware drivers.
+Most of the defects in today's software are not a result of the operating system or hardware drivers.
 Most of the defects in today's software were put there by us.
 
 Clever solutions to complex problems.
@@ -142,47 +114,32 @@ appear in production.
 Writing defect-free code is practically impossible.
 But releasing defect-free code is definitely possible.
 
-Each developer has a local environment where they can run a comprehensive set of
-automated tests to verify the interactions and behavior of the code.
+Each developer has a local environment where they can run a comprehensive set of automated tests to verify the interactions and behavior of the code.
 Developers write tests along with the code, validating new behavior as they go along.
-Developers merge in other code changes and test yet again before pushing to
-the code repository.
-The continuous integration server runs all tests and flags the push as bad if even
-one test fails.
-Developers check each others code before accepting the pushed changes that just
-passed all of the tests.
-The code is deployed to another server where the entire automated test suite is
-run again to validate that everything works in a non-development environment.
+Developers merge in other code changes and test yet again before pushing to the code repository.
+The continuous integration server runs all tests and flags the push as bad if even one test fails.
+Developers check each others code before accepting the pushed changes that just passed all of the tests.
+The code is deployed to another server where the entire automated test suite is run again to validate that everything works in a non-development environment.
 Humans perform exploratory testing.
 We run tests for load to make sure the code can hold up to the demand in production.
 In many organizations, the code is checked yet again in a near-production environment.
 
-If a defect is discovered at any point along this path, the code changes are
-rejected and the development team makes the necessary changes.
+If a defect is discovered at any point along this path, the code changes are rejected and the development team makes the necessary changes.
 The cycle repeats until we find zero defects.
 Then, it goes to production.
 
-In many organizations, if there is an outage due to a defect in code production,
-then an analysis of the root cause takes place in order to learn and make sure
-that the situation doesn't repeat itself.
-What if we did a light weight version of the analysis when a defect showed up
-in staging?
+In many organizations, if there is an outage due to a defect in code production, then an analysis of the root cause takes place in order to learn and make sure that the situation doesn't repeat itself.
+What if we did a light weight version of the analysis when a defect showed up in staging?
 Or even in the integration environment?
-What if learning were important at every stage of the cycle, not only when a
-customer was affected?
+What if learning were important at every stage of the cycle, not only when a customer was affected?
 
 Releasing defect-free code is definitely possible.
 I've seen it done in environments far less rigorous than the one I just described.
 
-In measuring escaped defects (defects that make it into production) what we are
-looking for is primarily the rate at which defects escape and secondarily the
-number of defects at large.
+In measuring escaped defects (defects that make it into production) what we are looking for is primarily the rate at which defects escape and secondarily the number of defects at large.
 It is helpful to know how many defects exist in production at any given moment.
-If you find yourself in a situation where you are classifying defects such that
-some are deemed not important enough to fix, I suspect you are in serious
-trouble.
-It is only when the rate at which defects are escaping is significant enough that
-we no longer feel we can address them that such classifications occur.
+If you find yourself in a situation where you are classifying defects such that some are deemed not important enough to fix, I suspect you are in serious trouble.
+It is only when the rate at which defects are escaping is significant enough that we no longer feel we can address them that such classifications occur.
 
 I encourage you to pay attention to the rate of escape.
 How many defects per time period are you experiencing?
