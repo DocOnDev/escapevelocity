@@ -1,18 +1,15 @@
 ## Estimating in Time
 
-This is an interesting one for me.
+There are a number of problems related to estimating in time.
+From mistaking effort and duration as equivalent to an obsession with getting estimates "right", estimating in time tends to create too much focus on how long things take versus when things will be done.
 
-I used to be strongly opposed to estimating in time.
-These days, I don't think the problem is in the unit of estimation, it is in the expectation of precision.
-Or perhaps, in the notion of estimating at all.
-
-### Effort is not Duration
-
-Abstractions away from time, such as points representing complexity or effort or whatever non-time thing you want to focus on don't necessarily help with estimation.
-They help with expectations through obfuscation.
+If you must estimate, I say, estimate in abstractions.
+Abstractions away from time, such as points representing complexity or effort or whatever non-time thing you want to focus on don't necessarily help make estimates any more accurate.
+They help by changing our focus and altering our expectations - all through obfuscation.
 
 When we estimate in time, we compare in time.
 When we compare in time, we tend to get hung up on the measurement and ignore the statistics.
+We often pay more attention to whether or not each item took the time estimated and fail to pay sufficient attention to whether or not the data we've gathered is beneficial for forecasting.
 
 Say you estimate stories in points as a relative measure of complexity.
 Over time, you discover that 3 points is approximately 31 hours of work.
@@ -21,74 +18,39 @@ There are obviously some outliers, but our standard deviation is only 3.27 with 
 We have data that informs us that an estimate of 3 points can usually be completed within a two week period.
 Armed with this and similar data on more and less complex stories, we can do a pretty good job of forecasting.
 
-With a simple [cycle time control chart](#cycle-time-control-chart), we can identify outliers and discuss them for learning.
+We can map this data on a simple [cycle time control chart](#cycle-time-control-chart).
+From there, we can identify outliers and discuss them for learning.
 We can hone our precision within a reasonable range, understanding that ultimately, we are taking educated guesses at how complex a task we've never attempted before is going to be.
 
-Estimating in points, we accept the durations as natural and so long as they fall within a particular range, we are okay with the variance.
+Estimating in points or some abstraction, we are more willing to accept the durations on face value.
+So long as the durations fall within a particular range, we are okay with the variance.
 If it turns out that 3 points equates to an average of 31 hours, cool.
 If 3 points equate to a duration of 7 days, cool.
-It turns out that effort and duration are correlated, but rarely equivalent.
+It turns out that effort and duration are often correlated, but rarely equivalent.
 
-When we estimate in days, something awful happens.
+{icon=quote-left}
+G> Effort and duration are often correlated, but rarely equivalent
+
+When we estimate in time, something awful happens.
 Suddenly, the data is supposed to match a pre-determined expectation.
 If you say 3 days and the stories take 7 days to complete, we hone in on what we did wrong in estimating.
 There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on each story that missed the estimate.
 "You need to get better at estimating.", becomes a mantra.
-The problem is, we become focused on accuracy over precision.
-And it turns out that precision and historical information is all you need to forecast.
-Accuracy is inconsequential.
 
-By estimating in something other than time, we help to avoid the failure in thinking that results from conflating effort and duration.
+There are two considerations when it comes to estimating; accuracy and precision.
 
-### Time is a poor measurement in a variable system
+Accuracy is how close our estimate is to the true value, whereas, precision is how consistent the estimates are.
 
-The driving distance from Denver to Kansas City is 604.79 miles.
-The driving distance from Denver to Las Vegas is 748.86 miles.
-We ask a driver to travel from Denver to Kansas City.
-They complete the trip in 8 hours and 28 minutes.
-The next week, we ask the driver to travel from Denver to Las Vegas.
-Basic math tells us this driver can complete this task in 10 hours and 32 minutes.
-It takes the driver 11 hours and 37 minutes.
-What did the driver do wrong?
+Let's assume we have a list of completed items and many of those items took 48 working hours to complete.
 
-Let's say we ask a high school senior track and field athlete to run a mile as fast as they can.
-They complete the mile in 5 minutes and 22 seconds.
-The next day, we ask a different athlete to complete a mile as fast as they can.
-They complete the mile in 4 minutes and 55 seconds.
-The next day, we ask a different athlete to complete a mile as fast as they can.
-They complete the mile in 6 minutes and 34 seconds.
-What did the last runner do wrong?
+If we find that our original estimates on these items all fall within the range of 40 to 56, we can say we are pretty accurate.
+No estimate is off by more than 20% of the actual.
+We are, however, not very precise.
+The estimates have a range of 16, which is a pretty big spread relative to the actual work.
 
-A high school athlete is now asked to run a marathon.
-We've determined that the average high school runner can complete a mile in
-5 minutes 37 seconds
-A marathon is 26.2 miles.
-Based on simple math, they should be able to complete the marathon in
-2 hours 27 minutes and 10 seconds.
-It takes them 3 hours 18 minutes and 48 seconds.
-What did the runner do wrong?
+If, on the other hand, we find that our original estimates on these items all fall within the range of 32 to 34, we can say we are pretty precise.
+All of the estimates are off of the actual by a good amount, but they are within a very tight range.
 
-We hire three laborers to dig a series of holes for a fence.
-We need a total of 40 holes completed.
-The first laborer digs the first hole in 11 minutes.
-There are 39 holes left for 3 laborers to split.
-That's 13 holes each at 11 minutes per hole.
-It should take the laborers 2 hours and 23 minutes to complete the remaining holes.
-4 hours and 22 minutes later, the job is complete with one laborer finishing
-16 holes, one of them completing 12 holes, and one of them, the last to finish,
-completing only 11.
-The laborer who finished last was the pace setter who dug the first hole.
-What did the laborers do wrong?
-
-We could do these all day.
-Rather than do that, let's get to the point.
-
-The time it takes to complete a non-standardized task is variable.
-The time it takes to complete a series of simple steps in a complex system is variable.
-The time it takes to do a task doesn't always scale linearly with the size of the task.
-For every task we've listed here, there is some static measure, be it distance or count which is both precise and accurate.
-And for every task we'e listed here the time varies within some range.
-Accuracy tighter than the range is not statistically possible nor, frankly, beneficial.
-
-I think the greatest benefit to estimates done via abstractions is that it better allows for rational thinking.
-Mathematically, it is no more or less beneficial.
+Of course, in an ideal world, we'd want perfect accuracy (hit the bullseye) and precision (hit it every time).
+But if we have to choose between accuracy and precision, precision provides a tighter correlation to actual and allows us to better forecast.
+But when we estimate in time, we tend to become focused on accuracy over precision.

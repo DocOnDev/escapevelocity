@@ -11,8 +11,8 @@ mainmatter.txt
     comparing-velocity.txt
     estimation-teams.txt
     estimating-in-time.txt
+      estimates-to-actuals.txt
     individual-velocity.txt
-    estimates-to-actuals.txt
     iteration-packing.txt
   metrics-side-effects.txt
     hawthorne-effect.txt

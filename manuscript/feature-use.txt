@@ -11,7 +11,11 @@ There is a difference between a product that is loaded with features and a produ
 That difference, as it turns out, is not determined by the creator, but by the consumer.
 If they don't use it, it is useless.
 
+Many companies rely on hearsay to determine if a feature is being used.
+A common pattern is to launch a new feature or set of features and then survey the users to see if they find it useful.
+For a lot of organizations, the survey is anecdotal data gathered through leading questions.
 
+"Good day, Ms. Customer. I wanted to check in with you and see if you've been happy with our service lately. Have any of your deliveries been late?"
 
 
 Do customers actually use it?
