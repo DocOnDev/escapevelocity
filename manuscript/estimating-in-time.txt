@@ -73,7 +73,7 @@ We need a total of 40 holes completed.
 The first laborer digs the first hole in 11 minutes.
 There are 39 holes left for 3 laborers to split.
 That's 13 holes each at 11 minutes per hole.
-It should take the laborers 2 hours and 3 minutes to complete the remaining holes.
+It should take the laborers 2 hours and 23 minutes to complete the remaining holes.
 4 hours and 22 minutes later, the job is complete with one laborer finishing
 16 holes, one of them completing 12 holes, and one of them, the last to finish,
 completing only 11.
