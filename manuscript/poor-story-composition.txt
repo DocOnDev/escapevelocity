@@ -40,7 +40,7 @@ Instead, focus on small stories that are thin vertical slices through the
 technology stack.
 Now that's easy enough to say and it sounds right, but it is not necessarily that
 easy to execute on.
-Sometimes, think vertical slices look like waste.
+Sometimes, thin vertical slices look like waste.
 They cause us to build something less than what we'd envisioned.
 And we don't want to release anything less than perfect, do we?
 
@@ -150,6 +150,9 @@ to the competition to never ever return.
 But when we hit the target date, there isn't a product owner alive who'd appreciate
 some options to choose from rather than nothing to show.
 You see, when we opt for all or nothing, the odds are always in favor of nothing.
+
+{icon=quote-left}
+G> You see, when we opt for all or nothing, the odds are always in favor of nothing.
 
 Thinking about the work in increments can lead to well composed, thinly sliced stories.
 While our goal is smaller stories, we can't focus only on small to get there.
