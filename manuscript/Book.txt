@@ -25,6 +25,10 @@ mainmatter.txt
     too-much-wip.txt
     silos.txt
     mis-management.txt
+      individual-incentives.txt
+      autonomy-issues.txt
+      capacity-loading.txt
+      splitting-people.txt
   other-metrics.txt
     cycle-time.txt
       control-chart.txt

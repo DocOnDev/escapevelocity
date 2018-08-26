@@ -17,9 +17,17 @@ I see organization after organization pick up practices in the name of agile and
 Most popular seems to be daily stand-ups and burn-down charts; two tools that provide project management quick feedback on status so that they can make informed decisions about items such as task assignment or if the team needs to put in extra hours to make the deadline.
 (By the way, that sentence should make you cringe)
 
-I've heard a project manager (PMP) turned ScrumMaster (CSM) who assigns the team tasks, asks for commitments, and chastises the team for failure to deliver to stretch goals say, "If you can't start self-organizing to get it done, you can't have nice things."
+I knew a project manager (PMP) turned ScrumMaster (CSM).
+Actually, I've known many of these folks.
+And I don't mean to disparage them as a collective.
+This one, in particular, exhibited what I believe to be a common set of behaviors;
+They assigned the team tasks, asked for commitments, and chastised the team for failure to deliver to stretch goals.
+Once, when the CSM was upset that the team had again failed to hit commitments, they said to the team, "If you can't start self-organizing to get it done, you can't have nice things."
 I don't even know what that means; to have nice things.
 But it is clearly intended as a threat.
 There's some servant leadership protecting the team for you.
 
 Assigning tasks, driving for excellence in estimating, pushing for points, treating code as if it is only a means to an end, role-based incentives, making the team's decisions for them, leaving the team to make all the decisions (they are self-organizing after all), splitting people's assignment across teams (they only need 1.5 QA), burdensome process, and failure to address impediments are but a few examples of mismanagement.
+
+There are already numerous good books on the topic of managing software development teams, so I won't go into great detail here.
+There are, however, a few things I do want to cover in a little more detail; individual incentives, autonomy issues, loading teams to 100% capacity, and splitting people across teams.
