@@ -10,11 +10,7 @@ We need to know that the project will be done this month or this week or perhaps
 G> Through consistency, we attempt to achieve predictability.
 
 I've watched teams put a great deal of effort into improving their estimates.
-<<<<<<< HEAD
-I've seen teams compare stories from this sprint to stories from prior sprints to try to maintain consistency.
-=======
 I've seen teams compare stories from this iteration to stories from prior iterations to try to maintain consistency.
->>>>>>> d2a9cd2657cc4e6596c38d16827fff815677804b
 I've seen teams use a reference story for a single point.
 When estimating, they look at the reference story and then estimate all others compared to it.
 These seem like decent practices.
@@ -113,16 +109,11 @@ Compare the stories to random selections from prior iterations?
 Do the points still feel right?
 If not, make adjustments to your new estimates as necessary.
 
-<<<<<<< HEAD
 Better still, when you are done with all of these adjustments, take any story that is larger than the mean story size and try to break it down into smaller pieces that still deliver some amount of business value or learning.
 Continue this practice until all of your stories are within one point of the mean.
-
-And better still, break stories down into the smallest pieces you can conceive of that still offer some business value and assign them all a size of 1.
-
-### Set it an forget it
-=======
+ And better still, break stories down into the smallest pieces you can conceive of that still offer some business value and assign them all a size of 1.
+ 
 ### Set it and forget it
->>>>>>> d2a9cd2657cc4e6596c38d16827fff815677804b
 
 If you're going to estimate stories, don't keep tweaking those estimates.
 Once you've gone through the process of relative estimation, near-term comparison, and historical comparison, set the story points (or whatever unit of measure you fancy) and pretty much leave it.
