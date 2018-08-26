@@ -101,15 +101,13 @@ We've a professional responsibility to do our jobs to the best of our ability.
 Most of the defects in today's software are not a result of the operating system or hardware drivers.
 Most of the defects in today's software were put there by us.
 
-Clever solutions to complex problems.
-Sticking with our first implementation because it is "done" even though now that
-we better understand the context, we know there's a better solution.
-Leaving a few smells in the code because it works and that's all that matters.
-Forming teams around technical skills instead of around products or business need.
-Over time, these compromises and mistakes add up and strange defects start to
-appear in production.
+We write clever solutions to complex problems.
+We stick with our first implementation because it is "done" even though we now know of a better solution.
+We leave a few smells in the code because it works and that's all that matters.
+We form teams around technical skills instead of around products or business need because our managers know more about the technology than they do about management or leadership.
+Over time, these compromises and mistakes add up and strange defects start to appear in production.
 
-#### Remember the goal is to release defect free software
+#### Remember the goal is to *release* defect free software
 
 Writing defect-free code is practically impossible.
 But releasing defect-free code is definitely possible.
@@ -144,10 +142,15 @@ It is only when the rate at which defects are escaping is significant enough tha
 I encourage you to pay attention to the rate of escape.
 How many defects per time period are you experiencing?
 This is a number that is ideally on the decline, but certainly not increasing.
-The horizon over which you measure the rate of escape will differ from company
-to company.
-If you only release software once per quarter, then your measurement will probably
-be quarterly or bi-annually.
-If you release every day, then your measurement might be weekly (or even daily).
-If, however, you release daily and have very few defects, you might need to
-move to weekly or monthly to get any helpful trending.
+How does the rate of escaped defects compare to the rate of story delivery?
+Ideally, the rate of delivery is steady or increasing while the rate of escaped defects is in decline.
+
+I suggest you measure both escaped defects and delivered stories.
+Divide the number of escaped defects in a time period by the number of stories delivered in that same time period to get a ratio that can be used over time.
+For example, if you delivered 84 stories in a month with 3 escaped defects, then your escaped defect percent is 3.57%
+It's never good if the number of escaped defects per month increases.
+But looking at the ratio can help you determine of the overall quality of the code is in an accelerated decline or not.
+Say a year later, your escaped defects is now up to 5 per month.
+This is not good.
+But if your rate of story delivery is now 147 per month, your percent is down to 3.40%.
+While not a huge drop, it is a relief to know that while you are delivering more stories, your ratio of defects has actually decreased slightly.
