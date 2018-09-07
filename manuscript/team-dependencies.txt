@@ -1,20 +1,43 @@
 ## Dependencies on Other Teams or Individuals
 
-Perhaps your product owner is not available often enough and there is too much
-re-work due to slow feedback cycles.
-Maybe you haven't rights to your various environments and code migrations are
-executed in durations of days rather than minutes.
-It's possible some other technical team is not able to be as responsive or
-relies on process more than interactions for the exchange of information.
-Whatever it might be, any point where you need to wait for extended periods of
-time, is likely to lead to other problems.
-You can't sit idle, so you grab another card to work on, leading to too much
-work in progress.
+Perhaps your product owner is not available often enough and there is too much re-work due to slow feedback cycles.
+Maybe you haven't rights to your various environments and code migrations are executed in durations of days rather than minutes.
+It's possible some other technical team is not able to be as responsive or relies on process more than interactions for the exchange of information.
+Whatever it might be, any point where you need to wait for extended periods of time, is likely to lead to other problems.
+You can't sit idle, so you grab another card to work on, leading to too much work in progress.
 
-Work with these teams and individuals on ways to automate processes or find
-other ways to reduce their response time.
-Invite sponsors and others to your stand-ups, iteration planning, and
-retrospectives.
+### Reduce Minutia
+For things like approvals and code migrations, perhaps there is an opportunity to add some automation to expedite things.
+
+When it comes to approvals, many places require wet signatures (actual ink) to indicate an approval.
+Some places require multiple signatures.
+This requirement is a throw-back to six month release cycles, lack of trust, antiquated documentation policies, and concerns over the legal acceptance of e-signatures.
+Those issues are all behind us, if we choose to allow them to be.
+With a little discipline, we can release code every single day; even multiple times per day.
+And with those more frequent releases, we've more opportunities to build trust.
+When it comes to documentation and signatures, there are plenty of secure e-signature tools that allow for cloud or on-premises storage of identities and signatures.
+In the US, if you are in a regulated industry, take a solid look at the regulations.
+You may find that there are no signature requirements whatsoever.
+For many other regulations, they refer to 21 CFR Part 11[^Part11] compliance.
+
+
+For code migrations, there are any number of tools available for creating a continuous delivery pipeline.
+These tools will allow you to set rules for migrations.
+To go from the Development environment to User Acceptance Testing (UAT), for example, the rules might be that the build has to complete, all unit tests pass, and the automated acceptance tests pass.
+To go from UAT to Quality Assurance (QA), perhaps the rules are that the build completes, all unit and acceptance tests pass, all regression tests pass, and an authorized user has signed off.
+
+These examples are not recommendations, but merely common sets of rules I've seen in various environments.
+I'm not advocating for having multiple environments with sign-offs.
+I'm saying that if you do have such a situation, automate as much of it as you can.
+
+Work with these teams and individuals on ways to automate processes or find other ways to reduce their response time.
+Invite sponsors and others to your stand-ups, iteration planning, and retrospectives.
 If they consistently don't show, see if you can get another representative.
 Be professional and courteous, but there is no need to be completely deferent.
 If the project is important, you should be able to ask for the necessary support.
+
+[^Part11]: “CFR 21 Part 11.” ECFR - Code of Federal Regulations, www.ecfr.gov/cgi-bin/text-idx?SID=f1bee623c51f42bd4649ee5ded1ca49e&mc=true&node=pt21.1.11&rgn=div5.
+
+### Join Forces
+
+It is not always possible.
