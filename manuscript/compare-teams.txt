@@ -1,0 +1,15 @@
+# Comparison Metrics
+
+Your team has grown.
+You are now dozens of teams.
+And while each time is measuring well, you would really like to know how to compare teams to one another in order to identify leading practices within the organization.
+Which team is doing particularly well and what might you learn from them?
+
+## Velocity Change (Troy Magenis)
+
+1. Get the velocity for each team at two points (or more) in time
+2. Compute the average increase or decrease % for each team (average of every teams individual increase or decrease %) to compare against
+3. Compare your teams increase or decrease % to the overall average increase or decrease %
+4. Visually: Plot a line for each team showing the percentage increase or decrease point A to B centered on the half way point. Highlight color YOUR team. If sloping up and steeper, you are doing better than average. Down steeper, worse than company average.
+
+The goal is to compare % increase or decrease, and NOT take credit for the whole organization shift due to system factors. It shows even the worst teams are improving rather than highlighting just the best teams staying level.

@@ -1,27 +1,22 @@
 {#comparing-velocity}
 ## Cross-Team Velocity Comparisons
-A common anti-pattern in a great deal of organizations is velocity comparison
-across teams.
+A common anti-pattern in a great deal of organizations is velocity comparison across teams.
 
 It usually goes something like this:
 
 
-"Your velocity is 20 and theirs is 50. What are you doing wrong?", asks a
-manager with good but misguided intentions.
+"Your velocity is 20 and theirs is 50. What are you doing wrong?", asks a manager with good but misguided intentions.
 
-"You cannot compare velocity across teams.", says the agile coach,
-"Velocity measures are unique to each team."
+"You cannot compare velocity across teams.", says the agile coach, "Velocity measures are unique to each team."
 
-"Surely, there will be some variance from team to team", the manager agrees,
-"but a 2x difference must indicate trouble."
+"Surely, there will be some variance from team to team", the manager agrees, "but a 2x difference must indicate trouble."
 
-Of course, we rarely assume the team reporting a velocity of 50 is the team in
-trouble.
+Of course, we rarely assume the team reporting a velocity of 50 is the team in trouble.
 More velocities are always better, right?
 
 Let's dive into this one a bit.
 Why is it that comparison of velocity across teams is deemed an anti-pattern?
-Are there situations where comparing is ok?
+Are there situations where comparing velocity across teams is ok?
 
 The short answer is, "No". And here's why.
 
@@ -30,10 +25,8 @@ From story points to ideal days to hours.
 From effort to complexity to duration to value.
 From comparative to scalar to absolute.
 From t-shirt sizes to fibonacci to linear.
-Even when two teams in an organization agree on all of these factors,
-calibration is still extremely difficult.
-We're using metaphors to represent guesses about work items for which we've a
-varying level of shared understanding and varying tolerances for risk.
+Even when two teams in an organization agree on all of these factors, calibration is still extremely difficult.
+We're using metaphors to represent guesses about work items for which we've a varying level of shared understanding and varying tolerances for risk.
 
 Imagine this scenario; there are two expedition teams given the same basic challenge.
 Each is going to embark on a unique hike.
@@ -41,15 +34,11 @@ The hikes are similar, but not identical.
 
 The boss sets the stage by laying out the overall plan:
 
-"You are about to embark on a multi-day hike over territory none of you has
-ever before covered in hopes of getting excellent photography.
-It will be similar to other journeys you've taken, but subtly different in
-an indeterminate number of ways.
+"You are about to embark on a multi-day hike over territory none of you has ever before covered in hopes of getting excellent photography.
+It will be similar to other journeys you've taken, but subtly different in an indeterminate number of ways.
 Your map is incomplete in parts and the path we've identified is our best guess.
-We've broken the hike into trail sections based on spots along the way that
-we think will make great photo opportunities.
-The terrain will vary significantly; some of it may be new to all but one or
-two of you.
+We've broken the hike into trail sections based on spots along the way that we think will make great photo opportunities.
+The terrain will vary significantly; some of it may be new to all but one or two of you.
 Some of it may be dissimilar to terrain any of you have ever seen."
 
 "With these factors in mind, please indicate the number of units involved in the journey where a unit is a measure of energy expended in completing a section of the trail.
@@ -73,8 +62,7 @@ In addition, the subjective assessment of anticipated energy expended that each 
 There are many variables.
 Velocity (units per hour) is a coarse-grained estimate unique to each team.
 
-Hopefully, we can see that comparing such velocity across teams is an exercise
-in frustration.
+Hopefully, we can see that comparing such velocity across teams is an exercise in frustration.
 
 Now returning to software, the analogy holds fairly well.
 The teams may be similar, but they are not the same.

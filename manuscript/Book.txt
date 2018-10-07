@@ -52,5 +52,6 @@ mainmatter.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
   balanced-metrics.txt
+  compare-teams.txt
 backmatter.txt
   acknowledgements.txt

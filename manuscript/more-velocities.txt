@@ -208,14 +208,11 @@ This is simply not the case.
 In fact, the gaming of the system is the improper application of targets or goals for lagging indicators.
 The rest is just natural consequence.
 
-The following are but a few examples of what happens when a manager games the
-system.
+The following are but a few examples of what happens when a manager games the system.
 
 #### Inflating Points
 
-A few years back, I was working with an organization where teams were achieving
-the expected increase in velocity, but  leadership didn't feel like things
-were moving any faster.
+A few years back, I was working with an organization where teams were achieving the expected increase in velocity, but leadership didn't feel like things were moving any faster.
 Selecting one team, we looked at their history and found that their velocity had gone from an average of about 20 points to an average of about 40.
 On a hunch, we ran a report to figure out the average story size for each iteration.
 Sure enough, the average story size had gone from around 1.4 to around 3.1.
