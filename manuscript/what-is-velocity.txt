@@ -42,7 +42,7 @@ We plan, we prioritize, we work, we test, and then we measure.
 Lagging indicators tend to be aggregate or abstract.
 They don't provide detailed insight into the operations, rather they provide an indication of results.
 Net profit is a lagging indicator for a company.
-While it tells us about how the company is doing, it gives us no indication of why the organization is or is not successful.
+While it tells us about how the company is doing, it gives us no indication of why the organization was or was not successful.
 
 Let's look at another lagging indicator; unemployment.
 The unemployment index is a lagging indicator.
