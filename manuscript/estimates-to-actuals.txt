@@ -102,17 +102,22 @@ A 3 point story doesn't become a 1 point story just because you completed it qui
 
 If you have to estimate (you probably don't), then I recommend you use a reference story.
 Identify a story that the entire team can agree is 1 point.
-When you are estimating, keep that story in mind and attempt to estimate all others relative to it.
-Then, at the end of the estimating session, compare the stories to one another.
+Identify a second story that the entire team can agree is 5 points.
+When you are estimating, keep these stories in mind and attempt to estimate all others relative to them.
+Then, at the end of the estimating session, compare the stories to one another and your reference models.
 Do the points still feel right?
 Compare the stories to random selections from prior iterations?
 Do the points still feel right?
 If not, make adjustments to your new estimates as necessary.
 
+Common advice for relative sizing is to choose a story the entire team agrees is a 1 and use it as the reference point.
+The challenge with this approach is that the further from 1 you get, the harder it is to extrapolate from 1 and as a result, the entire set of point estimates tends to be compressed toward the lower end.
+By including a 5 point story, you have something on the mid to high end to use as an additional reference point, helping to extrapolate out further, if you need.
+
 Better still, when you are done with all of these adjustments, take any story that is larger than the mean story size and try to break it down into smaller pieces that still deliver some amount of business value or learning.
 Continue this practice until all of your stories are within one point of the mean.
  And better still, break stories down into the smallest pieces you can conceive of that still offer some business value and assign them all a size of 1.
- 
+
 ### Set it and forget it
 
 If you're going to estimate stories, don't keep tweaking those estimates.
