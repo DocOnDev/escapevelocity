@@ -36,7 +36,7 @@ Setting targets and providing incentives for knowledge work lowers performance.
 Don't do it.
 
 Instead, provide guidelines to the teams.
-My favorite guideline for metrics is,
-"Monitor trending; Dig in when something looks wonky."
+My favorite guideline for metrics is, "Monitor trending; Dig in when the trend changes and you aren't absolutely certain why."
+
 
 [^IntrinsicMotivators]: Deci, E. L., Koestner, R., & Ryan, R. M. (1999, November). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Retrieved August 19, 2017, from https://www.ncbi.nlm.nih.gov/pubmed/10589297
