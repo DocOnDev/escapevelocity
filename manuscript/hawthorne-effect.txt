@@ -20,9 +20,6 @@ When the studies ended, productivity, attendance, and retention soon returned to
 The key takeaway from the Hawthorne studies is that which gets measured will improve.
 "The Hawthorne Effect" is described as the phenomenon in which subjects in behavioral studies change their performance in response to being observed.
 
-{icon=quote-left}
-G> That which gets measured will improve
-
 This at first seems like a precious nugget of management gold.
 
 1. Measure productivity.
@@ -31,8 +28,15 @@ This at first seems like a precious nugget of management gold.
 
 The perfect management formula.
 
-But the reality was (and is), that while that which is being measured improves, it does not mean the overall system has improved.
+But the reality was (and is), that while that which is being measured shows improvement, it does not mean the overall system has improved.
 Employees working longer hours can lead to fatigue, lower quality, and burn out.
 Lack of attention in areas not measured, such as quality or workplace safety can lead to other negative outcomes.
 
 If your team is slacking so significantly that merely measuring their velocity can result in a marked increase in velocity with no ill-effects, then you've a more serious issue at play than velocity.
+
+What's more, there is no guarantee that the thing being measured has actually improved.
+Velocity might have gone up because the team inflated story points.
+We should rephrase the key takeaway to that which gets measured will (appear to) improve.
+
+{icon=quote-left}
+G> That which gets measured will (appear to) improve
