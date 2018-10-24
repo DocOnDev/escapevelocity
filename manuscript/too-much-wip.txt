@@ -3,23 +3,18 @@
 
 Having too much Work in Process, also known as Work in Progress, is a remarkably common issue.
 In my experience, management often encourages this behavior.
-I don't know if it is the notion that we will get more done if we work on more
-things simultaneously.
-Or perhaps there is a fear we won't get enough things done unless we work on
-several of them at once.
+I don't know if it is the notion that we will get more done if we work on more things simultaneously.
+Or perhaps there is a fear we won't get enough things done unless we work on several of them at once.
 
 But what happens when we try to work on a few stories each?
 Remarkably, we make progress on several, but complete precious few.
 The more work in flow, the more context switching we all need to make.
 Coordination of the stories complicates testing and migrations.
 We look busy, but at the end of the iteration, we've fewer things complete.
-Then, at the beginning of the next iteration, a glut of work moves to done,
-setting us up with a couple day delay wrapping up the prior iteration and
-pushing us into yet another complicated cycle.
+Then, at the beginning of the next iteration, a glut of work moves to done, setting us up with a couple day delay wrapping up the prior iteration and pushing us into yet another complicated cycle.
 
 Drive each card to completion before picking up the next one.
-If a card is blocked, make getting it un-blocked a priority rather than letting
-it wait three days because George on the DBA team has a three-day SLA.
+If a card is blocked, make getting it un-blocked a priority rather than letting it wait three days because George on the DBA team has a three-day SLA.
 
 ### You cannot multi-task complex tasks
 
@@ -48,20 +43,17 @@ Not exactly.
 
 This isn't a utilization cost, it is a throughput cost.
 For every additional item you work on, you extend the duration of each item by 20%.
-So if you're working on 2 items, each of which would have taken 2 days, for a total of
-4 days work, you will now complete the same work in 4.8 days.
+So if you're working on 2 items, each of which would have taken 2 days, for a total of 4 days work, you will now complete the same work in 4.8 days.
 You effectively lost an entire day by attempting to work on 2 items in order to get things done "faster".
 
 Also be aware that the cost is compounded.
 2 items is a 20% increase in the duration for both items.
-Add a third item and you increase the duration of all items by an additional 20%
-on top of the original 20%.
+Add a third item and you increase the duration of all items by an additional 20% on top of the original 20%.
 So 3 items that normally take 2 days each wouldn't take 6 days, or even 7.2 days, but would take 8.16.
 5 items at two days effort each would require not 10 days to complete, but would require 17.03 days.
 
 Let's take a look at a formula that we can use as a simple model.
-Assuming each task has the same duration were it executed singularly, we can use
-a basic future value calculation for an investment[^FutureValue].
+Assuming each task has the same duration were it executed singularly, we can use a basic future value calculation for an investment[^FutureValue].
 
 ~~~~~~~~
 d*(1+i)^(t-1) + d*(((1+i)^(t-1)-1)/i)*(1+i)
@@ -92,15 +84,20 @@ Just know that you are also incredibly less efficient and likely less effective.
 
 ### WIP, Throughput, and Little's Law
 
-So our future value calculation is both informative and interesting, but it is not particularly useful beyond making the point that doing more at once takes more time. What we want to know is how does this materially impact our ability to make software. For that, we can look to a more simple (and useful) calculation based on Little's Law[^LittlesLaw]
+So our future value calculation is both informative and interesting, but it is not particularly useful beyond making the point that doing more at once takes more time.
+What we want to know is how does this materially impact our ability to make software.
+For that, we can look to a more simple (and useful) calculation based on Little's Law[^LittlesLaw]
 
 Little's Law can be stated in a number of ways:
 
 WIP = Throughput x Lead Time
 
-WIP is the Work in Process. [Lead Time](#lead-time) is the time it takes for an item to get through the system. Throughput is the number of items a system can deliver in a given period of time.
+WIP is the Work in Process.
+[Lead Time](#lead-time) is the time it takes for an item to get through the system.
+Throughput is the number of items a system can deliver in a given period of time.
 
-So, let's say we have 5 items in process at the moment. And we have a Lead Time of 4 days with a 100% confidence interval.
+So, let's say we have 5 items in process at the moment.
+And we have a Lead Time of 4 days with a [100% probability](#lead-time-distribution).
 
 ~~~~~~~~
 WIP = 5i
@@ -114,7 +111,7 @@ T = 5i/4d
 T = 1.25 Items / Day
 ~~~~~~~~
 
-Based on the data we have about the system, we can assume these 5 items will take 4 days to clear the system.
+Based on the data we have about the system, we can assume these 5 items will take 4 days on average to clear the system.
 With this simple piece of information, we can project completion dates for any given item in the queue.
 Say, for example, there are still 5 items in WIP and we want to know about a story that is 10 items down in the backlog.
 That particular story, while not as high in value as the stories ahead of it has a due date 7 days from now.
@@ -125,8 +122,8 @@ Our target story is 15th in line when we include the items in process.
 15i / 1.25i/d = 12d
 ~~~~~~~~
 
-Consequently, it will be delivered in 12 days.
-We know that it is going to be 5 days too late.
+Consequently, it is likely to be delivered in 12 days.
+We know that it is very likely going to be 5 days too late.
 
 So let's target our item for 7 days from now.
 
@@ -143,19 +140,19 @@ Do we want to bump other items to a later delivery date?
 Can we deliver this before other stories or is it dependent on some of them?
 If it is dependent on some of them, can we bump them to positions one and two in the backlog to make this happen?
 
-What if we don't need to be 100% confident?
-What is we are good with usually, but not always?
+What if we are comfortable with something less than a 100% probability?
+What if we are good with a probability that indicates usually, but not always?
 
 Let's say that 80% of our lead times are at or before 3 days.
-If we are comfortable with 80% confidence, then we run the math again.
+If we are comfortable with 80% probability, then we run the math again.
 Based on a lead time of 3 days, we determine that the throughput is 1.67 items per day and our item will be done in 9 days.
-At 80% confidence, we'd need to move it to 11th in line, or 6th in the backlog.
+At 80% probability, we'd need to move it to 11th in line, or 6th in the backlog.
 Remember, we always need to account for the work in process in addition to the work in queue.
 
-And finally, if we want to use the mathematical average (or the mean), which is approximately 62% confidence in our fictitious case (because I just said it was), then we have a lead time of 2 days, a throughput of 2.5 items per day, and our item should get done on the 6th day.
+And finally, if we want to use the mathematical average (or the mean), which is approximately 62% probability in our fictitious case (because I just said it was), then we have a lead time of 2 days, a throughput of 2.5 items per day, and our item should get done on the 6th day.
 
 You'll notice, at no point are we negotiating over how long a specific item will take.
-If we need to adjust our tolerance, we change our confidence level and run the math again.
+If we need to adjust our tolerance, we change our probability target and run the math again.
 
 
 [^MultiTaskCost]: Multitasking: Switching costs (n.d.). Retrieved February 24, 2017, from http://www.apa.org/research/action/multitask.aspx

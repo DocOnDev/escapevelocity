@@ -1,3 +1,4 @@
+{#lead-time-distribution}
 ### Lead Time Distributions
 
 Take a moment and think about a trip you take regularly.
@@ -91,10 +92,10 @@ How could I possibly think an estimate of 15.25 minutes is reasonable?
 That's more than 25% padding on top of the average for something as simple as driving to work; same car, same driver, same route - every day.
 
 But the reasonableness of my estimate is the wrong question, now isn't it?
-The right question is how could one possibly expect, in a system with such variability, that anyone could make a commitment they will be held accountable to and use a low confidence number?
+The right question is how could one possibly expect, in a system with such variability, that anyone could make a commitment they will be held accountable to and use a low probability number?
 
-Low confidence?
-What do I mean by a low confidence number?
+Low probability?
+What do I mean by a low probability number?
 
 Well, let's look at the data again.
 This time, let's look at it on a distribution graph.
@@ -115,8 +116,8 @@ Correspondingly a tail that points to the left, points in the negative direction
 
 Okay, so right-skewed distribution.
 Great.
-But what do I mean when I say a number is a low confidence number?
-And why did I say the average was a low confidence number?
+But what do I mean when I say a number is a low probability number?
+And why did I say the average was a low probability number?
 
 Let's draw a line on the graph at the mean, or numerical average.
 
@@ -128,12 +129,12 @@ So if we were to use the mean (or average) as our commitment, the data tells us 
 That means we have a 34.5% chance of missing it.
 Or a one in three chance of going over our commitment.
 
-So our confidence in this estimate is roughly 66%.
+So our probability in this estimate is roughly 66%.
 We expect to be go over the estimate 33% of the time.
 AND we expect to be under the estimate 62% of the time.
 We expect to actually hit the estimate, 3.4% of the time.
 
-In most organizations, an estimate that we think we'll overshoot 33% of the time would be considered a low confidence estimate.
+In most organizations, an estimate that we think we'll overshoot 33% of the time would be considered a low probability estimate.
 Certainly if there is gnashing of teeth when the estimate is missed, be it high or low, we're setting ourselves up for failure.
 If the repercussions for missing the estimate are significant enough, then the individual may determine it is in their best interest to fill any excess time when they finish "early" or cut corners when they think they might finish "late".
 And let's get this clear right now - those repercussions need not be drastic.
@@ -162,25 +163,25 @@ At this point, my graph would look something like the following.
 
 ![Example Lead Time Distribution Graph](images/CFD.023.jpeg)
 
-The Lead Time Distribution graph then gives us a defensible way of running projections with confidence intervals.
+The Lead Time Distribution graph then gives us a defensible way of running projections with probability intervals.
 
 To finish this up, let's return to the example of my daily commute to the client.
 
-I touched on confidence earlier when we talked about using the average lead time for forecasting.
-You'll recall our confidence in the average was roughly 66%.
+I touched on probability earlier when we talked about using the average lead time for forecasting.
+You'll recall our probability in the average was roughly 66%.
 This is because, based on the data we have, we will come in at or under that estimate 66% of the time.
-If we want to increase our confidence, we need to use a number that provides a greater chance of our hitting it or coming in under.
-If we want 100% confidence, then we need to use 15.25 as that is the longest (so far) it has taken me to complete the commute.
-The following graph shows confidence intervals of 50%, 75%, and 100% on the graph.
+If we want to increase our probability, we need to use a number that provides a greater chance of our hitting it or coming in under.
+If we want 100% probability, then we need to use 15.25 as that is the longest (so far) it has taken me to complete the commute.
+The following graph shows probability intervals of 50%, 75%, and 100% on the graph.
 
-![Lead Time Distribution and Confidence](images/CFD.022.jpeg)
+![Lead Time Distribution and Probability](images/CFD.022.jpeg)
 
 You'll notice that the more confident we want to be, the further from the mean we get and the distance does not increase linearly.
 The distance from 50% to 75% is almost half that from 75% to 100%.
 
 Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes and I end up with a 38 minute commute?
 
-![Lead Time Distribution and Confidence after Bad Day](images/CFD.023.jpeg)
+![Lead Time Distribution and Probability after Bad Day](images/CFD.023.jpeg)
 
 Suddenly, we've got an outlier on our graph.
 What once looked like a spread of data points now looks like a cluster with one sole point way off to the right all by itself.
@@ -191,8 +192,8 @@ We've a few options, I suppose.
 One, we could pretend it never happened; chalk it up to an outlier and forget about it.
 Don't graph it. Ignore it.
 Two, we could add it to the graph and have it haunt us forever.
-All future projections at 100% confidence will be calculated at 38 minutes whereas a 95% confidence would be calculated at 15.25 minutes.
-That seems a bit of a gap for 5% of confidence, does it not?
+All future projections at 100% probability will be calculated at 38 minutes whereas a 95% probability would be calculated at 15.25 minutes.
+That seems a bit of a gap for 5% of probability, does it not?
 Or three, we could add it to the graph and make the graph rolling.
 
 Our third option makes the most sense.
@@ -200,7 +201,7 @@ Let's say there is some anomaly; an outlier that happens as a fluke or something
 By rolling the lead time chart, that outlier doesn't haunt us forever.
 Also, by rolling the chart, our prior behavior has less weight than behavior that is more recent.
 
-If a team is getting better at delivery, their throughput is going up, and their lead time is going down, doesn't it only make sense that their confidence intervals would also tighten?
+If a team is getting better at delivery, their throughput is going up, and their lead time is going down, doesn't it only make sense that their probability intervals would also tighten?
 By ensuring the Lead Time Distribution only looks back a reasonable time horizon, we ensure that the team is not over-influenced by activity long in the past over recent activity.
 I often have teams running one week increments with actual delivery at the end of each increment keep 16 weeks of data on a lead time distribution graph.
 If the team delivers less often, regardless of their iteration cycle, have them keep lead times for longer.
