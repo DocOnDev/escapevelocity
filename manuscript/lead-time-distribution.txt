@@ -35,37 +35,14 @@ And for the sake of this example, let's further imagine that my 38 minute outlie
 That sheet might have looked something like this:
 
 {title="Morning Commute", width="60%"}
-| Minutes |
-|---------|
-| 10.25   |
-| 9.5     |
-| 9.75    |
-| 10      |
-| 12.25   |
-| 10      |
-| 15.25   |
-| 12.5    |
-| 10.75   |
-| 9.25    |
-| 10.25   |
-| 10.25   |
-| 9       |
-| 10.5    |
-| 10.25   |
-| 10.5    |
-| 10.75   |
-| 13.75   |
-| 11      |
-| 11.25   |
-| 14      |
-| 12      |
-| 10.5    |
-| 13      |
-| 10.25   |
-| 13.5    |
-| 11.5    |
-| 14.25   |
-| 10.25   |
+| Mon | Tue | Wed | Thu | Fri |
+|-----|-----|-----|-----|-----|
+| 10.25 | 9.5 | 9.75 | 10 | 12.25 |
+| 10 | 15.25 | 12.5 | 10.75 | 9.25 |
+| 10.25 | 10.25 | 9 | 10.5 | 10.25 |
+| 10.5 | 10.75 | 13.75 | 11 | 11.25 |
+| 14 | 12 | 10.5 | 13 | 10.25 |
+| 11.25 | 13.5 | 11.5 | 14.25 | 10.25 |
 
 The data shows us that while the trip can take no less then 9 minutes, it can take as much as 15.25 minutes with an average trip time of 11.25 minutes.
 Our shortest trip is 2.25 minutes quicker than average.
@@ -129,7 +106,7 @@ So if we were to use the mean (or average) as our commitment, the data tells us 
 That means we have a 34.5% chance of missing it.
 Or a one in three chance of going over our commitment.
 
-So our probability in this estimate is roughly 66%.
+So our probability for this estimate is roughly 66%.
 We expect to be go over the estimate 33% of the time.
 AND we expect to be under the estimate 62% of the time.
 We expect to actually hit the estimate, 3.4% of the time.
