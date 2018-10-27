@@ -145,7 +145,7 @@ The Lead Time Distribution graph then gives us a defensible way of running proje
 To finish this up, let's return to the example of my daily commute to the client.
 
 I touched on probability earlier when we talked about using the average lead time for forecasting.
-You'll recall our probability in the average was roughly 66%.
+You'll recall our probability for the average was roughly 66%.
 This is because, based on the data we have, we will come in at or under that estimate 66% of the time.
 If we want to increase our probability, we need to use a number that provides a greater chance of our hitting it or coming in under.
 If we want 100% probability, then we need to use 15.25 as that is the longest (so far) it has taken me to complete the commute.
@@ -153,7 +153,7 @@ The following graph shows probability intervals of 50%, 75%, and 100% on the gra
 
 ![Lead Time Distribution and Probability](images/CFD.022.jpeg)
 
-You'll notice that the more confident we want to be, the further from the mean we get and the distance does not increase linearly.
+You'll notice that the higher the probability we want to have, the further from the mean we get and the distance does not increase linearly.
 The distance from 50% to 75% is almost half that from 75% to 100%.
 
 Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes and I end up with a 38 minute commute?
