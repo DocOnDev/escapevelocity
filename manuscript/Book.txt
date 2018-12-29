@@ -43,6 +43,7 @@ mainmatter.txt
       test-coverage.txt
       code-churn.txt
     team-joy.txt
+    forecasting.txt
     customer-metrics.txt
       outcomes-over-outputs.txt
       feature-use.txt
