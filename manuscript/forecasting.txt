@@ -1,0 +1,16 @@
+{#forecasting}
+## Forecasting
+
+
+Taken from - https://repository.upenn.edu/cgi/viewcontent.cgi?referer=http://www.forecastingprinciples.com/index.php/practitioners-page&httpsredir=1&article=1181&context=marketing_papers
+
+
+Use quantitative methods rather than judgmental methods, if enough data exist.
+If no data exist, use judgmental methods. But when enough data exist, quantitative methods are expected to be more accurate.
+It is not always clear how much data is enough.
+This depends on the source, amount, relevance, variability, reliability, and validity of the data.
+The research to date offers little guidance. Studies such as the following would be useful; In a laboratory study on the time that groups took to assemble an Erector Set, Bailey and Gupta (1999) compared predictions made by 77 subjects against those from two quantitative learning-curve models.
+Bailey and Gupta provided data on the first two, four, six, or eight trials, and made predictions for the next three.
+Judgmental predictions were more accurate than quantitative methods given two or four observations.
+There was little difference given six observations.
+The quantitative approaches were more accurate than judgment when eight observations were available.
