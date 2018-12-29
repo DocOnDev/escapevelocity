@@ -9,113 +9,81 @@ It is about making them small and independent.
 Small stories that cannot be delivered independent of one another are really
 just tasks for a large story.
 
-If we have an issue with proper story composition, we may find we get several
-stories close to done, but we cannot run acceptance tests on them until all of
-them are complete, leaving us with too much testing at the end of the iteration.
+If we have an issue with proper story composition, we may find we get several stories close to done, but we cannot run acceptance tests on them until all of them are complete, leaving us with too much testing at the end of the iteration.
 It we don't get all of the stories ready, none of them can move.
-Then, next iteration, we complete the last strays and a glut of cards/points
-move to done.
+Then, next iteration, we complete the last strays and a glut of cards/points move to done.
 Alternatively, some stories are just too big to complete in a single iteration.
 
 There is no need to get your stories perfect up front.
 Get them good enough to do a high-level estimate; think epics.
-Then as you start planning releases, break them down into features to get a
-finer-course estimate.
-Finally, as you plan iterations, break them down again into small,
-independently deliverable items.
+Then as you start planning releases, break them down into features to get a finer-course estimate.
+Finally, as you plan iterations, break them down again into small, independently deliverable items.
 
 Beware the temptation to split stories across technical seams.
-This is often the way we think about the work because it is the way we anticipate
-the work being executed.
-We know for this feature that we need some database changes, so that becomes a
-story.
-We additionally make separate stories for changes to the API and changes to the
-user interface.
+This is often the way we think about the work because it is the way we anticipate the work being executed.
+We know for this feature that we need some database changes, so that becomes a story.
+We additionally make separate stories for changes to the API and changes to the user interface.
 We might even break the user interface into design and logic.
-But what we've done is create three or four stories that cannot be independently
-delivered.
-They're all connected. They are one story.
+But what we've done is create three or four stories that cannot be independently delivered.
+They're all connected.
+They are one story.
 
-Instead, focus on small stories that are thin vertical slices through the
-technology stack.
-Now that's easy enough to say and it sounds right, but it is not necessarily that
-easy to execute on.
+Instead, focus on small stories that are thin vertical slices through the technology stack.
+Now that's easy enough to say and it sounds right, but it is not necessarily that easy to execute on.
 Sometimes, thin vertical slices look like waste.
 They cause us to build something less than what we'd envisioned.
 And we don't want to release anything less than perfect, do we?
 
-I find it interesting how many teams I work with will simultaneously push for a
-Minimum Viable Product (MVP) and insist it is the right way to bring a piece of
-software to the market while arguing that writing a more simple version of the code
-is a waste of time since we already know what we need.
-An MVP is about learning; learning if what you _thought_ the customer wanted was,
-in fact, what they wanted.
-An MVP is about getting something out there to validate your hypothesis and to
-learn.
+I find it interesting how many teams I work with will simultaneously push for a Minimum Viable Product (MVP) and insist it is the right way to bring a piece of software to the market while arguing that writing a more simple version of the code is a waste of time since we already know what we need.
+An MVP is about learning; learning if what you _thought_ the customer wanted was, in fact, what they wanted.
+An MVP is about getting something out there to validate your hypothesis and to learn.
 In that regard, thin vertical slices are merely MVPs taken to the next level.
 
-Let's take a look at a relatively simple example wherein a team needs to add
-search capability to a catalog of products.
-The product owner delivers a set of mock ups and a set of specifications that
-detail the desired functionality.
+Let's take a look at a relatively simple example wherein a team needs to add search capability to a catalog of products.
+The product owner delivers a set of mock ups and a set of specifications that detail the desired functionality.
 
-According to the specification, we want a search bar in the header of every
-page on the site.
-The bar will be hidden, but will appear just below the header when a search icon
-is pressed.
-After three keystrokes, a search assist box should appear, showing possible
-matches to the search criteria.
+According to the specification, we want a search bar in the header of every page on the site.
+The bar will be hidden, but will appear just below the header when a search icon is pressed.
+After three keystrokes, a search assist box should appear, showing possible matches to the search criteria.
 A user can continue to type or can select an item from the search assist box.
 So, for example, the site is for shoes and the user types in "mar".
-The search result box should show Doc Martens, Marc Joseph, Mark Lemp,
-Smartwool, and Tamaris.
-The user adds a "t" to the end of the text and Doc Martens and Smartwool should
-be the only options.
-The items in the search assist box should have a thumbnail, the brand name, and
-a brief description.
+The search result box should show Doc Martens, Marc Joseph, Mark Lemp, Smartwool, and Tamaris.
+The user adds a "t" to the end of the text and Doc Martens and Smartwool should be the only options.
+The items in the search assist box should have a thumbnail, the brand name, and a brief description.
 
-If we iterate our way toward the objective, we create opportunities for learning,
-reduce our risk, and increase our options.
+If we iterate our way toward the objective, we create opportunities for learning, reduce our risk, and increase our options.
 I'd start with a simple search page.
-The search icon on the home page would navigate to a new page with a simple search
-box and a submit (or search) button.
+The search icon on the home page would navigate to a new page with a simple search box and a submit (or search) button.
 The user types in what they want and clicks the button.
 A new page loads with their results in a simple list format.
 This list format is the contents we eventually want in the search assist box.
 
 This works.
 If we decide to launch it, We now have search on the site.
-Along the way, we figured out things like connection to the database, the fundamental
-search capability, and how we might want to display the items.
-We also get to see how responsive the database is and think a bit more about
-what we'd expect to get back as our search results.
-If we choose to, we can launch this and gather statistics on how people are actually
-using search.
+Along the way, we figured out things like connection to the database, the fundamental search capability, and how we might want to display the items.
+We also get to see how responsive the database is and think a bit more about what we'd expect to get back as our search results.
+If we choose to, we can launch this and gather statistics on how people are actually using search.
 What if they don't search by brand very often and instead search by model or color or purpose?
 
 In the next increment, we might work on taking the form from a full request to an ajax call.
-We could leave the call tied to the submit button, but update the page based on the ajax
-call results.
+We could leave the call tied to the submit button, but update the page based on the ajax call results.
 This allows us to get a better sense of the speed.
 Does the page update instantaneously or does it take a couple of seconds?
 What causes the delay - is it the database, the images, or something else?
 What do we need to do to get this to instantaneous?
 
-In the next increment, perhaps we'd work on optimizations until the page refresh is as fast
-as we can get it - ideally milli-seconds.
+In the next increment, perhaps we'd work on optimizations until the page refresh is as fast as we can get it - ideally milli-seconds.
 Maybe we need to use a caching technique.
 Maybe there is a different search technology we can leverage.
 Do we need to do anything different when there are 100 search results versus 10, 1, or 0?
 
 In the next increment, we could switch the page to a type-ahead and remove the search button.
-Now, as people type, the results are shown in a search assist box and when they make
-a selection, they are redirected to the appropriate page.
+Now, as people type, the results are shown in a search assist box and when they make a selection, they are redirected to the appropriate page.
 How does the search assist box feel?
 How do we navigate the search assist box with the keyboard?
 Can they press enter to go to the product page?
 
-Now, in the last increment, we'd move the search box to the page header and wire
-up the functionality we want for hiding and showing the search bar.
+Now, in the last increment, we'd move the search box to the page header and wire up the functionality we want for hiding and showing the search bar.
 
 You could break this down differently.
 Maybe you'd work on optimization after it launched and saw how it performed at scale.
@@ -126,15 +94,13 @@ But in this example, we broke it down into five independent steps.
 And along the way, we figured out a number of things.
 Each of them was relatively easy to solve, due in part to the fact that we worked on one thing at a time.
 We didn't try to get search, type-ahead, and optimization done all in one step.
-We had opportunities along the way to play with the interface, to maybe see how
-customers used it, and make adjustments.
+We had opportunities along the way to play with the interface, to maybe see how customers used it, and make adjustments.
 And every step was a deliverable, working piece of code.
 
 Many developers will tell you this is a waste of time.
 They'll have to touch the same code multiple times.
 They'll have to change the code as they move along.
-The techniques we use for a basic web page are different from the techniques we use
-for a series of ajax calls.
+The techniques we use for a basic web page are different from the techniques we use for a series of ajax calls.
 Why not just write it once instead of wasting all this time?
 
 Because none of this was time wasted.
@@ -145,10 +111,8 @@ We want to expand our options and expedite our learning.
 Delivering in increments does both of these things quite well.
 
 Many product owners will tell you that nothing but the final version is acceptable.
-If we don't get it right, the customer will hate it and they will run screaming
-to the competition to never ever return.
-But when we hit the target date, there isn't a product owner alive who'd appreciate
-some options to choose from rather than nothing to show.
+If we don't get it right, the customer will hate it and they will run screaming to the competition to never ever return.
+But when we hit the target date, there isn't a product owner alive who'd appreciate some options to choose from rather than nothing to show.
 You see, when we opt for all or nothing, the odds are always in favor of nothing.
 
 {icon=quote-left}
