@@ -30,10 +30,10 @@ mainmatter.txt
       capacity-loading.txt
       splitting-people.txt
   other-metrics.txt
-    cycle-time.txt
-      control-chart.txt
     lead-time.txt
       lead-time-distribution.txt
+    cycle-time.txt
+      control-chart.txt
     cumulative-flow.txt
     delivery-frequency.txt
     flow-efficiency.txt
