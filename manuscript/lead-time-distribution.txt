@@ -167,7 +167,8 @@ What to do?
 
 We've a few options, I suppose.
 One, we could pretend it never happened; chalk it up to an outlier and forget about it.
-Don't graph it. Ignore it.
+Don't graph it.
+Ignore it.
 Two, we could add it to the graph and have it haunt us forever.
 All future projections at 100% probability will be calculated at 38 minutes whereas a 95% probability would be calculated at 15.25 minutes.
 That seems a bit of a gap for 5% of probability, does it not?
