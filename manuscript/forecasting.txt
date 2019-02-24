@@ -1,16 +1,87 @@
 {#forecasting}
 ## Forecasting
 
+"How long is it going to take?"
 
-Taken from - https://repository.upenn.edu/cgi/viewcontent.cgi?referer=http://www.forecastingprinciples.com/index.php/practitioners-page&httpsredir=1&article=1181&context=marketing_papers
+We get asked this question often.
+So very often.
+And the truth is, hardly anybody wants to really know how long a story or feature is going to take.
+What they want to know is when it will be done.
+And perhaps, more accurately, they want to know when they can have it; when they will be able to get the value it promises.
+
+The most common technique I see for forecasting is good old velocity math.
+Add up the work required to deliver the feature and divide it by the team's velocity.
+This gives you the number of iterations it will take to deliver the feature.
+Now multiply the number of iterations by the iteration length to determine how long it will take in days.
+
+Let's say, for example, that our velocity for the last three iterations is 8, 16, and 15, for an average of 13.
+Each iteration is two weeks.
+Let's say the feature we are targeting is 84 points and there are an additional 24 points worth of work prioritized higher than some of the stories that comprise the feature.
+In other words, in order to deliver the feature, we need to complete a total of 108 points, even though the feature itself is only 84 points.
+
+~~~~~~~~
+108 / 13 = 8.3 (round to 9)
+2 * 9 = 18
+~~~~~~~~
+
+According to our typical "forecasting" technique, this work will be done in 18 weeks.
+
+Cool.
+
+How probable is this forecast?
+As we discussed in the section on [Lead Time Distributions](#lead-time-distribution), the probability of the typical velocity math is pretty low; somewhere in the 50% range.
+A coin toss, more or less.
+
+Given enough lead time data, we could use the lead time distribution to help with forecasting, but there is an even better way.
+
+Fortunately for us, Troy Magennis and the team at Focused Objective have done a great deal of work in this area and provide us a simple tool that allows us to forecast[^Forecaster] using a Monte Carlo simulation to produce a probability distribution.
+
+That's a mouthful.
+
+Essentially, their forecaster takes some basic inputs, such as throughput history, amount of work remaining, and average story split rate and it runs 500 simulations to calculate the probability of the work being completed by a date.
+The simulations are run by randomly selecting from the variables provided.
+For each of the 500 simulations, an amount of work remaining is randomly selected from the range provided and then iterations are run by randomly applying a throughput and growth rate, based again on the ranges provided.
+
+As you can see, this isn't running a basic burn down.
+This is an actual simulation based on the numbers provided using actual data drawn from your project's history.
+
+The 500 resulting completion dates are graphed on a distribution chart, allowing us to determine the probability of each potential completion date.
+
+So let's take our current scenario and let's see how we do using our forecaster.
+When we start with the average velocity of 13, 0 split rate, and 108 points to complete, all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
+This makes sense as there is no variance in the numbers provided.
+Therefore the same backlog size is always chosen, the same throughput is applied to each iteration, and there is no growth or split rate.
+
+But this just isn't realistic.
+And it certainly isn't representative of our real world experiences.
+Throughput / Velocity usually varies a bit from iteration to iteration.
+Things happen; people are out, stories get blocked, we stay late to get more work done...
+
+So let's run it again, but this time, we will use our velocity range instead of the average.
+Using our prior three iterations, the velocity had a low of 8, and a high of 16.
+We'll stick with a 0 split rate for this run.
+
+This time, our 18 week projection is showing a 5 to 50% probability.
+20 weeks has a 55 to 90% probability and 22 weeks and 24 weeks are 95% and 100% probable, respectively.
+
+This confirms our already growing suspicion; the standard velocity burn down technique we've been using is less reliable than a coin toss.
+
+Now, let's consider that the defined scope of this project has been growing.
+This is also natural.
+We've discovered new desirable features as we've gone along and we've been progressively elaborating which naturally results in some expansion of the scope size.
+
+Given our iterations are two weeks, we decide to take a look at our cumulative flow diagram for the prior 8 weeks and get an average growth per iteration.
+Let's say the scope has grown 40% in the past 8 weeks.
+That's about 10% per week.
+I know the math is a bit off here as we haven't accounted for compounding.
+Personally, I think we're okay.
+We're switching from a technique that was no better than a coin toss.
+A little rounding error in our new technique isn't going to make it worse than what we used to do.
+
+So, let's use 10% as an approximation for our split rate and run it one more time.
+This time, our split rate is 1.00 for the low, indicating no split, and 1.10 for the high, indicating that for every 10 points we start with, we end up with 11 points in final scope.
+
+Now, our probability of completing in 18 weeks had dropped to a range of 5 to 30% and a much more likely completion is 22 weeks from now, with an 80 to 95% probability.
 
 
-Use quantitative methods rather than judgmental methods, if enough data exist.
-If no data exist, use judgmental methods. But when enough data exist, quantitative methods are expected to be more accurate.
-It is not always clear how much data is enough.
-This depends on the source, amount, relevance, variability, reliability, and validity of the data.
-The research to date offers little guidance. Studies such as the following would be useful; In a laboratory study on the time that groups took to assemble an Erector Set, Bailey and Gupta (1999) compared predictions made by 77 subjects against those from two quantitative learning-curve models.
-Bailey and Gupta provided data on the first two, four, six, or eight trials, and made predictions for the next three.
-Judgmental predictions were more accurate than quantitative methods given two or four observations.
-There was little difference given six observations.
-The quantitative approaches were more accurate than judgment when eight observations were available.
+[^Forecaster]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved February 23, 2018, from https://github.com/FocusedObjective/FocusedObjective.Resources/raw/master/Spreadsheets/Throughput Forecaster.xlsx
