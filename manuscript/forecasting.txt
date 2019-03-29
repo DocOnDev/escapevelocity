@@ -38,7 +38,7 @@ Fortunately for us, Troy Magennis and the team at Focused Objective have done a 
 
 That's a mouthful.
 
-Essentially, their forecaster takes some basic inputs, such as throughput history, amount of work remaining, and average story split rate and it runs 500 simulations to calculate the probability of the work being completed by a date.
+Essentially, their forecaster takes some basic inputs, such as throughput history, amount of work remaining, and average story split rate[^split-rate] and it runs 500 simulations to calculate the probability of the work being completed by a date.
 The simulations are run by randomly selecting from the variables provided.
 For each of the 500 simulations, an amount of work remaining is randomly selected from the range provided and then iterations are run by randomly applying a throughput and growth rate, based again on the ranges provided.
 
@@ -134,3 +134,5 @@ Similarly, if you identify new work that doesn't get prioritized into the existi
 
 
 [^Forecaster]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved February 23, 2018, from https://github.com/FocusedObjective/FocusedObjective.Resources/raw/master/Spreadsheets/Throughput Forecaster.xlsx
+
+[^split-rate]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved March 28, 2018, from http://focusedobjective.com/calculating-work-split-rate/
