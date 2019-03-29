@@ -79,9 +79,58 @@ We're switching from a technique that was no better than a coin toss.
 A little rounding error in our new technique isn't going to make it worse than what we used to do.
 
 So, let's use 10% as an approximation for our split rate and run it one more time.
-This time, our split rate is 1.00 for the low, indicating no split, and 1.10 for the high, indicating that for every 10 points we start with, we end up with 11 points in final scope.
+This time, our split rate is 1.00 for the low, indicating no split, and 1.10 for the high, indicating that for every 10 units we start with, we end up with 11 units in final scope.
 
 Now, our probability of completing in 18 weeks had dropped to a range of 5 to 30% and a much more likely completion is 22 weeks from now, with an 80 to 95% probability.
+
+So far, we've hand waived over split rate.
+Now, let's dive into it a bit and see how we can determine a reasonable split rate range for our project.
+
+A split is anything that causes a single item to become more than one item.
+
+In some cases, this is an actual story split.
+In iteration planning, for example, we realize that we can actually split this story into smaller deliverable pieces.
+
+In some organizations, this type of split has to follow a set of rules that indicate a story must always split into smaller stories that total the original estimate.
+In other organizations, a story may split into pieces that exceed the original estimate.
+
+It is ultimately up to you top figure out how you want to handle this in your own place of work, but if you are asking my advice, split the story and estimate the work as it is now articulated.
+Don't worry about the original estimate/size.
+Forcing teams to stick to an original estimate when they discover a new way of executing on the work is an arbitrary rule that offers no additional value and is practically guaranteed to result in more consternation and waste.
+
+A second example of a "split" is an actual growth in scope.
+Say we deliver a feature and then learn that our customers want it enhanced in some way.
+This is essentially the same as a split.
+We had a single work item, which, when delivered, produced yet another work item.
+
+Another possible example of a split is discovery of a defect.
+If you record defects in your throughput, then any time you discover a defect, it is essentially a split of the work item that generated the defect.
+You had one work item.
+You delivered it.
+You now have two work items related to the same customer value; the original work item and the defect.
+In some organizations, throughput is based on delivery of value work.
+Defects don't count in these organizations.
+In others, all work is counted.
+I've waffled back and forth on this over the years and have pretty much landed in the, "it's up to you" camp.
+Whatever you do, do it consistently.
+
+As we can see, split rate is a bit involved and may be hard to measure.
+I tend to start teams with a split rate of 1.5 to 2.0, indicating that for every one work item in the backlog, we will have 1.5 or 2.0 work items at completion.
+When introducing the concept, I'll ask a team to grab 10 items out of the backlog, take a look at them and give me ball park on how many work items will result from these 10; including or excluding defects in accord with their policy on defect sizing/tracking.
+
+To measure actual split rate is a bit difficult, but not impossible.
+Let's say we are targeting to release a specific feature.
+Once a week or so, we record the total number of work items (or points) that need to be completed in order to deliver the feature, including the work already completed.
+Let's say that at the beginning, we have 100 units to complete.
+By the time the feature is delivered, there are 175 units completed.
+We now know that the split rate is 1.75 - for every work unit we began with, we ended up with 1.75 work units.
+
+It is important to measure the work completed.
+Otherwise, you may over estimate the split rate.
+
+Say, for example, you discover 10 defects, but 9 of them are low priority and will not need to be addressed in this feature release.
+Then only one of those defects counts toward the split rate.
+Similarly, if you identify new work that doesn't get prioritized into the existing release (or may never get done), then it doesn't count in the split rate.
 
 
 [^Forecaster]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved February 23, 2018, from https://github.com/FocusedObjective/FocusedObjective.Resources/raw/master/Spreadsheets/Throughput Forecaster.xlsx
