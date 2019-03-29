@@ -83,6 +83,7 @@ This time, our split rate is 1.00 for the low, indicating no split, and 1.10 for
 
 Now, our probability of completing in 18 weeks had dropped to a range of 5 to 30% and a much more likely completion is 22 weeks from now, with an 80 to 95% probability.
 
+### Split Rate
 So far, we've hand waived over split rate.
 Now, let's dive into it a bit and see how we can determine a reasonable split rate range for our project.
 
