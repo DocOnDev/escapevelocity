@@ -136,4 +136,4 @@ Similarly, if you identify new work that doesn't get prioritized into the existi
 
 [^Forecaster]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved February 23, 2018, from https://github.com/FocusedObjective/FocusedObjective.Resources/raw/master/Spreadsheets/Throughput Forecaster.xlsx
 
-[^split-rate]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved March 28, 2018, from http://focusedobjective.com/calculating-work-split-rate/
+[^split-rate]: Magennis, T. (n.d.). Calculating Work Split Rate – Ground-Speed vs Air-Speed. Retrieved March 28, 2018, from http://focusedobjective.com/calculating-work-split-rate/
