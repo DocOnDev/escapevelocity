@@ -28,8 +28,8 @@ If, every time you are in the code, you clean it a little, the areas of the code
 The end result is the same as if you'd used churn as a guide, except you wouldn't have to measure churn and the code would already be cleaned (at least a little).
 
 This technique of cleaning the code you are in is often referred to as "The boy scout rule".
-One of the "rules" of scouts is to leave the camp site better than you found it.
-In this metaphor, the camp site is our code.
+One of the "rules" of scouts is to leave the campsite better than you found it.
+In this metaphor, the campsite is our code.
 Leave the code better than you found it.
 Implement the feature, fix the bug, do whatever it is the story indicates you're supposed to do.
 And while you're at it, rename a variable, extract a method, or make any other small simple change that improves the readability, maintainability, and quality of the code.
