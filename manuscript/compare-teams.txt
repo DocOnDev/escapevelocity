@@ -5,7 +5,7 @@ You are now dozens of teams.
 And while each time is measuring well, you would really like to know how to compare teams to one another in order to identify leading practices within the organization.
 Which team is doing particularly well and what might you learn from them?
 
-## Velocity Change (Troy Magenis)
+## Velocity Change (Troy Magennis)
 
 1. Get the velocity for each team at two points (or more) in time
 2. Compute the average increase or decrease % for each team (average of every teams individual increase or decrease %) to compare against
