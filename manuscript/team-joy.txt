@@ -23,7 +23,7 @@ We thought we might be able to get an increase in participation if we figured ou
 a way to work the survey into their flow of work.
 I'd seen this already with things like time tracking where we used a piece of
 software that kicked off automated tests every time a file was saved to update a log.
-Developers then used that log data to help them fill out time sheets.
+Developers then used that log data to help them fill out timesheets.
 
 But what to do for measuring employee joy in a passive way?
 After some discussion, we decided to try something very simple.
