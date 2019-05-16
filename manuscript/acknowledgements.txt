@@ -44,7 +44,7 @@ Related specifically to the material in this book, I recall conversations with *
 
 At Groupon, I had a unique opportunity to take everything I'd learned and put it into practice.
 My small team started a movement within Groupon Engineering to put people above process and to foster Autonomy, Connection, Excellence, and Diversity.
-These are the cornerstones of CTO2's philosophy and mission today.
+These are the cornerstones of OnBelay's philosophy and mission today.
 
 When I started out to write a book, I struggled.
 I couldn't figure out how to start.
