@@ -12,8 +12,10 @@ Outcome measurements focus on quality of delivery - or more accurately, the impa
 As a result, outcome measures tell us if we are headed in the right direction.
 And speed (output) is beneficial only if you are headed in the right direction (outcome).
 
+### Know The Problem You Are Solving
 I once worked with a client who became so obsessed with immediate revenue metrics that they would not allow themselves to innovate in certain areas.
 Essentially, the only measure that mattered for a new feature was whether or not it had a net positive impact on revenue.
+Revenue was their standard outcome measurement.
 This was, of course, measured in real time.
 If they tried three different button colors on the checkout screen, they'd go with the one that achieved a statistically significant higher rate of purchase.
 Easy enough.
@@ -22,3 +24,57 @@ But when they wanted to get into personalization features, the first thing they 
 No matter what they did, an interface that gathered personal data about a customer also resulted in lower purchase rates than the control which gathered no personal data.
 As a result, no matter how much data a customer volunteered, no matter how much time and energy they spent on customizing their own profile, the experiment was ultimately killed because it generated fewer immediate dollars than the control.
 As a second order result, the company struggled to figure out personalization and fell behind competitors who were focused on providing a custom experience to each customer over the long term.
+
+They were using measures that didn't align with their desired outcomes.
+They'd grown so accustomed to judging all features by the same criteria, they failed to think critically about the problem they were solving.
+While revenue generation can be, and often is a fine outcome, it isn't the only outcome.
+And in some cases, it is counter to the real goal.
+
+Underlying every "requirement" is a problem to solve; a pain point that we hope to alleviate.
+Our goal should never be to build some functionality; produce some output.
+It should always be to solve a problem; realize an outcome.
+
+I tend to use three questions to prompt thinking and help teams figure out the measurements that can help them determine if they've achieved the outcome.
+
+#### 1. What problem are you solving and for whom?
+Here, we identify the key issue and the key person or persona.
+This is a business problem or a customer problem.
+This is not a solution.
+
+"Display daily total of calories consumed at bottom of user food log.", is an articulation of a solution.
+
+"Users are having difficulty staying within recommended daily calorie ranges.", is a better articulation of a problem.
+
+From the former, we know we are done when the total is visible on the bottom of the page, whether or not users see this as valuable or helpful.
+From the latter, we know we are done when the user is more often staying within calorie ranges, which we believe is solving a problem they currently face.
+
+If asking, "What problem are we solving?", doesn't lead to a good answer, then a simple 5 why approach[^FiveWhys] may help you get from implementation request to problem definition.
+Starting with the implementation request, "Display daily total of calories consumed at bottom of user food log.", ask "Why do our users need that?"
+For each answer given, ask again, "Why?", until you get to a root problem or need.
+
+#### 2. What stories would we hear upon success?
+Let's assume we are successful in our efforts.
+Users are now better able to stay within their daily calorie ranges (and they are happy about it).
+What stories would we hear?
+What positive things would users say about this change?
+
+Consider the situation from the perspective of your users.
+Would they be delighted that you put data on the screen?
+Maybe not.
+Would they be excited about staying within their daily calorie ranges?
+Maybe.
+Would they be energized over the reduction in weight?
+Probably so.
+
+So what stories would they tell?
+What would they rave about?
+What positive things would they say?
+
+#### 3. How could you substantiate their stories?
+How could you objectively confirm the happy stories your users might share?
+What measures would you need to prove the stories are factually accurate?
+
+Knowing the actual problem you are solving helps you think clearly about the data you should track to help you assess whether or not you've actually solved the problem.
+
+
+[^FiveWhys]: Serrat, and Olivier D. "The Five Whys Technique." Asian Development Bank. November 15, 2017. Accessed May 18, 2019. https://www.adb.org/publications/five-whys-technique.
