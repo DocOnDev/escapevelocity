@@ -47,12 +47,8 @@ mainmatter.txt
     customer-metrics.txt
       outcomes-over-outputs.txt
       feature-use.txt
-        time-spent.txt
-      revenue-generated.txt
-      npm-customer-satisfaction.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
   balanced-metrics.txt
-  compare-teams.txt
 backmatter.txt
   acknowledgements.txt
