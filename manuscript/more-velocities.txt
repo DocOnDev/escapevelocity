@@ -43,14 +43,14 @@ Which features can we cut back on?
 What is truly priority?
 How else might we organize the work, support the team, or think about the product?
 
+{icon=quote-left}
+G> Velocity isn't about measuring the team. It is about having a coarse-grained forecast.
+
 Unfortunately, these are hard decisions.
 They may force us to make tradeoffs.
 They may result in our having to change our public message; to move a date or to reset market expectations.
 It is far easier to defer the hard decision and ask a team to "step up".
 It is easier to abdicate the responsibility and push it to the team.
-
-{icon=quote-left}
-G> Velocity isn't about measuring the team. It is about having a coarse-grained forecast.
 
 In most cases where the need for an increase in velocity is articulated, there is an underlying unspoken premise.
 The belief that if properly motivated, we can do better.
@@ -299,7 +299,7 @@ Now the team has increased the likelihood they can both deliver value in this it
 In some environments I've coached, we've seen an interesting outcome when stories get broken down into smaller slices.
 We found that when we broke large stories into discrete parts, the average time to deliver all discrete parts was less than the time to deliver the larger story.
 This held true even when the parts added up to more than the story.
-For more on this, you can read the section on [correlations](#correlations), we discuss [Lead Time by Story Size](#lead-time-story-size).
+For more on this, you can read the section on [correlations](#correlations) where we discuss [Lead Time by Story Size](#lead-time-story-size).
 
 If you're going to split stories, do it for the right reasons.
 Do it because you want to optimize for learning as you go.
