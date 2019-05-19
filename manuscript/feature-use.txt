@@ -11,13 +11,127 @@ There is a difference between a product that is loaded with features and a produ
 That difference, as it turns out, is not determined by the creator, but by the consumer.
 If they don't use it, it is useless.
 
-Many companies rely on hearsay to determine if a feature is being used.
-A common pattern is to launch a new feature or set of features and then survey the users to see if they find it useful.
-For a lot of organizations, the survey is anecdotal data gathered through leading questions.
+The impact goes beyond simply whether or not a feature gets used.
+The more features a piece of software has, the greater the learning curve and the more cognitive load required to use it.
+Software with more features is almost always harder to use.
+And software with more features is therefor harder to adopt in the first place.
+The more features you add, the more likely your existing users are going to fall out of love with your solution and the less likely new users will fall in love in the first place.
+Jared Spool refers to this phenomenon as Experience Rot[^ExperienceRot].
 
-"Good day, Ms. Customer. I wanted to check in with you and see if you've been happy with our service lately. Have any of your deliveries been late?"
+[^ExperienceRot]: "Experience Rot." UX Articles by UIE. August 10, 2018. Accessed October 18, 2018. https://articles.uie.com/experience_rot/.
 
+To avoid experience rot, we need to be judicious about the features we launch and the features we keep.
+There is plenty of material out there on product management and feature selection.
+Here, we'll briefly discuss feature retention and refinement.
 
-Do customers actually use it?
+There are a number of tools available on the market today for adding telemetry to your applications.
+These tools enable you to add small pieces of code to your software which then gather anonymous information about users and how they interact with the software.
+Using tools such, you can monitor a number of aspects of the software[^ProductMeasures], including adoption rate[^AdoptionRate], retention rate[^RetentionRate], and task success[^TaskSuccess] to help determine if a feature is worth keeping around in its current form.
 
-Edge case scenarios that satisfy the needs of an expert user (company owner?) that don't actually serve the needs of the common customer.
+[^AdoptionRate]: Kenton, Will. "Rate of Adoption." Investopedia. March 12, 2019. Accessed April 19, 2019. https://www.investopedia.com/terms/r/rate-of-adoption.asp.
+
+[^RetentionRate]: "How to Calculate Customer Retention." Evergage. October 18, 2018. Accessed January 6, 2019. https://www.evergage.com/blog/how-calculate-customer-retention/.
+
+[^TaskSuccess]: "What Is A Good Task-Completion Rate?" MeasuringU. Accessed January 19, 2019. https://measuringu.com/task-completion/.
+
+[^ProductMeasures]: "Product Analytics - How to Measure Your Software Development Success." Towards Data Science. February 01, 2018. Accessed May 27, 2018. https://towardsdatascience.com/product-analytics-how-to-measure-your-software-development-success-7a6bc765dbab.
+
+### Adoption Rate
+Adoption rate tells us that people are using the new feature.
+Adoption rate might be how many users are upgrading to the latest release, how many users are subscribing to the new feature or service, or simply how many users are utilizing the new functionality.
+
+Look at user adoption rate as a percentage of all users as opposed to as an isolated number.
+You may see an increase in the number of users for a new feature and think it is a success.
+But it might turn out that the rate of adoption for the overall application is out-pacing the feature.
+In such a case, while feature adoption is growing, the percent of users interested in the feature may be in decline.
+
+A basic adoption rate is the number of users use first use our feature in a given time period (F), divided by the days in the time period (D).
+
+Adoption Rate = F/D
+
+Let's take an example where for a given week (D=7), the number of customers who first use our feature (F) is 32.
+Our feature adoption rate (FR) is 32 users / 7 days or 4.57 users per day.
+
+Let's now assume that during that same week, application grew by 57 users.
+This is the number of users at the end of the week less the number of users at the start of the week.
+This is different than the number of new users as other users may have stopped using the application as well.
+So this is the application growth (G) rather than adoption.
+The application growth rate (GR) is 57 users / 7 days or 8.14 users per day.
+
+If we subtract GR from FR, we get a relative feature adoption rate (RF) of -3.57.
+While the feature is being adopted, it is happening at a rate slower than the overall growth of the application.
+This feature may not appeal to the majority of the users.
+
+Let's assume instead, that the number of overall users only grew by 21.
+With G = 21, our relative feature adoption rate is now 1.57.
+The feature is being adopted at a rate greater than the growth of the application population.
+This feature is more likely to become commonly used.
+
+Watch how this trends over time.
+A single measure is not very informative.
+On any given week there can be noise in the system.
+Maybe there was a big push for new subscribers causing a negative relative feature adoption rate and other weeks were all positive.
+Maybe the feature is more valuable to users at certain times of the monthly or annual cycle.
+
+Adoption is interesting and important, but we also want to ensure people continue to use the new feature.
+This will help us understand if they find it valuable rather than novel.
+
+### Retention Rate
+Retention rate tells us that people are continuing to use the new feature.
+This is more important than adoption rate.
+Adoption may be about newness or novelty.
+People might start using a feature because it looks promising.
+Retention tells us more about whether or not they find it valuable enough to use more than a couple of times.
+
+There are a number of ways to calculate retention rate.
+Among them are Retention by Day, Range Retention, and Rolling Retention.
+Retention by day is very granular and is sensitive to noise in the system, but can provide feedback on a daily basis when a feature first launches.
+Range retention smoothes out the noise, can be run for short or extended ranges, and is good for looking at patterns, but it obfuscates some of the details and requires you to have sufficient data (at least a full range).
+Rolling retention is good for looking at overall stickiness of an app and is very easy to calculate, but treats high activity and low activity users the same.
+
+We are going to focus on range retention as it is the most applicable.
+
+#### Calculating Range Retention
+To calculate range retention, you need three pieces of data:
+
+1. Number of customers using the feature at the start of a period (S)
+1. Number of customers who first used the feature during the period (F)
+1. Number of customers using the feature at the end of the period (E)
+
+Customer Retention Rate (CRR) = ((E-F)/S)*100
+
+Let's say we are calculating retention for a 4 week cycle.
+If the number of customers using the feature on day 0 is 203, the number of first-time users between day 0 and day 28 is 55, and the number of customers using the feature on day 28 is 216, then our retention rate is:
+
+((216-55)/203) * 100 = 79.3
+
+If the retention rate for a feature is consistently low, then it may be time to consider sunsetting the feature.
+
+### Task Success
+There are a number of possible measures for Task Success, including completion rate, task time, and task level satisfaction.
+
+Completion rate is a means of measuring how many users completed an intended activity.
+This gives us some indication of whether or not users are getting the intended value from the feature.
+
+Task time is the amount of time it takes to complete an activity.
+This give us some indication of the investment a user needs to make and may tell us that a particular task/process is too difficult.
+
+Task level satisfaction tells us how a user feels about the task itself.
+This is usually measured via micro-surveys at the end of a task.
+
+While time and satisfaction are valuable pieces of data, we are going to focus on the measure of binary completion rate.
+This is easy to measure, regardless of audience size, can be measured before software is even written via prototypes, and is considered a fundamental metric for products.
+
+For binary completion rate, you define a scenario for a user to complete such as scheduling an event, making a purchase, or inviting a friend.
+You monitor the number of users who began the task as well as the number of users who completed the task.
+There is no partial credit.
+Either they finished the task or they did not.
+
+The completion rate is simply the number of users who finished the task divided by the number of users who started the task.
+If 10 users started and 9 users finished, your completion rate is 90%.
+
+A completion rate of 100% is phenomenal.
+On average, completion rates are closer to 70% to 80%, depending on the actual task and context.
+No matter how well you design a feature, you can expect some small percentage of users who do not complete a task.
+
+With these three measures, adoption rate, retention rate, and task success, we know if we are attracting users at a desirable rate, if they are returning, and if they are getting done what we hoped they'd get done.
