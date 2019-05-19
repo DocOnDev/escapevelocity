@@ -90,7 +90,6 @@ So, let's use 18% as an approximation for our split rate and run it one more tim
 
 ![Split Rate Forecast Results](images/ForecastResults.003.jpeg)
 
-
 This time, our split rate is 1.00 for the low, indicating no split, and 1.18 for the high, indicating that for every 50 units we start with, we end up with 59 units in final scope.
 
 Now, our probability of completing in 18 weeks had dropped to a range of 5 to 10% and a much more likely completion is 24 weeks from now, with a 95% probability.
