@@ -1,3 +1,48 @@
 ### Autonomy Issues
 
-Autonomy 
+Autonomy is the capacity to make an informed and uncoerced decision.
+As related to individuals at work, it means people have a high level of discretion in how they perform the work.
+When we speak of self-governing teams, we are speaking of autonomous teams; teams that hold the right to make their own decisions without being controlled by anyone else.
+
+In agile software development, principals five and eleven speak directly to autonomy:
+
+Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
+
+The best architectures, requirements, and designs emerge from *self-organizing* teams.
+
+Organizations want the agile.
+It is good.
+They nod their heads when we say things like, "Self-governing teams", and, "Autonomous teams".
+
+And then they put in centralized governance, controls, and approvals.
+They mandate that all teams use the same tracking software; ideally in the same way.
+They mandate standard reports which in turn require standard process.
+They mandate standard approved tools, languages, and frameworks.
+They require specific stage gates and checks, which by their very existence require teams to adhere to specific ways of working.
+A team writing automated acceptance criteria still has to have their use cases documented via the corporate template and approved before the official testing phase can begin, which must come ofter the development phase.
+
+Hello? What?
+
+This is not autonomy.
+
+This is heteronomy: The subjection of a community to the rule of another power.
+
+There is benefit to having some standards.
+No doubt.
+But there is additionally benefit to eliminating any and all standards that fail to continue to serve the best interest of the organization.
+There is benefit to reducing policy from a strict set of steps to a set of fundamental guidelines.
+
+Rather than mandate a process for how tests are written and executed, set a guideline that states all teams need to have and follow an approved testing strategy.
+
+Rather than mandating iterations, velocity, and the like, set a guideline that states all team need to manage the flow of work and be able to respond to change.
+
+Create constraints that reduce options, but simultaneously empower the team.
+"No code can move into the master branch until three people have seen it.", is a simple enabling constraint.
+It is clear that no one person can write code alone and push it into master.
+But this constraint is also quite empowering.
+Teams get to decide for themselves how they'll do this.
+Maybe they mob so three or more people write all the code.
+Maybe they pair and ask for a review.
+Maybe they do formal code reviews.
+Maybe they use pull requests.
+Maybe they use combinations of all of the above.
