@@ -40,4 +40,36 @@ If the project is important, you should be able to ask for the necessary support
 
 ### Join Forces
 
-It is not always possible.
+It is not always possible to join forces, but it is often more possible than we think.
+
+If you have common dependencies between teams, consider forming a single team.
+Maybe this is merging the two teams into one.
+Maybe this is creating a third team with members from each of the dependent teams.
+Maybe there are more than two teams involved.
+
+By putting people together on a team to solve a specific business problem that crosses their typical boundaries, you eliminate most of the delays and miscommunication that normally happens.
+Despite the team members now moving "slower" because they're talking and sharing and explaining things and solving together, the project actually gets done faster.
+It turns out that talking, sharing, explaining, and solving together nets better overall results than maximizing the local efficiency of each individual team.
+
+If you can't come together as a single team focused on a key need, you can at least make a concerted effort to work with one another as directly as possible.
+
+If you find that you are regularly joining forces between the same teams, this is a clear indicator that your organization is not organized well to meet the actual business needs.
+Listen to these clues.
+You'll find that if your department isn't properly structured, then your architecture probably won't be either.
+These mismatches become a vicious cycle.
+Your architecture will reinforce your organizational structure and your organizational structure will reinforce your architecture.
+If you want to change one, you must necessarily change the other.
+
+In 1967, Melvin Conway submitted a paper[^ConwayPaper] to the Harvard Business Review, which was rejected at the time for lack of evidence.
+In that paper, he stated, "Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure."
+
+Some time later, in the book, "The Mythical Man Month", Fred Brooks referenced Conway's thesis and coined it as "Conway's Law"[^ConwaysLaw]
+
+Since then, studies performed by MIT and Harvard have shown Conway to have been correct.
+The structure of our systems reflect the structure of our organizations.
+
+If you want to change the design of the system (the architecture), you must change the design of the organization to reflect the desired outcome.
+
+[^ConwayPaper]: Committees Paper. Accessed October 19, 2018. http://www.melconway.com/Home/Committees_Paper.html.
+
+[^ConwaysLaw]: "Demystifying Conway's Law." ThoughtWorks. June 30, 2014. Accessed May 17, 2018. https://www.thoughtworks.com/insights/blog/demystifying-conways-law.
