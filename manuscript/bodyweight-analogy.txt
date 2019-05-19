@@ -62,12 +62,12 @@ And that one measurement doesn't tell us enough about the system that produced i
 If this is the case, then we can't really determine what behavior improves the overall health of the system nor can we tell which behavior harms the overall system.
 In general, the less we understand about a system, the more we are likely to engage in behavior that harms the overall system and the less we are likely to engage in behavior that helps it.
 
+{icon=quote-left}
+G> Without sufficient data about the system we can neither properly diagnose our ills nor make informed remediation decisions.
+
 Even our "healthy" options for losing 15 pounds are subjective.
 For some, training for a marathon would be riskier than making no lifestyle change.
 I suspect many of you feel you fall into that category.
-
-{icon=quote-left}
-G> The less we understand about a system, the more we are likely to engage in behavior that harms the overall system
 
 Without sufficient data about the system we can neither properly diagnose our ills nor make informed remediation decisions.
 
