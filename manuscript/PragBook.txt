@@ -1,0 +1,86 @@
+frontmatter.txt
+  dedication.txt
+  forward.txt
+  preface.txt
+  about.txt
+mainmatter.txt
+  why-metrics.txt
+  forecasting.txt
+    forecasting-intro.txt
+    forecasting-is-not-estimating.txt
+    forecasting-with-velocity.txt
+      forecasting-burn-charts.txt
+    forecasting-with-throughput.txt
+    forecasting-with-lead-time.txt
+      lead-time-distribution.txt
+    forecasting-with-monte-carlo.txt
+  improving-the-forecast.txt
+    variability.txt
+      cumulative-flow-diagram.txt
+      cycle-time.txt
+        control-chart.txt
+      common-causes.txt
+        work-in-progress.txt
+          too-much-wip.txt
+          wip-cumulative-flow-diagram.txt
+        batch-size.txt
+          measuring-batch-size.txt
+            batch-size-release-frequency.txt
+          poor-story-composition.txt
+        organizational-issues.txt
+          silos.txt
+          team-dependencies.txt
+          mis-management.txt
+            individual-incentives.txt
+            autonomy-issues.txt
+            capacity-loading.txt
+            splitting-people.txt
+  building-the-right-things.txt
+    customer-metrics.txt
+      outcomes-over-outputs.txt
+      feature-use.txt
+        time-spent.txt
+      revenue-generated.txt
+      npm-customer-satisfaction.txt
+  building-things-right.txt
+    code-quality.txt
+      escaped-defects.txt
+      code-complexity.txt
+      test-coverage.txt
+      code-churn.txt
+    team-joy.txt
+
+
+
+  what-is-velocity.txt
+  bodyweight-analogy.txt
+  velocity-anti-patterns.txt
+    more-velocities.txt
+    comparing-velocity.txt
+    estimation-teams.txt
+    estimating-in-time.txt
+      estimates-to-actuals.txt
+    individual-velocity.txt
+    iteration-packing.txt
+  metrics-side-effects.txt
+    hawthorne-effect.txt
+    goodharts-law.txt
+    friedmans-thermostat.txt
+    perverse-incentives.txt
+
+  variable-velocity.txt
+  other-metrics.txt
+    cycle-time.txt
+      control-chart.txt
+    lead-time.txt
+      lead-time-distribution.txt
+    cumulative-flow.txt
+    delivery-frequency.txt
+    flow-efficiency.txt
+    forecasting.txt
+  looking-for-correlations.txt
+    scatter-diagrams.txt
+  balanced-metrics.txt
+  compare-teams.txt
+backmatter.txt
+  acknowledgements.txt
