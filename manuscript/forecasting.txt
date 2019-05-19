@@ -49,6 +49,11 @@ The 500 resulting completion dates are graphed on a distribution chart, allowing
 
 So let's take our current scenario and let's see how we do using our forecaster.
 When we start with the average velocity of 13, 0 split rate, and 108 points to complete, all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
+
+![Forecast with Basic Settings](images/ForecastSettings.001.jpeg)
+
+![Basic Forecast Results](images/ForecastResults.001.jpeg)
+
 This makes sense as there is no variance in the numbers provided.
 Therefore the same backlog size is always chosen, the same throughput is applied to each iteration, and there is no growth or split rate.
 
