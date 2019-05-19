@@ -66,6 +66,9 @@ Even our "healthy" options for losing 15 pounds are subjective.
 For some, training for a marathon would be riskier than making no lifestyle change.
 I suspect many of you feel you fall into that category.
 
+{icon=quote-left}
+G> The less we understand about a system, the more we are likely to engage in behavior that harms the overall system
+
 Without sufficient data about the system we can neither properly diagnose our ills nor make informed remediation decisions.
 
 Just as our bodyweight doesn't tell us enough about our system to inform our lifestyle choices, velocity doesn't tell us enough about our system to inform our process choices.
