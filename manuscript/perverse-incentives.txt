@@ -7,7 +7,7 @@ A well intentioned manager announces a new program wherein call center agents wh
 The outcome is, in fact, lower call times.
 Three months later, new customer surveys indicate that problems take longer to solve because customers are now instructed to call back in 30 minutes rather than waiting on hold for 5 minutes.
 This allows agents the time to do the research necessary while keeping average call times down.
-It is a poorer customer experience, but call times went down and customers were paid.
+It is a poorer customer experience, but call times went down and bonuses were paid.
 
 Now, what about in software?
 
