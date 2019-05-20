@@ -34,7 +34,6 @@ mainmatter.txt
       control-chart.txt
     cumulative-flow.txt
     delivery-frequency.txt
-    flow-efficiency.txt
     code-quality.txt
       escaped-defects.txt
       code-complexity.txt
