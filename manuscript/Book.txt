@@ -27,8 +27,6 @@ mainmatter.txt
     mis-management.txt
       individual-incentives.txt
       autonomy-issues.txt
-      capacity-loading.txt
-      splitting-people.txt
   other-metrics.txt
     lead-time.txt
       lead-time-distribution.txt

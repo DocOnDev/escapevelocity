@@ -30,4 +30,4 @@ There's some servant leadership protecting the team for you.
 Assigning tasks, driving for excellence in estimating, pushing for points, treating code as if it is only a means to an end, role-based incentives, making the team's decisions for them, leaving the team to make all the decisions (they are self-organizing after all), splitting people's assignment across teams (they only need 1.5 QA), burdensome process, and failure to address impediments are but a few examples of mismanagement.
 
 There are already numerous good books on the topic of managing software development teams, so I won't go into great detail here.
-There are, however, a few things I do want to cover in a little more detail; individual incentives, autonomy issues, loading teams to 100% capacity, and splitting people across teams.
+There are, however, a couple of things I do want to cover in a little more detail; individual incentives and lack of autonomy.

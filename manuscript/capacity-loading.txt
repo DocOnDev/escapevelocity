@@ -1,8 +1,0 @@
-### Capacity Loading
-When we are capacity loading, we see individuals as resources that have a specific capacity.
-Given these resources have a cost associated with them, we need maximize their utilization in order to optimize our return on investment.
-As a result, every resource on the team is loaded to as close to 100% capacity as possible.
-
-Those that think this way believe that loading a team to full capacity is good management.
-
-It is not good management. In fact, it is bad management.
