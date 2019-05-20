@@ -28,6 +28,9 @@ But what we've done is create three or four stories that cannot be independently
 They're all connected.
 They are one story.
 
+{icon=quote-left}
+G> Focus on small stories that are thin vertical slices through the technology stack
+
 Instead, focus on small stories that are thin vertical slices through the technology stack.
 Now that's easy enough to say and it sounds right, but it is not necessarily that easy to execute on.
 Sometimes, thin vertical slices look like waste.
@@ -57,6 +60,9 @@ The search icon on the home page would navigate to a new page with a simple sear
 The user types in what they want and clicks the button.
 A new page loads with their results in a simple list format.
 This list format is the contents we eventually want in the search assist box.
+
+{icon=quote-left}
+G> If we iterate our way toward the objective, we create opportunities for learning, reduce our risk, and increase our options.
 
 This works.
 If we decide to launch it, We now have search on the site.
