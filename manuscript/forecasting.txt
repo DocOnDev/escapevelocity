@@ -50,9 +50,9 @@ The 500 resulting completion dates are graphed on a distribution chart, allowing
 So let's take our current scenario and let's see how we do using our forecaster.
 When we start with the average velocity of 13, 0 split rate, and 108 points to complete, all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
 
-![Forecast with Average](images/ForecastSettings.001.jpeg)
+![Forecast with Average](images/ForecastSettings.001.png)
 
-![Average Forecast Results](images/ForecastResults.001.jpeg)
+![Average Forecast Results](images/ForecastResults.001.png)
 
 This makes sense as there is no variance in the numbers provided.
 Therefore the same backlog size is always chosen, the same throughput is applied to each iteration, and there is no growth or split rate.
@@ -66,9 +66,9 @@ So let's run it again, but this time, we will use our velocity range instead of 
 Using our prior three iterations, the velocity had a low of 8, and a high of 16.
 We'll stick with a 0 split rate for this run.
 
-![Forecast with Range](images/ForecastSettings.002.jpeg)
+![Forecast with Range](images/ForecastSettings.002.png)
 
-![Range Forecast Results](images/ForecastResults.002.jpeg)
+![Range Forecast Results](images/ForecastResults.002.png)
 
 This time, our 18 week projection is showing a 10 to 50% probability.
 20 weeks has a 55 to 90% probability and 22 weeks and 24 weeks are 95% and 100% probable, respectively.
@@ -86,9 +86,9 @@ That's a split rate (or growth) of just over 17.5%.
 
 So, let's use 18% as an approximation for our split rate and run it one more time.
 
-![Forecast with Split Rate](images/ForecastSettings.003.jpeg)
+![Forecast with Split Rate](images/ForecastSettings.003.png)
 
-![Split Rate Forecast Results](images/ForecastResults.003.jpeg)
+![Split Rate Forecast Results](images/ForecastResults.003.png)
 
 This time, our split rate is 1.00 for the low, indicating no split, and 1.18 for the high, indicating that for every 50 units we start with, we end up with 59 units in final scope.
 
