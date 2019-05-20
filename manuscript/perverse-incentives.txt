@@ -24,7 +24,7 @@ We were using them as part of the team's retrospectives and planning.
 We'd look at trending on the metrics and discuss whether or not this is what we expected and if we should adjust our planning as a result.
 Was quality dropping while throughput was going up?
 Was this acceptable?
-Should be make adjustments?
+Should we make adjustments?
 
 This went well for a few months.
 Eventually, someone in a position of authority decided that the code coverage metric was important.
