@@ -166,6 +166,9 @@ Extrinsic reward structures for work people found intrinsically motivating made 
 
 Numerous other studies[^CandleProblem], including those spearheaded by University of Rochester psychologists Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our intrinsic motivation to work on interesting, challenging tasks - especially when they are announced in advance or delivered in a controlling manner.
 
+{icon=quote-left}
+G> Rewards often undermine our intrinsic motivation to work on interesting, challenging tasks
+
 For those select few who actually display an increase in performance on cognitive tasks when offered extrinsic rewards, the reward levels tend to lose impact over time.
 Whatever incentives are offered eventually become the "new normal" and maintenance of existing performance levels will require increases in reward.
 This is not a sustainable model.
