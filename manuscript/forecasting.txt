@@ -106,7 +106,7 @@ In iteration planning, for example, we realize that we can actually split this s
 In some organizations, this type of split has to follow a set of rules that indicate a story must always split into smaller stories that total the original estimate.
 In other organizations, a story may split into pieces that exceed the original estimate.
 
-It is ultimately up to you top figure out how you want to handle this in your own place of work, but if you are asking my advice, split the story and estimate the work as it is now articulated.
+It is ultimately up to you to figure out how you want to handle this in your own place of work, but if you are asking my advice, split the story and estimate the work as it is now articulated.
 Don't worry about the original estimate/size.
 Forcing teams to stick to an original estimate when they discover a new way of executing on the work is an arbitrary rule that offers no additional value and is practically guaranteed to result in more consternation and waste.
 
