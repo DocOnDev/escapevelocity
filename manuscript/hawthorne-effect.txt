@@ -1,7 +1,7 @@
 {#hawthorne-effect}
 ## The Hawthorne Effect
 
-Western Electric had commission an extensive study that ran from 1924 to 1932 at their Hawthorne Works in Cicero, IL.
+Western Electric had commissioned an extensive study that ran from 1924 to 1932 at their Hawthorne Works in Cicero, IL.
 The intent of the study was to determine the impact of ambient lighting on worker productivity.
 Would employees be more productive under high levels of light or low levels of light?
 The workers in the factory were divided into two groups based on physical location within the plant.
