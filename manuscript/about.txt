@@ -1,4 +1,6 @@
-# About This Book
+# About
+
+## This Book
 
 "Escape Velocity" is a record of my own journey as I learn about agile, metrics, and team dynamics.
 It is a snapshot; a moment in time.
@@ -11,7 +13,7 @@ It's thoughts.
 My thoughts.
 I hope they help you.
 
-# About The Title
+## The Title
 
 "Escape Velocity" is the minimum speed needed for an object to escape from a massive body[^EscapeVelocity]. Once an object achieves escape velocity, it is able to free itself from the force of the massive body without any additional impulse.
 
@@ -21,7 +23,7 @@ But we are saying there is an "escape velocity" as which point agile teams can e
 
 [^EscapeVelocity]: Escape velocity. (2017, March 21). Retrieved March 26, 2017, from https://en.wikipedia.org/wiki/Escape_velocity
 
-# About the Author
+## The Author
 
 Bumbling and Stumbling toward love, light, and good. Hoping to make the world a better place one tiny contribution at a time.
 
