@@ -8,7 +8,7 @@ In physics, velocity is the rate at which an object changes its position [^Veloc
 An object that oscillates at a high speed, but always returns to its starting position has a zero velocity.
 
 {icon=quote-left}
-G> Velocity is the rate at which a team delivers value to the customer.
+G> Velocity is the rate at which a team delivers value to the customer. A team that completes lots of tasks, but delivers no value to the customer should have a zero velocity.
 
 In agile software development, velocity is the rate at which a team delivers value to the customer.
 Value is quantifiable, and we can therefore say it has size.
