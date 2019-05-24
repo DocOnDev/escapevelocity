@@ -40,7 +40,7 @@ With this new program, now all code would need to be covered.
 
 Months rolled by and the team did their best to sneak in coverage on code they wouldn't have otherwise touched, but they primarily focused on work that added value to the customer.
 Come November, they were only at about 60% coverage.
-It wasn't lookin good.
+It wasn't lookin' good.
 
 Then, over the Thanksgiving Holiday, a miracle happened.
 The last check-in on Wednesday showed 62% coverage.
