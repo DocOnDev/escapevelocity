@@ -2,6 +2,7 @@
 
 So if we know that velocity is a lagging indicator of a complex system, we can probably reason about velocity by way of analogy.
 There is something we all have in common that is also a lagging indicator of a complex system - our body weight.
+
 Our body weight is a lagging indicator of a complex system.
 There are inputs and outputs and there are multiple factors that impact the system overall.
 From our diet and exercise to genetics and even our social network, there are numerous factors that impact our body weight.
@@ -17,7 +18,7 @@ If Pat is a linebacker for the Detroit Lions, 300 pounds might be a perfectly he
 So the answer is, no.
 Body weight alone cannot reliably tell you if the individual is healthy.
 
-Moreover, if the body weight were in a range that strongly suggested poor health, say 600 pounds, you could not ascertain from the body weight what to do for this individual to help them shed weight in a healthy manner.
+Moreover, if the body weight were in a range that strongly suggested poor health, say 600 pounds, you could not ascertain from the body weight alone what to do for this individual to help them shed weight in a healthy manner.
 
 The same is true of velocity.
 Knowing a team's velocity cannot reliably tell you if the team is "healthy".
@@ -34,7 +35,7 @@ G> Knowing a team’s velocity cannot reliably tell you if the team is “health
 
 Now we do know that a velocity of 0 is generally an indication of poor health.
 And just like with bodyweight, while we know the patient is in poor health, we don't have enough data to make an informed recommendation for improvement.
-We can say generic things like, "Go on a diet", or, "Focus on getting to done", but we cannot really provide specific advice with the information we have.
+We can say generic things like, "Go on a diet", or, "Focus on getting to done", but we cannot provide specific targeted advice with the information we have.
 
 We've shown that the measure itself is not necessarily an indication of health.
 And we've further shown that even when we can ascertain poor health, the measure does not tell us enough to diagnose the actual problem.
