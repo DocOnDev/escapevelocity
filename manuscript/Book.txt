@@ -1,8 +1,8 @@
 frontmatter.txt
   dedication.txt
   forward.txt
-  preface.txt
   about.txt
+  preface.txt
 mainmatter.txt
   what-is-velocity.txt
   bodyweight-analogy.txt
