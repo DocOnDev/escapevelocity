@@ -77,10 +77,27 @@ We will look at a number of [factors that impact velocity](#variable-velocity)
 ### Lagging Indicators are poor short-term predictors
 
 Lagging indicators[^LaggingKPIs] tend to be weak indicators for the short-term and are much more reliable for confirming long-term trends.
-Velocity from the immediately concluded iteration, for example, is not often a good indicator of what the velocity will be in the next iteration.
+
+Let's take a look at "velocity" in a different industry.
+
+For retail, we can use sales volume as our "velocity".
+Sales volume is a lagging indicator which tells us something about how we did in the prior period, but does not give us any indication as to why sales was high or low.
+
+The following shows 10 years of retail sales for a narrow set of products.
+
+![Retail Sales Volume by Period](images/CFD.030.jpeg)
+
+From this graph, we can discern some patterns.
+We know Q4 sales are consistently higher than the others. And we know that Q1 sales are normally the lowest at approximately 75% of the prior Q4.
+We can also see that the sales from the prior quarter is often not a good indicator of what the next quarter's sales will be.
+Sure, we can look at the long history and determine average percentages and apply that to get a fairly good guess.
+But we need the long history.
+Looking at only the prior quarter's sales is insufficient for determining the next quarter's sales.
+
+Similarly, our velocity from the immediately concluded iteration is not often a good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of factors.
 
-But, we can look at velocity over time and confirm trends we might suspect, such as a lower average velocity during holiday seasons.
+But, like retail sales, we can look at velocity over time and confirm trends we might suspect, such as a lower average velocity during holiday seasons.
 This doesn't tell us what the velocity will be in November or December, but it does let us know that the odds are good these months will have lower velocity numbers than September or October.
 
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
