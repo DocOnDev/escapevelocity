@@ -100,8 +100,7 @@ We don't want an artificially low velocity - you know, like we used to have.
 
 Measurements should be data the team considers valuable and wishes to see rather than data that management wants for evaluation or demands for process consistency.
 If management is going to mandate certain measurements, educate the team on what the measurements are and how they serve the team and the organization.
-Finally - if management is going to mandate certain measurements, then make sure the mandated measurements are well [balanced](#balanced-metrics).
-
+Finally - if management is going to mandate certain measurements, then make sure the mandated measurements are well [balanced](#balanced-metrics) and genuinely serve the team.
 
 #### Velocity Goals
 
