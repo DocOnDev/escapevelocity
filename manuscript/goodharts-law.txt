@@ -30,9 +30,9 @@ The lesson here is pretty simple.
 Don't set targets for metrics.
 And please don't give teams incentives towards targets if you do set them.
 I know. I know. Management 101 says this works.
-But, science says it doesn't [^IntrinsicMotivators].
+But, science says it doesn't[^IntrinsicMotivators].
 Seriously.
-Setting targets and providing incentives for knowledge work lowers performance.
+Setting targets and [providing incentives for knowledge work lowers performance.](#MarkLepper)
 Don't do it.
 
 Instead, provide guidelines to the teams.

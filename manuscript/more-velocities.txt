@@ -152,6 +152,7 @@ Financial incentives impede performance.
 {icon=quote-left}
 G> In knowledge work, financial rewards actually impede performance.
 
+{#MarkLepper}
 In 1971, Mark Lepper and colleagues at Stanford ran a study wherein they invited students to work on puzzles and games[^Overjustification].
 After a period of time, they started to reward students for their performance.
 There was a pronounced improvement in performance among some of the students.
