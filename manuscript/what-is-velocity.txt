@@ -69,7 +69,8 @@ Managing [story composition](#story-composition) and limiting [work in process](
 A stable or slightly increasing velocity is usually considered a good thing.
 When managers see a stable velocity from iteration to iteration, they may become complacent and forgo any improvement efforts.
 But the reality is that there are actually numerous factors that impact a team's ability to deliver and the current velocity trend may be more a matter of coincidence than performance.
-We will look at a number of factors that impact velocity in later sections.
+We will look at a number of [factors that impact velocity](#variable-velocity)
+ in later sections.
 
 [^JobsPrograms]: Contributor, D. M. (2017, March 14). So far, federal job-training programs have been outright failures. Retrieved April 27, 2017, from http://thehill.com/blogs/pundits-blog/economy-budget/323885-thus-far-federal-job-training-programs-have-been-an
 
