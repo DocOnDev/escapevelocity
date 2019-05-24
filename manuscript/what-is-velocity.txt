@@ -76,7 +76,7 @@ We will look at a number of [factors that impact velocity](#variable-velocity)
 
 ### Lagging Indicators are poor short-term predictors
 
-Lagging indicators [^LaggingKPIs] tend to be weak indicators for the short-term and are much more reliable for confirming long-term trends.
+Lagging indicators[^LaggingKPIs] tend to be weak indicators for the short-term and are much more reliable for confirming long-term trends.
 Velocity from the immediately concluded iteration, for example, is not often a good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of factors.
 
