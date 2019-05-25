@@ -49,7 +49,10 @@ Maybe there are more than two teams involved.
 
 By putting people together on a team to solve a specific business problem that crosses their typical boundaries, you eliminate most of the delays and miscommunication that normally happens.
 Despite the team members now moving "slower" because they're talking and sharing and explaining things and solving together, the project actually gets done faster.
-It turns out that talking, sharing, explaining, and solving together nets better overall results than maximizing the local efficiency of each individual team.
+It turns out that talking, sharing, explaining, and solving together nets better overall results than maximizing the local efficiency of each individual or team.
+
+{icon=quote-left}
+G> Talking, sharing, explaining, and solving together nets better overall results than maximizing the local efficiency of each individual or team.
 
 If you can't come together as a single team focused on a key need, you can at least make a concerted effort to work with one another as directly as possible.
 
