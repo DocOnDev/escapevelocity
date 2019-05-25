@@ -7,7 +7,8 @@ When we speak of self-governing teams, we are speaking of autonomous teams; team
 In agile software development, principals five and eleven speak directly to autonomy:
 
 {icon=exclamation-circle}
-G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.  
+G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
+G>
 G> The best architectures, requirements, and designs emerge from *self-organizing* teams.
 
 Organizations want the agile.
@@ -57,17 +58,17 @@ As a member of a self-governing, autonomous, two-pizza sized, full-stack, devOps
 Your team will be assigned tasks to execute with clear requirements written in Given/When/Then format.
 Here's an example task from our warehouse management team's backlog:
 
-**Title:** Add receiving hours to dock.  
-**Promise Date:** In two weeks  
-**Description:**  
-    In order to open and close the dock  
-    As a receiving manager  
-    I want to set receiving hours for a dock  
-**Details:**  
-    Given I set receiving open for dock 3 to 6am  
-    When it is 6am  
-    Then dock 3 is open  
-    [Many more details here]...  
+A> **Title:** Add receiving hours to dock.  
+A> **Promise Date:** In two weeks  
+A> **Description:**  
+A>     In order to open and close the dock  
+A>     As a receiving manager  
+A>     I want to set receiving hours for a dock  
+A> **Details:**  
+A>     Given I set receiving open for dock 3 to 6am  
+A>     When it is 6am  
+A>     Then dock 3 is open  
+A>     [Many more details here]...  
 
 As you can see, we are following all the agile best practices for our tasks.
 
@@ -101,25 +102,30 @@ And the company loses out on the team's knowledge and insights.
 Let's take a look at this one task.
 
 Why do we need receiving hours for a dock?  
-So that we know when the dock is actively receiving.
+*So that we know when the dock is actively receiving.*
 
 Why do we need to know when the dock is actively receiving?  
-Because the nightly batch to update inventory needs to run as soon as the dock closes.
+*Because the nightly batch to update inventory needs to run after the dock closes.*
 
 Why?  
-Because the batch update is currently scheduled for 9pm and sometimes the docks are not done processing received inventory, which messes up numbers for the morning reports and throws off fulfillment calculations.
+*Because the batch update is currently scheduled for 9pm and sometimes the docks are not done processing received inventory, which messes up numbers for the morning reports and throws off fulfillment calculations.*
 
 How does knowing dock receiving hours solve this problem?  
-If we know when the dock closes, we can figure out when to run the nightly batch.
+*If we know when the dock closes, we can figure out when to run the nightly batch.*
 
 How would you do that?  
-We will run batch one hour after dock closing.
+*We will run batch one hour after dock closing.*
 
 Does a dock always complete receipt processing within one hour from closing?  
-Not if it was a busy day, they get backed up, or there is a large late shipment.
+*Not if it was a busy day, they get backed up, or there is a large late shipment.*
 
 So, don't we want to know when a dock has completed receipt processing rather than what their hours are?  
-Umm... yeah...
+*Umm... yeah...*
+
+...
+
+As it turns out, adding the ability to indicate a dock is done with receipt processing and notifying the nightly batch process is about one half day of work, whereas adding new fields to the database to record start and end, updating the maintenance screens, and configuring the down-stream processes to respect dock hours is a few weeks.
+Not only does the new solution actually solve the business problem, but it costs far less to build and maintain.
 
 
 

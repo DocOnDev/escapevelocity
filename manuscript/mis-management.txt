@@ -11,8 +11,6 @@ Agile is a set of values.
 
 **Responding to change** over following a plan
 
-G> Address the actual problem and use velocity to tell you if you have, in fact, done so.
-
 I see organization after organization pick up practices in the name of agile and apply them devoid of the values.
 Most popular seems to be daily stand-ups and burn-down charts; two tools that provide project management quick feedback on status so that they can make informed decisions about items such as task assignment or if the team needs to put in extra hours to make the deadline.
 (By the way, that sentence should make you cringe)
