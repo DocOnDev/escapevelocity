@@ -56,6 +56,7 @@ In most cases where the need for an increase in velocity is articulated, there i
 The belief that if properly motivated, we can do better.
 Re-phrased, the belief that we are not already operating at our best.
 
+{icon=ban}
 G> **Given** we need to hit a deadline with a set scope  
 G> **When** the team is not moving fast enough to hit the deadline  
 G> **Then** the team is capable of moving faster
