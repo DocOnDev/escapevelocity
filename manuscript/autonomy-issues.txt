@@ -94,6 +94,7 @@ This team is not likely to understand why they are doing what they are doing.
 They are essentially taking implementation orders and executing them.
 The company is losing out on an opportunity to leverage the creativity and knowledge of this team.
 By the time the people who do the work pick up an item, everything is detailed for them.
+Devoid of context and real understanding with a list of tasks to execute, the team has little to no real autonomy.
 
 The business problems are opaque to the team.
 The team's creativity is stifled.
@@ -122,15 +123,23 @@ Does a dock always complete receipt processing within one hour from closing?
 So, don't we want to know when a dock has completed receipt processing rather than what their hours are?  
 *Umm... yeah...*
 
-...
+. . .
 
-As it turns out, adding the ability to indicate a dock is done with receipt processing and notifying the nightly batch process is about one half day of work, whereas adding new fields to the database to record start and end, updating the maintenance screens, and configuring the down-stream processes to respect dock hours is a few weeks.
-Not only does the new solution actually solve the business problem, but it costs far less to build and maintain.
+As it turns out, adding the ability to indicate a dock is done with receipt processing and notifying the nightly batch process is about one half day of work.
+This is assuming someone on the dock is willing to indicate when receipt processing is done by pressing a button on a screen.
+Whereas adding new fields to the database to record start and end, updating the maintenance screens, and configuring the down-stream processes to respect dock hours is a few weeks.
+Not only does the new solution actually solve the business problem in a more flexible and effective way, but it costs far less to build and maintain.
 
-
-
-
-In addition to all this, these layers of Theme to Initiative to Epic to Feature to Story to Task create a serious issue.
+In addition to all this, these layers of theme to initiative to epic to feature to story to task create a serious issue.
 The organization has reduced their ability to respond quickly to change.
-It takes weeks for a material change in feature direction or priority to cascade down to the tasks.
+It takes weeks, if not months for information learned on the front lines at the task level to have an impact on the associated epics and then cascade back down to the tasks through features and stories.
+This is assuming the information ever makes its way to Directors.
 
+Since the teams don't clearly know what business problem they are trying to solve, once a task is implemented, they need to scurry to the next one in order to meet the deadline.
+No need to look at data or confirm we've achieved the goal.
+We're done here.
+Task complete.
+Check.
+
+Because critical business information isn't understood or gathered at the team level, there is the long delay in getting feedback from users to Directors through indirect means that don't involve the team.
+By the time Directors realize the need for a change and that change cascades down through the organization, teams have implemented a bunch of tasks that either need to be rolled back, significantly modified, or perhaps simply offer less value than the value that could have been realized.
