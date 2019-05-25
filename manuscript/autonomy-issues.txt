@@ -6,8 +6,8 @@ When we speak of self-governing teams, we are speaking of autonomous teams; team
 
 In agile software development, principals five and eleven speak directly to autonomy:
 
-G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
-
+{icon=exclamation-circle}
+G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.  
 G> The best architectures, requirements, and designs emerge from *self-organizing* teams.
 
 Organizations want the agile.
@@ -57,17 +57,17 @@ As a member of a self-governing, autonomous, two-pizza sized, full-stack, devOps
 Your team will be assigned tasks to execute with clear requirements written in Given/When/Then format.
 Here's an example task from our warehouse management team's backlog:
 
-**Title:** Add receiving hours to dock.
-**Promise Date:** In two weeks
-**Description:**
-    In order to open and close the dock
-    As a receiving manager
-    I want to set receiving hours for a dock
-**Details:**
-    Given I set receiving open for dock 3 to 6am
-    When it is 6am
-    Then dock 3 is open
-    [Many more details here]...
+**Title:** Add receiving hours to dock.  
+**Promise Date:** In two weeks  
+**Description:**  
+    In order to open and close the dock  
+    As a receiving manager  
+    I want to set receiving hours for a dock  
+**Details:**  
+    Given I set receiving open for dock 3 to 6am  
+    When it is 6am  
+    Then dock 3 is open  
+    [Many more details here]...  
 
 As you can see, we are following all the agile best practices for our tasks.
 
@@ -80,4 +80,4 @@ Those Epics are driven by Initiatives which the Vice Presidents design to suppor
 
 Supervisors and Managers manage the dependencies across the squads.
 
-#### Ew.
+***Ew.***

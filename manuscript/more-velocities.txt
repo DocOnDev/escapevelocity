@@ -56,11 +56,9 @@ In most cases where the need for an increase in velocity is articulated, there i
 The belief that if properly motivated, we can do better.
 Re-phrased, the belief that we are not already operating at our best.
 
-**Given** we need to hit a deadline with a set scope
-
-**When** the team is not moving fast enough to hit the deadline
-
-**Then** the team is capable of moving faster
+G> **Given** we need to hit a deadline with a set scope  
+G> **When** the team is not moving fast enough to hit the deadline  
+G> **Then** the team is capable of moving faster
 
 This is logically flawed.
 The conclusion is baseless and is in no way supported by the precedents.

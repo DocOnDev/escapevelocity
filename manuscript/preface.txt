@@ -32,8 +32,8 @@ They rarely got better at stabilizing their velocity.
 Thanks to a crafty certification scheme, Scrum grew very popular in the corporate world.
 You could send people to two days of training and get them certified.
 
-Boom!
-You're agile.
+Boom!  
+You're agile.  
 Easy peasy.
 
 After a while, I started to see more and more teams myopically focused on their velocity.
