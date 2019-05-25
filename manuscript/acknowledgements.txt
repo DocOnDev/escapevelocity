@@ -25,8 +25,8 @@ Martin has not only made great contributions to the software community as a whol
 On more than on occasion, Martin took time out to have a one on one conversation with me.
 In each instance, he shared valuable insights and advanced my thinking.
 
-Through the ThoughtWorks network, I had the opportunity to meet and interact with *Dan North* and *Dave Hoover*.
-Both have influenced and helped to shape my thinking around teams, metrics, and the craft of making software.
+Through the ThoughtWorks network, I had the opportunity to meet and interact with *Jeff Patton*, *Dan North*, and *Dave Hoover*.
+All three have influenced and helped to shape my thinking around teams, metrics, and the craft of making software.
 
 In leaving ThoughtWorks, I joined LeanDog as a partner.
 There I had opportunity to work with *Jeff Morgan* who is one of the most passionate developers I know.
@@ -56,7 +56,7 @@ Were it not for Johanna, this book would most certainly not have happened.
 Of course, none of my journey was possible without the continued support of my family.
 *Terri Puskus*, *Richard W. Norton*, *Richard R. Norton*, *Jennifer Norton*, *Courtney Norton*, and *Sean Norton* made up my greatest support network and gave me purpose in life.
 
-And in this past year, as I write this book, nobody has been more influential and supportive than *Diane Zajac*.
+And in this past year, as I write this book, nobody has been more influential and supportive than my partner in business and life, *Diane Zajac*.
 She's given me the time and space to write, encouraged me (even pushed me) to keep going, been there to bounce ideas off of, shared her own insights, and worked hard to help me edit the text into something people might actually enjoy reading.
 
 In writing this section, I've looked back on my career and I see the faces of hundreds of friends smiling back at me.
