@@ -81,3 +81,50 @@ Those Epics are driven by Initiatives which the Vice Presidents design to suppor
 Supervisors and Managers manage the dependencies across the squads.
 
 ***Ew.***
+
+This is hierarchical oppression in autonomous agile clothing.
+
+This task is almost entirely removed from the actual problem we are trying to solve.
+Sure, we are supposed to add receiving hours to a dock, but why?
+Because our dock configuration is missing receiving hours?
+That sounds like a lack of solution rather than an un-resolved issue.
+
+This team is not likely to understand why they are doing what they are doing.
+They are essentially taking implementation orders and executing them.
+The company is losing out on an opportunity to leverage the creativity and knowledge of this team.
+By the time the people who do the work pick up an item, everything is detailed for them.
+
+The business problems are opaque to the team.
+The team's creativity is stifled.
+And the company loses out on the team's knowledge and insights.
+
+Let's take a look at this one task.
+
+Why do we need receiving hours for a dock?  
+So that we know when the dock is actively receiving.
+
+Why do we need to know when the dock is actively receiving?  
+Because the nightly batch to update inventory needs to run as soon as the dock closes.
+
+Why?  
+Because the batch update is currently scheduled for 9pm and sometimes the docks are not done processing received inventory, which messes up numbers for the morning reports and throws off fulfillment calculations.
+
+How does knowing dock receiving hours solve this problem?  
+If we know when the dock closes, we can figure out when to run the nightly batch.
+
+How would you do that?  
+We will run batch one hour after dock closing.
+
+Does a dock always complete receipt processing within one hour from closing?  
+Not if it was a busy day, they get backed up, or there is a large late shipment.
+
+So, don't we want to know when a dock has completed receipt processing rather than what their hours are?  
+Umm... yeah...
+
+
+
+
+In addition to all this, these layers of Theme to Initiative to Epic to Feature to Story to Task create a serious issue.
+The organization has reduced their ability to respond quickly to change.
+It takes weeks for a material change in feature direction or priority to cascade down to the tasks.
+
