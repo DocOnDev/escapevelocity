@@ -42,6 +42,7 @@ An MVP is about learning; learning if what you _thought_ the customer wanted was
 An MVP is about getting something out there to validate your hypothesis and to learn.
 In that regard, thin vertical slices are merely MVPs taken to the next level.
 
+### Thin slices - An example
 Let's take a look at a relatively simple example wherein a team needs to add search capability to a catalog of products.
 The product owner delivers a set of mock ups and a set of specifications that detail the desired functionality.
 
@@ -65,7 +66,7 @@ This list format is the contents we eventually want in the search assist box.
 G> If we iterate our way toward the objective, we create opportunities for learning, reduce our risk, and increase our options.
 
 This works.
-If we decide to launch it, We now have search on the site.
+If we decide to launch it, we now have search on the site.
 Along the way, we figured out things like connection to the database, the fundamental search capability, and how we might want to display the items.
 We also get to see how responsive the database is and think a bit more about what we'd expect to get back as our search results.
 If we choose to, we can launch this and gather statistics on how people are actually using search.
