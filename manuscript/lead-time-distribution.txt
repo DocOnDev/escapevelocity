@@ -158,7 +158,7 @@ The distance from 50% to 75% is almost half that from 75% to 100%.
 
 Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes and I end up with a 38 minute commute?
 
-![Lead Time Distribution and Probability after Bad Day](images/CFD.023.jpeg)
+![Lead Time Distribution after Bad Day](images/CFD.024.jpeg)
 
 Suddenly, we've got an outlier on our graph.
 What once looked like a spread of data points now looks like a cluster with one sole point way off to the right all by itself.
