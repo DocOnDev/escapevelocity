@@ -48,12 +48,12 @@ The rest is a quick description of the work itself.
 
 We simply changed the format of the message to include a number from 0 to 5 which represented the developers opinion of the code using the following guidelines:
 
-0 - Terrible quality
-1 - Very Poor quality
-2 - Poor quality
-3 - Good quality
-4 - Very Good quality
-5 - Excellent quality
+0 - Terrible quality  
+1 - Very Poor quality  
+2 - Poor quality  
+3 - Good quality  
+4 - Very Good quality  
+5 - Excellent quality  
 
 The same check in message might now look like this:
 
