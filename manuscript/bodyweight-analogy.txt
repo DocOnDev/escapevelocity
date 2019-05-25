@@ -31,7 +31,7 @@ This is assuming, of course, that you don't point tasks and other non-creation w
 If you do that, you'll likely see little to no correlation between velocity and delivery of software.
 
 {icon=quote-left}
-G> Knowing a team's velocity cannot reliably tell you if the team is “healthy”.
+G> Knowing a team's velocity cannot reliably tell you if the team is "healthy".
 
 Now we do know that a velocity of 0 is generally an indication of poor health.
 And just like with bodyweight, while we know the patient is in poor health, we don't have enough data to make an informed recommendation for improvement.
