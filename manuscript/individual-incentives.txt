@@ -6,10 +6,12 @@ One of my all-time most popular tweets states,
 G> "We simply ask that you be innovative without mistakes while working as a team toward individual performance goals."
 
 Most folks readily scoff at, "be innovative without mistakes".
+
 Innovation necessitates we do things that have never before been done.
 Innovation necessitates that we experiment and learn.
 Some (most) of those experiments are not going to validate our hypothesis.
 This, in some organizations, is considered a mistake.
+
 Some of those experiments are going to have detrimental side effects, even if temporarily.
 This, in many organizations, is considered a mistake.
 
@@ -38,3 +40,6 @@ Each contribution you make that does not directly correlate to individual perfor
 
 This tension impedes a team from coming together.
 A system that does not adequately take collaboration into account when reviewing it's members will not realize the full collaborative potential of those members.
+
+{icon=quote-left}
+G> A system that does not adequately take collaboration into account when review- ing it’s members will not realize the full collaborative potential of those members.
