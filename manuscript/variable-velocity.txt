@@ -27,30 +27,28 @@ to stabilize.
 
 ## But What If Velocity Doesn't Stabilize?
 
-First, take a deep breath; and then repeat after me:
+First, take a deep breath; and then repeat the following three times:
 
-*"Velocity is a health indicator. Velocity is a health indicator. Velocity is a
-health indicator. Velocity is ..."*
+*Unstable velocity is a symptom.
+Unstable velocity is not a diagnosis.*
 
-Velocity lets us know how things are going.
-It reveals issues to us in sometimes subtle ways.
+Velocity lets us know something about the team's performance; it is a health indicator, if you will.
+An unstable velocity might indicate a team health issue, but it doesn't give us sufficient information to diagnose the actual cause.
+And it might be that this team is in perfectly fine health, despite an unstable velocity.
 
 Think of velocity as heart rate.
-An abnormal heart rate, be it too fast, too slow, or irregular can indicate a
-number of underlying issues such as electrolyte imbalance, overstimulation,
-insufficient rest, autoimmune disorders, thyroid problems, or various forms of
-heart disease.
-If you have an abnormal heart rate, it is telling you of a problem.
+An abnormal heart rate, be it too fast, too slow, or irregular can indicate a number of underlying issues such as electrolyte imbalance, overstimulation, insufficient rest, autoimmune disorders, thyroid problems, or various forms of heart disease.
+Or maybe you simply have an abnormal heart rate and are actually a healthy individual.
+An abnormal heart rate indicates a possible problem.
 And your problem is not an abnormal heart rate.
 
-An erratic velocity can indicate a number of underlying issues such as poor
-story composition, dependencies on other teams or individuals, too much work in
-progress, silos, and various forms of mismanagement.
-If you have an erratic velocity, it is telling you of a problem.
+An erratic velocity can indicate a number of underlying issues such as poor story composition, dependencies on other teams or individuals, too much work in progress, silos, and various forms of mismanagement.
+Or maybe you simply have an erratic velocity and are actually a healthy team.
+An erratic velocity indicates a possible problem.
 And your problem is not an erratic velocity.
 
 {icon=quote-left}
-G> If you have an erratic velocity, it is telling you of a problem.
+G> An erratic velocity indicates a possible problem.
 G> And your problem is not an erratic velocity.
 
 Whatever the underlying problem, it is something you can adjust.
@@ -59,8 +57,7 @@ But the important thing to remember is that the velocity is not the problem.
 Do not try to fix the velocity.
 Try to figure out what it is telling you and fix that.
 
-If an erratic velocity could be telling me any number of things, then how do I
-know what to adjust?
+If an erratic velocity could be telling me any number of things, then how do I know what to adjust?
 Ask your team.
 They probably know.
 They may not know they know, but they can give you indicators.
