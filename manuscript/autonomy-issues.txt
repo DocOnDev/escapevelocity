@@ -6,9 +6,9 @@ When we speak of self-governing teams, we are speaking of autonomous teams; team
 
 In agile software development, principals five and eleven speak directly to autonomy:
 
-Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
+G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
 
-The best architectures, requirements, and designs emerge from *self-organizing* teams.
+G> The best architectures, requirements, and designs emerge from *self-organizing* teams.
 
 Organizations want the agile.
 It is good.
