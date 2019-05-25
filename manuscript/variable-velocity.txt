@@ -48,7 +48,7 @@ An erratic velocity indicates a possible problem.
 And your problem is not an erratic velocity.
 
 {icon=quote-left}
-G> An erratic velocity indicates a possible problem.
+G> An erratic velocity indicates a possible problem.   
 G> And your problem is not an erratic velocity.
 
 Whatever the underlying problem, it is something you can adjust.
