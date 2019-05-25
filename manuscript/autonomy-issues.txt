@@ -123,14 +123,14 @@ Does a dock always complete receipt processing within one hour from closing?
 So, don't we want to know when a dock has completed receipt processing rather than what their hours are?  
 *Umm... yeah...*
 
-. . .
-
 As it turns out, adding the ability to indicate a dock is done with receipt processing and notifying the nightly batch process is about one half day of work.
 This is assuming someone on the dock is willing to indicate when receipt processing is done by pressing a button on a screen.
 Whereas adding new fields to the database to record start and end, updating the maintenance screens, and configuring the down-stream processes to respect dock hours is a few weeks.
 Not only does the new solution actually solve the business problem in a more flexible and effective way, but it costs far less to build and maintain.
 
-In addition to all this, these layers of theme to initiative to epic to feature to story to task create a serious issue.
+When we distance the team from the business and the actual customers through layers on management, we lose out on many of the opportunities to discover even better solutions, such as the one detailed above.
+
+In addition to all this, these layers of theme to initiative to epic to feature to story to task create another serious issue.
 The organization has reduced their ability to respond quickly to change.
 It takes weeks, if not months for information learned on the front lines at the task level to have an impact on the associated epics and then cascade back down to the tasks through features and stories.
 This is assuming the information ever makes its way to Directors.
@@ -143,3 +143,9 @@ Check.
 
 Because critical business information isn't understood or gathered at the team level, there is the long delay in getting feedback from users to Directors through indirect means that don't involve the team.
 By the time Directors realize the need for a change and that change cascades down through the organization, teams have implemented a bunch of tasks that either need to be rolled back, significantly modified, or perhaps simply offer less value than the value that could have been realized.
+
+Remove the layers of minutia.
+You probably don't need five work item layers.
+You maybe need two, possibly three.
+And do your best to always articulate the why of a story over the what.
+Help the team understand the business problem they are solving as well as they understand the proposed solution.
