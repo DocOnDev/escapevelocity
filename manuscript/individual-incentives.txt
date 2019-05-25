@@ -1,7 +1,9 @@
 ### Individual incentives
 
 One of my all-time most popular tweets states,
-"We simply ask that you be innovative without mistakes while working as a team toward individual performance goals."
+
+{icon=quote-left}
+G> "We simply ask that you be innovative without mistakes while working as a team toward individual performance goals."
 
 Most folks readily scoff at, "be innovative without mistakes".
 Innovation necessitates we do things that have never before been done.
