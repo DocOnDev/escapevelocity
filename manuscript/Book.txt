@@ -1,6 +1,5 @@
 frontmatter.txt
   dedication.txt
-  forward.txt
   about.txt
   preface.txt
 mainmatter.txt
