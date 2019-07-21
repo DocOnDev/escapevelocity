@@ -20,7 +20,7 @@ What I would really like is to take an extra pair of shoes.
 But my feet are big and my shoes take up a lot of room.
 There's no way I can get them in there, no matter how much I want them.
 So, invariably, I will decide to pack an extra couple of shirts, a book, or some other item that I _might_ want on the trip.
-And as you might guess, I rarely if ever wear the extra shirts or read the books.
+And as you might guess, I rarely if ever wear the extra shirts or read the book.
 
 Then, while on the trip I'll find a treasure; some item I'd really like to have.
 Something that would be of value to me or to a family member.
@@ -41,18 +41,20 @@ A full iteration is a happy iteration.
 Given an average velocity of 22, if the team has loaded up 19 points of valuable and pressing work into an iteration and the next most important story is 8 points, they'll search the backlog for a 3 point story or a combination of 1 and 2 point stories to fill the iteration to the maximum.
 They'll pack an iteration with lower-value items just to make sure the iteration is full.
 They'll lug around low value items that they probably won't get to and don't matter that much if they do get to them.
-They'll do this and forgo the opportunity to learn or clean the code.
+They'll do this and forgo the opportunity to do other more valuable things.
 
 Iteration packing seems harmless enough on the surface.
 There's room in the iteration, why not fill it?
 But it persists a focus on utilization over value.
-At best, you deliver stuff that didn't matter as much.
-More likely what happens is you cannot fit late discovered items of value into the iteration, you leave no slack for production outages or escaped defects, and you leave no opportunity for things like learning and reduction of technical debt.
+At best, you deliver stuff that doesn't matter as much.
+More likely what happens is you cannot fit late discovered items of value into the iteration.
+You leave no slack for production outages or escaped defects.
+And you leave no opportunity for things like learning and reduction of technical debt.
 
 If you haven't built slack into your process anywhere else, then this is the place to do so.
 If you think you've built slack into the process, but didn't do it deliberately or your [Cumulative Flow Diagram](#cumulative-flow) tells you the slack is immediately after a bottleneck, you don't have actual slack.
 If you don't have slack, definitely don't pack your iterations.
 Leave a bit of room for serendipity or even misfortune.
 Instead of packing the iteration, provide the team the opportunity to pull in more work as capacity allows.
-This also creates space for other care and feeding of the system and source.
-It also allows the team to feel good about pulling in extra work when possible rather than feeling bad about not achieving 100% of a velocity goal per iteration.
+This also creates space for other care and feeding of the system and source code.
+It additionally allows the team to feel good about pulling in extra work when possible rather than feeling bad about not achieving 100% of a velocity goal per iteration.

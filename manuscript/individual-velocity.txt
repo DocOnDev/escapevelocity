@@ -37,7 +37,7 @@ If a story gets started by one developer, but finished by another, who gets the
 credit for the velocity?
 If the story is completed by a pair, who gets the credit for the velocity?
 If the story is mobbed, who gets the credit?
-What about that system outage that turned into a three day war room and pulled
+What about that system outage that turned into a three-day war room and pulled
 two of the developers away for an entire week?
 What do we do about their individual velocity?
 
