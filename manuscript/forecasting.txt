@@ -29,7 +29,7 @@ According to our typical "forecasting" technique, this work will be done in 18 w
 Cool.
 
 How probable is this forecast?
-As we discussed in the section on [Lead Time Distributions](#lead-time-distribution), the probability of the typical velocity math is pretty low; somewhere in the 50% range.
+As we discussed in the section on [Lead Time Distributions](#lead-time-distribution), the probability of the typical velocity math is pretty low - somewhere in the 50% range.
 A coin toss, more or less.
 
 Given enough lead time data, we could use the lead time distribution to help with forecasting, but there is an even better way.
