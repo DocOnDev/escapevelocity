@@ -3,8 +3,8 @@
 ## This Book
 
 "Escape Velocity" is a record of my own journey as I learn about agile, metrics, and team dynamics.
-It is a snapshot; a moment in time.
-The content herein is the result of more than 10 years of learning about and practicing these ideas.
+It is a snapshot, a moment in time.
+The content herein is the result of more than 30 years of learning about and practicing software development.
 I've a lot to learn.
 I always will.
 The more we know about a topic, the more we realize we don't know enough about it.
@@ -19,17 +19,17 @@ I hope they help you.
 
 I thought this non-risque double entendre was fun.
 Not only are we saying a team can "escape velocity" as a metric.
-But we are saying there is an "escape velocity" as which point agile teams can escape the massive body of Scrum and learn about the broader universe of agile.
+But we are saying there is an "escape velocity" at which point agile teams can escape the massive body of Scrum and learn about the broader universe of agile.
 
 [^EscapeVelocity]: Escape velocity. (2017, March 21). Retrieved March 26, 2017, from https://en.wikipedia.org/wiki/Escape_velocity
 
 ## The Author
 
-Bumbling and Stumbling toward love, light, and good. Hoping to make the world a better place one tiny contribution at a time.
+Bumbling and stumbling toward love, light, and good. Hoping to make the world a better place one tiny contribution at a time.
 
 {width=45%,float=right}
 ![Doc Norton (@DocOnDev)](images/Doc-Outline.png)
 
-Co-Founder of OnBelay, Doc is passionate about working with teams to improve delivery and building great organizations.
+Co-Founder of OnBelay, Doc is passionate about working with teams to improve delivery and about building great organizations.
 Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software.
 Working with a wide range of companies such as Groupon, Nationwide Insurance, and Belly, Doc has applied tenants of agile, lean, systems thinking, and host leadership to develop highly effective cultures and drastically improve their ability to deliver valuable software and products.
