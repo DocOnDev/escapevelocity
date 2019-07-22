@@ -170,11 +170,8 @@ therefrom are dubious.
 ![US Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
 #### No Correlation doesn't imply there's No Causation
-The second lesson, and the purpose of Friedman's original thermostat metaphor was
-to emphasize that there are cases under which, without a comprehensive understanding
-of the system, one might conclude through measurement that correlations do not
-exist when they do in fact exist. This misread of the system can further lead us to
-completely overlook present cause and effect.
+The second lesson, and the purpose of Friedman's original thermostat metaphor, was to emphasize that there are cases under which, without a comprehensive understanding of the system, one might conclude through measurement that correlations do not exist when they do in fact exist.
+This misread of the system can further lead us to completely overlook present cause and effect.
 
 In our story, the constant temperature in the house indicated there was no
 correlation between the outside temperature and that of the home. Nor was there
