@@ -7,7 +7,7 @@ We get asked this question often.
 So very often.
 And the truth is, hardly anybody wants to really know how long a story or feature is going to take.
 What they want to know is when it will be done.
-And perhaps, more accurately, they want to know when they can have it; when they will be able to get the value it promises.
+And perhaps, more accurately, they want to know when they can have it or perhaps when they will be able to get the value it promises.
 
 The most common technique I see for forecasting is good old velocity math.
 Add up the work required to deliver the feature and divide it by the team's velocity.
