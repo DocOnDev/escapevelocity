@@ -167,7 +167,7 @@ The two are clearly positively correlated. This in no way suggests that either
 caused the other. This is a coincidental correlation and any conclusions drawn
 therefrom are dubious.
 
-![Us Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
+![US Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
 #### No Correlation doesn't imply there's No Causation
 The second lesson, and the purpose of Friedman's original thermostat metaphor was
