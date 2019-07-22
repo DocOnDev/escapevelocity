@@ -21,7 +21,7 @@ And Scrum was what they wanted, so I flew to Chicago to get my Scrum Master Cert
 Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity all became a part of my vernacular.
 
 For the following few years, whether as an employee or consultant, I was spreading the Scrum way.
-I like to believe I did well; that I made a positive difference.
+I like to believe I did well, that I made a positive difference.
 The teams I worked with improved.
 They got better at quality.
 They got better at delivering solutions that delighted customers.
@@ -37,8 +37,8 @@ You're agile.
 Easy peasy.
 
 After a while, I started to see more and more teams myopically focused on their velocity.
-Teams engaging in all sorts of behavior in attempts to make their velocity look like they thought it was supposed to.
-Managers setting velocity goals and pushing teams to move faster.
+Teams engaged in all sorts of behavior in attempts to make their velocity look like they thought it was supposed to.
+Managers set velocity goals and pushed teams to move faster.
 
 So I eventually wrote a talk about how velocity isn't supposed to be a goal.
 In the research for that talk, I came across a number of new ideas and interesting perspectives on measurements, metrics, and behaviors.
