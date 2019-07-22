@@ -2,9 +2,9 @@
 ## Team Joy
 
 A few years ago, I was working with a client who had started an initiative
-around Joy at work.
+around joy at work.
 They'd devised a short survey which was sent to employees on regular intervals
-with the intent of measuring their levels of joy at work.
+with the intent of measuring their levels of joy and engagement.
 The response rate was relatively low company wide, but it was abysmal in
 software engineering.
 From feeling disrupted, to thinking the questions were not relevant to work, to
