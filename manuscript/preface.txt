@@ -15,9 +15,9 @@ In November of 1999, I purchased "XP Explained" by Kent Beck and realized I'd fo
 These people were doing some crazy stuff with estimating and testing, which I was a bit leery of.
 But they'd honed a lot of the other things we were playing with, so why not give it a try?
 
-A few years later, I'd sold off the company and found myself in a senior leadership position at a large regional bank who was interested in "this agile thing."
+A few years later, I'd sold off the company and found myself in a senior leadership position at a large regional bank that was interested in "this agile thing."
 An avid XP practitioner, I had a casual relationship with Scrum.
-And Scrum was what they wanted, so I flew to Chicago to get my ScrumMaster Certification from Ken Schwaber.
+And Scrum was what they wanted, so I flew to Chicago to get my Scrum Master Certification from Ken Schwaber.
 Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity all became a part of my vernacular.
 
 For the following few years, whether as an employee or consultant, I was spreading the Scrum way.
