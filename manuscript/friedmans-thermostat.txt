@@ -1,65 +1,47 @@
 ## Friedman's Thermostat
-Milton Friedman was an award winning economist who, among other things, served as
-advisor to President Ronald Reagan.
+Milton Friedman was an award winning economist who, among other things, served as advisor to President Ronald Reagan.
 
-In an article published in The Wall Street Journal in August of 2003, Friedman
-stated, "The contrast between the periods before and after the middle of the 1980s is remarkable. Before,
-it is like a chart of the temperature in a room without a thermostat in a location with very
-variable climate; after, it is like the temperature in the same room but with a reasonably good
-though not perfect thermostat, and one that is set to a gradually declining temperature. Sometime
-around 1985, the Fed appears to have acquired the thermostat that it had been seeking the whole
-of its life."
+In an article published in The Wall Street Journal in August of 2003, Friedman stated, "The contrast between the periods before and after the middle of the 1980s is remarkable.
+Before, it is like a chart of the temperature in a room without a thermostat in a location with very variable climate; after, it is like the temperature in the same room but with a reasonably good though not perfect thermostat, and one that is set to a gradually declining temperature.
+Sometime around 1985, the Fed appears to have acquired the thermostat that it had been seeking the whole of its life."
 
-The article continues on to explain that the real cause of the improvement was a
-change in the way the Federal Reserve approached their role in regard to price
-stability.
-Prior to the 1980s, Keynesian Economics, the dominant theory of the times, taught
-economists that the volume of money did not matter in the control of price stability
-as there was no correlation between volume and price.
+The article continues on to explain that the real cause of the improvement was a change in the way the Federal Reserve approached their role in regard to price stability.
+Prior to the 1980s, Keynesian Economics, the dominant theory of the times, taught economists that the volume of money did not matter in the control of price stability as there was no correlation between volume and price.
 But this theory was disproven as shown by performance in the 1970s and 1980s.
-New Keynesian Economics now include quantity as part of the theory.
+New Keynesian Economics now includes quantity as part of the theory.
 
 Rather than get any further into the details of economic theory, of which I am
-grossly disqualified to do, I thought it better to explain Friedman's Thermostat
-with a parable of my own involving a thermostat.
+ grossly disqualified to do, I thought it better to explain Friedman's Thermostat with a parable of my own involving a thermostat.
 
 
 ### The case against thermostats
 Imagine for a moment, that you are the ruler of a sovereign province.
 The people are happy under your rule.
-There is plenty of food to go around, everyone has meaningful work that contributes
-to the overall health and wellbeing of the people.
+There is plenty of food to go around, everyone has meaningful work that contributes to the overall health and wellbeing of the people.
 There is time for leisure and your people want for very little.
 If there were one wish; one thing the people would like, it would be for the winters to be less harsh.
 Summers in the land are wonderful with long comfortable days, lush green lands, and blue skies.
-Spring and Fall are equally beautiful in their varying colors and the cooler, but comfortable temperatures.
+Spring and fall are equally beautiful in their varying colors and the cooler, but comfortable temperatures.
 But winter is harshly cold and the days are short.
 A mere three months out of twelve, the winters are nearly insufferable.
 The nights may be long, but sleep is hard to come by.
-Families must take shifts tending to the fire and everyone must huddle together
-in the main room to keep warm; man and pet.
+Families must take shifts tending to the fire and everyone must huddle together in the main room to keep warm; man and pet.
 
-One day, you hear of a land three days ride away where the people do not suffer through
-the winter.
+One day, you hear of a land three days ride away where the people do not suffer through the winter.
 A land where despite the cold, the homes are warm throughout.
 These people have a mysterious device in every household that they call the "thermostat".
-These thermostats, small dials on the wall, somehow allow the people of this land to
-keep their homes at whatever temperature they desire throughout the winter.
+These thermostats, small dials on the wall, somehow allow the people of this land to keep their homes at whatever temperature they desire throughout the winter.
 
-Curious, and hopeful that such a magical device might work in your own homes,
-you send a small party to visit the land and to learn about these thermostats.
-They are instructed to observe these people and their devices, gather data,
-and devise a plan for how your land can best solve the challenge of harsh winters.
+Curious, and hopeful that such a magical device might work in your own homes, you send a small party to visit the land and to learn about these thermostats.
+They are instructed to observe these people and their devices, gather data, and devise a plan for how your land can best solve the challenge of harsh winters.
 The party takes off just as the leaves are starting to turn vibrant; the first
 warning of winter's approach.
 
-Weeks pass and the fall turns to winter and the winter grows more bitter,
-but you hold faith that the research party will return and provide answers.
+Weeks pass and the fall turns to winter and the winter grows more bitter, but you hold faith that the research party will return and provide answers.
 As the worst of winter seems to be over, the party returns, riding hard to the
 gates.
 
-"We've news, your highness, of the utmost urgency. We've ridden practically straight
-through."
+"We've news, your highness, of the utmost urgency. We've ridden practically straight through."
 
 You can see they are worn and weary from long days and short nights.
 
@@ -75,8 +57,7 @@ university to make this trip.
 
 "Well, waste not another minute!", you exclaim impatiently, "Tell me. What is your plan?"
 
-Calmly, carefully, and crisply, as though to ensure you do not mishear, they state,
-"We must go to war with them. We must stop them."
+Calmly, carefully, and crisply, as though to ensure you do not mishear, they state, "We must go to war with them. We must stop them."
 
 "What?", you inquire, puzzled and thinking that you must have misheard,
 "Go to war? Stop them from what? What have you learned?"
@@ -102,9 +83,9 @@ and Fuel Consumed."
 
 If rolling your eyes were dignified in the least, you'd do it right now.
 
-"First, your highness, we observed that the temperate in the home remained
+"First, your highness, we observed that the temperature in the home remained
 comfortable throughout the winter. In fact, the home temperature fluctuated only
-slightly. Small enough that the fluctuation falls within a reasonable margin of error.
+slightly. Small enough that the fluctuation fell within a reasonable margin of error.
 For all intents and purposes, the temperature of the home remained constant."
 
 "That is the point.", you think to yourself, putting a great deal of effort into being patient.
@@ -122,50 +103,35 @@ correlated to lower outside temperatures."
 
 "Is this true?", you ask. Shocked at the findings.
 
-"It is your highness", they reply with pride.
+"It is your highness.", they reply with pride.
 
-And then in a faster tempo, excited to tell you the rest of the story, they continue,
-"We thought it odd at first. These variables are not logically correlated. But when
-we stepped back and took a look at the whole system, we realized what was happening."
+And then in a faster tempo, excited to tell you the rest of the story, they continue, "We thought it odd at first. These variables are not logically correlated. But when we stepped back and took a look at the whole system, we realized what was happening."
 
 "You recall when I mentioned the fuel and how it is extracted from the ground?"
 They ask but do not wait for an answer and instead continue on.
-"We arrived in late summer, observed that after they started to draw fuel from the ground in late summer,
-the temperatures started to drop. And the more fuel they drew, the colder it got.
-Eventually, it got so cold, their equipment wouldn't work and they could no longer
-draw fuel from the ground. Sure enough, within a matter of days, temperatures
-started to rise again."
+"We arrived in late summer, observed that after they started to draw fuel from the ground in late summer, the temperatures started to drop. And the more fuel they drew, the colder it got.
+Eventually, it got so cold, their equipment wouldn't work and they could no longer draw fuel from the ground. Sure enough, within a matter of days, temperatures started to rise again."
 
-"Realizing that it is the draw of fuel from the ground that lowers the surface
-temperature, which makes the frost, which lowers the air temperature, which
-causes the Winter, we had to stop them from drawing any more fuel. But we were
-unable to convince them, your highness. Despite all of our data and the obvious
-connections. Despite our years of scientific study and mastery, they refused
-to accept our findings and insisted on continuing their dangerous practices."
+"Realizing that it is the draw of fuel from the ground that lowers the surface temperature, which makes the frost, which lowers the air temperature, which causes the winter, we had to stop them from drawing any more fuel. But we were unable to convince them, your highness. Despite all of our data and the obvious connections. Despite our years of scientific study and mastery, they refused to accept our findings and insisted on continuing their dangerous practices."
 
-"If we want Winter to end, we must stop them from drawing any more fuel. We must wage war!"
+"If we want winter to end, we must stop them from drawing any more fuel. We must wage war!"
 
 ### The lessons of Friedman's Thermostat
 There are numerous lessons one could draw from this tale, but we are focused on
 two.
 
 #### Correlation is not Causation
-The first is best expressed through a common phrase, "Correlation is not Causation."
-Observing a correlation between two items doesn't necessarily inform us which
-caused the other, if they've such a relationship at all.
+The first is best expressed through a common phrase, "Correlation is not causation."
+Observing a correlation between two items doesn't necessarily inform us which caused the other, if they've such a relationship at all.
 
-In our story, the chief scientist concludes that the draw of fuel from the
-ground is causing dropping temperatures. But we know, of course, that the
-knowledge of an impending increase in demand due to lowering temperatures is
-what causes the extraction of more fuel.
+In our story, the chief scientist concludes that the draw of fuel from the ground is causing dropping temperatures.
+But we know, of course, that the knowledge of an impending increase in demand due to lowering temperatures is what causes the extraction of more fuel.
 
-In other cases, it may be that there is no cause/effect relationship at all and
-the correlation may be purely coincidental. Take, for example, the per capita
-consumption of beef in the US from 2000 through 2009 and the number of deaths
-by lightning during that same time period.
-The two are clearly positively correlated. This in no way suggests that either
-caused the other. This is a coincidental correlation and any conclusions drawn
-therefrom are dubious.
+In other cases, it may be that there is no cause/effect relationship at all and the correlation may be purely coincidental.
+Take, for example, the per capita consumption of beef in the US from 2000 through 2009 and the number of deaths by lightning during that same time period.
+The two are clearly positively correlated.
+This in no way suggests that either caused the other.
+This is a coincidental correlation and any conclusions drawn therefrom are dubious.
 
 ![US Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
@@ -173,19 +139,13 @@ therefrom are dubious.
 The second lesson, and the purpose of Friedman's original thermostat metaphor, was to emphasize that there are cases under which, without a comprehensive understanding of the system, one might conclude through measurement that correlations do not exist when they do in fact exist.
 This misread of the system can further lead us to completely overlook present cause and effect.
 
-In our story, the constant temperature in the house indicated there was no
-correlation between the outside temperature and that of the home. Nor was there
-a correlation between the fuel consumed and the temperature of the home. This
-conclusion was supported by the measurements, but only in as much as the scientists
-did not understand the entire system. The furnace (in partnership with the thermostat)
-kept the internal temperature regulated such that the actual cause and effect and
-the actual correlation between the internal and external temperature, were
-indiscernible.
+In our story, the constant temperature in the house indicated there was no correlation between the outside temperature and that of the home.
+Nor was there a correlation between the fuel consumed and the temperature of the home.
+This conclusion was supported by the measurements, but only in as much as the scientists did not understand the entire system.
+The furnace (in partnership with the thermostat) kept the internal temperature regulated such that the actual cause and effect and the actual correlation between the internal and external temperature, were indiscernible.
 
 In Friedman's case, the Federal Reserve had long operated under Keynesian
-Economic theory and ignored the impact of volume on price stability. Keynesian
-theories were developed at a time when measurements indicated no correlation
-between volume and price. The formulas developed at the time were, naive,
-but worked so long as the system stayed in a particular balance. Throughout
-the 70s, that balance was lost and the correlation and thereby the cause and
-effect relationship was revealed.
+Economic theory and ignored the impact of volume on price stability.
+Keynesian theories were developed at a time when measurements indicated no correlation between volume and price.
+The formulas developed at the time were, naive, but worked so long as the system stayed in a particular balance.
+Throughout the 70s, that balance was lost and the correlation and thereby the cause and effect relationship was revealed.
