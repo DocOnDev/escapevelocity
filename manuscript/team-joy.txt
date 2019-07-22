@@ -66,7 +66,7 @@ In this check in message, we can see that the developer found the code to be goo
 Our theory was that given developers spend their days writing code, their opinion of the code itself might serve as a proxy for their joy or satisfaction at work.
 Spend many days in code you think is hard to read and breaks too easily, and you are probably not enjoying the work all that much.
 The code itself gets in the way and impedes you from working on the problem at hand.
-On the other hand, if the majority of your time as a developer is spent in code that is easy to read and change, you are better able to focus on solving the problem at hand and are likely to enjoy the work more.
+Conversely, if the majority of your time as a developer is spent in code that is easy to read and change, you are better able to focus on solving the problem at hand and are likely to enjoy the work more.
 
 Comparing check in scores with data from one on one meetings, we saw a positive correlation between the scores and employees expressions of joy or frustration with their work.
 Over time, we saw correlations between scores and employee mobility or exit rates.
