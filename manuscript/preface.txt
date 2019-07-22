@@ -42,7 +42,7 @@ Managers set velocity goals and pushed teams to move faster.
 
 So I eventually wrote a talk about how velocity isn't supposed to be a goal.
 In the research for that talk, I came across a number of new ideas and interesting perspectives on measurements, metrics, and behaviors.
-Feedback from audiences who've heard that talk along with several more years of practice eventually led me to this book.
+Feedback from audiences who've heard that talk, along with several more years of practice eventually led me to this book.
 
 I hope you find it useful.
 I am not anti-Scrum, but I think it is far too often implemented improperly and it has become twisted over the years as a result of light-weight certification diluting the pool of "experienced" practitioners.
