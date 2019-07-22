@@ -12,7 +12,7 @@ And perhaps, more accurately, they want to know when they can have it; when they
 The most common technique I see for forecasting is good old velocity math.
 Add up the work required to deliver the feature and divide it by the team's velocity.
 This gives you the number of iterations it will take to deliver the feature.
-Now multiply the number of iterations by the iteration length to determine how long it will take in days.
+Now multiply the number of iterations by the iteration length to determine how long it will take.
 
 Let's say, for example, that our velocity for the last three iterations is 8, 16, and 15, for an average of 13.
 Each iteration is two weeks.
