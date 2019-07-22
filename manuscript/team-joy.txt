@@ -22,7 +22,7 @@ They didn't fit into the flow of a normal day.
 We thought we might be able to get an increase in participation if we figured out
 a way to work the survey into their flow of work.
 I'd seen this already with things like time tracking where we used a piece of
-software that kicked off automated tests every time a file was saved to update a log.
+software that kicked off automated tests every time a file was saved to also update a time log.
 Developers then used that log data to help them fill out timesheets.
 
 But what to do for measuring employee joy in a passive way?
