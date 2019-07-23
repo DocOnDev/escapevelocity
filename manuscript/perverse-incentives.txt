@@ -1,6 +1,6 @@
 ## Perverse Incentives
 
-A perverse Incentive is any incentive that creates an impact counter to the intended outcome.
+A perverse incentive is any incentive that creates an impact counter to the intended outcome.
 
 Take for example a call center that receives complaints from customers that resolution takes too long and they spend too much time on the phone.
 A well intentioned manager announces a new program wherein call center agents who manage to lower their average call time are rewarded.
