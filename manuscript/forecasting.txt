@@ -47,6 +47,8 @@ This is an actual simulation based on the numbers provided using actual data dra
 
 The 500 resulting completion dates are graphed on a distribution chart, allowing us to determine the probability of each potential completion date.
 
+### Average
+
 So let's take our current scenario and let's see how we do using our forecaster.
 When we start with the average velocity of 13, 0 split rate, and 108 points to complete, all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
 
@@ -62,6 +64,7 @@ And it certainly isn't representative of our real world experiences.
 Throughput / Velocity usually varies a bit from iteration to iteration.
 Things happen; people are out, stories get blocked, we stay late to get more work done...
 
+### Range
 So let's run it again, but this time, we will use our velocity range instead of the average.
 Using our prior three iterations, the velocity had a low of 8, and a high of 16.
 We'll stick with a 0 split rate for this run.
@@ -75,11 +78,40 @@ This time, our 18 week projection is showing a 10 to 50% probability.
 
 This confirms our already growing suspicion; the standard velocity burn down technique we've been using is less reliable than a coin toss.
 
+### History
+
+Let's run it again, but this time, let's use some actual throughput history rather than an average or a range.
+To do this, we provide out throughput history for the past several iterations.
+
+![Forecast Data](images/ForecastHistory.004.png)
+
+We then adjust the settings to use data, rather than an estimate.
+
+![Forecast with Data](images/ForecastSettings.004.png)
+
+You might notice that, this time, the settings has some additional data in the lower right-hand corner.
+This information gives us an indication of our throughput stability.
+A variance over 25% is less desirable.
+The higher the variance, the less reliable the forecast.
+In this example, the variance of 8% is great.
+
+![Forecast with Data](images/ForecastResults.004.png)
+
+Using actual throughput history, our 18 week projection is showing a 10 to 35% probability.
+20 weeks has a 40 to 75% probability.
+22 weeks has a 80 to 95% probability and 26 weeks is 100% probable.
+
+You will find varying outcomes, depending on your actual throughput history.
+It isn't always worse than the range.
+Sometimes it is better.
+Sometimes it's the same.
+But using the actual history always provides a more realistic simulation than using a range, so if you have the actual data, why not use it?
+
+### Split Rate
 Now, let's consider that the defined scope of this project has been growing.
 This is also natural.
 We've discovered new desirable features as we've gone along and we've been progressively elaborating which naturally results in some expansion of the scope size.
 
-We've been cruising along for a while now and we've discovered some new work as we went along.
 We started with a population of stories that represented 34 work units.
 Looking at the work targeted, it has grown to 40 work units.
 That's a split rate (or growth) of just over 17.5%.
@@ -94,7 +126,8 @@ This time, our split rate is 1.00 for the low, indicating no split, and 1.18 for
 
 Now, our probability of completing in 18 weeks had dropped to a range of 5 to 10% and a much more likely completion is 24 weeks from now, with a 95% probability.
 
-### Split Rate
+#### Determining Split Rate
+
 So far, we've hand waived over split rate.
 Now, let's dive into it a bit and see how we can determine a reasonable split rate range for our project.
 
