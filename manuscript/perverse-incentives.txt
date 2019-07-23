@@ -2,8 +2,8 @@
 
 A perverse incentive is any incentive that creates an impact counter to the intended outcome.
 
-Take for example a call center that receives complaints from customers that resolution takes too long and they spend too much time on the phone.
-A well intentioned manager announces a new program wherein call center agents who manage to lower their average call time are rewarded.
+Take, for example, a call center that receives complaints from customers that resolution takes too long and they spend too much time on the phone.
+A well-intentioned manager announces a new program wherein call center agents who manage to lower their average call time are rewarded.
 The outcome is, in fact, lower call times.
 Three months later, new customer surveys indicate that problems take longer to solve because customers are now instructed to call back in 30 minutes rather than waiting on hold for 5 minutes.
 This allows agents the time to do the research necessary while keeping average call times down.
@@ -21,7 +21,7 @@ But so were fewer features.
 
 Several years back, I was working with a client and we'd implemented some code quality metrics.
 We were using them as part of the team's retrospectives and planning.
-We'd look at trending on the metrics and discuss whether or not this is what we expected and if we should adjust our planning as a result.
+We'd look at trending on the metrics and discuss whether or not this was what we expected and if we should adjust our planning as a result.
 Was quality dropping while throughput was going up?
 Was this acceptable?
 Should we make adjustments?
@@ -42,7 +42,7 @@ Months rolled by and the team did their best to sneak in coverage on code they w
 Come November, they were only at about 60% coverage.
 It wasn't lookin' good.
 
-Then, over the Thanksgiving Holiday, a miracle happened.
+Then, over the Thanksgiving holiday, a miracle happened.
 The last check-in on Wednesday showed 62% coverage.
 Everybody went home for the long weekend.
 
@@ -63,8 +63,8 @@ This effort distracted from core work.
 The measurable quality of the code did not increase.
 In fact, it went down.
 Refactoring was pushed aside in exchange for writing tests.
-Working was good enough for new features.
-They had testing to do.
+Barely working was good enough for new features.
+They had tests to write.
 
 The intent was to ensure the team was releasing better quality code.
 But it did no such thing.
