@@ -177,6 +177,26 @@ Say, for example, you discover 10 defects, but 9 of them are low priority and wi
 Then only one of those defects counts toward the split rate.
 Similarly, if you identify new work that doesn't get prioritized into the existing release (or may never get done), then it doesn't count in the split rate.
 
+### Conclusion
+
+Using this forecasting technique has provided some very tangible benefits.
+
+The first is the improved accuracy of the forecasts.
+Using this technique, we get a much better understanding of the probability that we can hit a date.
+We get a better sense of when the work will be completed.
+
+The second is the quality of the conversations as a result of using this technique.
+Teams are able to talks about probability and help make informed decisions about delivery.
+I've had numerous instances with this technique where, given dates and probabilities, we were able to move deadlines to a higher probability date.
+I've also had a few instances where we were able to clearly identify scope to reduce in order to meet an immovable date.
+
+In the past, we believed that in order to be able to reliably forecast, we had to first stabilize our velocity.
+This was because we were using standard velocity math.
+Velocity math was hard to believe when we could _see_ the data was highly variable.
+As it turns out, we should have generally been suspicious of velocity math.
+
+Using the Monte Carlo Simulation technique, while a stable throughput is certainly beneficial, it is not necessary.
+
 
 [^Forecaster]: Magennis, T. (n.d.). Throughput Forecaster. Retrieved February 23, 2018, from https://github.com/FocusedObjective/FocusedObjective.Resources/raw/master/Spreadsheets/Throughput Forecaster.xlsx
 
