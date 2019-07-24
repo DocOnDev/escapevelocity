@@ -14,7 +14,7 @@ Rather than get any further into the details of economic theory, of which I am
  grossly disqualified to do, I thought it better to explain Friedman's Thermostat with a parable of my own involving a thermostat.
 
 
-### The case against thermostats
+### The Case Against Thermostats
 Imagine for a moment, that you are the ruler of a sovereign province.
 The people are happy under your rule.
 There is plenty of food to go around, everyone has meaningful work that contributes to the overall health and wellbeing of the people.
@@ -116,11 +116,11 @@ Eventually, it got so cold, their equipment wouldn't work and they could no long
 
 "If we want winter to end, we must stop them from drawing any more fuel. We must wage war!"
 
-### The lessons of Friedman's Thermostat
+### The Lessons of Friedman's Thermostat
 There are numerous lessons one could draw from this tale, but we are focused on
 two.
 
-#### Correlation is not Causation
+#### Correlation is Not Causation
 The first is best expressed through a common phrase, "Correlation is not causation."
 Observing a correlation between two items doesn't necessarily inform us which caused the other, if they've such a relationship at all.
 
@@ -135,7 +135,7 @@ This is a coincidental correlation and any conclusions drawn therefrom are dubio
 
 ![US Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
-#### No Correlation doesn't imply there's No Causation
+#### No Correlation Doesn't Imply There's No Causation
 The second lesson, and the purpose of Friedman's original thermostat metaphor, was to emphasize that there are cases under which, without a comprehensive understanding of the system, one might conclude through measurement that correlations do not exist when they do in fact exist.
 This misread of the system can further lead us to completely overlook present cause and effect.
 

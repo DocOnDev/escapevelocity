@@ -42,7 +42,7 @@ An MVP is about learning: learning if what you _thought_ the customer wanted was
 An MVP is about getting something out there to validate your hypothesis and to learn.
 In that regard, thin vertical slices are merely MVPs taken to the next level.
 
-### Thin slices - An example
+### Thin Slices - An Example
 Let's take a look at a relatively simple example wherein a team needs to add search capability to a catalog of products.
 The product owner delivers a set of mock ups and a set of specifications that detail the desired functionality.
 

@@ -1,6 +1,6 @@
 # What is Velocity?
 
-## Velocity is a vector
+## Velocity is A Vector
 
 A vector is an entity that has both magnitude (size) and direction. Velocity indicates the speed of something in a particular direction.
 
@@ -31,13 +31,13 @@ In this book, we won't get into details of how to deliver at the end of each ite
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
-## Velocity is a lagging indicator
+## Velocity is A Lagging Indicator
 
 Velocity is also a lagging indicator.
 It is a measure taken at the end of a series of steps.
 We plan, we prioritize, we work, we test, and then we measure.
 
-### Lagging indicators are abstract
+### Lagging Indicators are Abstract
 
 Lagging indicators tend to be aggregate or abstract.
 They don't provide detailed insight into the operations, rather they provide an indication of results.
@@ -74,7 +74,7 @@ We will look at a number of [factors that impact velocity](#variable-velocity)
 
 [^JobsPrograms]: Contributor, D. M. (2017, March 14). So far, federal job-training programs have been outright failures. Retrieved April 27, 2017, from http://thehill.com/blogs/pundits-blog/economy-budget/323885-thus-far-federal-job-training-programs-have-been-an
 
-### Lagging Indicators are poor short-term predictors
+### Lagging Indicators are Poor Short-term Predictors
 
 Lagging indicators[^LaggingKPIs] tend to be weak indicators for the short-term and are much more reliable for confirming long-term trends.
 
@@ -102,7 +102,7 @@ This doesn't tell us what the velocity will be in November or December, but it d
 
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
 
-## Velocity is a measure of a complex system
+## Velocity Is a Measure of a Complex System
 
 This is ultimately quite significant.
 Velocity, while a simple concept, is actually a measure of output for a complex system.

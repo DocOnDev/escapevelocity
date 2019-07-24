@@ -47,7 +47,7 @@ loose dependencies or loose coupling.
 The amount of code successfully covered by unit tests, therefore, is an indication
 of how well the code is written.
 
-#### Don't set a target
+#### Don't Set a Target
 
 A common mistake I see is teams who get excited about test coverage and set a
 goal for it.

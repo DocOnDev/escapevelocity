@@ -42,7 +42,7 @@ This won't always be the case.
 I'm not advocating that companies don't survey customers.
 I'm advocating that you consider what you are trying to achieve and determine which measurements best inform you toward that end.
 
-## A starting point ##
+## A Starting Point ##
 I am often asked what metrics a team (or teams) should use.
 This question often comes devoid of much detail, such as the make up of the team, how long they've been together, what pain they are experiencing, or what objectives they're trying to measure for.
 In these cases, I tend to advise teams to start with five basic metrics - [feature use](#feature-use), [lead time](#lead-time), [cumulative flow](#cumulative-flow), [code quality](#code-quality), and [team joy](#team-joy).

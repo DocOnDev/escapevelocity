@@ -98,7 +98,7 @@ I am sure there are other reasons.
 But just because a story took longer or shorter than the average time to complete similarly sized stories does not mean the story was improperly sized.
 A 3 point story doesn't become a 1 point story just because you completed it quickly.
 
-### It's all relative
+### It's All Relative
 
 If you have to estimate (you probably don't), then I recommend you use a reference story.
 Identify a story that the entire team can agree is 1 point.
@@ -118,7 +118,7 @@ Better still, when you are done with all of these adjustments, take any story th
 Continue this practice until all of your stories are within one point of the mean.
  And better still, break stories down into the smallest pieces you can conceive of that still offer some business value and assign them all a size of 1.
 
-### Set it and forget it
+### Set it and Forget it
 
 If you're going to estimate stories, don't keep tweaking those estimates.
 Once you've gone through the process of relative estimation, near-term comparison, and historical comparison, set the story points (or whatever unit of measure you fancy) and pretty much leave it.

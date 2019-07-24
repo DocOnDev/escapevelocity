@@ -19,7 +19,7 @@ Right?
 
 But what if the defect wasn't made here?
 
-#### Not all defects are made at home
+#### Not All Defects Are Made at Home
 
 The majority of people I talk to state that defect free code is impossible.
 I've read arguments about how the operating system and hardware controllers are not defect free, therefor anything written on top of them will also have defects.
@@ -84,7 +84,7 @@ For any given job, if the job prior and after were both acknowledged, we sent it
 Fixed.
 I guess.
 
-#### But most defects are made at home
+#### But Most Defects Are Made at Home
 
 While there are examples that support the argument that you can't have defect free code due to issues in the operating system and controllers, it doesn't
 justify a lack of effort.
@@ -107,7 +107,7 @@ We leave a few smells in the code because it works and that's all that matters.
 We form teams around technical skills instead of around products or business need because our managers know more about the technology than they do about management or leadership.
 Over time, these compromises and mistakes add up and strange defects start to appear in production.
 
-#### Remember the goal is to *release* defect free software
+#### Remember The Goal is to *Release* Defect Free Software
 
 Writing defect-free code is practically impossible.
 But releasing defect-free code is definitely possible.

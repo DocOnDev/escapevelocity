@@ -8,7 +8,7 @@ I pulled out the most commonly identified issues related to velocity and metrics
 
 This is by no means comprehensive, but it is a reasonable representation of the issues that exist within organizations when it comes to metrics and management.
 
-## Before we get started
+## Before We Get Started
 I want to be crystal clear here: The Velocity Anti-Patterns listed here are not necessarily indications of measuring and reporting velocity.
 Many are indications of the pervasiveness of poor management.
 

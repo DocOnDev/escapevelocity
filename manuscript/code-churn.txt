@@ -1,4 +1,4 @@
-### Code churn
+### Code Churn
 
 Code churn indicates the amount of change that takes place in a particular area of code.
 
@@ -19,7 +19,7 @@ Absolutely necessary being when business requirements indicate we need to make c
 
 While I encourage teams to look at churn and use it to help them make decisions about what areas of the code to clean, there is a much more simple heuristic to use.
 
-#### Clean the code you are in
+#### Clean the Code You Are In
 
 As mentioned, churn indicates where you spend the most time in the code.
 If you spend a lot of time in an area of the code, it is wise to clean it up.

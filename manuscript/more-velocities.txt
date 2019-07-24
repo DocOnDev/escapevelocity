@@ -8,7 +8,7 @@ This person is usually an authority figure and typically doesn't do the actual w
 And they clearly don't know what velocity is.
 More velocities? Aw C'mon, really?
 
-### Why we need "more velocities"
+### Why We Need "More Velocities"
 
 In some cases, the need for higher velocity is based on a set scope for a set date and some basic math with significantly flawed assumptions.
 Take the total work to be done and divide it by the team's average velocity.
@@ -68,7 +68,7 @@ And quite often, pushing a team to go faster ultimately slows them down.
 
 [^Taylorism]: What is Taylorism? Retrieved April 12, 2017, - http://www.businessdictionary.com/definition/Taylorism.html
 
-### Attempts to entice more velocities
+### Attempts to Entice More Velocities
 
 Leaders (and teams) attempt to achieve velocity increases in numerous ways.
 Most, as you can imagine, have unintended side effects on the teams and none significantly improve the actual flow/delivery of value to their customers.
@@ -203,7 +203,7 @@ Stop it now.
 
 [^cavil]: To raise irritating and trivial objections; find fault with unnecessarily - Cavil. (n.d.). Retrieved March 19, 2018, from http://www.dictionary.com/browse/caviler
 
-### Attempts to show more velocities
+### Attempts to Show More Velocities
 
 When leadership asks for an increase in velocity, there are a few common behaviors that occur.
 Each of them are an attempt to satisfy the potentially unrealistic ask.

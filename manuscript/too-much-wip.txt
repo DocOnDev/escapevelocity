@@ -16,7 +16,7 @@ Then, at the beginning of the next iteration, a glut of work moves to done, sett
 Drive each card to completion before picking up the next one.
 If a card is blocked, make getting it un-blocked a priority rather than letting it wait three days because George on the DBA team has a three-day SLA.
 
-### You cannot multi-task complex tasks
+### You Cannot Multitask Complex Tasks
 
 Even when we break our work down into small chunks, we have a certain cognitive load that comes with the work.
 - There's the purpose of the work: What is it for? Why do we need it now?
