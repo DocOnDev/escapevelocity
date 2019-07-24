@@ -89,7 +89,7 @@ We then adjust the settings to use data, rather than an estimate.
 
 ![Forecast with Data](images/ForecastSettings.004.png)
 
-You might notice that, this time, the settings has some additional data in the lower right-hand corner.
+You might notice that, this time, the settings have some additional information in the lower, right-hand corner.
 This information gives us an indication of our throughput stability.
 A variance over 25% is less desirable.
 The higher the variance, the less reliable the forecast.
