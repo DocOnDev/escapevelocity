@@ -126,4 +126,3 @@ You see, when we opt for all or nothing, the odds are always in favor of nothing
 G> You see, when we opt for all or nothing, the odds are always in favor of nothing.
 
 Thinking about the work in increments can lead to well-composed, thinly-sliced stories.
-While our goal is smaller stories, we can't focus only on small to get there.
