@@ -1,4 +1,4 @@
-## Outcomes over Outputs
+## Outcomes Over Outputs
 
 I've worked with many companies who've conflated delivery of features with delivery of value.
 They begin with the assumption that a feature adds value to the customer.
