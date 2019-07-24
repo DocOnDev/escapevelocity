@@ -1,5 +1,5 @@
 {#comparing-velocity}
-## Cross-Team Velocity Comparisons
+## Cross-team Velocity Comparisons
 A common anti-pattern in a great deal of organizations is velocity comparison across teams.
 
 It usually goes something like this:
