@@ -5,29 +5,25 @@ Have you ever been on a team where your velocity suffered wild variances?
 Maybe you ended up using a running average instead of yesterday's weather?
 
 Have you heard phrases like, "Well, our velocity last iteration was 3, but our
-average is still 22"?
+average is still 22."?
 
-Have you ever heard the phrase, "Dude, we need to get this velocity stable."
+Have you ever heard the phrase, "Dude, we need to get this velocity stable."?
 
 Have you worked on teams where they took partial credit for done at the end of
 the iteration?
 Where maybe you'd split a card strictly on points and award some apportion to
-the current iteration and assign the remainder of the card to the next iteration.
+the current iteration and assign the remainder of the card to the next iteration?
 
 ## Velocity Should Stabilize
 
-It seems much of what we read tells us that velocity will do two things;
-stabilize and improve.
-According to the VersionOne Agile 101, we can expect that velocity will
-stabilize within three to six months.
-The Agile Sherpa tells us it usually takes 3-4 iterations for velocity to
-stabilize at a consistent level.
-James Shore's "The Art of Agile" tells us to give it three or four iterations
-to stabilize.
+It seems much of what we read tells us that velocity will do two things: stabilize and improve.
+According to VersionOne, we can expect that velocity will stabilize within three to six months.
+The Agile Sherpa tells us it usually takes three or four iterations for velocity to stabilize at a consistent level.
+James Shore's "The Art of Agile" tells us to give it three or four iterations to stabilize.
 
 ## But What If Velocity Doesn't Stabilize?
 
-First, take a deep breath; and then repeat the following three times:
+First, take a deep breath, then repeat the following three times:
 
 *Unstable velocity is a symptom.  
 Unstable velocity is not a diagnosis.*
@@ -37,7 +33,7 @@ An unstable velocity might indicate a team health issue, but it doesn't give us 
 And it might be that this team is in perfectly fine health, despite an unstable velocity.
 
 Think of velocity as heart rate.
-An abnormal heart rate, be it too fast, too slow, or irregular can indicate a number of underlying issues such as electrolyte imbalance, overstimulation, insufficient rest, autoimmune disorders, thyroid problems, or various forms of heart disease.
+An abnormal heart rate, be it too fast, too slow, or irregular, can indicate a number of underlying issues such as electrolyte imbalance, overstimulation, insufficient rest, autoimmune disorders, thyroid problems, or various forms of heart disease.
 Or maybe you simply have an abnormal heart rate and are actually a healthy individual.
 An abnormal heart rate indicates a possible problem.
 And your problem is not an abnormal heart rate.
@@ -57,7 +53,7 @@ But the important thing to remember is that the velocity is not the problem.
 Do not try to fix the velocity.
 Try to figure out what it is telling you and fix that.
 
-If an erratic velocity could be telling me any number of things, then how do I know what to adjust?
+If an erratic velocity could be telling you any number of things, then how do you know what to adjust?
 Ask your team.
 They probably know.
 They may not know they know, but they can give you indicators.
