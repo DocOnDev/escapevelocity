@@ -10,13 +10,13 @@ Small stories that cannot be delivered independent of one another are really
 just tasks for a large story.
 
 If we have an issue with proper story composition, we may find we get several stories close to done, but we cannot run acceptance tests on them until all of them are complete, leaving us with too much testing at the end of the iteration.
-It we don't get all of the stories ready, none of them can move.
+If we don't get all of the stories ready for acceptance testing, none of them can move.
 Then, next iteration, we complete the last strays and a glut of cards/points move to done.
 Alternatively, some stories are just too big to complete in a single iteration.
 
 There is no need to get your stories perfect up front.
-Get them good enough to do a high-level estimate; think epics.
-Then as you start planning releases, break them down into features to get a finer-course estimate.
+Get them good enough to do high-level planning; think epics.
+Then as you start planning releases, break them down into features to get a finer-course roadmap.
 Finally, as you plan iterations, break them down again into small, independently deliverable items.
 
 Beware the temptation to split stories across technical seams.
@@ -29,7 +29,7 @@ They're all connected.
 They are one story.
 
 {icon=quote-left}
-G> Focus on small stories that are thin vertical slices through the technology stack
+G> Focus on small stories that are thin vertical slices through the technology stack.
 
 Instead, focus on small stories that are thin vertical slices through the technology stack.
 Now that's easy enough to say and it sounds right, but it is not necessarily that easy to execute on.
@@ -37,8 +37,8 @@ Sometimes, thin vertical slices look like waste.
 They cause us to build something less than what we'd envisioned.
 And we don't want to release anything less than perfect, do we?
 
-I find it interesting how many teams I work with will simultaneously push for a Minimum Viable Product (MVP) and insist it is the right way to bring a piece of software to the market while arguing that writing a more simple version of the code is a waste of time since we already know what we need.
-An MVP is about learning; learning if what you _thought_ the customer wanted was, in fact, what they wanted.
+I find it interesting how many teams I work with will simultaneously push for a Minimum Viable Product (MVP) and insist it is the right way to bring a piece of software to the market while arguing that writing a simpler version of the code is a waste of time since we already know what we need.
+An MVP is about learning: learning if what you _thought_ the customer wanted was, in fact, what they wanted.
 An MVP is about getting something out there to validate your hypothesis and to learn.
 In that regard, thin vertical slices are merely MVPs taken to the next level.
 
@@ -55,7 +55,7 @@ The search result box should show Doc Martens, Marc Joseph, Mark Lemp, Smartwool
 The user adds a "t" to the end of the text and Doc Martens and Smartwool should be the only options.
 The items in the search assist box should have a thumbnail, the brand name, and a brief description.
 
-If we iterate our way toward the objective, we create opportunities for learning, reduce our risk, and increase our options.
+If we iterate our way toward the objective, we reduce our risk, increase our options, and create opportunities for learning.
 I'd start with a simple search page.
 The search icon on the home page would navigate to a new page with a simple search box and a submit (or search) button.
 The user types in what they want and clicks the button.
@@ -63,7 +63,7 @@ A new page loads with their results in a simple list format.
 This list format is the contents we eventually want in the search assist box.
 
 {icon=quote-left}
-G> If we iterate our way toward the objective, we create opportunities for learning, reduce our risk, and increase our options.
+G> If we iterate our way toward the objective, we reduce our risk, increase our options, and create opportunities for learning.
 
 This works.
 If we decide to launch it, we now have search on the site.
@@ -79,10 +79,10 @@ Does the page update instantaneously or does it take a couple of seconds?
 What causes the delay - is it the database, the images, or something else?
 What do we need to do to get this to instantaneous?
 
-In the next increment, perhaps we'd work on optimizations until the page refresh is as fast as we can get it - ideally milli-seconds.
+In the next increment, perhaps we'd work on optimizations until the page refresh is as fast as we can get it - ideally milliseconds.
 Maybe we need to use a caching technique.
 Maybe there is a different search technology we can leverage.
-Do we need to do anything different when there are 100 search results versus 10, 1, or 0?
+Do we need to alter our approach when there are 100 search results versus 10, 1, or 0?
 
 In the next increment, we could switch the page to a type-ahead and remove the search button.
 Now, as people type, the results are shown in a search assist box and when they make a selection, they are redirected to the appropriate page.
