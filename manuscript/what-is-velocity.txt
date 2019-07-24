@@ -1,6 +1,6 @@
 # What is Velocity?
 
-## Velocity is A Vector
+## Velocity is a Vector
 
 A vector is an entity that has both magnitude (size) and direction. Velocity indicates the speed of something in a particular direction.
 
@@ -31,7 +31,7 @@ In this book, we won't get into details of how to deliver at the end of each ite
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
-## Velocity is A Lagging Indicator
+## Velocity is a Lagging Indicator
 
 Velocity is also a lagging indicator.
 It is a measure taken at the end of a series of steps.
@@ -102,7 +102,7 @@ This doesn't tell us what the velocity will be in November or December, but it d
 
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
 
-## Velocity Is a Measure of a Complex System
+## Velocity as a Measure of a Complex System
 
 This is ultimately quite significant.
 Velocity, while a simple concept, is actually a measure of output for a complex system.
