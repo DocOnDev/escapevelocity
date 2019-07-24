@@ -1,10 +1,10 @@
 ## Dependencies on Other Teams or Individuals
 
 Perhaps your product owner is not available often enough and there is too much re-work due to slow feedback cycles.
-Maybe you haven't rights to your various environments and code migrations are executed in durations of days rather than minutes.
+Maybe you don't have rights to your various environments and code migrations are executed in durations of days rather than minutes.
 It's possible some other technical team is not able to be as responsive or relies on process more than interactions for the exchange of information.
-Whatever it might be, any point where you need to wait for extended periods of time, is likely to lead to other problems.
-You can't sit idle, so you grab another card to work on, leading to too much work in progress.
+Whatever it might be, any point where you need to wait for extended periods of time is likely to lead to other problems.
+For example, you can't sit idle, so you grab another card to work on, leading to too much [work in process](#wip).
 
 ### Reduce Minutia
 For things like approvals and code migrations, perhaps there is an opportunity to add some automation to expedite things.
