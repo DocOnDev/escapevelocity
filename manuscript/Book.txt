@@ -1,5 +1,4 @@
 frontmatter.txt
-  blank_page.txt
   dedication.txt
   about.txt
   preface.txt
