@@ -17,9 +17,11 @@ the current iteration and assign the remainder of the card to the next iteration
 ## Velocity Should Stabilize
 
 It seems much of what we read tells us that velocity will do two things: stabilize and improve.
-According to VersionOne, we can expect that velocity will stabilize within three to six months.
+According to VersionOne, we can expect that velocity will stabilize within three to six months[^VersionOneVelocity].
 The Agile Sherpa tells us it usually takes three or four iterations for velocity to stabilize at a consistent level.
 James Shore's "The Art of Agile" tells us to give it three or four iterations to stabilize.
+
+[^VersionOneVelocity]: Measuring the Velocity of your Agile Scrum Team. (2018, September 26). Retrieved from https://resources.collab.net/agile-101/agile-scrum-velocity
 
 ## But What If Velocity Doesn't Stabilize?
 
