@@ -39,8 +39,7 @@ To illustrate my point, let's look at estimations from a slightly different angl
 Indulge me for a bit here.
 Writing code is really problem solving.
 Sudoku is (clearly) problem solving.
-Admittedly, sudoku is far more simple than writing code.
-Simple in terms of strictly constrained and with very few possible solutions (often one solution).
+Admittedly, sudoku is far more simple than writing code; simple in terms of strict constraints with very few possible solutions (often one solution).
 If we can agree that sudoku can serve as a simple model for writing code, then please do read on.
 
 I have a sudoku game on my phone.

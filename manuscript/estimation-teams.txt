@@ -25,8 +25,7 @@ All of these variables still exist.
 Add in different specific technical factors and even when the same team performs estimates across all work, their own estimates will differ in accuracy across the differing projects.
 The increase in accuracy we were trying to achieve is still elusive.
 
-Finally, the more burdened the estimating team, the more likely delivery teams need to wait; because we all know projects can't start until they're estimated.
-Now we have diminished accuracy, waste, and delays.
-All in exchange for the hopes that consistency in estimation will make up for the cost of centralization.
+Finally, the more burdened the estimating team, the more likely delivery teams need to wait - because we all know projects can't start until they're estimated.
+Now we have diminished accuracy, waste, and delays; all in exchange for the hopes that consistency in estimation will make up for the cost of centralization.
 
 It won't.

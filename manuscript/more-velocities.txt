@@ -6,11 +6,11 @@ Somebody determines that the team needs to get more done in less time.
 So they send out the message - "We are going to need more velocities."
 This person is usually an authority figure and typically doesn't do the actual work being asked of the team.
 And they clearly don't know what velocity is.
-More velocities? Aw C'mon, really?
+More velocities? Aw, C'mon, really?
 
 ### Why We Need "More Velocities"
 
-In some cases, the need for higher velocity is based on a set scope for a set date and some basic math with significantly flawed assumptions.
+In some cases, the need for higher velocity is based on a set scope for a set date and some basic math - with significantly flawed assumptions.
 Take the total work to be done and divide it by the team's average velocity.
 If the number of weeks to complete the work exceed the number of weeks between now and the deadline, then the team needs to get more done in less time.
 All of this typically under-represents the volatility of the velocity, fails to take into account systemic issues, is based on estimates made with very little information, and assumes a known and locked scope.
@@ -23,8 +23,8 @@ There are times where more than one individual is working on the same basic piec
 Sometimes, we can even see two or more people working at the same computer at the same time.
 Not everybody punches in at 8am and out again at 6pm.
 Some people don't eat lunch at their desks.
-And who knows what people are actually doing when they "work from home?"
-This team can clearly move faster - we just need to give them a little push.
+And who knows what people are actually doing when they "work from home"?
+With such an output-centric perspective, one might assume that this team can clearly move faster - we just need to give them a little push.
 
 And in other cases, the need for higher velocity is borne of expectation.
 Everybody knows that when a team goes agile, they get faster.
@@ -161,7 +161,7 @@ Some of them stopped participating altogether.
 At first glance, one might conclude that the incentives improved individual performance and the problem was not their use, but the fact that they were discontinued.
 But this is not the case.
 You see, while some people's performance went up temporarily, the overall performance of the group sagged when incentives were introduced and only worsened when they were then retracted.
-Extrinsic reward structures for work people found intrinsically motivating made performance worse.
+Extrinsic reward structures for work which people found intrinsically motivating made performance worse.
 
 Numerous other studies[^CandleProblem], including those spearheaded by University of Rochester psychologists Edward Deci and Richard Ryan[^SelfDetermination] have shown that rewards often undermine our intrinsic motivation to work on interesting, challenging tasks - especially when they are announced in advance or delivered in a controlling manner.
 
@@ -244,7 +244,7 @@ We can't know for sure if there was, at one time, a deliberate increase in story
 
 #### Splitting Points
 
-Splitting points refers to two possible activities; taking partial credit for work picked up in a given iteration, but not completed or breaking stories up into smaller pieces that add up to more than the original.
+Splitting points refers to two possible activities; taking partial credit for work picked up in a given iteration - but not completed, or breaking stories up into smaller pieces that add up to more than the original.
 
 ##### Taking Partial Credit
 
@@ -254,7 +254,7 @@ Say we have an 8 point story that we pick up mid-iteration and don't complete.
 At the end of the iteration, we award ourselves 3 points and roll 5 points into the next iteration.
 The intent, I believe, is to be able to represent the effort expended in each iteration.
 This allows for a smoother looking burn-down chart across a release.
-And that means less people are asking questions.
+And that means fewer people are asking questions.
 
 Of course, if we're not actually delivering value in a given iteration, we probably shouldn't be taking partial credit based on "effort".
 And if this is happening consistently, maybe those people should be asking questions.
@@ -301,7 +301,7 @@ Now the team has increased the likelihood they can both deliver value in this it
 In some environments I've coached, we've seen an interesting outcome when stories get broken down into smaller slices.
 We found that when we broke large stories into discrete parts, the average time to deliver all discrete parts was less than the time to deliver the larger story.
 This held true even when the parts added up to more than the story.
-For more on this, you can read the section on [correlations](#correlations) where we discuss [Lead Time by Story Size](#lead-time-story-size).
+We will discuss this further in the section on [correlations](#correlations) where we discuss [Lead Time by Story Size](#lead-time-story-size).
 
 If you're going to split stories, do it for the right reasons.
 Do it because you want to optimize for learning as you go.

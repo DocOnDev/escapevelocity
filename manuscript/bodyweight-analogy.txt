@@ -1,6 +1,7 @@
 ## Velocity By Way of Analogy
 
-So if we know that velocity is a lagging indicator of a complex system, we can probably reason about velocity by way of analogy.
+Knowing that velocity is a lagging indicator of a complex system is interesting, but what does it really indicate?
+Perhaps an analogy can help us out here - 
 There is something we all have in common that is also a lagging indicator of a complex system - our body weight.
 
 Our body weight is a lagging indicator of a complex system.

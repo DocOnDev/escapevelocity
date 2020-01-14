@@ -4,7 +4,7 @@ There are a number of problems related to estimating in time.
 From mistaking effort and duration as equivalent to an obsession with getting estimates "right", estimating in time tends to create too much focus on how long things take versus when things will be done.
 
 If you must estimate, I say, estimate in abstractions.
-Abstractions away from time, such as points representing complexity or effort or whatever non-time thing you want to focus on don't necessarily help make estimates any more accurate.
+Abstractions away from time, such as points representing complexity or effort or whatever non-time thing you want to focus on, don't necessarily help make estimates any more accurate.
 They help by changing our focus and altering our expectations - all through obfuscation.
 
 When we estimate in time, we compare in time.
@@ -31,7 +31,7 @@ When we estimate in time, something awful happens.
 Suddenly, the data is supposed to match a pre-determined expectation.
 If you say 3 days and the stories take 7 days to complete, we hone in on what we did wrong in estimating.
 There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on each story that missed the estimate.
-"You need to get better at estimating.", becomes a mantra.
+"You need to get better at estimating", becomes a mantra.
 
 But, it turns out that effort and duration are rarely correlated, much less equivalent.
 Such correlation only occurs on high process efficiency teams.
@@ -43,7 +43,7 @@ For organizations where issues exist such as extensive infrastructure lead times
 G> Effort and duration are rarely correlated, much less equivalent
 
 
-There are two considerations when it comes to estimating; accuracy and precision.
+There are two considerations when it comes to estimating: accuracy and precision.
 
 Accuracy is how close our estimate is to the true value, whereas, precision is how consistent the estimates are.
 
@@ -59,4 +59,4 @@ All of the estimates are off of the actual by a good amount, but they are within
 
 Of course, in an ideal world, we'd want perfect accuracy (hit the bullseye) and precision (hit it every time).
 But if we have to choose between accuracy and precision, precision provides a tighter correlation to actual and allows us to better forecast.
-But when we estimate in time, we tend to become focused on accuracy over precision.
+Unfortunately when we estimate in time, we tend to become focused on accuracy over precision.

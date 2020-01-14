@@ -12,16 +12,15 @@ We'd taken on a practice we called "shadowing" where developers would work toget
 Here, developers would sit together and work on the same deliverable at the same time.
 
 In November of 1999, I purchased "XP Explained" by Kent Beck and realized I'd found my tribe.
-These people were doing some crazy stuff with estimating and testing, which I was a bit leery of.
-But they'd honed a lot of the other things we were playing with, so why not give it a try?
+These people were doing some crazy stuff with estimating and testing, which I was a bit leery of, but they'd honed a lot of the other things we were playing with; so why not give it a try?
 
 A few years later, I'd sold off the company and found myself in a senior leadership position at a large regional bank that was interested in "this agile thing."
-An avid XP practitioner, I had a casual relationship with Scrum.
-And Scrum was what they wanted, so I flew to Chicago to get my Scrum Master Certification from Ken Schwaber.
+An avid XP practitioner, I had a casual relationship with Scrum and Scrum was what they wanted.
+So I flew to Chicago to get my Scrum Master Certification from Ken Schwaber.
 Words like Sprint, Points, Chicken and Pig, and Burn-Down and Velocity all became a part of my vernacular.
 
 For the following few years, whether as an employee or consultant, I was spreading the Scrum way.
-I like to believe I did well, that I made a positive difference.
+I like to believe I did well; that I made a positive difference.
 The teams I worked with improved.
 They got better at quality.
 They got better at delivering solutions that delighted customers.
@@ -40,7 +39,7 @@ After a while, I started to see more and more teams myopically focused on their 
 Teams engaged in all sorts of behavior in attempts to make their velocity look like they thought it was supposed to.
 Managers set velocity goals and pushed teams to move faster.
 
-So I eventually wrote a talk about how velocity isn't supposed to be a goal.
+So, I eventually wrote a talk about how velocity isn't supposed to be a goal.
 In the research for that talk, I came across a number of new ideas and interesting perspectives on measurements, metrics, and behaviors.
 Feedback from audiences who've heard that talk, along with several more years of practice eventually led me to this book.
 

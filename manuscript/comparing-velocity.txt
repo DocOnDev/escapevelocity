@@ -18,7 +18,7 @@ Let's dive into this one a bit.
 Why is it that comparison of velocity across teams is deemed an anti-pattern?
 Are there situations where comparing velocity across teams is ok?
 
-The short answer is, "No". And here's why.
+The short answer is, "No", and here's why.
 
 There is a great deal of debate over how velocity is best calculated.
 From story points to ideal days to hours.

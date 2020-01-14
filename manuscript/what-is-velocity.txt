@@ -8,12 +8,12 @@ In physics, velocity is the rate at which an object changes its position [^Veloc
 An object that oscillates at a high speed, but always returns to its starting position has a zero velocity.
 
 {icon=quote-left}
-G> Velocity is the rate at which a team delivers value to the customer. A team that completes lots of tasks, but delivers no value to the customer should have a zero velocity.
+G> Velocity is the rate at which a team delivers value to the customer. A team that completes many tasks, but delivers no value to the customer should have a zero velocity.
 
 In agile software development, velocity is the rate at which a team delivers value to the customer.
 Value is quantifiable, and we can therefore say it has size.
 The direction is indicated by the traversal from idea to implementation.
-A team that completes lots of tasks, but delivers no value to the customer should have a zero velocity.
+A team that completes many tasks, but delivers no value to the customer should have a zero velocity.
 
 I say "should" because I see an awful lot of teams that measure velocity based on criteria other than value to the customer.
 Some consider a story done when development is complete.
@@ -28,13 +28,14 @@ But I digress a bit, perhaps.
 
 For the sake of this book, let's go with "in production" means done.
 In this book, we won't get into details of how to deliver at the end of each iteration, much less continuous delivery.
+Instead of technical techniques, we'll focus on what to measure, how to measure, why to measure it, and how to use the measurements for good rather than evil.
 
 [^Velocity]: Speed and Velocity. (n.d.). Retrieved March 18, 2017, from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity
 
 ## Velocity is a Lagging Indicator
 
 Velocity is also a lagging indicator.
-It is a measure taken at the end of a series of steps.
+It is a measurement taken at the end of a series of steps.
 We plan, we prioritize, we work, we test, and then we measure.
 
 ### Lagging Indicators are Abstract
@@ -57,13 +58,13 @@ Those that did create new jobs, such as the Works Progress Administration of the
 Essentially, these created an artificial drop in unemployment, but did not address underlying causes.
 Each program resulted in a corresponding increase in unemployment once government funding ran out.
 
-Whereas, policies focused on addressing broader monetary and fiscal trends can result in a boost in Aggregate Demand, which then leads to a decrease in unemployment.
+Conversely, policies focused on addressing broader monetary and fiscal trends can result in a boost in Aggregate Demand, which then leads to a decrease in unemployment.
 
 
 Similarly, one of the problems with velocity as a lagging indicator is that while it can tell how much work we delivered over a given time period, it cannot tell how well the team is doing at ensuring consistent delivery or at improving their process overall.
 For some teams, velocity may be an indicator of team health or at least capability, but it provides no insight into root causes.
-Moreover, attempts to increase velocity directly tend to either create artificial increases that are not sustainable or result in other more detrimental issues.
-Whereas, efforts to address underlying causes more often than not result in improvements in velocity.
+
+Moreover, attempts to increase velocity directly tend to either create artificial increases that are not sustainable, or result in other more detrimental issues, whereas efforts to address underlying causes more often than not result in improvements in velocity.
 Managing [story composition](#story-composition) and limiting [work in process](#wip) results in smoother flow, which leads to a more stable velocity and the ability for a team to mature into more rapid delivery.
 
 A stable or slightly increasing velocity is usually considered a good thing.
@@ -81,7 +82,7 @@ Lagging indicators[^LaggingKPIs] tend to be weak indicators for the short-term a
 Let's take a look at "velocity" in a different industry.
 
 For retail, we can use sales volume as our "velocity".
-Sales volume is a lagging indicator which tells us something about how we did in the prior period, but does not give us any indication as to why sales was high or low.
+Sales volume is a lagging indicator which tells us something about how we did in the prior period, but does not give us any indication as to why sales were high or low.
 
 The following shows 10 years of retail sales for a narrow set of products.
 
@@ -97,7 +98,7 @@ Looking at only the prior quarter's sales is insufficient for determining the ne
 Similarly, our velocity from the immediately concluded iteration is not often a good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of factors.
 
-But, like retail sales, we can look at velocity over time and confirm trends we might suspect, such as a lower average velocity during holiday seasons.
+Like retail sales, despite the short-term volatility, we can look at velocity over time and confirm trends we might suspect, such as a lower average velocity during holiday seasons.
 This doesn't tell us what the velocity will be in November or December, but it does let us know that the odds are good these months will have lower velocity numbers than September or October.
 
 [^LaggingKPIs]: Leading vs. Lagging KPIs – What Successful Companies Measure. (2016, August 17). Retrieved March 18, 2017, from https://www.accountexnetwork.com/blog/2014/10/leading-indicators/
@@ -122,7 +123,7 @@ G> To measure creative work by throughput alone is to not measure it at all; qua
 While a simple measure of a complex system may sound ideal, in this case, it is generally insufficient.
 Velocity doesn't tell us enough to be particularly useful.
 From velocity alone one cannot ferret out root causes.
-On cannot determine conclusively that the team is doing better (or worse) from a rising (or falling) velocity.
+One cannot determine conclusively that the team is doing better (or worse) from a rising (or falling) velocity.
 
 Velocity is but one dimension to consider.
 To measure creative work by throughput alone is to not measure it at all; quality and impact are essential.
