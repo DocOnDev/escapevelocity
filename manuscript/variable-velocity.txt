@@ -17,11 +17,13 @@ the current iteration and assign the remainder of the card to the next iteration
 ## Velocity Should Stabilize
 
 It seems much of what we read tells us that velocity will do two things: stabilize and improve.
-According to VersionOne, we can expect that velocity will stabilize within three to six months[^VersionOneVelocity].
-The Agile Sherpa tells us it usually takes three or four iterations for velocity to stabilize at a consistent level.
-James Shore's "The Art of Agile" tells us to give it three or four iterations to stabilize.
+According to CollabNet/VersionOne, we can expect that velocity will stabilize within three to six months[^VersionOneVelocity].
+James Shore's "The Art of Agile" tells us to give it three or four iterations to stabilize.[^ArtOfAgile]
 
-[^VersionOneVelocity]: Measuring the Velocity of your Agile Scrum Team. (2018, September 26). Retrieved from https://resources.collab.net/agile-101/agile-scrum-velocity
+[^VersionOneVelocity]: “Measuring the Velocity of Your Agile Scrum Team.” Agile Scrum Velocity Calculation & FAQs, September 26, 2018. https://resources.collab.net/agile-101/agile-scrum-velocity.
+
+[^ArtOfAgile]: Shore, James. “The Art of Agile” James Shore: The Art of Agile Development: Estimating, n.d. https://www.jamesshore.com/Agile-Book/estimating.html.
+
 
 ## But What If Velocity Doesn't Stabilize?
 
@@ -45,15 +47,15 @@ Or maybe you simply have an erratic velocity and are actually a healthy team.
 An erratic velocity indicates a possible problem.
 And your problem is not an erratic velocity.
 
-{icon=quote-left}
-G> An erratic velocity indicates a possible problem.   
-G> And your problem is not an erratic velocity.
-
 Whatever the underlying problem, it is something you can adjust.
 Adjustments for which you can observe the outcome.
 But the important thing to remember is that the velocity is not the problem.
 Do not try to fix the velocity.
 Try to figure out what it is telling you and fix that.
+
+{icon=quote-left}
+G> An erratic velocity indicates a possible problem.   
+G> And your problem is not an erratic velocity.
 
 If an erratic velocity could be telling you any number of things, then how do you know what to adjust?
 Ask your team.
