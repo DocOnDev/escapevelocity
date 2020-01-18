@@ -1,7 +1,7 @@
 {#hawthorne-effect}
 ## The Hawthorne Effect
 
-Western Electric had commissioned an extensive study that ran from 1924 to 1932 at their Hawthorne Works in Cicero, IL.
+Western Electric had commissioned an extensive study that ran from 1924 to 1932 at their Hawthorne Works in Cicero, IL.[^Hawthorne]
 The intent of the study was to determine the impact of ambient lighting on worker productivity.
 Would employees be more productive under high levels of light or low levels of light?
 The workers in the factory were divided into two groups based on physical location within the plant.
@@ -29,14 +29,16 @@ This, at first, seems like a precious nugget of management gold.
 The perfect management formula.
 
 But the reality was (and is), that while that which is being measured shows improvement, it does not mean the overall system has improved.
-Working longer hours can lead to employee fatigue and burn out, as well as lower quality.
+Working longer hours can lead to employee fatigue and burn out, as well as lower quality output and thereby lower quality outcomes.
 Lack of attention in areas not measured, such as quality or workplace safety, can lead to other negative outcomes.
 
 If your team is slacking so significantly that merely measuring their velocity can result in a marked increase in velocity with no ill-effects, then you've a more serious issue at play than velocity.
 
 What's more, there is no guarantee that the thing being measured has actually improved.
 Velocity might have gone up because the team inflated story points.
-We should rephrase the key takeaway to that which gets measured will (appear to) improve.
+We should rephrase the key takeaway to that which gets measured will **appear to** improve.
 
 {icon=quote-left}
-G> That which gets measured will (appear to) improve.
+G> That which gets measured will **appear to** improve.
+
+[^Hawthorne]: The "Hawthorne Effect". (n.d.). Retrieved January 18, 2018, from https://www.library.hbs.edu/hc/hawthorne/09.html

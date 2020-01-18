@@ -2,14 +2,12 @@
 ## Goodhart's Law
 
 Charles Goodhart is an economist and former advisor to the Bank of England.
-In 1975, Goodhart delivered two papers to a conference at the Reserve Bank of Australia.
+In 1975, Goodhart delivered two papers to a conference at the Reserve Bank of Australia.[^GoodhartHistory]
 In those papers, Goodhart was discussing research and theory related to monetary
 policy and control in the United Kingdom.
-In the years leading up to 1975, existing monetary targets and the controls used to
-achieve the goals were no longer producing the results desired or expected.
+In the years leading up to 1975, existing monetary targets and the controls used to achieve the goals were no longer producing the results desired or expected.
 There had been what most considered to be evidence of a stable money demand in the United Kingdom.
-It was believed that the growth of money could be controlled through the setting of
-short-term interest rates.
+It was believed that the growth of money could be controlled through the setting of short-term interest rates.
 Higher interest rates correlated with lower money growth.
 
 Goodhart warned, however, that policies and practices based on specific targets
@@ -20,7 +18,7 @@ Goodhart stated,
 G> "Any statistical regularity will tend to collapse once pressure
 G> is placed upon it for control purposes."
 
-A common paraphrasing is, "When a measure becomes a target, it ceases to be a good measure."
+A common paraphrasing is, "When a measure becomes a target, it ceases to be a good measure."[^GoodhartFormulation]
 When I talk about this, I tend to add, "And the target therefore no longer means what you think it does."
 
 Goodhart's law is a critical piece of information when we think about metrics.
@@ -38,5 +36,9 @@ Don't do it.
 Instead, provide guidelines to the teams.
 My favorite guideline for metrics is, "Monitor trending. Dig in when the trend changes and you aren't absolutely certain why."
 
+
+[^GoodhartHistory]: Crystal, K. Alec, and Paul D Mizen. “Goodhart’s Law: Its Origins, Meaning and Implications for Monetary Policy,” November 12, 2001. https://cyberlibris.typepad.com/blog/files/Goodharts_Law.pdf.
+
+[^GoodhartFormulation]: “Goodhart's Law.” Wikipedia. Wikimedia Foundation, October 21, 2017. https://en.wikipedia.org/wiki/Goodhart's_law#Formulation.
 
 [^IntrinsicMotivators]: Deci, E. L., Koestner, R., & Ryan, R. M. (1999, November). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Retrieved August 19, 2017, from https://www.ncbi.nlm.nih.gov/pubmed/10589297

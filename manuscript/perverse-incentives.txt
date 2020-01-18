@@ -15,9 +15,9 @@ Let's say the quality control manager wants to lower the number of defects relea
 They sincerely want better quality software released to customers more often.
 In an effort to entice analysts to up their game, the manager decides to run a program where analysts are rewarded for finding more bugs.
 The end result is a dramatic increase in bugs reported prior to production release.
-Approximately 20% of the time in a given iteration is now spent discussing whether or not these three reported defects are the same defect or three distinct defects, whether or not this is actually a missed requirement or a defect, and whether or not the credit should go to the analyst who reported it first or to the one who determined how it could be recreated.
-In the end, fewer defects were released with each push to production.
-But so were fewer features.
+More time in a given iteration is now spent discussing whether or not the increase of reported defects are in fact the same defect reported multiple times or genuinely distinct defects, whether or not something is actually a missed requirement or a defect, and whether or not the credit should go to the analyst who reported it first or to the one who determined how it could be recreated.
+In the end, fewer defects are released with each push to production.
+But so are fewer features.
 
 Several years back, I was working with a client and we'd implemented some code quality metrics.
 We were using them as part of the team's retrospectives and planning.

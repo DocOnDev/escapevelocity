@@ -3,23 +3,23 @@ Milton Friedman was an award winning economist who, among other things, served a
 
 In an article published in The Wall Street Journal in August of 2003, Friedman stated, "The contrast between the periods before and after the middle of the 1980s is remarkable.
 Before, it is like a chart of the temperature in a room without a thermostat in a location with very variable climate; after, it is like the temperature in the same room but with a reasonably good though not perfect thermostat, and one that is set to a gradually declining temperature.
-Sometime around 1985, the Fed appears to have acquired the thermostat that it had been seeking the whole of its life."
+Sometime around 1985, the Fed appears to have acquired the thermostat that it had been seeking the whole of its life."[^FriedmanWSJ]
 
 The article continues on to explain that the real cause of the improvement was a change in the way the Federal Reserve approached their role in regard to price stability.
 Prior to the 1980s, Keynesian Economics, the dominant theory of the times, taught economists that the volume of money did not matter in the control of price stability as there was no correlation between volume and price.
 But this theory was disproven as shown by performance in the 1970s and 1980s.
 New Keynesian Economics now includes quantity as part of the theory.
 
-Rather than get any further into the details of economic theory, of which I am
- grossly disqualified to do, I thought it better to explain Friedman's Thermostat with a parable of my own involving a thermostat.
+Rather than get any further into the details of economic theory, which I am grossly disqualified to do, I thought it better to explain Friedman's Thermostat with a parable of my own - involving a thermostat.
 
+[^FriedmanWSJ]: MiltonFriedman. “The Fed's Thermostat.” The Wall Street Journal. Dow Jones & Company, August 19, 2003. https://www.wsj.com/articles/SB106125694925954100.
 
 ### The Case Against Thermostats
 Imagine for a moment, that you are the ruler of a sovereign province.
 The people are happy under your rule.
 There is plenty of food to go around, everyone has meaningful work that contributes to the overall health and wellbeing of the people.
 There is time for leisure and your people want for very little.
-If there were one wish; one thing the people would like, it would be for the winters to be less harsh.
+If there were one wish, one thing the people would like, it would be for the winters to be less harsh.
 Summers in the land are wonderful with long comfortable days, lush green lands, and blue skies.
 Spring and fall are equally beautiful in their varying colors and the cooler, but comfortable temperatures.
 But winter is harshly cold and the days are short.
@@ -128,10 +128,12 @@ In our story, the chief scientist concludes that the draw of fuel from the groun
 But we know, of course, that the knowledge of an impending increase in demand due to lowering temperatures is what causes the extraction of more fuel.
 
 In other cases, it may be that there is no cause/effect relationship at all and the correlation may be purely coincidental.
-Take, for example, the per capita consumption of beef in the US from 2000 through 2009 and the number of deaths by lightning during that same time period.
+Take, for example, the per capita consumption of beef in the US from 2000 through 2009 and the number of deaths by lightning during that same time period.[^SpuriousBeef]
 The two are clearly positively correlated.
 This in no way suggests that either caused the other.
 This is a coincidental correlation and any conclusions drawn therefrom are dubious.
+
+[^SpuriousBeef]: “Per Capita Consumption of Beef (US) Correlates with Deaths Caused by Lightning.” Spurious Correlations, n.d. http://tylervigen.com/view_correlation?id=1476.
 
 ![US Per Capita Consumption of Beef correlates to Death by Lightning](images/per-capita-consumption-of-beef-us_deaths-caused-by-lightning.png)
 
@@ -148,4 +150,4 @@ In Friedman's case, the Federal Reserve had long operated under Keynesian
 Economic theory and ignored the impact of volume on price stability.
 Keynesian theories were developed at a time when measurements indicated no correlation between volume and price.
 The formulas developed at the time were, naive, but worked so long as the system stayed in a particular balance.
-Throughout the 70s, that balance was lost and the correlation and thereby the cause and effect relationship was revealed.
+Throughout the 70s that balance was lost, along with the correlation, and thereby the cause and effect relationship was revealed.
