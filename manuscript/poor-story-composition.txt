@@ -28,14 +28,14 @@ But what we've done is create three or four stories that cannot be independently
 They're all connected.
 They are one story.
 
-{icon=quote-left}
-G> Focus on small stories that are thin vertical slices through the technology stack.
-
 Instead, focus on small stories that are thin vertical slices through the technology stack.
 Now that's easy enough to say and it sounds right, but it is not necessarily that easy to execute on.
 Sometimes, thin vertical slices look like waste.
 They cause us to build something less than what we'd envisioned.
 And we don't want to release anything less than perfect, do we?
+
+{icon=quote-left}
+G> Focus on small stories that are thin vertical slices through the technology stack.
 
 I find it interesting how many teams I work with will simultaneously push for a Minimum Viable Product (MVP) and insist it is the right way to bring a piece of software to the market while arguing that writing a simpler version of the code is a waste of time since we already know what we need.
 An MVP is about learning: learning if what you _thought_ the customer wanted was, in fact, what they wanted.
@@ -48,7 +48,7 @@ The product owner delivers a set of mock ups and a set of specifications that de
 
 According to the specification, we want a search bar in the header of every page on the site.
 The bar will be hidden, but will appear just below the header when a search icon is pressed.
-After three keystrokes, a search assist box should appear, showing possible matches to the search criteria.
+After three keystrokes a search assist box should appear, showing possible matches to the search criteria.
 A user can continue to type or can select an item from the search assist box.
 So, for example, the site is for shoes and the user types in "mar".
 The search result box should show Doc Martens, Marc Joseph, Mark Lemp, Smartwool, and Tamaris.
@@ -70,7 +70,7 @@ If we decide to launch it, we now have search on the site.
 Along the way, we figured out things like connection to the database, the fundamental search capability, and how we might want to display the items.
 We also get to see how responsive the database is and think a bit more about what we'd expect to get back as our search results.
 If we choose to, we can launch this and gather statistics on how people are actually using search.
-What if they don't search by brand very often and instead search by model or color or purpose?
+What if they don't search by brand very often and instead search by model, or color, or purpose?
 
 In the next increment, we might work on taking the form from a full request to an ajax call.
 We could leave the call tied to the submit button, but update the page based on the ajax call results.
@@ -110,6 +110,9 @@ They'll have to change the code as they move along.
 The techniques we use for a basic web page are different from the techniques we use for a series of ajax calls.
 Why not just write it once instead of wasting all this time?
 
+{icon=quote-left}
+G> You see, when we opt for all or nothing, the odds are always in favor of nothing.
+
 Because none of this was time wasted.
 There were a number of things to figure out along the way.
 Some of them we had to figure out by writing the code and analyzing performance.
@@ -121,8 +124,5 @@ Many product owners will tell you that nothing but the final version is acceptab
 If we don't get it right, the customer will hate it and they will run screaming to the competition to never, ever return.
 But when we hit the target date, there isn't a product owner alive who would want nothing to show rather than having some options to choose from.
 You see, when we opt for all or nothing, the odds are always in favor of nothing.
-
-{icon=quote-left}
-G> You see, when we opt for all or nothing, the odds are always in favor of nothing.
 
 Thinking about the work in increments can lead to well-composed, thinly-sliced stories.
