@@ -1,9 +1,11 @@
 ### Individual Incentives
 
-One of my all-time most popular tweets states,
+One of my all-time most popular tweets[^DocTweetSimply] states,
 
 {icon=twitter-square}
 G> "We simply ask that you be innovative without mistakes while working as a team toward individual performance goals."
+
+[^DocTweetSimply]: Norton, Doc. “We Simply Ask That You Be Innovative without Mistakes While Working as a Team to Achieve Individual Performance Goals.” Twitter. Twitter, May 8, 2018. https://twitter.com/DocOnDev/status/993855609018769408.
 
 Most folks readily scoff at, "be innovative without mistakes".
 
@@ -18,7 +20,7 @@ This, in many organizations, is considered a mistake.
 There is a clear tension between "be innovative" and "without mistakes".
 Asking folks to be innovative without mistakes is clearly ridiculous.
 
-But the second half of this tweet, "working as a team toward individual performance goals.", is no less ridiculous.
+But the second half of this tweet, "working as a team toward individual performance goals," is no less ridiculous.
 We take a bunch of folks from various backgrounds with various specialties and we put them in a collective and ask them to work together.
 We expect them to collaborate, to be t-shaped, and to share the work.
 
@@ -35,11 +37,11 @@ Then, once per year, we advance them and give them raises based on how they did 
 
 If you are on this team and your manager gives you a personal goal of improving your React skills, but the majority of the work is in a Java codebase for which you are the only remaining original team member, you have to reconcile the tension between what's best for the team and what advances your career.
 
-If, as a part of personal performance reviews, management looks at the number of stories you delivered or commits you made, you are now disincentivized to mentor others or possibly even pair.
+{icon=quote-left}
+G> A system that does not adequately take collaboration into account when reviewing it's members will not realize the full collaborative potential of those members.
+
+If, as a part of personal performance reviews, management looks at the number of stories you delivered or commits you made, you are now disincentivized to mentor others, or possibly even pair.
 Each contribution you make that does not directly correlate to individual performance measures is a contribution that effectively counts against you.
 
 This tension impedes a team from coming together.
 A system that does not adequately take collaboration into account when reviewing it's members will not realize the full collaborative potential of those members.
-
-{icon=quote-left}
-G> A system that does not adequately take collaboration into account when reviewing it's members will not realize the full collaborative potential of those members.

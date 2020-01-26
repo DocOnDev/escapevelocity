@@ -13,9 +13,9 @@ On average, that commute takes 10 minutes.
 Most mornings I catch at least one light or get behind someone doing 25 in a 40 for a mile or two.
 Some mornings, the lights are in my favor and the slow pokes stay out of my way.
 On such days, I can get from hotel to client in about 7.5 minutes.
-Under no legal circumstances can I get to the client faster than in 7 minutes.
-Account for distance and general safety, and 7 minutes is already pushing it; possible, but not likely.
-Under no physical circumstances can I get to the client faster than in 5 minutes.
+Under no legal circumstances can I get to the client faster than in seven minutes.
+Account for distance and general safety, and seven minutes is already pushing it; possible, but not likely.
+Under no physical circumstances can I get to the client faster than in five minutes.
 Even if I ignore all laws of man, the laws of physics still bind me.
 
 On the other end of the spectrum, however, the commute can take (and has taken) much longer.
@@ -44,14 +44,14 @@ That sheet might have looked something like this:
 | 14 | 12 | 10.5 | 13 | 10.25 |
 | 11.25 | 13.5 | 11.5 | 14.25 | 10.25 |
 
-The data shows us that while the trip can take no less then 9 minutes, it can take as much as 15.25 minutes with an average trip time of 11.25 minutes.
+The data shows us that while the trip can take no less then nine minutes, it can take as much as 15.25 minutes with an average trip time of 11.25 minutes.
 Our shortest trip is 2.25 minutes quicker than average.
-Whereas our longest trip is 4 minutes slower than average.
+Whereas our longest trip is four minutes slower than average.
 And as we indicated, no matter how hard we try to get there sooner, we are ultimately bound by the laws of physics.
 But on the other end, in terms of how long the trip can take, we are pretty much bound only by the laws of reason.
 
-Now, if you asked me how long it took me to get to work, I might say, "Between 9 and 15 minutes.", and I'd be accurate, but not precise.
-I could also say, "11.25 minutes on average.", which is precise, but not necessarily accurate.
+Now, if you asked me how long it took me to get to work, I might say, "Between nine and fifteen minutes.", and I'd be accurate, but not precise.
+I could also say, "11.25 minutes on average," which is precise, but not necessarily accurate.
 But what if you were asking me to guarantee I could make it to work within the time I estimate?
 What if you were asking me to make a commitment and to guarantee with 100% certainty that I could get to work within the time committed?
 Does this sound familiar to you?
@@ -100,14 +100,13 @@ Let's draw a line on the graph at the mean, or numerical average.
 
 ![Lead Time Distribution for Drive Time with Mean](images/CFD.021.jpeg)
 
-We can now see that 19 of the data points fall on or before the mean.
-And 11 of the data points fall after the mean.
+We can now see that 19 of the data points fall on or before the mean, while 11 of the data points fall after the mean.
 So if we were to use the mean (or average) as our commitment, the data tells us we have a 65.5% chance of hitting or bettering the commitment.
 That means we have a 34.5% chance of missing it.
 Or a one in three chance of going over our commitment.
 
 So our probability for this estimate is roughly 66%.
-We expect to be go over the estimate 33% of the time.
+We expect to be over the estimate 33% of the time 
 AND we expect to be under the estimate 62% of the time.
 We expect to actually hit the estimate, 3.4% of the time.
 
@@ -120,10 +119,7 @@ The tedium of exploring why the estimate was wrong may be enough to encourage be
 I once worked with a team where the technical lead proudly announced that he was "excellent at estimating."
 He insisted that if others were as experienced and disciplined as he, they too could be excellent at estimating.
 Over time, he was able to come to realize that he was, in fact, excellent at hitting the estimates he'd made.
-These are not the same thing.
-But they present similarly on the surface, especially in an environment concerned with estimates over forecasts.
-
-But I digress a bit.
+These are not the same thing, but they present similarly on the surface; especially in an environment concerned with estimates over forecasts.
 
 What we're getting at here is the usefulness of Lead Time Distributions.
 They are simple to create, easy to read, and give us an actual mathematical basis for forecasts versus the usual pseudo-mathy estimates found on many agile teams.

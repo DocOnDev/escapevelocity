@@ -68,10 +68,12 @@ In that paper, he stated, "Any organization that designs a system (defined broad
 
 Some time later, in the book, "The Mythical Man Month", Fred Brooks referenced Conway's thesis and coined it as "Conway's Law"[^ConwaysLaw]
 
-Since then, studies performed by MIT and Harvard have shown Conway to have been correct.
+Since then, studies performed by MIT and Harvard[^HBSConway] have shown Conway to have been correct.
 The structure of our systems reflect the structure of our organizations.
 
 If you want to change the design of the system (the architecture), you must change the design of the organization to reflect the desired outcome.
+
+[^HBSConway]: Maccormack, Alan, John Rusnak, and Carliss Y. Baldwin. “Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis.” SSRN Electronic Journal, 2008. https://doi.org/10.2139/ssrn.1104745.
 
 [^ConwayPaper]: Committees Paper. Accessed October 19, 2018. http://www.melconway.com/Home/Committees_Paper.html.
 

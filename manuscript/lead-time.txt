@@ -2,17 +2,17 @@
 ## Lead Time
 
 In software development Lead Time is generally considered the time elapsed from the moment a request is received to the moment that same request is available in production.
-I call this the time from, "Hey, wouldn't it be ice if..?", to, "Hey, ain't that nice?"
+I call this the time from, "Hey, wouldn't it be nice if..?", to, "Hey, ain't that nice?"
 
 ![Lead and Cycle Time](images/CFD.007.jpeg)
 
 For some teams, lead time is measured from when the team starts to look at the request.
-In these cases, the timer doesn't start when an item hits the backlog, but rather when the item gets picked up for analysis or whatever is the initial step in the process.
+In these cases, the timer doesn't start when an item hits the backlog, but rather when the item gets picked up for analysis, or whatever is the initial step in the process.
 For our purposes, we are going to consider lead time to be from the moment a request is pulled from the backlog to be worked on.
-We're not going to concern ourselves with the amount of time an item sits in the backlog as this has more to do with the volume of items and prioritization than it does with actual throughput and team capability.
+We're not going to concern ourselves with the amount of time an item sits in the backlog, as this has more to do with the volume of items and prioritization than it does with actual throughput and team capability.
 
 Tracking the production lead time (time from work starting to in production) allows us to produce better projections for when an item will be complete.
-If we know there are 7 items in the backlog ahead of this one with three items in progress for a total of 10 items ahead of this one and we know that on average an item takes 2 days from commencement to completion, we can reasonably estimate that this one will be done in 20 days.
+If we know there are seven items in the backlog ahead of this one with three items in progress for a total of 10 items ahead of this one and we know that on average an item takes 2 days from commencement to completion, we can reasonably estimate that this one will be done in 20 days.
 Sort of.
 
 At first blush, an average seems perfectly reasonable for estimations.

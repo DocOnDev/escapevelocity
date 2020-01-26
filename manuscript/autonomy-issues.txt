@@ -4,12 +4,14 @@ Autonomy is the capacity to make an informed and uncoerced decision.
 As related to individuals at work, it means people have a high level of discretion in how they perform the work.
 When we speak of self-governing teams, we are speaking of autonomous teams; teams that hold the right to make their own decisions without being controlled by anyone else.
 
-In agile software development, principals five and eleven speak directly to autonomy:
+In agile software development, principles five and eleven speak directly to autonomy[^ManifestoPrinciples]:
 
 {icon=exclamation-circle}
 G> Build projects around motivated individuals. Give them the environment and support they need, and *trust them to get the job done*.
 G>
 G> The best architectures, requirements, and designs emerge from *self-organizing* teams.
+
+[^ManifestoPrinciples]: Principles behind the Agile Manifesto. Accessed January 26, 2018. https://agilemanifesto.org/principles.html.
 
 Organizations want the agile.
 It is good.
@@ -17,16 +19,18 @@ They nod their heads when we say things like, "Self-governing teams", and, "Auto
 
 And then they put in centralized governance, controls, and approvals.
 They mandate that all teams use the same tracking software; ideally in the same way.
-They mandate standard reports which in turn require standard process.
+They mandate standard reports which, in turn, require standard process.
 They mandate standard approved tools, languages, and frameworks.
 They require specific stage gates and checks, which by their very existence require teams to adhere to specific ways of working.
-A team writing automated acceptance criteria still has to have their use cases documented via the corporate template and approved before the official testing phase can begin, which must come ofter the development phase.
+A team writing automated acceptance criteria still has to have their use cases documented via the corporate template and approved before the official testing phase can begin, which must come after the development phase.
 
 Hello? What?
 
 This is not autonomy.
 
-This is heteronomy: The subjection of a community to the rule of another power.
+This is heteronomy: The subjection of a community to the rule of another power.[^HeteronomyDef]
+
+[^HeteronomyDef]: “Heteronomy.” Heteronomy dictionary definition | heteronomy defined. Accessed January 26, 2020. https://www.yourdictionary.com/heteronomy.
 
 There is benefit to having some standards.
 No doubt.
@@ -35,7 +39,7 @@ There is benefit to reducing policy from a strict set of steps to a set of funda
 
 Rather than mandate a process for how tests are written and executed, set a guideline that states all teams need to have and follow an approved testing strategy.
 
-Rather than mandating iterations, velocity, and the like, set a guideline that states all team need to manage the flow of work and be able to respond to change.
+Rather than mandating iterations, velocity, and the like, set a guideline that states all teams need to manage the flow of work and be able to respond to change.
 
 Create constraints that reduce options, but simultaneously empower the team.
 "No code can move into the master branch until three people have seen it.", is a simple enabling constraint.
@@ -128,9 +132,9 @@ This is assuming someone on the dock is willing to indicate when receipt process
 Whereas adding new fields to the database to record start and end, updating the maintenance screens, and configuring the down-stream processes to respect dock hours is a few weeks.
 Not only does the new solution actually solve the business problem in a more flexible and effective way, but it costs far less to build and maintain.
 
-When we distance the team from the business and the actual customers through layers on management, we lose out on many of the opportunities to discover even better solutions, such as the one detailed above.
+When we distance the team from the business, and the actual customers through layers of management, we lose out on many opportunities to discover even better solutions, such as the one detailed above.
 
-In addition to all this, these layers of theme to initiative to epic to feature to story to task create another serious issue.
+In addition to all this, these layers of theme - initiative - epic - feature - story - task create another serious issue.
 The organization has reduced their ability to respond quickly to change.
 It takes weeks, if not months for information learned on the front lines at the task level to have an impact on the associated epics and then cascade back down to the tasks through features and stories.
 This is assuming the information ever makes its way to Directors.

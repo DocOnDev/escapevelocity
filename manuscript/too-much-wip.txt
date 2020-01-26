@@ -3,8 +3,7 @@
 
 Having too much Work in Process, also known as Work in Progress, is a remarkably common issue.
 In my experience, management often encourages this behavior.
-I don't know if it is the notion that we will get more done if we work on more things simultaneously.
-Or perhaps there is a fear we won't get enough things done unless we work on several of them at once.
+I don't know if it is the notion that we will get more done if we work on more things simultaneously, or perhaps there is a fear we won't get enough things done unless we work on several of them at once.
 
 But what happens when we try to work on a few stories each?
 Remarkably, we make progress on several, but complete precious few.
@@ -43,17 +42,17 @@ Not exactly.
 
 This isn't a utilization cost, it is a throughput cost.
 For every additional item you work on, you extend the duration of each item by 20%.
-So if you're working on 2 items, each of which would have taken 2 days, for a total of 4 days work, you will now complete the same work in 4.8 days.
-You effectively lost an entire day by attempting to work on 2 items in order to get things done "faster".
+So if you're working on two items, each of which would have taken two days, for a total of four days work, you will now complete the same work in 4.8 days.
+You effectively lost an entire day by attempting to work on two items in order to get things done "faster".
 
 Also be aware that the cost is compounded.
-2 items is a 20% increase in the duration for both items.
+Two items is a 20% increase in the duration for both items.
 Add a third item and you increase the duration of all items by an additional 20% on top of the original 20%.
-So 3 items that normally take 2 days each wouldn't take 6 days, or even 7.2 days, but would take 8.16.
-5 items at two days effort each would require not 10 days to complete, but would require 17.03 days.
+So three items that normally take two days each wouldn't take six days, or even 7.2 days, but would take 8.16.
+Five items at two days effort each would require not 10 days to complete, but would require 17.03 days.
 
 Let's take a look at a formula that we can use as a simple model.
-Assuming each task has the same duration were it executed singularly, we can use a basic future value calculation for an investment[^FutureValue].
+Assuming each task has the same duration, were it executed singularly, we can use a basic future value calculation for an investment[^FutureValue].
 
 ~~~~~~~~
 d*(1+i)^(t-1) + d*(((1+i)^(t-1)-1)/i)*(1+i)
@@ -79,12 +78,12 @@ d = 2, i = .2, t = 5
 17.0304
 ~~~~~~~~
 
-So, yes, you can have 7 or 8 items in flight all at once and be super busy.
-Just know that you are also incredibly less efficient and likely less effective.
+So, yes, you can have seven or eight items in flight all at once and be super busy.
+Just know that you are also incredibly less efficient, and likely less effective.
 
 ### WIP, Throughput, and Little's Law
 
-So our future value calculation is both informative and interesting, but it is not particularly useful beyond making the point that doing more at once takes more time.
+So, our future value calculation is both informative and interesting, but it is not particularly useful beyond making the point that doing more at once takes more time.
 What we want to know is how does this materially impact our ability to make software.
 For that, we can look to a more simple (and useful) calculation based on Little's Law[^LittlesLaw]
 

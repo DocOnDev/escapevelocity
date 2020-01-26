@@ -6,5 +6,5 @@ And we've given you some things to think about as you're considering what metric
 to use instead (if any).
 Now let's take a look at some other metrics that might help you get to the root
 cause of team issues, help you figure out when things will actually be done, and
-help you figure out if you're doing a quality job, from a technical and customer
+help you figure out if you're doing a quality job - from a technical and customer
 perspective.
