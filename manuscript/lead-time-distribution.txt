@@ -152,7 +152,7 @@ The following graph shows probability intervals of 50%, 75%, and 100% on the gra
 You'll notice that the higher the probability we want to have, the further from the mean we get and the distance does not increase linearly.
 The distance from 50% to 75% is almost half that from 75% to 100%.
 
-Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes and I end up with a 38 minute commute?
+Now what happens on that fateful day when construction delays are compounded by heavy traffic and bad morning attitudes, and I end up with a 38 minute commute?
 
 ![Lead Time Distribution after Bad Day](images/CFD.024.jpeg)
 

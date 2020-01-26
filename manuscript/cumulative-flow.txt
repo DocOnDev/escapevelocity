@@ -6,23 +6,23 @@ A CFD shows the quantity of work in a given state over time, which allows us to 
 I've often heard cumulative flow diagrams referred to as an alternative to the burn up chart, which is an alternative to the burn down chart.
 Just as email is an alternative to a printed letter which is an alternative to a hand written letter when I want to send the same urgent message to 50 people.
 All of them get the job done.
-One of them is so demonstrably better, the comparison suggests a strong penchant for less efficient tools or suggests more than a bit of naivety.
+One of them is so demonstrably better, the comparison suggests a strong penchant for less efficient tools, or suggests more than a bit of naivety.
 
 ### Making a CFD
 
 To make a cumulative flow diagram is relatively easy.
 More and more agile tracking tools offer a CFD report so you might not need to generate your own.
-But in case you ever do, let's walk through the basic steps.
+But, in case you ever do, let's walk through the basic steps.
 
 Just about any spreadsheet software can be used to create a CFD.
 On a sheet, create a column for each step in your software process.
 The least you'd need would be To Do, Doing, and Done.
 I recommend a more detailed set of steps, especially for newer teams.
 Be honest about the steps most stories go through.
-If stories go through grooming before development and there is a formal testing phase after development with a formal approval process to promote to production, I'd consider making columns for all of the action items as well as the wait states between the action items.
+If stories go through grooming before development, and there is a formal testing phase after development with a formal approval process to promote to production, I'd consider making columns for all of the action items as well as the wait states between the action items.
 We'll demonstrate this in a bit.
 
-Each day or at some other regular interval, total the work in each of the states you're tracking.
+Each day, or at some other regular interval, total the work in each of the states you're tracking.
 I recommend once per day.
 If you do a daily stand-up meeting, the end of the meeting is a great time to run your totals as the board is going to be as accurate as it is going to be for that given day.
 Record the totals in the spreadsheet and create a stacked area graph against them.
@@ -61,8 +61,10 @@ This first example is perhaps a diagram from a team in Lake Wobegon [^Wobegon] w
 
 Thin relatively consistent lines moving steadily up and right with the backlog decreasing in size while the deployed to production increases in size are all signs of a team operating in healthy fashion.
 Healthy in this case, means delivering accepted work at a consistent (predictable) pace.
-It is possible that the code is of poor quality or that team morale is down.
-A cumulative flow diagram may not be able to help us see these issues, but it is good at helping us determine if our process itself is effective.
+A cumulative flow won't tell us everything.
+For example, it is possible that the code is of poor quality or that team morale is down.
+We wouldn't be able to determine either of these things by looking at the diagram.
+A cumulative flow diagram may not be able to help us see all possible issues, but it is good at helping us determine if our process itself is effective.
 
 ![To Do and Done](images/CFD.002.jpeg)
 
@@ -106,7 +108,7 @@ You can make a CFD and you can read a CFD.
 This is pretty good, but I want to help emphasize the benefit of a CFD.
 
 Let's take a look at an imaginary team.
-This team has been together for multiple iterations and their velocity is all over the place.
+This team has been together for multiple iterations, and their velocity is all over the place.
 The stakeholders are frustrated.
 New feature requests, even when expedited, take months to get into the customer's hands.
 This team is slow and unpredictable.
@@ -124,7 +126,7 @@ Take a look at the Product Burn Down and the Velocity Chart below and see if you
 The team then takes a look at a Cumulative Flow Diagram for the same period of work and a key issue jumps out at them right away.
 
 What about you?
-Take a look at the CFD Below and see if you can make an educated guess about what challenges this team is facing.
+Take a look at the following CFD and see if you can make an educated guess about what challenges this team is facing.
 
 ![CFD](images/CFD.014.jpeg)
 
@@ -132,8 +134,8 @@ As you may have deduced, the team's primary challenge is in the approval process
 The product owner is a traveling sales person and does not have time for approvals when they are doing a lengthy tour of a foreign market.
 Upon their return, they review a bunch of features and then proceed to add new work to the backlog based on customer feedback they received while on the road.
 
-A CFD tells us more about our process than most other charts and as we've seen, it can often to fairly easy to intuit where the problems lie.
-If we discover that the development process is where the bottleneck seems to be, we have the options of breaking development down into smaller stages if appropriate or perhaps looking at different types of work, such as stories versus fixes or items that require database or infrastructure changes compared to items that don't to gain further insights.
+A CFD tells us more about our process than most other charts and, as we've seen, it can often be fairly easy to intuit where the problems lie.
+If we discover that the development process is where the bottleneck seems to be, we have the options of breaking development down into smaller stages if appropriate, or perhaps looking at different types of work - such as stories versus fixes, or items that require database or infrastructure changes compared to items that don't to gain further insights.
 
 
 

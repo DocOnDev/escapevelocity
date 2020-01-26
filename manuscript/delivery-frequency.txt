@@ -2,10 +2,12 @@
 
 {icon=quote-left}
 G> “If it hurts, do it more frequently, and bring the pain forward.”
-― Jez Humble, Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
+― Jez Humble[^JezHumbleQuote]
+
+[^JezHumbleQuote]: “Continuous Delivery Quotes by Jez Humble.” Goodreads. Goodreads. https://www.goodreads.com/work/quotes/13558958-continuous-delivery-reliable-software-releases-through-build-test-and.
 
 Delivery frequency is a measurement of how often we release software.
-When we combine it with things like escaped defects, we can see if releasing more or less frequently nets more or less defects.
+When we combine it with things like escaped defects, we can see if releasing more or less frequently nets more or fewer defects.
 
 In studies done on the impact of automated deployment processes and the use of version control for infrastructure management, Jez Humble and Gene Kim found "that high performing organizations ship code 30 times faster (and complete these deployments 8,000 times faster), have 50% fewer failed deployments, and restore service 12 times faster than their peers."[^StateOfDevOps2014]
 
@@ -16,7 +18,7 @@ Formalized phases of integration and acceptance and regression testing are folde
 The rate of delivery is an indication of efficiency as the process needs to be optimized to safely deploy often.
 The rate of delivery is an indication of flexibility as it suggests the code changes are small and incremental.
 
-While delivery frequency suggests these things, it does not guarantee it.
+While delivery frequency suggests these things, it does not guarantee them.
 I've seen many an environment where the team does minimal automated testing and takes pride in their ability to deliver often.
 I've seen numerous environments where delivery frequency includes patches and bug fixes.
 The teams are actually delivering new features at a slow pace, but are regularly putting out fires.

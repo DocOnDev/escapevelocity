@@ -21,7 +21,7 @@ There's a significant trade show coming up in a few months and we want to have s
 We suspect from our velocity that we won't get them all done on time.
 
 In most organizations, we'd ask the team to move faster.
-But what does that mean; to move faster?
+But, what does that mean; to move faster?
 Can we work with less detailed requirements?
 Can we focus developers on coding and drop unit testing?
 Can we maybe hack a few things in?
@@ -45,7 +45,7 @@ With cycle time data, we know materially which area (or areas) of the process ne
 Any effort to speed up processes prior to the bottleneck will fail to achieve faster delivery.
 
 I've seen this scenario over and over again in organizations.
-A company puts in heavy process around testing and deployment in order to avoid mistakes which create significant bottlenecks, putting pressure on the teams to deliver faster, which increases errors through decreased rigor and quality, which justifies the need for even more process and the viscous cycle continues.
+A company puts in heavy process around testing and deployment in order to avoid mistakes which create significant bottlenecks, putting pressure on the teams to deliver faster, which increases errors through decreased rigor and quality, which justifies the need for even more process, and the viscous cycle continues.
 
 Looking at cycle times, we can identify bottlenecks in the flow of work and focus our efforts on finding ways to improve processes that impact the bottleneck.
 Increase flow through the bottleneck and we increase flow through the entire system.
