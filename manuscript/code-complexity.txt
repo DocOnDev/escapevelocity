@@ -15,7 +15,7 @@ This is assuming, of course, that the tests were written quite specifically to t
 In the original 1976 paper on the metric, McCabe notes that there appears to be a correlation between the complexity rank of a piece of code and the project members anecdotal assessment of reliability for the same code.
 Since then, a direct positive correlation between cyclomatic complexity and escaped defects has been determined.
 The higher the complexity, the more escaped defects.
-We cannot say that a cyclomatic complexity of 27 will net 8 bugs or that a specific method with a low cyclomatic complexity will never have a high incidence of escaped defects.
+We cannot say that a cyclomatic complexity of 27 will net 8 bugs, or that a specific method with a low cyclomatic complexity will never have a high incidence of escaped defects.
 What we can say is that overall, statistically, the higher the complexity, the more bugs exist.
 
 As a general rule, keep methods to a cyclomatic complexity measure under 7.
@@ -36,7 +36,7 @@ It can also be represented as a scalar metric which is the magnitude of the vect
 |ABC| = sqrt((A*A)+(B*B)+(C*C))
 ~~~~~~~~
 
-The original theory was that we could take the scalar metric of the code generated in a single day of development, divide it into the estimated scalar metric of the entire application and get the days required to complete the code base.
+The original theory was that we could take the scalar metric of the code generated in a single day of development, divide it into the estimated scalar metric of the entire application and get the number of days required to complete the code base.
 
 So if we estimate that an entire code base will require 300 assignments, 250 Branches, and 180 Conditionals, then we can represent the ABC Score for the entire code base as <300, 250, 180> or 430.
 If on a given day we write code that contains 10 assignments, 2 branches, and 8 conditionals, we can represent that as <10, 2, 8> or 13.
@@ -82,7 +82,7 @@ If code is the output of a developer, then the more code they write in a given t
 This is logical.
 
 It is also, as it turns out, wrong.
-You see, developers solve problems and create solutions through code much like surgeons cure ills and provide remedies through surgery.
+You see, developers solve problems and create solutions through code, much like surgeons cure ills and provide remedies through surgery.
 And just as more surgery doesn't make for a healthier patient, more code doesn't make for a healthier solution.
 
 When developers were evaluated for their output, solutions became verbose.
@@ -174,7 +174,7 @@ end
 There are actually numerous advantages to this approach.
 The most significant of which is that we can now add a new county with standard and specialty tax rates by adding a single line of code.
 We'd simply add another entry to the tax_table.
-What was previously a copy, paste, and modification (or what I frequently refer to as copy, paste, molest) of multiple lines of code, resulting in a longer, harder to read, harder to maintain code base that was more prone to bugs is now a single line entry with no logic changes.
+What was previously a copy, paste, and modification (or what I frequently refer to as copy, paste, molest) of multiple lines of code - resulting in a longer, harder to read, harder to maintain code base that was more prone to bugs - is now a single line entry with no logic changes.
 And if we wanted to, we could push the tax rate data to a database where someone in operations could update it and we'd have no need to deploy additional code.
 
 Non-developers might argue that the former version was more readable.
@@ -187,8 +187,8 @@ Well, no.
 Using various techniques, it is possible to condense three or four lines of easy to read code down to a single convoluted line.
 We can collapse logic into complex statements that are difficult for a human to parse.
 
-That said; statistically fewer lines of code is better.
-Code Climate[^CodeClimate] is a code analysis tool that evaluates code based on numerous metrics and provides developers a report card on the quality of the code.
+That said, statistically, fewer lines of code is better.
+Code Climate[^CodeClimate] is a code analysis tool that evaluates code based on numerous metrics, and provides developers a report card on the quality of the code.
 The folks over at Code Climate run analysis against hundreds of thousands of lines of code every day.
 In this effort, they've learned a number of things about code in general and about code quality metrics.
 For quite a while, they debated over Cyclomatic versus ABC complexity.

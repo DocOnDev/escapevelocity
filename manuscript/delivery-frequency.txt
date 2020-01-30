@@ -93,7 +93,7 @@ If you have one (or many), restructure the teams so that the people that write t
 Overall solution quality is reduced whenever you have some teams responsible for writing software and some teams responsible for fixing it.
 
 By folding this responsibility back into the delivery teams, you allow them to learn more rapidly and encourage them to double-check requirements and quality.
-Break/fix teams encourage a lower quality product and impede learning from happening where it is most valuable.
+Break/fix teams encourage a lower quality product, and impede learning from happening where it is most valuable.
 
 
 [^StateOfDevOps2014]: 2014 State of DevOps Report. (n.d.). Retrieved June 29, 2017, from https://puppet.com/resources/whitepaper/2014-state-devops-report

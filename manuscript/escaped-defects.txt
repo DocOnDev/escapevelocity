@@ -26,28 +26,28 @@ I've read arguments about how the operating system and hardware controllers are 
 
 I've experienced the reality of bugs in the operating system impacting our software.
 I had a client that asked us to write a system that routed forms to varying printer locations based on where the recipient was located within the building.
-This was for a medical center prior to smart phones and they wanted to get paperwork and messages to doctors as fast as possible.
+This was for a medical center prior to smart phones, and they wanted to get paperwork and messages to doctors as fast as possible.
 So we wrote a system that integrated with both the scheduling system and the keycard security system to determine where doctors were at any given time.
 Messages targeted for the doctor would then route to the nearest printer and be placed in pickup bins for internal couriers to deliver.
 
 The night before we went live, the company's Tech Department rolled out an update to Microsoft Windows.
 The launch was less than spectacular.
 The first message was keyed in, minutes went by, but no report on the printer.
-"You need to fix this.", the client told me.
+"You need to fix this," the client told me.
 
 We ran a print job from Microsoft Word.
 No problem.
 Then we ran a report in the medical records system.
 No job on the printer.
 
-"It appears to be an issue with the printer drivers.", we told the client.
+"It appears to be an issue with the printer drivers," we told the client.
 
-"Nope.", the responded, "Everything was fine until you installed your software."
+"Nope," they responded, "Everything was fine until you installed your software."
 
 We ran another medical systems report from a system that didn't have our software installed on it.
 No job on the printer.
 
-"It is not our software.", we said.
+"It is not our software," we said.
 
 "Not our problem. You were hired to write software that works. Your software doesn't work. We won't pay you the remaining balance."
 
@@ -74,7 +74,7 @@ The network operating system was broken and reporting false positives.
 We delivered the analysis and links to the Novell documentation showing the patch would be in an upcoming release of their operating system.
 Of course, the medical center was intentionally behind on releases, so they wouldn't see the patch for at least another twelve months.
 
-"Fix it.", was the word from the client.
+"Fix it," was the word from the client.
 
 So, much to our dismay, we added a confirmation feature to the software.
 For each job, a print confirmation was routed to a workstation near the printer.
@@ -88,7 +88,7 @@ I guess.
 
 While there are examples that support the argument that you can't have defect free code due to issues in the operating system and controllers, it doesn't
 justify a lack of effort.
-By this same logic, if a framer suspects the foundation was poured under less than ideal conditions then they might as well ignore building code because the home is already flawed in a way that might impact the owner.
+By this same logic, if a framer suspects the foundation was poured under less than ideal conditions, then they might as well ignore building code because the home is already flawed in a way that might impact the owner.
 
 The framer has a professional responsibility.
 If they feel the foundation is too weak to build on top of, they need to raise the concern.
@@ -103,9 +103,11 @@ Most of the defects in today's software were put there by us.
 
 We write clever solutions to complex problems.
 We stick with our first implementation because it is "done" even though we now know of a better solution.
-We leave a few smells in the code because it works and that's all that matters.
-We form teams around technical skills instead of around products or business need because our managers know more about the technology than they do about management or leadership.
+We leave a few smells[^CodeSmell] in the code because it works and that's all that matters.
+We form teams around technical skills instead of around products or business need, because our managers know more about the technology than they do about management or leadership.
 Over time, these compromises and mistakes add up and strange defects start to appear in production.
+
+[^CodeSmell: Code Smell. Accessed March 24, 2018. http://c2.com/xp/CodeSmell.html.
 
 #### Remember The Goal is to *Release* Defect Free Software
 
@@ -122,12 +124,12 @@ Humans perform exploratory testing.
 We run tests for load to make sure the code can hold up to the demand in production.
 In many organizations, the code is checked yet again in a near-production environment.
 
-If a defect is discovered at any point along this path, the code changes are rejected and the development team makes the necessary changes.
+If a defect is discovered at any point along this path then the code changes are rejected, and the development team makes the necessary changes.
 The cycle repeats until we find zero defects.
 Then, it goes to production.
 
 In many organizations, if there is an outage due to a defect in code production, then an analysis of the root cause takes place in order to learn and make sure that the situation doesn't repeat itself.
-What if we did a light weight version of the analysis when a defect showed up in staging?
+What if we did a light-weight version of the analysis when a defect showed up in staging?
 Or even in the integration environment?
 What if learning were important at every stage of the cycle, not only when a customer was affected?
 
@@ -137,7 +139,7 @@ I've seen it done in environments far less rigorous than the one I just describe
 In measuring escaped defects (defects that make it into production) what we are looking for is primarily the rate at which defects escape and secondarily the number of defects at large.
 It is helpful to know how many defects exist in production at any given moment.
 If you find yourself in a situation where you are classifying defects such that some are deemed not important enough to fix, I suspect you are in serious trouble.
-It is only when the rate at which defects are escaping is significant enough that we no longer feel we can address them that such classifications occur.
+Classifications for defects tend to get introduced once the defect escape rate is high enough that we feel like we can't keep up.
 
 I encourage you to pay attention to the rate of escape.
 How many defects per time period are you experiencing?

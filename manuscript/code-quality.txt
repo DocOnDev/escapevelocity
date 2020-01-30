@@ -12,7 +12,7 @@ From indentation to variable names to the specific inner workings of each of the
 It is surely a quality job.
 
 And along comes another developer.
-"This code is terrible.", she claims.
+"This code is terrible," she claims.
 "It is convoluted and impossible to maintain."
 The original developer disagrees.
 He knows exactly where to go to add requested functionality.
@@ -23,7 +23,7 @@ How do we assess quality?
 
 Here's the thing.
 It is hard to assess quality from utility alone.
-If Bob the electrician wires your house poorly, but the finish on the house looks great, how do you know the electrician did a quality job?
+If Bob, the electrician, wires your house poorly, but the finish on the house looks great, how do you know the electrician did a quality job?
 If you ask Bob, what is he going to tell you?
 If another electrician suggests some of the wiring should be re-done, Bob is going to tell you the other electrician is mistaken.
 Maybe the other electrician is just trying to scare you into spending money with them.
@@ -65,12 +65,12 @@ And yet, the inspections in software are all around process, not construction.
 For those companies subject to such regulation, software process is monitored and checked.
 Did the right people sign off?
 Was there a proper separation of responsibilities?
-Were high-level tests executed and did they pass?
+Were high-level tests executed, and did they pass?
 Yet there are no checks for actual quality of construction.
 
 If we equate software construction to electrical work, we might see the issue.
 Metaphorically, somebody is required to check that the switch was installed at the right time in the flow of work.
-Somebody in required to check that the switch works.
+Somebody is required to check that the switch works.
 Somebody is required to check that somebody checked the switch.
 There are audit trails to prove the switch was approved to be installed, that it was in fact installed, and that all switch checks were performed.
 But nobody is required to inspect the wiring.

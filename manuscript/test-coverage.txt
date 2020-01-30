@@ -5,22 +5,19 @@ Test coverage is nothing but a measure of how much of the code is covered by
 tests.
 I've seen plenty of teams with high test coverage achieved through some form
 of integration test with awful internal code quality.
-I've seen teams with extremely low coverage with good, if not excellent, internal
-code quality.
+I've seen teams with extremely low coverage with good, if not excellent, internal code quality.
 
-So why would I advocate for test coverage as a metric and why would I further
-classify it as a quality metric?
-I mean I just said it isn't really a measure of quality.
+So why would I advocate for test coverage as a metric and why would I further classify it as a quality metric?
+I mean, I just said it isn't really a measure of quality.
 That's true.
-Test coverage is not a measure of quality.
-But having test coverage is an indicator of quality.
+Test coverage is not a measure of quality, but having test coverage is an indicator of quality.
 
 Allow me to explain.
 Code that is poorly written is hard to test in isolation.
 And code that is hard to test in isolation is poorly written.
 To test in isolation is to test a single piece of functionality, such
 as a method or function, without exercising code in other methods or functions.
-The more dependencies the code has, the more complex it is, and the move convoluted the
+The more dependencies the code has, the more complex it is, and the more convoluted the
 internals, then the harder it is to test in isolation.
 The inverse is also true; the easier code is to test in isolation, then the less convoluted
 it is, the more simple it is, and the fewer dependencies it has.
@@ -51,7 +48,7 @@ of how well the code is written.
 
 A common mistake I see is teams who get excited about test coverage and set a
 goal for it.
-once they can see how test coverage negatively correlates to bugs and cycle
+Once they can see how test coverage negatively correlates to bugs and cycle
 times, they want more coverage in order to reduce defects and to deliver faster.
 The logic is usually that if 30% test coverage is good, then 50% must be better
 and 100% would be better still.
@@ -100,82 +97,56 @@ expect(less_than_four(false,false)).to be < 4
 
 This gets us to 100% test coverage.
 But in this case, 100% coverage is not enough.
-A test for (false, true), returns a result equal to 4, which is a bug per
-the intended behavior of the function.
-100% coverage means we've passed through each line of code at least once in our
-testing, it does not mean we've exercised all combinations and permutations of
-the code.
+A test for (false, true), returns a result equal to 4, which is a bug per the intended behavior of the function.
+100% coverage means we've passed through each line of code at least once in our testing, it does not mean we've exercised all combinations and permutations of the code.
 
-You might be thinking, "Okay, Doc. But isn't that an argument for 100% test coverage
-as a minimum target?"
+You might be thinking, "Okay, Doc. But isn't that an argument for 100% test coverage as a minimum target?"
 
 Perhaps.
-In this case, I am saying 100% test coverage isn't sufficient to indicate we're
-bug free.
-I am saying that our test coverage needs to be thought through, not just based on
-a minimum target.
+In this case, I am saying 100% test coverage isn't sufficient enough to indicate we're bug free.
+I am saying that our test coverage needs to be thought through, not just based on a minimum target.
 
 In some cases, like the one described above, 100% test coverage is simply not enough.
 And in some cases, 100% test coverage is simply too much.
 
 Let's take a common scenario where a team is working on a long-established code
 base.
-The product has been around for three or four years, consists of hundreds of
-thousands of lines of code and has no automated tests to speak of.
-I see this in a great number of organizations that rely on manual testing or
-organizations that tried to use some form of record/playback test automation
-until it got too hard to maintain and abandoned the effort.
+The product has been around for three or four years, consists of hundreds of thousands of lines of code, and has no automated tests to speak of.
+I see this in a great number of organizations that rely on manual testing, or organizations that tried to use some form of record/playback test automation until it got too hard to maintain and abandoned the effort.
 In either case, they've now got 0% test coverage.
 
 What is this team to do?
 Do they try to get all the code covered with tests?
 If so, do they stop feature development until they have 100% coverage?
-Or maybe they set a target of 100% and try to both deliver new features and
-increase coverage.
+Or maybe they set a target of 100% and try to both deliver new features and increase coverage.
 
 I say they do none of these things.
 Instead, concentrate on writing tests around the code you're working in.
 Don't bother with anything else.
-If you need to change existing code, write enough tests to feel safe making the
-change.
-If you are writing new features or functions, get comprehensive testing around
-them.
+If you need to change existing code, write enough tests to feel safe making the change.
+If you are writing new features or functions, get comprehensive testing around them.
 Make sure anything you modify or add is well tested.
 Don't worry about the rest.
-Code that has been in production, has no existing tests, has no reported defects,
-and doesn't need to change doesn't need test coverage at the moment.
-When there is a defect reported or the functionality needs to change, then you
-need tests around it.
+Code that has been in production, has no existing tests, has no reported defects, and doesn't need to change doesn't need test coverage at the moment.
+When there is a defect reported, or the functionality needs to change, then you need tests around it.
 
-Following this technique, you are addressing the highest risk - the code with
-the highest churn rate.
+Following this technique, you are addressing the highest risk - the code with the highest churn rate.
 The term churn indicates the rate of change.
-Code that changes often is said to have a higher churn rate than code that changes
-infrequently or not at all.
-It may turn out that numbers as low as 30% overall test coverage are sufficient
-to safely work on the code base and help to ensure no new escaped defects.
-Focusing on 100% coverage for the entire code base would result in a lot of work
-with very little return.
-In these cases - and my experience is that these are the common cases - 100%
-could reasonably be considered too much test coverage.
+Code that changes often is said to have a higher churn rate than code that changes infrequently or not at all.
+It may turn out that numbers as low as 30% overall test coverage are sufficient to safely work on the code base and help to ensure no new escaped defects.
+Focusing on 100% coverage for the entire code base would result in a lot of work with very little return.
+In these cases - and my experience is that these are the common cases - 100% could reasonably be considered too much test coverage.
 
-So if 100% test coverage may be insufficient and 100% test coverage may be too
-much, you can see why I don't advocate for test coverage targets.
+So if 100% test coverage may be insufficient and 100% test coverage may be too much, you can see why I don't advocate for test coverage targets.
 No single number universally indicates quality or safety.
-Test coverage needs to be achieved intentionally; thinking about what needs to
-be tested and why and how.
+Test coverage needs to be achieved intentionally; thinking about what needs to be tested, and why and how.
 
 If we don't set a target, why have the metric at all?
 
 Interesting question.
-While no one number is a clear indication of sufficient or insufficient test
-coverage, test coverage is negatively correlated to risk.
-An increasing percentage of test coverage indicates a diminishing risk, a
-decreasing percentage of test coverage indicates a growing risk, and a steady
-percentage of test coverage indicates a steady level of risk.
+While no one number is a clear indication of sufficient or insufficient test coverage, test coverage is negatively correlated to risk.
+An increasing percentage of test coverage indicates a diminishing risk, a decreasing percentage of test coverage indicates a growing risk, and a steady percentage of test coverage indicates a steady level of risk.
 This is a generalization.
 You can't count on test coverage alone as an assessment of risk.
-Test coverage won't tell you about the market, how brilliant your idea is, or
-whether or not you've sufficient funds to keep operating.
-But in monitoring the trend of test coverage around the code with high churn,
-you can get a sense of risk around changes to the code base.
+Test coverage won't tell you about the market, how brilliant your idea is, or whether or not you've sufficient funds to keep operating.
+But, in monitoring the trend of test coverage around the code with high churn, you can get a sense of risk around changes to the code base.
