@@ -5,7 +5,7 @@ One of my all-time most popular tweets[^DocTweetSimply] states,
 {icon=twitter-square}
 G> "We simply ask that you be innovative without mistakes while working as a team toward individual performance goals."
 
-[^DocTweetSimply]: Norton, Doc. “We Simply Ask That You Be Innovative without Mistakes While Working as a Team to Achieve Individual Performance Goals.” Twitter. Twitter, May 8, 2018. https://twitter.com/DocOnDev/status/993855609018769408.
+[^DocTweetSimply]: Norton, Doc. "We Simply Ask That You Be Innovative without Mistakes While Working as a Team to Achieve Individual Performance Goals." Twitter. Twitter, May 8, 2018. https://twitter.com/DocOnDev/status/993855609018769408.
 
 Most folks readily scoff at, "be innovative without mistakes".
 
