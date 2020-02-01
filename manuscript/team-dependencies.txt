@@ -36,7 +36,7 @@ If they consistently don't show, see if you can get another representative.
 Be professional and courteous, but there is no need to be completely deferent.
 If the project is important, you should be able to ask for the necessary support.
 
-[^Part11]: "CFR 21 Part 11." ECFR - Code of Federal Regulations, www.ecfr.gov/cgi-bin/text-idx?SID=f1bee623c51f42bd4649ee5ded1ca49e&mc=true&node=pt21.1.11&rgn=div5.
+[^Part11]: "CFR 21 Part 11." ECFR - Code of Federal Regulations, https://www.ecfr.gov/cgi-bin/text-idx?node=pt21.1.11&rgn=div5.
 
 ### Join Forces
 
@@ -73,7 +73,7 @@ The structure of our systems reflect the structure of our organizations.
 
 If you want to change the design of the system (the architecture), you must change the design of the organization to reflect the desired outcome.
 
-[^HBSConway]: Maccormack, Alan, John Rusnak, and Carliss Y. Baldwin. “Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis.” SSRN Electronic Journal, 2008. https://doi.org/10.2139/ssrn.1104745.
+[^HBSConway]: Maccormack, Alan, John Rusnak, and Carliss Y. Baldwin. "Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis." SSRN Electronic Journal, 2008. https://doi.org/10.2139/ssrn.1104745.
 
 [^ConwayPaper]: Committees Paper. Accessed October 19, 2018. http://www.melconway.com/Home/Committees_Paper.html.
 
