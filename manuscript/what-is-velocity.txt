@@ -62,7 +62,7 @@ Conversely, policies focused on addressing broader monetary and fiscal trends ca
 
 
 Similarly, one of the problems with velocity as a lagging indicator is that while it can tell how much work we delivered over a given time period, it cannot tell how well the team is doing at ensuring consistent delivery or at improving their process overall.
-For some teams, velocity may be an indicator of team health or at least capability, but it provides no insight into root causes.
+Velocity provides little to no insight into root causes of process issues.
 
 Moreover, attempts to increase velocity directly tend to either create artificial increases that are not sustainable, or result in other more detrimental issues, whereas efforts to address underlying causes more often than not result in improvements in velocity.
 Managing [story composition](#story-composition) and limiting [work in process](#wip) results in smoother flow, which leads to a more stable velocity and the ability for a team to mature into more rapid delivery.
