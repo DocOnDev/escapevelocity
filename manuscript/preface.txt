@@ -25,8 +25,7 @@ The teams I worked with improved.
 They got better at quality.
 They got better at delivering solutions that delighted customers.
 They got better at working together.
-But they rarely got better at estimating.
-They rarely got better at stabilizing their velocity.
+But they rarely got better at estimating or forecasting with velocity.
 
 Thanks to a crafty certification scheme, Scrum grew very popular in the corporate world.
 You could send people to two days of training and get them certified.
@@ -35,7 +34,7 @@ Boom!
 You're agile.  
 Easy peasy.
 
-After a while, I started to see more and more teams myopically focused on their velocity.
+Over time, I started to see more teams myopically focused on their velocity.
 Teams engaged in all sorts of behavior in attempts to make their velocity look like they thought it was supposed to.
 Managers set velocity goals and pushed teams to move faster.
 
@@ -48,10 +47,12 @@ I am not anti-Scrum.
 I think it is far too often implemented improperly and has become twisted over the years.
 I believe this to be a result of Scrum's light-weight certification diluting the pool of "experienced" practitioners.
 
-I would say I am anti-velocity at this point.
+I'd say I am anti-velocity at this point.
 It is a poor metric that offers far less value than the angst that results from the perpetual misuse.
+
+Hopefully, you find value herein and come away with a better set of tools for helping teams forecast and get to predictability.
 
 {icon=quote-left}
 G> Velocity is a poor metric that offers far less value than the angst that results from the perpetual misuse.
 
-Hopefully, you find value herein and come away with a better set of tools for helping teams forecast and get to predictability.
+
