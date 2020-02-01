@@ -124,7 +124,7 @@ These are not the same thing, but they present similarly on the surface; especia
 What we're getting at here is the usefulness of Lead Time Distributions.
 They are simple to create, easy to read, and give us an actual mathematical basis for forecasts versus the usual pseudo-mathy estimates found on many agile teams.
 
-To create a lead time distribution, you chart the lead time of each story on a simple graph.
+To create a lead time distribution, you chart the lead time of each story (or whatever you call a unit of work) on a simple graph.
 Along the X axis is time, most likely in days.
 The Y axis is the count of items that had a given lead time.
 The way I do it is usually a simple chart on graph paper with each square counting as a single unit.
