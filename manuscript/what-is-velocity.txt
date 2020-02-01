@@ -86,6 +86,7 @@ Sales volume is a lagging indicator which tells us something about how we did in
 
 The following shows 10 years of retail sales for a narrow set of products.
 
+{width: 50%}
 ![Retail Sales Volume by Period](images/CFD.030.jpeg)
 
 From this graph, we can discern some patterns.
