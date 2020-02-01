@@ -85,14 +85,15 @@ For retail, we can use sales volume as our "velocity".
 Sales volume is a lagging indicator which tells us something about how we did in the prior period, but does not give us any indication as to why sales were high or low.
 
 The following graph shows 10 years of retail sales for a narrow set of products.
+
+![Retail Sales Volume by Period](images/CFD.030.jpeg)
+
 From this graph, we can discern some patterns.
 We know Q4 sales are consistently higher than the others. And we know that Q1 sales are normally the lowest at approximately 75% of the prior Q4.
 We can also see that the sales from the prior quarter is often not a good indicator of what the next quarter's sales will be.
 Sure, we can look at the long history and determine average percentages and apply that to get a fairly good guess.
 But we need the long history.
 Looking at only the prior quarter's sales is insufficient for determining the next quarter's sales.
-
-![Retail Sales Volume by Period](images/CFD.030.jpeg)
 
 Similarly, our velocity from the immediately concluded iteration is not often a good indicator of what the velocity will be in the next iteration.
 From one iteration to the next, velocity can vary wildly due to any number of factors.
