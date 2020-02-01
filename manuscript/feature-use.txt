@@ -5,7 +5,7 @@ It seems that one of the hardest things for a software company to do is kill a f
 We conceived of it, designed it, planned it, created it, tested it, and released it.
 How could we possibly kill it?
 
-Yet there are so many pieces of software out there awash with nearly useless features that the majority of users will never utilize.
+Yet, there are so many pieces of software out there awash with nearly useless features that the majority of users will never utilize.
 
 There is a difference between a product that is loaded with features and a product that is bloated with features.
 That difference, as it turns out, is not determined by the creator, but by the consumer.
@@ -15,7 +15,7 @@ The impact goes beyond simply whether or not a feature gets used.
 The more features a piece of software has, the greater the learning curve and the more cognitive load required to use it.
 Software with more features is almost always harder to use.
 And software with more features is therefor harder to adopt in the first place.
-The more features you add, the more likely your existing users are going to fall out of love with your solution and the less likely new users will fall in love in the first place.
+The more features you add, the more likely your existing users are going to fall out of love with your solution, and the less likely new users will fall in love in the first place.
 Jared Spool refers to this phenomenon as Experience Rot[^ExperienceRot].
 
 [^ExperienceRot]: "Experience Rot." UX Articles by UIE. August 10, 2018. Accessed October 18, 2018. https://articles.uie.com/experience_rot/.
@@ -26,7 +26,7 @@ Here, we'll briefly discuss feature retention and refinement.
 
 There are a number of tools available on the market today for adding telemetry to your applications.
 These tools enable you to add small pieces of code to your software which then gather anonymous information about users and how they interact with the software.
-Using tools such, you can monitor a number of aspects of the software[^ProductMeasures], including adoption rate[^AdoptionRate], retention rate[^RetentionRate], and task success[^TaskSuccess] to help determine if a feature is worth keeping around in its current form.
+Using such tools, you can monitor a number of aspects of the software[^ProductMeasures], including adoption rate[^AdoptionRate], retention rate[^RetentionRate], and task success[^TaskSuccess] to help determine if a feature is worth keeping around in its current form.
 
 [^AdoptionRate]: Kenton, Will. "Rate of Adoption." Investopedia. March 12, 2019. Accessed April 19, 2019. https://www.investopedia.com/terms/r/rate-of-adoption.asp.
 
@@ -42,10 +42,10 @@ Adoption rate might be how many users are upgrading to the latest release, how m
 
 Look at user adoption rate as a percentage of all users as opposed to as an isolated number.
 You may see an increase in the number of users for a new feature and think it is a success.
-But it might turn out that the rate of adoption for the overall application is out-pacing the feature.
+However, it might turn out that the rate of adoption for the overall application is out-pacing the feature.
 In such a case, while feature adoption is growing, the percent of users interested in the feature may be in decline.
 
-A basic adoption rate is the number of users use first use our feature in a given time period (F), divided by the days in the time period (D).
+A basic adoption rate is the number of users who first use our feature in a given time period (F), divided by the days in the time period (D).
 
 Adoption Rate = F/D
 
@@ -114,7 +114,7 @@ Completion rate is a means of measuring how many users completed an intended act
 This gives us some indication of whether or not users are getting the intended value from the feature.
 
 Task time is the amount of time it takes to complete an activity.
-This give us some indication of the investment a user needs to make and may tell us that a particular task/process is too difficult.
+This give us some indication of the investment a user needs to make, and may tell us that a particular task/process is too difficult.
 
 Task level satisfaction tells us how a user feels about the task itself.
 This is usually measured via micro-surveys at the end of a task.
@@ -122,7 +122,7 @@ This is usually measured via micro-surveys at the end of a task.
 While time and satisfaction are valuable pieces of data, we are going to focus on the measure of binary completion rate.
 This is easy to measure, regardless of audience size, can be measured before software is even written via prototypes, and is considered a fundamental metric for products.
 
-For binary completion rate, you define a scenario for a user to complete such as scheduling an event, making a purchase, or inviting a friend.
+For binary completion rate, you define a scenario for a user to complete - such as scheduling an event, making a purchase, or inviting a friend.
 You monitor the number of users who began the task as well as the number of users who completed the task.
 There is no partial credit.
 Either they finished the task or they did not.

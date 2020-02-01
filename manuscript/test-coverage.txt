@@ -17,16 +17,14 @@ Code that is poorly written is hard to test in isolation.
 And code that is hard to test in isolation is poorly written.
 To test in isolation is to test a single piece of functionality, such
 as a method or function, without exercising code in other methods or functions.
-The more dependencies the code has, the more complex it is, and the more convoluted the
-internals, then the harder it is to test in isolation.
-The inverse is also true; the easier code is to test in isolation, then the less convoluted
-it is, the more simple it is, and the fewer dependencies it has.
+The more dependencies the code has, the more complex it is, and the more convoluted the internals, then the harder it is to test in isolation.
+The inverse is also true; the easier code is to test in isolation, then the less convoluted it is, the more simple it is, and the fewer dependencies it has.
 
-If I cannot test a method without also testing another method, then the two
-methods are said to be coupled together.
-When methods are coupled together such that I cannot test one method without testing
-both methods, then there is a good chance I cannot change the first method
-without changing both methods.
+{icon=quote-left}
+G> Test coverage is not a measure of quality, but having test coverage is an indicator of quality.
+
+If I cannot test a method without also testing another method, then the two methods are said to be coupled together.
+When methods are coupled together such that I cannot test one method without testing both methods, then there is a good chance I cannot change the first method without changing both methods.
 
 If we find this kind of coupling once or twice in a code base, it might be of
 little concern.
@@ -109,8 +107,7 @@ I am saying that our test coverage needs to be thought through, not just based o
 In some cases, like the one described above, 100% test coverage is simply not enough.
 And in some cases, 100% test coverage is simply too much.
 
-Let's take a common scenario where a team is working on a long-established code
-base.
+Let's take a common scenario where a team is working on a long-established code base.
 The product has been around for three or four years, consists of hundreds of thousands of lines of code, and has no automated tests to speak of.
 I see this in a great number of organizations that rely on manual testing, or organizations that tried to use some form of record/playback test automation until it got too hard to maintain and abandoned the effort.
 In either case, they've now got 0% test coverage.
@@ -150,3 +147,7 @@ This is a generalization.
 You can't count on test coverage alone as an assessment of risk.
 Test coverage won't tell you about the market, how brilliant your idea is, or whether or not you've sufficient funds to keep operating.
 But, in monitoring the trend of test coverage around the code with high churn, you can get a sense of risk around changes to the code base.
+
+{icon=left-quote}
+G> Test coverage needs to be achieved intentionally; thinking about what needs to be tested, and why and how.
+

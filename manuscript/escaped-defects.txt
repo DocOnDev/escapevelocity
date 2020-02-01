@@ -11,6 +11,9 @@ It is possible you like to self-impose bottlenecks and prefer late feedback, so 
 But it is unlikely code moves without any form of peer review.
 Right?
 
+{icon=quote-left}
+G> An escaped defect is an indication of systemic failure.
+
 Unit and acceptance/regression tests are being written around the code you add or change.
 Developers are each running these tests dozens of times per day, if not more often.
 The continuous integration server runs these tests for every check-in, which is also multiple times per day.
@@ -123,6 +126,10 @@ The code is deployed to another server where the entire automated test suite is 
 Humans perform exploratory testing.
 We run tests for load to make sure the code can hold up to the demand in production.
 In many organizations, the code is checked yet again in a near-production environment.
+
+{icon=quote-left}
+G> Writing defect-free code is practically impossible.
+G> But releasing defect-free code is definitely possible.
 
 If a defect is discovered at any point along this path then the code changes are rejected, and the development team makes the necessary changes.
 The cycle repeats until we find zero defects.

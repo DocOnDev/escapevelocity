@@ -76,6 +76,9 @@ learn this was wrong in the 1970s?
 I am advocating for it.
 Because we failed to learn an important lesson.
 
+{icon=quote-left}
+G> More code doesn't make for a healthier solution.
+
 It was once common in the industry to measure a developer's productivity by their "output".
 If we think that the role of developers is to write code, then we probably think that code is their output.
 If code is the output of a developer, then the more code they write in a given time frame, the more efficient they are.

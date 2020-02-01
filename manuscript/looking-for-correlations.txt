@@ -1,24 +1,19 @@
 {#correlations}
 # Looking for Correlations
 
-While a balanced set of regular metrics is certainly valuable and advisable,
-there may be occasions when you want to measure additional items.
-Or there may reasons to take a deeper look at how your metrics relate to one
-another.
+While a balanced set of regular metrics is certainly valuable and advisable, there may be occasions when you want to measure additional items.
+Or there may reasons to take a deeper look at how your metrics relate to one another.
 Are there correlations in the data?
 Does pairing regularly correlate to code quality in any way?
 Does code coverage correlate to complexity?
 
 Let me give you a concrete example where knowing about correlations might be desirable.
-Say you are on a team that has a history of not testing in order to improve
-their speed to delivery.
+Say you are on a team that has a history of not testing in order to improve their speed to delivery.
 The premise, of course, is that skipping tests means less work.
 And less work, means faster delivery.
 Without any actual data aside from anecdote, this proclamation seems logical.
 
 But what if you had the data?
-What if you could measure velocity by coverage and prove that not testing
-means getting the work done faster?
+What if you could measure velocity by coverage and prove that not testing means getting the work done faster?
 
-To do this, you'd need to measure test coverage and velocity and see if there's
-any correlation by plotting them on a scatter diagram.
+To do this, you'd need to measure test coverage and velocity, and see if there's any correlation by plotting them on a scatter diagram.

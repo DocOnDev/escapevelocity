@@ -1,14 +1,15 @@
 {#balanced-metrics}
 # Balanced Metrics
 
+{icon=quote-left}
+G> Measure what you want to go up, but also measure what you don't want to go down.[^BlandMeasure]
+
+[^BlandMeasure]: Bland, David J. “Measure What You Want to Go up, but Also Measure What You Don't Want to Go down.” Twitter. Twitter, April 24, 2017. https://twitter.com/davidjbland/status/856643503606030336.
+
 We've discussed a number of possible metrics to augment or even replace velocity.
 Rather than looking for the one true measure, it is important that we create a portfolio of measures that properly inform us about our process and progress.
 My advice to teams is to measure many things.
 Or, in the words of David J. Bland, "Measure what you want to go up, but also measure what you don't want to go down."
-
-{icon=quote-left}
-G> Measure what you want to go up, but also measure what you don't want to go down.
-G> https://twitter.com/davidjbland/status/856643503606030336
 
 We know that measuring and making the measurement known changes behavior and thereby the outcomes.
 We know this from [Hawthorne Effect](#hawthorne-effect).
@@ -27,14 +28,14 @@ We've covered a number of metrics in this book, but our list is by no means comp
 Think about the system you are in and the standards you want to adhere to.
 How would you objectively know you are meeting those goals?
 How would you know if you are trending in the right direction in pursuit of those goals?
-Establish a set of measures you can take that inform you and pay attention to them.
+Establish a set of measures you can take that inform you, and pay attention to them.
 
 If you find a specific measure is not particularly informative or useful in pursuit of your goals, stop measuring it.
 As an example, at one client, we stopped performing customer surveys and focused on measuring interactions and conversions.
 Interestingly enough, we found it was relatively common for customers to give changes a low rating while simultaneously increasing their interactions and conversions.
 Our goal was conversions - enticing customers to take certain actions that lead to revenue for us.
 I'm not saying we didn't want customers to be happy with our software.
-What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging more with the software in an increased revenue positive way.
+What I am saying is customers often reported mediocre opinions of a change while simultaneously engaging more with the software in an increased revenue-positive way.
 In surveys, customers said they were neutral or even negative about a change, yet they increased their engagement, used the solution more, and generated more revenue for the company.
 The data from actual usage was more accurate than the opinions of the customers who took the time to complete the surveys.
 
@@ -47,7 +48,7 @@ I am often asked what metrics a team (or teams) should use.
 This question often comes devoid of much detail, such as the make up of the team, how long they've been together, what pain they are experiencing, or what objectives they're trying to measure for.
 In these cases, I tend to advise teams to start with five basic metrics - [feature use](#feature-use), [lead time](#lead-time), [cumulative flow](#cumulative-flow), [code quality](#code-quality), and [team joy](#team-joy).
 These five metrics allow a team to determine if the customer is using the software, see if their time to delivery is improving, identify bottlenecks, know if they are managing consistent or improving quality, and learn if the team feels good about the work.
-With this information, they can tweak their efforts and find that sweet spot where they are moving as fast as possible without sacrificing quality and not burning out the team all while adding value for the customer.
+With this information, they can tweak their efforts and find that sweet spot where they are moving as fast as possible without sacrificing quality and not burning out the team, all while adding value for the customer.
 
 I am not saying these are the only measures you should use.
 I am not saying these measures are mandatory.

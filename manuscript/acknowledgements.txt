@@ -3,7 +3,7 @@
 I've had the great fortune of working with amazing people my entire career.
 There is no possible way I can acknowledge all who've had an impact on me and made this possible.
 So many have touched my life in so many ways.
-Herein I will attempt to acknowledge those who've altered my course significantly or had a direct impact on the making of this book.
+Herein I will attempt to acknowledge those who've altered my course significantly, or had a direct impact on the making of this book.
 Know that if I haven't mentioned you, you are in my heart and I am sorry for the oversight.
 
 I love you all. Sincerely.
@@ -13,10 +13,10 @@ I started my career at a Law Firm in Cleveland Ohio where *Richard Kucia* and *J
 Joe was especially influential as it was he who showed me the benefits of working in small chunks.
 
 I soon started my own consultancy where I eventually partnered with *Brian Goleno* and *Mike Farona*, both of whom were influential in my continued growth.
-It was there that we first started experimenting with alternative approaches to software and it was Brian who pointed me toward XP and then ThoughtWorks, a company I followed for years before joining.
+It was there that we first started experimenting with alternative approaches to software, and it was Brian who pointed me toward XP and then ThoughtWorks, a company I followed for years before joining.
 
 At ThoughtWorks, I found a home, albeit temporary.
-The number of people with whom I had opportunity to have great discussions and debate and to learn from is too significant to count.
+The number of people with whom I had the opportunity to have great discussions and debate and to learn from is too significant to count.
 My time with ThoughtWorks was relatively short, but the impact was immense.
 My life changed for the better the day I became a ThoughtWorker.
 
@@ -38,12 +38,12 @@ He and I never got the opportunity to work on a project together, but we did hav
 Matt's sarcastic whit is bested only by his deep insights.
 Little did he know it, but one snark from him often lead to days of research for me.
 
-As my exposure to the agile community grew, I had the fortune to meet and spent quality time with many of its founders and leaders.
+As my exposure to the agile community grew, I had the fortune to meet and spend quality time with many of its founders and leaders.
 What I thought I knew was challenged and I turned from being the "expert" to being a beginner, which I've tried to be ever since.
 Related specifically to the material in this book, I recall conversations with *Diana Larsen*, *Ron Jeffries*, and *Jon Kern* as especially influential.
 
 At Groupon, I had a unique opportunity to take everything I'd learned and put it into practice.
-My small team started a movement within Groupon Engineering to put people above process and to foster Autonomy, Connection, Excellence, and Diversity.
+My small team started a movement within Groupon Engineering to put people above process, and to foster Autonomy, Connection, Excellence, and Diversity.
 These are the cornerstones of OnBelay's philosophy and mission today.
 
 When I started out to write a book, I struggled.
@@ -54,11 +54,11 @@ I was afraid of putting in long hours for zero reward.
 Were it not for Johanna, this book would most certainly not have happened.
 
 Of course, none of my journey was possible without the continued support of my family.
-*Terri and Ladd Puskus*, *Richard and Marilyn Norton*, *Rick Norton*, *Jennifer Norton*, *Courtney Norton*, *Sean Norton* made up my greatest support network and gave me purpose in life.
+*Terri and Ladd Puskus*, *Richard and Marilyn Norton*, *Rick Norton*, *Jennifer Troutvine*, *Courtney Norton*, and *Sean Norton* made up my greatest support network and gave me purpose in life.
 
-And in this past year, as I wrote this book, nobody has been more influential and supportive than my partner in business and life, *Diane Zajac*.
+And in this past year, as I wrote this book, nobody has been more influential and supportive than my partner in business and in life, *Diane Zajac*.
 She's given me the time and space to write, encouraged me (even pushed me) to keep going, been there to bounce ideas off of, shared her own insights, and worked hard to help me edit the text into something people might actually enjoy reading.
 
 In writing this section, I've looked back on my career and I see the faces of hundreds of friends smiling back at me.
 
-I am truly blessed.
+I am truly fortunate.

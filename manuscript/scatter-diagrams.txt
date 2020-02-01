@@ -6,19 +6,18 @@ The following scatter diagram shows automobile prices by age of the vehicle.
 ![Auto Price by Age](images/CFD.015.jpeg)
 
 Taking a quick look at this chart, you can probably see there is a natural trend
-line moving down and right.
+line moving down and to the right.
 
 ![Auto Price by Age with Trend Line](images/CFD.016.jpeg)
 
 This represents a negative correlation.
 A negative correlation is where as one value increases, the other value decreases.
-Alternatively, a positive correlation would trend up and right, showing that as
-one value increases, so does the other.
+Alternatively, a positive correlation would trend up and to the right, showing that as one value increases, so does the other.
 If there is no correlation, there is no natural trend line.
 
 ### Velocity by Test Coverage
 
-I've actually done this in a couple of environments and the findings were the same each time.
+I've actually done this in a couple of environments, and the findings were the same each time.
 The team was insistent that not testing allowed them to move faster, because they could get more done in less time.
 They were typing less, so they were moving faster.
 
@@ -40,23 +39,22 @@ This is exactly the opposite of the team's original premise.
 At the very beginning of a project, not testing does allow for more rapid delivery.
 But in very short order, measured in days or weeks, certainly not months of effort,
 not testing catches up to you.
-Changes break things and you have to go hunting down the source of the issue.
+Changes break things, and you have to go hunting down the source of the issue.
 You fix the issue and off you go.
 Two days later, some other area of the code is broken and you can't figure out why.
 It turns out a change your teammate made over a week ago broke this area of the code.
-Your teammate didn't know there was a dependency so she didn't test this module.
+Your teammate didn't know there was a dependency, so she didn't test this module.
 
 This happens all the time.
 Mystery bugs.
 Difficulty finding the root cause.
 Not knowing you broke something.
 
-These are all solved or at least improved by having tests.
+These are all solved, or at least improved, by having tests.
 
 Not to mention that tests actually help to ensure the code is better composed.
 
-But this section isn't about tests or test coverage, it is about data and correlations
-helping you to make informed decisions.
+But, this section isn't about tests or test coverage, it is about data and correlations helping you to make informed decisions.
 
 Here's a couple other scatter diagrams I've seen at client locations.
 They might surprise you.
