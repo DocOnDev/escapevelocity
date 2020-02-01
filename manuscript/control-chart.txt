@@ -10,8 +10,6 @@ We can take a look at all testing work and try to find ways to optimize it, but 
 A cycle time control chart can help us find outliers in our flow.
 By focusing in on these outliers, we can likely learn and improve more rapidly.
 
-![Cycle Time Control for Testing](images/CFD.010.jpeg)
-
 The cycle time control chart shows the cycle time for each story over a period of time.
 For each story that completes testing and moves into approval, we note the date it moved and the cycle time for testing.
 
@@ -25,6 +23,8 @@ So we instead need to calculate a computed percentile[^ComputedPercentile].
 
 A scatter diagram with lines for the 50th and 95.4th percentile gives us a basic cycle time control chart.
 The 50th percentile represents the median and the 95.4th percentile in this case approximates a second order standard deviation.
+
+![Cycle Time Control for Testing](images/CFD.010.jpeg)
 
 We can see from our example chart, that the median cycle time in testing for these stories is 12.4 days, which is represented by the gray bar.
 Our 95.4th percentile is at 23.2 days, which is represented by the red bar.
