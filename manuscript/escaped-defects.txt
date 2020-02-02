@@ -110,7 +110,7 @@ We leave a few smells[^CodeSmell] in the code because it works and that's all th
 We form teams around technical skills instead of around products or business need, because our managers know more about the technology than they do about management or leadership.
 Over time, these compromises and mistakes add up and strange defects start to appear in production.
 
-[^CodeSmell: Code Smell. Accessed March 24, 2018. http://c2.com/xp/CodeSmell.html.
+[^CodeSmell]: Code Smell. Accessed March 24, 2018. http://c2.com/xp/CodeSmell.html.
 
 #### Remember The Goal is to *Release* Defect Free Software
 
