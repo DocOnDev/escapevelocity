@@ -3,11 +3,13 @@
 Let's start with a simple scatter diagram as an example.
 The following scatter diagram shows automobile prices by age of the vehicle.
 
+{width=75%}
 ![Auto Price by Age](images/CFD.015.jpeg)
 
 Taking a quick look at this chart, you can probably see there is a natural trend
 line moving down and to the right.
 
+{width=75%}
 ![Auto Price by Age with Trend Line](images/CFD.016.jpeg)
 
 This represents a negative correlation.
@@ -31,6 +33,7 @@ We then looked at velocity (actually cycle time) for stories that had tests and 
 
 Here's what we found:
 
+{width=75%}
 ![Velocity by Code Coverage](images/CFD.017.jpeg)
 
 As we can see, this shows a positive correlation.
@@ -61,6 +64,7 @@ They might surprise you.
 
 ### Velocity by Complexity
 
+{width=75%}
 ![Velocity by Complexity](images/CFD.018.jpeg)
 
 In this case we see a negative correlation between velocity and complexity.
@@ -70,6 +74,7 @@ the lower the velocity.
 {#lead-time-story-size}
 ### Lead Time by Story Size
 
+{width=75%}
 ![Lead Time by Story Size](images/CFD.019.jpeg)
 
 Finally, we see a positive correlation between story size and lead time.
