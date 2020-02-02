@@ -98,8 +98,9 @@ This confirms our already growing suspicion; the standard velocity burn down tec
 ### History
 
 Let's run it again, but this time, let's use some actual throughput history rather than an average or a range.
-To do this, we provide out throughput history for the past several iterations.
+To do this, we provide our throughput history for the past several iterations.
 
+{width=50%, align=right}
 ![Forecast Data](images/ForecastHistory.004.png)
 
 We then adjust the settings to use data, rather than an estimate.
