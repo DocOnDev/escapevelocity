@@ -99,6 +99,7 @@ This confirms our already growing suspicion; the standard velocity burn down tec
 
 ### History
 
+
 Let's run it again, but this time, let's use some actual throughput history rather than an average or a range.
 To do this, we provide our throughput history for the past several iterations.
 
@@ -107,6 +108,11 @@ To do this, we provide our throughput history for the past several iterations.
 
 We then adjust the settings to use data, rather than an estimate.
 The forecaster will now ignore the velocity/throughput range and use the actual data we provided.
+
+Rather than choosing a random number in a range, the forecaster now selects a random throughput value from our history.
+Using this technique, the forecaster is better able to represent a true scenario.
+If our throughput history is consistent with a few outliers, the forecaster will run simulations that are consistent with a few outliers.
+If our throughput history is highly variable, the forecaster will run simulations that are highly variable.
 
 ![Forecast with Data](images/ForecastSettings.004.png)
 
