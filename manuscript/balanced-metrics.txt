@@ -1,7 +1,7 @@
 {#balanced-metrics}
 # Balanced Metrics
 
-{icon=quote-left}
+{icon=quote-left width=45% float=right}
 G> Measure what you want to go up, but also measure what you don't want to go down.[^BlandMeasure]
 
 [^BlandMeasure]: Bland, David J. "Measure What You Want to Go up, but Also Measure What You Don't Want to Go down." Twitter. Twitter, April 24, 2017. https://twitter.com/davidjbland/status/856643503606030336.
