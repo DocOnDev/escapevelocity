@@ -148,6 +148,6 @@ You can't count on test coverage alone as an assessment of risk.
 Test coverage won't tell you about the market, how brilliant your idea is, or whether or not you've sufficient funds to keep operating.
 But, in monitoring the trend of test coverage around the code with high churn, you can get a sense of risk around changes to the code base.
 
-{icon=left-quote}
+{icon=quote-left}
 G> Test coverage needs to be achieved intentionally; thinking about what needs to be tested, and why and how.
 
