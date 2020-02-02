@@ -4,7 +4,7 @@
 {icon=quote-left}
 G> Measure what you want to go up, but also measure what you don't want to go down.[^BlandMeasure]
 
-[^BlandMeasure]: Bland, David J. “Measure What You Want to Go up, but Also Measure What You Don't Want to Go down.” Twitter. Twitter, April 24, 2017. https://twitter.com/davidjbland/status/856643503606030336.
+[^BlandMeasure]: Bland, David J. "Measure What You Want to Go up, but Also Measure What You Don't Want to Go down." Twitter. Twitter, April 24, 2017. https://twitter.com/davidjbland/status/856643503606030336.
 
 We've discussed a number of possible metrics to augment or even replace velocity.
 Rather than looking for the one true measure, it is important that we create a portfolio of measures that properly inform us about our process and progress.
