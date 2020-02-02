@@ -80,10 +80,12 @@ We'll stick with a 0 split rate for this run.
 
 In this simulation, the forecaster will randomly choose a throughput value between the ranges of 8 and 16 for each iteration.
 This is likely a more representative simulation.
-You might be thinking, "But what if the team's throughput has been consistent at 16 and the 8 is a unique outlier?"
+You might be thinking, "But what if the team's throughput has been consistently 15 or 16 and the 8 is a unique outlier?"
 
 Excellent question.
-But you're getting ahead of us a bit.
+Remember that we are currently contrasting this method to our standard way of forecasting; use the last iteration or an average of the last few.
+We've seen the average.
+Now we're looking at what happens when we use a range taken from recent history.
 We'll do another run with more historical data next.
 
 For now, let's look at the results of the forecaster with the given range.
@@ -100,7 +102,7 @@ This confirms our already growing suspicion; the standard velocity burn down tec
 Let's run it again, but this time, let's use some actual throughput history rather than an average or a range.
 To do this, we provide our throughput history for the past several iterations.
 
-{width=50%, align=right}
+{width: 50%, float: right}
 ![Forecast Data](images/ForecastHistory.004.png)
 
 We then adjust the settings to use data, rather than an estimate.
