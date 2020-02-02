@@ -71,17 +71,29 @@ Things happen; people are out, stories get blocked, we stay late to get more wor
 
 ### Range
 So let's run it again, but this time, we will use our velocity range instead of the average.
-Using our prior three iterations, the velocity had a low of 8, and a high of 16.
-We'll stick with a 0 split rate for this run.
 
 ![Forecast with Range](images/ForecastSettings.002.png)
+
+Using our prior three iterations, the velocity had a low of 8, and a high of 16.
+We adjust the historical throughput low to 8 and the high to 16.
+We'll stick with a 0 split rate for this run.
+
+In this simulation, the forecaster will randomly choose a throughput value between the ranges of 8 and 16 for each iteration.
+This is likely a more representative simulation.
+You might be thinking, "But what if the team's throughput has been consistent at 16 and the 8 is a unique outlier?"
+
+Excellent question.
+But you're getting ahead of us a bit.
+We'll do another run with more historical data next.
+
+For now, let's look at the results of the forecaster with the given range.
 
 ![Range Forecast Results](images/ForecastResults.002.png)
 
 This time, our 18 week projection is showing a 10 to 50% probability.
 20 weeks has a 55 to 90% probability and 22 weeks and 24 weeks are 95% and 100% probable, respectively.
 
-This confirms our already growing suspicion; the standard velocity burn down technique we've been using is less reliable than a coin toss.
+This confirms our already growing suspicion; the standard velocity burn down technique we've been using is often less reliable than a coin toss.
 
 ### History
 
