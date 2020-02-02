@@ -50,14 +50,15 @@ The 500 resulting completion dates are graphed on a distribution chart, allowing
 ### Average
 
 So let's take our current scenario and let's see how we do using our forecaster.
-When we start with the average velocity of 13, 0 split rate, and 108 points to complete, all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
+We'll start with the average velocity of 13, 0 split rate, and 108 points to complete.
 
 ![Forecast with Average](images/ForecastSettings.001.png)
 
-![Average Forecast Results](images/ForecastResults.001.png)
-
+all 500 simulations complete on the exact same date as our velocity math - 18 weeks from now.
 This makes sense as there is no variance in the numbers provided.
 Therefore the same backlog size is always chosen, the same throughput is applied to each iteration, and there is no growth or split rate.
+
+![Average Forecast Results](images/ForecastResults.001.png)
 
 But this just isn't realistic.
 And it certainly isn't representative of our real world experiences.
@@ -71,10 +72,10 @@ We'll stick with a 0 split rate for this run.
 
 ![Forecast with Range](images/ForecastSettings.002.png)
 
-![Range Forecast Results](images/ForecastResults.002.png)
-
 This time, our 18 week projection is showing a 10 to 50% probability.
 20 weeks has a 55 to 90% probability and 22 weeks and 24 weeks are 95% and 100% probable, respectively.
+
+![Range Forecast Results](images/ForecastResults.002.png)
 
 This confirms our already growing suspicion; the standard velocity burn down technique we've been using is less reliable than a coin toss.
 
@@ -86,6 +87,7 @@ To do this, we provide out throughput history for the past several iterations.
 ![Forecast Data](images/ForecastHistory.004.png)
 
 We then adjust the settings to use data, rather than an estimate.
+The forecaster will now ignore the velocity/throughput range and use the actual data we provided.
 
 ![Forecast with Data](images/ForecastSettings.004.png)
 
