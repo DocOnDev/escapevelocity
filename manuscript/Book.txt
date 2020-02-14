@@ -13,6 +13,7 @@ mainmatter.txt
       estimates-to-actuals.txt
     individual-velocity.txt
     iteration-packing.txt
+    blank_page.txt
   metrics-side-effects.txt
     hawthorne-effect.txt
     goodharts-law.txt
