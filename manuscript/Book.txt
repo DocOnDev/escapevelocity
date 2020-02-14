@@ -46,6 +46,7 @@ mainmatter.txt
     customer-metrics.txt
       outcomes-over-outputs.txt
       feature-use.txt
+      blank_page.txt
   looking-for-correlations.txt
     scatter-diagrams.txt
   balanced-metrics.txt
