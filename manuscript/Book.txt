@@ -4,6 +4,7 @@ frontmatter.txt
 mainmatter.txt
   what-is-velocity.txt
   bodyweight-analogy.txt
+  blank-page.txt
   velocity-anti-patterns.txt
     more-velocities.txt
     comparing-velocity.txt
