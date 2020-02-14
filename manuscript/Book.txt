@@ -51,4 +51,5 @@ mainmatter.txt
     scatter-diagrams.txt
   balanced-metrics.txt
 backmatter.txt
+  blank_page.txt
   acknowledgements.txt
