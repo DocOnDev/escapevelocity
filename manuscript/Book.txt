@@ -19,6 +19,7 @@ mainmatter.txt
     goodharts-law.txt
     friedmans-thermostat.txt
     perverse-incentives.txt
+    blank_page.txt
   variable-velocity.txt
     poor-story-composition.txt
     team-dependencies.txt
