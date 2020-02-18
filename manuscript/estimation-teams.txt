@@ -1,7 +1,7 @@
 ## Estimation Teams
 
 One common "solution" to the "problem" described in the section on [comparing velocity](#comparing-velocity) is to have a core set of individuals do all of the estimates.
-The thinking being that consistency in the estimation makes delivery comparable.
+The thinking is that consistency in the estimation makes delivery comparable.
 While I have seen improvements in some environments with this approach, it is not without its flaws.
 
 First of all, if you centralize estimation, you might increase precision, but you definitely degrade accuracy.

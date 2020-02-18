@@ -24,12 +24,12 @@ We can hone our precision within a reasonable range, understanding that ultimate
 
 Estimating in points or some abstraction, we are more willing to accept the durations on face value.
 So long as the durations fall within a particular range, we are okay with the variance.
-If it turns out that 3 points equates to an average of 31 hours, cool.
+If it turns out that 3 points equate to an average of 31 hours, cool.
 If 3 points equate to a duration of 7 days, cool.
 
 When we estimate in time, something awful happens.
 Suddenly, the data is supposed to match a pre-determined expectation.
-If you say 3 days and the stories take 7 days to complete, we hone in on what we did wrong in estimating.
+If you say 3 days and the stories take 7 days to complete, we home in on what we did wrong in estimating.
 There is some soft shaming, gnashing of teeth, and a ceremonial 5-why attack on each story that missed the estimate.
 "You need to get better at estimating", becomes a mantra.
 

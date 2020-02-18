@@ -51,7 +51,7 @@ fellow who was fond of reminding everyone within his domain he was entitled "Dir
 > lack of understanding of the virtuous cycle that can be built with empirical measurement and understanding of trends;
 > no action to embrace the virtuous benefits of a measure-respond-adapt model (specifically story slicing to appropriate size)
 
-> breaking the basic tenants of the scrum estimation model - allow me to expand for those who have already condemned me for violating written (or suggesting unwritten) dogma...
+> breaking the basic tenets of the scrum estimation model - allow me to expand for those who have already condemned me for violating written (or suggesting unwritten) dogma...
 a PBL item has a "size" before being Ready (a gate action) for planning;
 the team adjusts the PBL item size any/ever time they touch the item and learn more about it (like at planning/grooming);
 each item is sized based on effort/etc. from NOW (or start of sprint - a point in time) to DONE (never on past sunk cost effort);

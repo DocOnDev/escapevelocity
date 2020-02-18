@@ -3,7 +3,7 @@
 
 By story composition, I mean story size and dependencies.
 
-The larger the story, the more risk there is of getting it to done.
+The larger the story, the more risk there is in getting it to done.
 But it is not just about making stories small.
 It is about making them small and independent.
 Small stories that cannot be delivered independent of one another are really
@@ -16,7 +16,7 @@ Alternatively, some stories are just too big to complete in a single iteration.
 
 There is no need to get your stories perfect up front.
 Get them good enough to do high-level planning; think epics.
-Then as you start planning releases, break them down into features to get a finer-course roadmap.
+Then as you start planning releases, break them down into features to get a finer-grained roadmap.
 Finally, as you plan iterations, break them down again into small, independently deliverable items.
 
 Beware the temptation to split stories across technical seams.
